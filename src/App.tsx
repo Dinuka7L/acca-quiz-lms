@@ -85,7 +85,8 @@ function App() {
       'quiz - Chapter 3 - Presentation of Categorical Data': 'lessonQuizzes/DSC1371PresentationofCategoricalData',
       'quiz - Chapter 4 - Presentation of Quantitative Data': 'lessonQuizzes/DSC1371PresentationOfQuantitativeData',
       'quiz - Chapter 5 - Summary Measures': 'lessonQuizzes/DSC1371SummaryMeasures',
-      'quiz - Chapter 6 - Probability Theory': 'lessonQuizzes/DSC1371ProbabilityTheory'
+      'quiz - Chapter 6 - Probability Theory': 'lessonQuizzes/DSC1371ProbabilityTheory',
+      'quiz - Chapter 6 - Probability Theory & Assignment 02': 'lessonQuizzes/DSC1371Probability2'
 
     };
     return pathMapping[quizId] || null;
