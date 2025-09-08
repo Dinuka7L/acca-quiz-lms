@@ -120,7 +120,15 @@ const QuizCard: React.FC<QuizCardProps> = ({
 
           <div className="w-full bg-gray-200 rounded-full h-2">
             <div
-              className={`bg-gradient-to-r ${hasInProgress ? 'from-orange-500 to-orange-600' : theme.progressBg} h-2 rounded-full transition-all duration-500`}
+              className={`w-full 
+                ${hasInProgress 
+                  ? 'bg-orange-600 hover:bg-orange-700' 
+                  : hasPastAttempt 
+                    ? 'bg-green-600 hover:bg-green-700' 
+                    : theme.buttonBg
+                } 
+                ${theme.buttonText} font-medium py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center space-x-2 group`}
+
               style={{ width: `${progressInfo.percentage}%` }}
             />
           </div>
@@ -154,7 +162,15 @@ const QuizCard: React.FC<QuizCardProps> = ({
 
         <button
           onClick={onStart}
-          className={`w-full ${hasInProgress ? 'bg-orange-600 hover:bg-orange-700' : theme.buttonBg} ${theme.buttonText} font-medium py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center space-x-2 group`}
+          className={`w-full 
+            ${hasInProgress 
+              ? 'bg-orange-600 hover:bg-orange-700' 
+              : hasPastAttempt 
+                ? 'bg-green-600 hover:bg-green-700' 
+                : theme.buttonBg
+            } 
+            ${theme.buttonText} font-medium py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center space-x-2 group`}
+
         >
           {getButtonIcon()}
           <span>{getButtonText()}</span>
