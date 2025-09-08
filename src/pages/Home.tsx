@@ -112,7 +112,7 @@ const Home: React.FC<HomeProps> = ({ onStartQuiz }) => {
       <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            ITC1370: Information Technology for Business
+            USJ - FMSC First Year Quizzess by 2023/2024 Batch
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Explore our comprehensive collection of quizzes organized by subject. Practice with lesson quizzes or test your knowledge with mock final exams.

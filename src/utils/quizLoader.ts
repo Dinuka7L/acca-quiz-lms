@@ -38,29 +38,26 @@ export async function loadAllQuizzes(): Promise<Quiz[]> {
 
 // Subject mapping for organizing quizzes
 export const SUBJECT_MAPPING: Record<string, string[]> = {
-  'Information Technology Fundamentals': [
+  'ITC1370 - Information Technology For Business': [
     'quiz- lesson 01- Overiew of IT&S',
     'quiz-Computer Hardware',
-    'quiz-software-03'
-  ],
-  'Data Management': [
-    'quiz-data-and-databases-1'
-  ],
-  'Networking & Security': [
+    'quiz-software-03',
+    'quiz-data-and-databases-1',
     'quiz- Networking and Communication',
-    'quiz-Information Systems Security'
-  ],
-  'Business Processes & Development': [
+    'quiz-Information Systems Security',
     'Business Process-Quiz',
-    'quiz-Information Systems Development'
-  ],
-  'Emerging Technologies': [
-    'quiz-Emerging Technologies in IT'
-  ],
-  'Python Programming': [
+    'quiz-Information Systems Development',
+    'quiz-Emerging Technologies in IT',
     'quiz-python fundamentals',
     'python-operators-test',
-    'quiz-conditional-statements-1'
+    'quiz-conditional-statements-1',
+
+    
+  ],
+  'Data Management': [
+    
+  ],
+  'Networking & Security': [
   ],
   'Mock Final Exams': [
     'mock-Part 01 - Chapter 1',

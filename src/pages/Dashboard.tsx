@@ -47,7 +47,7 @@ const Dashboard: React.FC<DashboardProps> = ({ onStartQuiz, onGoHome }) => {
         <div className="mb-8">
           <div className="text-center mb-8">
             <h1 className="text-4xl font-bold text-gray-900 mb-4">
-              ITC1370: Information Technology for Business 
+              USJ - FMSC First Year Quizzess by 2023/2024 Batch
             </h1>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Complete all quiz assessments to evaluate your understanding of IT subjects focused for the final exams.

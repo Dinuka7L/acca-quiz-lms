@@ -45,18 +45,18 @@ const Header: React.FC<HeaderProps> = ({ currentQuiz, onNavigateHome }) => {
                 <Home className="h-5 w-5 text-gray-800" />
               </button>
             </div>
-            {/* Left Side: Large ITC1370 Text */}
+            {/* Left Side: Large Banner */}
             <div className="text-xl sm:text-2xl font-bold text-gray-800 z-10">
-              Academia - ITC Quizzes
+              Academia - USJ - FMSC First Year Quizzess
             </div>
 
             {/* Breadcrumb Navigation */}
             <nav className="flex flex-wrap items-center space-x-1 sm:space-x-2 text-xs sm:text-sm z-10 overflow-x-auto max-w-full">
               <span className="text-gray-600 whitespace-nowrap">Year I</span>
               <ChevronRight className="h-3 w-3 sm:h-4 sm:w-4 text-gray-400" />
-              <span className="text-gray-600 whitespace-nowrap">Semester I</span>
+              <span className="text-gray-600 whitespace-nowrap"></span>
               <ChevronRight className="h-3 w-3 sm:h-4 sm:w-4 text-gray-400" />
-              <span className="text-gray-600 whitespace-nowrap">ITC 1370</span>
+              <span className="text-gray-600 whitespace-nowrap"></span>
               {currentQuiz && (
                 <>
                   <ChevronRight className="h-3 w-3 sm:h-4 sm:w-4 text-gray-400" />
