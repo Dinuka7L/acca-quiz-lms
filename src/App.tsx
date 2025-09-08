@@ -78,7 +78,8 @@ function App() {
       'python-operators-test': 'lessonQuizzes/PythonOperators',
       'quiz-conditional-statements-1': 'lessonQuizzes/PythonConditionalStatements',
       'mock-Part 01 - Chapter 1': 'mockExamQuizzes/mockFinalPart1',
-      'mock-final-4': 'mockExamQuizzes/mockFinalPart4'
+      'mock-final-4': 'mockExamQuizzes/mockFinalPart4',
+      'quiz - Chapter 1 - Overview of Financial Accounting and Reporting': 'lessonQuizzes/OverviewFinancialAccountingandReporting',
     };
     return pathMapping[quizId] || null;
   };

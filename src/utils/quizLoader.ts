@@ -23,6 +23,8 @@ export async function loadAllQuizzes(): Promise<Quiz[]> {
     'lessonQuizzes/PythonFundamentals',
     'lessonQuizzes/PythonOperators',
     'lessonQuizzes/PythonConditionalStatements',
+
+    'lessonQuizzes/OverviewFinancialAccountingandReporting',
     
     // Mock exam quizzes
     'mockExamQuizzes/mockFinalPart1',
@@ -54,7 +56,10 @@ export const SUBJECT_MAPPING: Record<string, string[]> = {
 
     
   ],
-  'Data Management': [
+
+  'ACC1370 - Financial Accounting & Reporting': [
+    'quiz - Chapter 1 - Overview of Financial Accounting and Reporting',
+
     
   ],
   'Networking & Security': [
