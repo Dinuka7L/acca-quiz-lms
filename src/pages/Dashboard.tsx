@@ -50,7 +50,7 @@ const Dashboard: React.FC<DashboardProps> = ({ onStartQuiz, onGoHome }) => {
               USJ - FMSC First Year Quizzess by 2023/2024 Batch
             </h1>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Complete all quiz assessments to evaluate your understanding of IT subjects focused for the final exams.
+              Note to users: the questions and answers are not fact checked and generated via AI models. Therefor, please verify all information independently. Complete all quiz assessments to evaluate your understanding of subjects focused for the final exams.
             </p>
             {onGoHome && (
               <button
