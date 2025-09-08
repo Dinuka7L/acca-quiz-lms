@@ -80,6 +80,12 @@ function App() {
       'mock-Part 01 - Chapter 1': 'mockExamQuizzes/mockFinalPart1',
       'mock-final-4': 'mockExamQuizzes/mockFinalPart4',
       'quiz - Chapter 1 - Overview of Financial Accounting and Reporting': 'lessonQuizzes/OverviewFinancialAccountingandReporting',
+      'quiz - Chapter 01 - Meaning and Scope of Statistics': 'lessonQuizzes/DSC1371MeaningandScopeofStats',
+      'quiz - Chapter 2 - Data and Data Collection': 'lessonQuizzes/DSC1371DataandDataCollection',
+      'quiz - Chapter 3 - Presentation of Categorical Data': 'lessonQuizzes/DSC1371PresentationofCategoricalData',
+      'quiz - Chapter 4 - Presentation of Quantitative Data': 'lessonQuizzes/DSC1371PresentationOfQuantitativeData',
+      'quiz - Chapter 5 - Summary Measures': 'lessonQuizzes/DSC1371SummaryMeasures',
+
     };
     return pathMapping[quizId] || null;
   };

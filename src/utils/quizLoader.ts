@@ -25,7 +25,13 @@ export async function loadAllQuizzes(): Promise<Quiz[]> {
     'lessonQuizzes/PythonConditionalStatements',
 
     'lessonQuizzes/OverviewFinancialAccountingandReporting',
-    
+
+    'lessonQuizzes/DSC1371MeaningandScopeofStats',
+    'lessonQuizzes/DSC1371DataandDataCollection',
+    'lessonQuizzes/DSC1371PresentationofCategoricalData',
+    'lessonQuizzes/DSC1371PresentationOfQuantitativeData',
+    'lessonQuizzes/DSC1371SummaryMeasures',
+
     // Mock exam quizzes
     'mockExamQuizzes/mockFinalPart1',
     'mockExamQuizzes/mockFinalPart4'
@@ -62,7 +68,14 @@ export const SUBJECT_MAPPING: Record<string, string[]> = {
 
     
   ],
-  'Networking & Security': [
+  'DSC1371 - Business Statistics': [
+    'quiz - Chapter 01 - Meaning and Scope of Statistics',
+    'quiz - Chapter 2 - Data and Data Collection',
+    'quiz - Chapter 3 - Presentation of Categorical Data',
+    'quiz - Chapter 4 - Presentation of Quantitative Data',
+    'quiz - Chapter 5 - Summary Measures',
+
+
   ],
   'Mock Final Exams': [
     'mock-Part 01 - Chapter 1',

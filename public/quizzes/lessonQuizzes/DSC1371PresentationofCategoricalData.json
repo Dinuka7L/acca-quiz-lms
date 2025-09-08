@@ -1,0 +1,296 @@
+{
+  "id": "quiz - Chapter 3 - Presentation of Categorical Data",
+  "title": "Chapter 3 - Presentation of Categorical Data",
+  "description": "A hard-difficulty multiple-choice quiz on the presentation of categorical data.",
+  "timeOptions": [
+    15,
+    20,
+    30,
+    60
+  ],
+  "totalMarks": 100,
+  "weight": 0,
+  "category": "lesson",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multipleChoice",
+      "question": "Which of the following is NOT an objective of tabulation?",
+      "options": [
+        "To facilitate comparison",
+        "To ensure economy of space and time",
+        "To simplify the complexity of the data",
+        "To provide a detailed, unstructured description of the data"
+      ],
+      "answer": "To provide a detailed, unstructured description of the data",
+      "rationale": "Tabulation aims to simplify data, facilitate comparison, and ensure economy of space and time. A detailed, unstructured description is contrary to the purpose of tabulation.",
+      "marks": 5
+    },
+    {
+      "id": "q2",
+      "type": "multipleChoice",
+      "question": "A frequency table is a method of which type of data presentation?",
+      "options": [
+        "Diagrammatic Presentation",
+        "Graphical Presentation",
+        "Tabulation",
+        "Cross Tabulation"
+      ],
+      "answer": "Tabulation",
+      "rationale": "A frequency table is a type of tabulation used to present categorical data in a tabulated form[cite: 273, 284].",
+      "marks": 5
+    },
+    {
+      "id": "q3",
+      "type": "multipleChoice",
+      "question": "What is the primary difference between a **simple bar diagram** and a **multiple bar diagram**?",
+      "options": [
+        "A simple bar diagram represents multiple variables, while a multiple bar diagram represents a single variable.",
+        "A simple bar diagram represents a single variable, while a multiple bar diagram represents two or more variables simultaneously.",
+        "A simple bar diagram is used for quantitative data, while a multiple bar diagram is used for categorical data.",
+        "A simple bar diagram is always horizontal, while a multiple bar diagram is always vertical."
+      ],
+      "answer": "A simple bar diagram represents a single variable, while a multiple bar diagram represents two or more variables simultaneously.",
+      "rationale": "A multiple bar diagram is a type of diagrammatic presentation that compares two or more variables, whereas a simple bar diagram represents a single variable[cite: 307, 310].",
+      "marks": 5
+    },
+    {
+      "id": "q4",
+      "type": "multipleChoice",
+      "question": "A **cross tabulation**, also known as a contingency table, is used to display the relationship between which types of variables?",
+      "options": [
+        "Two or more quantitative variables",
+        "Two or more categorical variables",
+        "A single quantitative variable and a single categorical variable",
+        "A single categorical variable"
+      ],
+      "answer": "Two or more categorical variables",
+      "rationale": "Cross tabulation, or contingency tables, are used to display the relationship between two or more categorical (nominal or ordinal) variables[cite: 300].",
+      "marks": 5
+    },
+    {
+      "id": "q5",
+      "type": "multipleChoice",
+      "question": "Based on the general rules for graphical and diagrammatic presentation, what must every diagram and graph have?",
+      "options": [
+        "A vertical orientation",
+        "A pie chart representation",
+        "A title",
+        "Multiple colors regardless of the number of variables"
+      ],
+      "answer": "A title",
+      "rationale": "A general rule for graphical and diagrammatic presentation is that the diagram must have a title[cite: 315].",
+      "marks": 5
+    },
+    {
+      "id": "q6",
+      "type": "multipleChoice",
+      "question": "If you want to show how different parts make up a whole for a single variable, which of the following is the most suitable diagram?",
+      "options": [
+        "Simple bar diagram",
+        "Multiple bar diagram",
+        "Pie diagram",
+        "Line graph"
+      ],
+      "answer": "Pie diagram",
+      "rationale": "A pie diagram is a visual representation of statistical data where the slices of the pie represent the proportion of each category, making it suitable for showing how different parts contribute to a whole[cite: 307, 313].",
+      "marks": 5
+    },
+    {
+      "id": "q7",
+      "type": "multipleChoice",
+      "question": "What is the main purpose of a **sub-divided bar diagram**?",
+      "options": [
+        "To show the change of a variable over a period of time.",
+        "To compare the total and its components for different categories.",
+        "To display the relationship between two independent variables.",
+        "To represent only the frequency of a single categorical variable."
+      ],
+      "answer": "To compare the total and its components for different categories.",
+      "rationale": "Sub-divided bar diagrams, also known as component bar diagrams, are used to compare the total and its parts or components for various categories or data sets[cite: 307, 311].",
+      "marks": 5
+    },
+    {
+      "id": "q8",
+      "type": "multipleChoice",
+      "question": "In a frequency table, what does the 'Cumulative Percent' column represent?",
+      "options": [
+        "The percentage of each category out of the total, independently.",
+        "The total frequency of all categories combined.",
+        "The running total of the percentages, adding up to 100% at the final category.",
+        "The percentage of missing data in the dataset."
+      ],
+      "answer": "The running total of the percentages, adding up to 100% at the final category.",
+      "rationale": "The cumulative percent in a frequency table is the running total of percentages for each category, which sums up to 100% at the end[cite: 293].",
+      "marks": 5
+    },
+    {
+      "id": "q9",
+      "type": "multipleChoice",
+      "question": "What is the primary advantage of using a **tabular presentation** over raw data?",
+      "options": [
+        "It provides a visual, non-numerical representation of the data.",
+        "It makes the data more complex and difficult to understand.",
+        "It simplifies the data and makes it easier to compare and identify patterns.",
+        "It can only be used for numerical data."
+      ],
+      "answer": "It simplifies the data and makes it easier to compare and identify patterns.",
+      "rationale": "Tabulation is used to simplify the complexity of data and to facilitate comparison, as well as to indicate trends and patterns[cite: 280, 281, 282].",
+      "marks": 5
+    },
+    {
+      "id": "q10",
+      "type": "multipleChoice",
+      "question": "Which of the following is a characteristic of a **frequency table**?",
+      "options": [
+        "It always includes a column for missing values.",
+        "It is only used for numerical data.",
+        "It lists categories in one column and their frequency in another.",
+        "It is a visual form of presentation, similar to a bar chart."
+      ],
+      "answer": "It lists categories in one column and their frequency in another.",
+      "rationale": "A frequency table lists the categories in one column and the amount or frequency in a different column[cite: 287].",
+      "marks": 5
+    },
+    {
+      "id": "q11",
+      "type": "multipleChoice",
+      "question": "What type of diagram would be most suitable for comparing the proportion of males and females who have a certain level of education?",
+      "options": [
+        "Simple bar diagram",
+        "Sub-divided bar diagram",
+        "Line graph",
+        "Pie diagram"
+      ],
+      "answer": "Sub-divided bar diagram",
+      "rationale": "A sub-divided bar diagram is effective for comparing the breakdown of a total into its components across different categories, such as comparing the proportion of male and female students within each education level[cite: 311].",
+      "marks": 5
+    },
+    {
+      "id": "q12",
+      "type": "multipleChoice",
+      "question": "According to the general rules, what should be used to differentiate between several variables on a single graph?",
+      "options": [
+        "Different colors or patterns",
+        "Different bar sizes only",
+        "Labels on the Y-axis only",
+        "A separate graph for each variable"
+      ],
+      "answer": "Different colors or patterns",
+      "rationale": "The general rules for graphical and diagrammatic presentation state that for several variables, different colors or patterns should be used[cite: 316].",
+      "marks": 5
+    },
+    {
+      "id": "q13",
+      "type": "multipleChoice",
+      "question": "Which of the following is an example of **categorical data**?",
+      "options": [
+        "Height of individuals",
+        "Number of cars sold in a month",
+        "Types of vehicles (e.g., car, truck, motorcycle)",
+        "The temperature of a room"
+      ],
+      "answer": "Types of vehicles (e.g., car, truck, motorcycle)",
+      "rationale": "Categorical data, also known as qualitative data, are values that can be classified into groups or categories[cite: 180]. Types of vehicles fall into distinct categories, while the other options are numerical data[cite: 181].",
+      "marks": 5
+    },
+    {
+      "id": "q14",
+      "type": "multipleChoice",
+      "question": "What is a key difference between a **tabulated presentation** and a **diagrammatic presentation**?",
+      "options": [
+        "Tabulated presentation uses tables, while diagrammatic presentation uses visual forms like diagrams and graphs.",
+        "Tabulated presentation is only for numerical data, while diagrammatic presentation is for categorical data.",
+        "Tabulated presentation is for raw data, while diagrammatic presentation is for summarized data.",
+        "Tabulated presentation is more complex than diagrammatic presentation."
+      ],
+      "answer": "Tabulated presentation uses tables, while diagrammatic presentation uses visual forms like diagrams and graphs.",
+      "rationale": "The presentation methods for categorical data include tabulation and diagrammatic presentation[cite: 273, 274]. Tabulation involves presenting data in a table [cite: 278], while a diagram is a visual form for the presentation of statistical data[cite: 307].",
+      "marks": 5
+    },
+    {
+      "id": "q15",
+      "type": "multipleChoice",
+      "question": "What is a 'contingency table' used for?",
+      "options": [
+        "To list the frequency of a single variable.",
+        "To display the relationship between two or more quantitative variables.",
+        "To show the relationship between two or more categorical variables.",
+        "To simplify a large set of raw data."
+      ],
+      "answer": "To show the relationship between two or more categorical variables.",
+      "rationale": "A cross tabulation, also known as a contingency table, is used to display the relationship between two or more categorical (nominal or ordinal) variables[cite: 300].",
+      "marks": 5
+    },
+    {
+      "id": "q16",
+      "type": "multipleChoice",
+      "question": "Which of the following statements about **tabulation** is true?",
+      "options": [
+        "It is an inefficient way to save space and time.",
+        "It makes data analysis more difficult.",
+        "It helps with the reference and comparison of data.",
+        "It is a visual representation of the data."
+      ],
+      "answer": "It helps with the reference and comparison of data.",
+      "rationale": "Objectives of tabulation include facilitating comparison, ensuring economy of space and time, and helping with reference[cite: 281, 282].",
+      "marks": 5
+    },
+    {
+      "id": "q17",
+      "type": "multipleChoice",
+      "question": "In a frequency table, what is a key role of the 'Valid Percent' column?",
+      "options": [
+        "It includes the percentages for missing data.",
+        "It calculates the percentage based on the total number of valid responses, excluding any missing data.",
+        "It is always the same as the 'Percent' column.",
+        "It represents the cumulative total of all frequencies."
+      ],
+      "answer": "It calculates the percentage based on the total number of valid responses, excluding any missing data.",
+      "rationale": "The 'Valid Percent' column in a frequency table calculates the percentage for each category based on the total of valid responses, which excludes any missing data, while the 'Percent' column is based on the total number of responses, including missing data[cite: 290].",
+      "marks": 5
+    },
+    {
+      "id": "q18",
+      "type": "multipleChoice",
+      "question": "A line graph is a type of diagrammatic presentation that is generally used to show what?",
+      "options": [
+        "The composition of a whole at a single point in time.",
+        "The frequency distribution of a single categorical variable.",
+        "Trends over a period of time, such as gender composition over several years.",
+        "The relationship between two categorical variables."
+      ],
+      "answer": "Trends over a period of time, such as gender composition over several years.",
+      "rationale": "The provided document includes an example of a line graph showing 'Gender Composition of Grade 1 Students' over several years, indicating its use for showing trends over time[cite: 314].",
+      "marks": 5
+    },
+    {
+      "id": "q19",
+      "type": "multipleChoice",
+      "question": "Which of the following best describes the purpose of a **percentage subdivided bar diagram**?",
+      "options": [
+        "To represent the raw counts of a variable's components.",
+        "To compare the percentage contribution of each component to the total across different categories.",
+        "To show the relationship between two continuous variables.",
+        "To display a single variable's frequency."
+      ],
+      "answer": "To compare the percentage contribution of each component to the total across different categories.",
+      "rationale": "A percentage subdivided bar diagram is a type of diagrammatic presentation that shows the percentage contribution of each part to the whole for different categories, as indicated by the 'Percentage' axis[cite: 307, 312].",
+      "marks": 5
+    },
+    {
+      "id": "q20",
+      "type": "multipleChoice",
+      "question": "If you are preparing a diagram for data presentation, what is a fundamental rule regarding lettering?",
+      "options": [
+        "All lettering must be in uppercase.",
+        "Lettering can be in any orientation to save space.",
+        "All lettering should be horizontal.",
+        "Lettering should be as small as possible."
+      ],
+      "answer": "All lettering should be horizontal.",
+      "rationale": "A general rule for graphical and diagrammatic presentation is that all lettering should be horizontal[cite: 319].",
+      "marks": 5
+    }
+  ]
+}

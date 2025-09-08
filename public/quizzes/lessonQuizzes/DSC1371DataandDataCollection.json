@@ -1,0 +1,296 @@
+{
+  "id": "quiz - Chapter 2 - Data and Data Collection",
+  "title": "Chapter 2 - Data and Data Collection",
+  "description": "A hard-difficulty multiple-choice quiz on variables, levels of measurement, and data collection methods.",
+  "timeOptions": [
+    15,
+    20,
+    30,
+    60
+  ],
+  "totalMarks": 100,
+  "weight": 0,
+  "category": "lesson",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multipleChoice",
+      "question": "Which of the following examples is a **quantitative variable** that is also **discrete**?",
+      "options": [
+        "The life time of a car battery",
+        "Number of telephone calls received during 8 to 10 a.m.",
+        "Body weight of individuals",
+        "The type of vehicle owned"
+      ],
+      "answer": "Number of telephone calls received during 8 to 10 a.m.",
+      "rationale": "A quantitative variable consists of a numerical measurement[cite: 386]. A discrete variable can only assume certain clearly separated values, typically counts[cite: 387]. 'Number of telephone calls' is a count, making it a discrete quantitative variable. The other options are continuous quantitative variables or qualitative variables[cite: 385, 386, 388, 390].",
+      "marks": 5
+    },
+    {
+      "id": "q2",
+      "type": "multipleChoice",
+      "question": "A researcher is studying customer satisfaction with a new product, asking respondents to rate their satisfaction as 'Very Dissatisfied', 'Dissatisfied', 'Neutral', 'Satisfied', or 'Very Satisfied'. On which level of measurement is this variable measured?",
+      "options": [
+        "Nominal",
+        "Ordinal",
+        "Interval",
+        "Ratio"
+      ],
+      "answer": "Ordinal",
+      "rationale": "Ordinal measurement has all the features of nominal measures but also represents a rank order[cite: 400]. The categories 'Very Dissatisfied' to 'Very Satisfied' have a clear order, but the differences between the ranks cannot be meaningfully added or subtracted[cite: 401].",
+      "marks": 5
+    },
+    {
+      "id": "q3",
+      "type": "multipleChoice",
+      "question": "Which of the following is a primary characteristic of a **nominal** level of measurement?",
+      "options": [
+        "It has a true or meaningful zero point.",
+        "The difference between two values is meaningful, but ratios are not.",
+        "It represents a rank order, but not the magnitude of difference.",
+        "It uses values that are merely names or labels, and the only possible comparisons are equality and inequality."
+      ],
+      "answer": "It uses values that are merely names or labels, and the only possible comparisons are equality and inequality.",
+      "rationale": "Nominal measurement is the designation of an observation with a value that is merely a name or a label. The only possible comparisons between values are equality and inequality[cite: 393, 395].",
+      "marks": 5
+    },
+    {
+      "id": "q4",
+      "type": "multipleChoice",
+      "question": "A variable that has an arbitrary zero point and for which ratios between values are not meaningful is what type of measurement?",
+      "options": [
+        "Nominal",
+        "Ordinal",
+        "Interval",
+        "Ratio"
+      ],
+      "answer": "Interval",
+      "rationale": "Interval measurement has a zero point that is arbitrary, meaning it does not represent the absence of a condition[cite: 407, 413]. Ratios between numbers are not meaningful, so operations like multiplication and division cannot be performed[cite: 408].",
+      "marks": 5
+    },
+    {
+      "id": "q5",
+      "type": "multipleChoice",
+      "question": "Which of the following examples is a **qualitative variable**?",
+      "options": [
+        "Weight of the product",
+        "Number of children in a family",
+        "Gender of a student",
+        "The life time of a car battery"
+      ],
+      "answer": "Gender of a student",
+      "rationale": "Qualitative variables differ in 'types' and are recorded as a nonnumeric characteristic[cite: 384]. Gender is a nonnumeric characteristic, while the other options are quantitative variables[cite: 386].",
+      "marks": 5
+    },
+    {
+      "id": "q6",
+      "type": "multipleChoice",
+      "question": "The data collected for a census operation are considered **primary data** to the department of census. If a research worker uses this same census data for their study, what type of data does it become?",
+      "options": [
+        "Qualitative data",
+        "Primary data",
+        "Secondary data",
+        "Interval data"
+      ],
+      "answer": "Secondary data",
+      "rationale": "The document defines secondary data as data that have already been collected by someone else for some other purpose and are available for the present study[cite: 421].",
+      "marks": 5
+    },
+    {
+      "id": "q7",
+      "type": "multipleChoice",
+      "question": "In the context of preparing a questionnaire, why should personal or sensitive questions like salary be avoided?",
+      "options": [
+        "They are illegal to ask in a survey.",
+        "They are too difficult to phrase as a multiple-choice question.",
+        "They can lead to biased responses.",
+        "They are often considered an example of a good questionnaire design."
+      ],
+      "answer": "They can lead to biased responses.",
+      "rationale": "The document lists 'avoiding personal or sensitive questions' and gives 'salary' as an example under the section 'Framing a questionnaire', which implies that such questions are a factor to be careful about when preparing a questionnaire[cite: 450]. Asking sensitive questions can lead to inaccurate or incomplete data as respondents may be reluctant to answer truthfully.",
+      "marks": 5
+    },
+    {
+      "id": "q8",
+      "type": "multipleChoice",
+      "question": "A researcher is conducting a study on a new drug and is recording the exact dosages given to patients in milligrams. What is the highest level of measurement for this variable?",
+      "options": [
+        "Nominal",
+        "Ordinal",
+        "Interval",
+        "Ratio"
+      ],
+      "answer": "Ratio",
+      "rationale": "Ratio measurement has all the features of interval measurement and also has a meaningful zero point, which represents the absence of the condition[cite: 416, 417]. A dosage of 0mg represents the absence of the drug, and a 20mg dosage is twice a 10mg dosage, making ratios meaningful.",
+      "marks": 5
+    },
+    {
+      "id": "q9",
+      "type": "multipleChoice",
+      "question": "When framing a questionnaire, which of the following is NOT a recommended guideline?",
+      "options": [
+        "Using simple wording and being specific.",
+        "Arranging questions in a logical order.",
+        "Using only open-end questions to get a detailed response.",
+        "Pre-testing the questionnaire before final use."
+      ],
+      "answer": "Using only open-end questions to get a detailed response.",
+      "rationale": "The document provides a list of guidelines for framing a questionnaire, which includes simple wording, logical arrangement, and pre-testing[cite: 450]. While open-end questions are a valid type, the guideline doesn't suggest using them exclusively. Using only open-ended questions would make data collection and analysis extremely difficult and would not be considered a best practice.",
+      "marks": 5
+    },
+    {
+      "id": "q10",
+      "type": "multipleChoice",
+      "question": "Which of the following is an example of a **continuous variable**?",
+      "options": [
+        "The number of bedrooms in a house",
+        "The number of children in a family",
+        "The number of eggs laid by hens",
+        "Milk yield of cows or buffaloes"
+      ],
+      "answer": "Milk yield of cows or buffaloes",
+      "rationale": "Continuous variables have a theoretically infinite number of gradations between two measurements[cite: 389]. Milk yield can be measured in fractions (e.g., 2.5 liters), whereas the other options are discrete variables that can only be whole numbers[cite: 388, 390].",
+      "marks": 5
+    },
+    {
+      "id": "q11",
+      "type": "multipleChoice",
+      "question": "A researcher conducts a face-to-face interview with a respondent using a standardized questionnaire where they record the answers. What method of primary data collection is being used?",
+      "options": [
+        "Unstructured interview",
+        "Direct personal observation",
+        "Structured interview",
+        "Sending a mailed questionnaire"
+      ],
+      "answer": "Structured interview",
+      "rationale": "Structured interviews use standardized questionnaires where the investigator goes to the informant to get and record the replies[cite: 427].",
+      "marks": 5
+    },
+    {
+      "id": "q12",
+      "type": "multipleChoice",
+      "question": "What is the key difference between **primary data** and **secondary data**?",
+      "options": [
+        "Primary data is collected by an investigator, while secondary data is collected by a third party.",
+        "Primary data is collected for the first time, while secondary data is already collected and available for use.",
+        "Primary data is always numerical, while secondary data is always categorical.",
+        "Primary data is qualitative, while secondary data is quantitative."
+      ],
+      "answer": "Primary data is collected for the first time, while secondary data is already collected and available for use.",
+      "rationale": "Primary data is collected for the first time by the investigator, while secondary data has already been collected by someone else and is available for the present study[cite: 421].",
+      "marks": 5
+    },
+    {
+      "id": "q13",
+      "type": "multipleChoice",
+      "question": "A researcher wants to study the living conditions of people in a remote village. They decide to personally go to the village, talk to the residents, and cross-examine them to collect the necessary information. Which primary data collection method is being employed?",
+      "options": [
+        "Structured interview",
+        "Unstructured interview",
+        "Direct personal observation",
+        "Questionnaire method"
+      ],
+      "answer": "Direct personal observation",
+      "rationale": "Direct personal observation involves the investigator personally going to the field, asking or cross-examining the informant, and collecting information[cite: 434, 436, 437].",
+      "marks": 5
+    },
+    {
+      "id": "q14",
+      "type": "multipleChoice",
+      "question": "Which of the following is a correct statement about the **unstructured interview** method?",
+      "options": [
+        "The interviewer uses a set of standardized questions and a fixed format.",
+        "The interviewer encourages the participant to talk in-depth using minimal prompts.",
+        "The interviewer records answers in the blank spaces of a pre-defined schedule.",
+        "The interview is a one-way communication process from the interviewer to the respondent."
+      ],
+      "answer": "The interviewer encourages the participant to talk in-depth using minimal prompts.",
+      "rationale": "In unstructured interviews, the interviewer encourages the participant to talk in-depth about a set of topics, using a minimum of prompts and guiding questions[cite: 430].",
+      "marks": 5
+    },
+    {
+      "id": "q15",
+      "type": "multipleChoice",
+      "question": "What is a major limitation of a **Likert scale question** in a questionnaire?",
+      "options": [
+        "It provides only two alternatives like 'Yes' or 'No'.",
+        "It does not allow for ranking preferences.",
+        "It does not capture the true feelings of the respondent beyond the given scale.",
+        "It requires a long essay response from the respondent."
+      ],
+      "answer": "It does not capture the true feelings of the respondent beyond the given scale.",
+      "rationale": "A Likert scale provides a set of alternative scales for a question[cite: 447]. This limits the respondent's answer to the provided options, which may not fully capture their nuanced opinion. The other options are incorrect based on the definitions of other question types[cite: 442, 446, 448].",
+      "marks": 5
+    },
+    {
+      "id": "q16",
+      "type": "multipleChoice",
+      "question": "A researcher is reviewing secondary data and finds that it was collected using outdated methods and a small, non-representative sample. Which key aspect of secondary data is lacking in this case?",
+      "options": [
+        "Availability",
+        "Suitability",
+        "Adequacy",
+        "Reliability"
+      ],
+      "answer": "Reliability",
+      "rationale": "Reliability is defined as whether the data collecting party has used proper methods in collecting data and statistics[cite: 453]. Outdated methods and a small, non-representative sample would make the data unreliable.",
+      "marks": 5
+    },
+    {
+      "id": "q17",
+      "type": "multipleChoice",
+      "question": "What is the primary function of an **open-end question** in a questionnaire?",
+      "options": [
+        "To provide a list of alternative scales for the answer.",
+        "To force a choice between two clear-cut alternatives.",
+        "To allow respondents to select one or many from a listed set of responses.",
+        "To allow respondents to express their independent opinions in their own words."
+      ],
+      "answer": "To allow respondents to express their independent opinions in their own words.",
+      "rationale": "Open-end questions provide no alternative answers and allow respondents to express their frank and independent opinions in their own words, usually in essay form[cite: 448].",
+      "marks": 5
+    },
+    {
+      "id": "q18",
+      "type": "multipleChoice",
+      "question": "A variable that can be classified and counted, where the only possible comparisons are equality and inequality, is what type of variable?",
+      "options": [
+        "Quantitative variable",
+        "Discrete variable",
+        "Qualitative variable",
+        "Continuous variable"
+      ],
+      "answer": "Qualitative variable",
+      "rationale": "Qualitative variables are measured on a nominal scale[cite: 394]. They can be classified and counted, and the only possible comparisons are equality and inequality[cite: 394, 395].",
+      "marks": 5
+    },
+    {
+      "id": "q19",
+      "type": "multipleChoice",
+      "question": "A company is conducting a survey to understand the preference of their customers for four different products. They ask customers to rank the products from 1 (most preferred) to 4 (least preferred). What type of question is being used?",
+      "options": [
+        "Simple Alternate question",
+        "Likert scale question",
+        "Rank in order question",
+        "Multiple-choice question"
+      ],
+      "answer": "Rank in order question",
+      "rationale": "The document explicitly defines 'Rank in order questions' as a type of question used for preference testing[cite: 446].",
+      "marks": 5
+    },
+    {
+      "id": "q20",
+      "type": "multipleChoice",
+      "question": "Which of the following describes a key characteristic of a **Ratio** level of measurement that distinguishes it from an **Interval** level of measurement?",
+      "options": [
+        "The ability to rank categories in order.",
+        "The ability to categorize and label variables.",
+        "The existence of known, equal intervals between values.",
+        "The presence of a true or meaningful zero point."
+      ],
+      "answer": "The presence of a true or meaningful zero point.",
+      "rationale": "The provided diagram and text show that Ratio measurement has a 'true or meaningful zero' [cite: 417, 27] and 'meaningful ratios'[cite: 416]. Interval measurement lacks this true zero point and meaningful ratios[cite: 407, 408, 27]. The other options are shared features of both interval and ratio measurements.",
+      "marks": 5
+    }
+  ]
+}
