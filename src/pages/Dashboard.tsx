@@ -47,7 +47,7 @@ const Dashboard: React.FC<DashboardProps> = ({ onStartQuiz, onGoHome }) => {
         <div className="mb-8">
           <div className="text-center mb-8">
             <h1 className="text-4xl font-bold text-gray-900 mb-4">
-              USJ - FMSC First Year Quizzess by 2023/2024 Batch
+              USJ - FMSC First Year Quizzes by 2023/2024 Batch
             </h1>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Note to users: the questions and answers are not fact checked and generated via AI models. Therefore, please verify all information independently. Complete all quiz assessments to evaluate your understanding of subjects focused for the final exams.

@@ -47,7 +47,7 @@ const Header: React.FC<HeaderProps> = ({ currentQuiz, onNavigateHome }) => {
             </div>
             {/* Left Side: Large Banner */}
             <div className="text-xl sm:text-2xl font-bold text-gray-800 z-10">
-              Academia - USJ - FMSC First Year Quizzess
+              Academia - USJ - FMSC First Year Quizzes
             </div>
 
             {/* Breadcrumb Navigation */}

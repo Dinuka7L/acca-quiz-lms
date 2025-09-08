@@ -86,7 +86,9 @@ function App() {
       'quiz - Chapter 4 - Presentation of Quantitative Data': 'lessonQuizzes/DSC1371PresentationOfQuantitativeData',
       'quiz - Chapter 5 - Summary Measures': 'lessonQuizzes/DSC1371SummaryMeasures',
       'quiz - Chapter 6 - Probability Theory': 'lessonQuizzes/DSC1371ProbabilityTheory',
-      'quiz - Chapter 6 - Probability Theory & Assignment 02': 'lessonQuizzes/DSC1371Probability2'
+      'quiz - Chapter 6 - Probability Theory & Assignment 02': 'lessonQuizzes/DSC1371Probability2',
+      'DSC1370 - Business Statistics- MID Semester Examination(Practice)': 'lessonQuizzes/DSC1371MIDSemesterExamination(Practice)'
+
 
     };
     return pathMapping[quizId] || null;

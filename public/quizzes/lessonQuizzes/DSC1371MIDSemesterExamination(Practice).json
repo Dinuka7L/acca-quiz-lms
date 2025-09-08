@@ -1,0 +1,1524 @@
+{
+    "id": "DSC1370 - Business Statistics- MID Semester Examination(Practice)",
+    "title": "DSC1370 - Business Statisticsn- MID Semester Examination(Practice)",
+    "description": "A hard-difficulty multiple-choice quiz on variables, levels of measurement, and data collection methods.",
+    "timeOptions": [
+      15,
+      20,
+      30,
+      60
+    ],
+    "totalMarks": 100,
+    "weight": 0,
+    "category": "lesson",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "Based on the provided text, what is a crucial, decision-making purpose of statistics in business that goes beyond a mere \"scientific application of mathematical principles to data collection, analysis, and presentation\"?",
+        "options": [
+          {
+            "text": "The validation of existing business hypotheses with absolute certainty.",
+            "isCorrect": false
+          },
+          {
+            "text": "The application of deterministic models to predict future market trends without error.",
+            "isCorrect": false
+          },
+          {
+            "text": "The systematic gathering of data through questionnaires and direct observation.",
+            "isCorrect": false
+          },
+          {
+            "text": "Assisting in making more effective decisions under uncertainty.",
+            "isCorrect": true
+          }
+        ],
+        "answer": "Assisting in making more effective decisions under uncertainty.",
+        "rationale": "The text defines statistics as the science of collecting, organizing, presenting, analyzing, and interpreting numerical data for the purpose of assisting in making more effective decisions under uncertainty. Options A and B are incorrect as statistics deals with probability, not absolute certainty or error-free prediction. Option C describes a part of the statistical process (data collection), but not its ultimate purpose in a business context as stated in the definition.",
+        "marks": 1
+      },
+      {
+        "id": "q2",
+        "type": "multipleChoice",
+        "question": "A CEO wants to know the \"true average\" sales for the entire company's history (the population), while a marketing manager wants to know the \"average sales from last quarter's report\" (a sample). According to the provided text, how are these two concepts distinguished in statistics?",
+        "options": [
+          {
+            "text": "The CEO is seeking a \"statistic,\" while the marketing manager is seeking a \"parameter.\"",
+            "isCorrect": false
+          },
+          {
+            "text": "The CEO is seeking a \"parameter,\" while the marketing manager is seeking a \"statistic.\"",
+            "isCorrect": true
+          },
+          {
+            "text": "Both the CEO and the marketing manager are seeking \"statistics.\"",
+            "isCorrect": false
+          },
+          {
+            "text": "Both the CEO and the marketing manager are seeking \"parameters.\"",
+            "isCorrect": false
+          }
+        ],
+        "answer": "The CEO is seeking a \"parameter,\" while the marketing manager is seeking a \"statistic.\"",
+        "rationale": "The text states that a parameter is a characteristic of a population (the entire lot of anything under study), while a statistic is a summary value calculated from a sample. The CEO is interested in the entire population of sales data, making the \"true average\" a parameter. The marketing manager is looking at a subset (last quarter's report), making that average a statistic.",
+        "marks": 1
+      },
+      {
+        "id": "q3",
+        "type": "multipleChoice",
+        "question": "A financial analyst first calculates the mean, median, and standard deviation of a company's stock returns for the past year. Then, they use this information to create a model that predicts the probability of the stock price exceeding a certain threshold in the next quarter. What two branches of statistics, as defined in the provided text, are being employed?",
+        "options": [
+          {
+            "text": "Primary Statistics and Secondary Statistics.",
+            "isCorrect": false
+          },
+          {
+            "text": "Descriptive Statistics and Inferential Statistics.",
+            "isCorrect": true
+          },
+          {
+            "text": "Quantitative Statistics and Qualitative Statistics.",
+            "isCorrect": false
+          },
+          {
+            "text": "Observational Statistics and Experimental Statistics.",
+            "isCorrect": false
+          }
+        ],
+        "answer": "Descriptive Statistics and Inferential Statistics.",
+        "rationale": "Calculating the mean, median, and standard deviation to summarize the characteristics of the existing data is the role of Descriptive Statistics. Using this sample information to build a model and draw a conclusion about the future is the role of Inferential Statistics, which involves drawing conclusions about a population based on sample results.",
+        "marks": 1
+      },
+      {
+        "id": "q4",
+        "type": "multipleChoice",
+        "question": "The provided text notes that statistical conclusions are not \"universally true\" and that statistics is not an \"exact science.\" Which concept is highlighted as a primary reason for this limitation?",
+        "options": [
+          {
+            "text": "The misuse of statistical figures by dishonest individuals.",
+            "isCorrect": false
+          },
+          {
+            "text": "The requirement for a high degree of skill and understanding to interpret results.",
+            "isCorrect": false
+          },
+          {
+            "text": "The fundamental reliance on the laws of probability and educated guesses.",
+            "isCorrect": true
+          },
+          {
+            "text": "The focus on aggregate values rather than individual data points.",
+            "isCorrect": false
+          }
+        ],
+        "answer": "The fundamental reliance on the laws of probability and educated guesses.",
+        "rationale": "The text explicitly states, \"Since statistics is not an exact science... the statistical conclusions are true only under certain assumptions. Also, the field deals extensively with the laws of probability, which at best are educated guesses.\" This inherent reliance on probability means conclusions are approximations, not universal truths. The other options are also listed limitations but do not explain why it's not an exact science.",
+        "marks": 1
+      },
+      {
+        "id": "q5",
+        "type": "multipleChoice",
+        "question": "A researcher is studying the effects of a new ergonomic office chair on employee productivity. They observe productivity before and after installing the new chairs. What potential confounding factor, mentioned in the provided text's discussion of a famous study, could invalidate the study's conclusions?",
+        "options": [
+          {
+            "text": "The Sampling Bias Effect.",
+            "isCorrect": false
+          },
+          {
+            "text": "The Observer Fallacy Effect.",
+            "isCorrect": false
+          },
+          {
+            "text": "The Hawthorne Effect.",
+            "isCorrect": true
+          },
+          {
+            "text": "The Control Group Effect.",
+            "isCorrect": false
+          }
+        ],
+        "answer": "The Hawthorne Effect.",
+        "rationale": "The text describes the Hawthorne Effect as a finding where an outcome changes due to the observation itself. In this scenario, employees might become more productive not because of the chair, but simply because they are being watched as part of a study. The text uses the Hawthorne study as a key example of this phenomenon in an experimental context.",
+        "marks": 1
+      },
+      {
+        "id": "q6",
+        "type": "multipleChoice",
+        "question": "An advertising firm collects data on customer demographics, including their state of birth. What is the appropriate level of measurement for the \"state of birth\" variable?",
+        "options": [
+          {
+            "text": "Nominal",
+            "isCorrect": true
+          },
+          {
+            "text": "Ordinal",
+            "isCorrect": false
+          },
+          {
+            "text": "Interval",
+            "isCorrect": false
+          },
+          {
+            "text": "Ratio",
+            "isCorrect": false
+          }
+        ],
+        "answer": "Nominal",
+        "rationale": "The text describes Nominal measurement as using numbers or labels where the only significance is belonging to the same category. \"State of birth\" (e.g., California, Texas, New York) is a categorical variable with no inherent order or rank. Therefore, it is measured on a nominal scale.",
+        "marks": 1
+      },
+      {
+        "id": "q7",
+        "type": "multipleChoice",
+        "question": "A researcher is framing a questionnaire to survey consumer opinions on a new product. The survey includes a question with a scale from \"Strongly Disagree\" to \"Strongly Agree.\" According to the text, what type of variable is being measured here?",
+        "options": [
+          {
+            "text": "Interval",
+            "isCorrect": false
+          },
+          {
+            "text": "Nominal",
+            "isCorrect": false
+          },
+          {
+            "text": "Ratio",
+            "isCorrect": false
+          },
+          {
+            "text": "Ordinal",
+            "isCorrect": true
+          }
+        ],
+        "answer": "Ordinal",
+        "rationale": "The text explains that Ordinal measurement represents a rank order. The responses \"Strongly Disagree,\" \"Disagree,\" \"Neutral,\" \"Agree,\" and \"Strongly Agree\" have a clear order, but the intervals between them are not necessarily equal. This fits the definition of an ordinal variable.",
+        "marks": 1
+      },
+      {
+        "id": "q8",
+        "type": "multipleChoice",
+        "question": "When designing a questionnaire for primary data collection, what is the purpose of including \"cross-check\" questions?",
+        "options": [
+          {
+            "text": "To make the questionnaire longer and more comprehensive.",
+            "isCorrect": false
+          },
+          {
+            "text": "To test the respondent's memory and attention to detail.",
+            "isCorrect": false
+          },
+          {
+            "text": "To verify the accuracy and consistency of the information provided by the respondent.",
+            "isCorrect": true
+          },
+          {
+            "text": "To provide alternative ways of asking the same sensitive question.",
+            "isCorrect": false
+          }
+        ],
+        "answer": "To verify the accuracy and consistency of the information provided by the respondent.",
+        "rationale": "The text states, \"the questionnaire should be designed as provide a cross check on accuracy of the information supplied by the respondents by including some connected questions.\" This is done to ensure the reliability of the data by checking for consistent answers across related questions.",
+        "marks": 1
+      },
+      {
+        "id": "q9",
+        "type": "multipleChoice",
+        "question": "Why are \"class boundaries\" considered more precise than \"class limits\" in a grouped frequency distribution for the purpose of creating a histogram?",
+        "options": [
+          {
+            "text": "Because they represent the exact midpoints of the class intervals.",
+            "isCorrect": false
+          },
+          {
+            "text": "Because they eliminate the gaps between consecutive bars, representing a continuous variable accurately.",
+            "isCorrect": true
+          },
+          {
+            "text": "Because they are always rounded to the nearest whole number for easier plotting.",
+            "isCorrect": false
+          },
+          {
+            "text": "Because they are required to calculate the class frequency.",
+            "isCorrect": false
+          }
+        ],
+        "answer": "Because they eliminate the gaps between consecutive bars, representing a continuous variable accurately.",
+        "rationale": "The text explains that class boundaries (e.g., 59.5, 62.5) are the \"true class limits\" that ensure there are no gaps between classes for continuous data. A histogram represents a continuous frequency distribution, so the bars for adjacent classes must touch. Using class boundaries on the x-axis achieves this, whereas using class limits (e.g., 60-62, 63-65) would leave gaps.",
+        "marks": 1
+      },
+      {
+        "id": "q10",
+        "type": "multipleChoice",
+        "question": "A marketing team plots a line graph showing a new product's monthly sales. An intern points out a sharp, jagged peak and assumes sales jumped significantly on a single day within that month. Based on the provided text, what is a critical caution for interpreting such a graph?",
+        "options": [
+          {
+            "text": "A line graph implies continuous change and one should not automatically assume intermediate values.",
+            "isCorrect": true
+          },
+          {
+            "text": "A line graph is only suitable for data with a positive trend.",
+            "isCorrect": false
+          },
+          {
+            "text": "A jagged peak always indicates a data entry error that needs correction.",
+            "isCorrect": false
+          },
+          {
+            "text": "A line graph cannot be used to represent data over time.",
+            "isCorrect": false
+          }
+        ],
+        "answer": "A line graph implies continuous change and one should not automatically assume intermediate values.",
+        "rationale": "The text cautions that a line graph, by its nature, creates the illusion of continuous change between discrete data points. The intern's assumption is flawed because it treats the visual representation of continuity as a reflection of the actual, day-to-day sales fluctuations, which the graph does not represent.",
+        "marks": 1
+      },
+      {
+        "id": "q11",
+        "type": "multipleChoice",
+        "question": "A company's quarterly sales are broken down by product category (e.g., electronics, apparel, home goods). Which type of diagram is most effective for simultaneously showing the total sales for each quarter and the proportion of that total contributed by each product category?",
+        "options": [
+          {
+            "text": "Simple Bar Diagram",
+            "isCorrect": false
+          },
+          {
+            "text": "Multiple Bar Diagram",
+            "isCorrect": false
+          },
+          {
+            "text": "Sub-divided (Component) Bar Diagram",
+            "isCorrect": true
+          },
+          {
+            "text": "Line Graph",
+            "isCorrect": false
+          }
+        ],
+        "answer": "Sub-divided (Component) Bar Diagram",
+        "rationale": "The text describes a Sub-divided Bar Diagram as one where \"The bar is subdivided into various parts in proportion to the values given in the data.\" This is the ideal tool for showing both the total (the full height of the bar) and the individual components that make up that total.",
+        "marks": 1
+      },
+      {
+        "id": "q12",
+        "type": "multipleChoice",
+        "question": "According to the text, what is the relationship between the mean, median, and mode in a perfectly symmetrical distribution?",
+        "options": [
+          {
+            "text": "The mean is always greater than the median.",
+            "isCorrect": false
+          },
+          {
+            "text": "The mode is always the highest value.",
+            "isCorrect": false
+          },
+          {
+            "text": "The mean, median, and mode coincide (are equal).",
+            "isCorrect": true
+          },
+          {
+            "text": "The median is the average of the mean and the mode.",
+            "isCorrect": false
+          }
+        ],
+        "answer": "The mean, median, and mode coincide (are equal).",
+        "rationale": "The text states, \"In a symmetrical distribution mean, median and mode will coincide as shown in figure (A).\" This perfect balance is a defining characteristic of a symmetric distribution.",
+        "marks": 1
+      },
+      {
+        "id": "q13",
+        "type": "multipleChoice",
+        "question": "In a distribution of employee salaries, the mean salary is found to be significantly higher than the median salary. What type of skewness does this indicate?",
+        "options": [
+          {
+            "text": "No skewness (Symmetrical distribution)",
+            "isCorrect": false
+          },
+          {
+            "text": "Negatively skewed distribution",
+            "isCorrect": false
+          },
+          {
+            "text": "Positively skewed distribution",
+            "isCorrect": true
+          },
+          {
+            "text": "Bimodal distribution",
+            "isCorrect": false
+          }
+        ],
+        "answer": "Positively skewed distribution",
+        "rationale": "The text explains that in a positively skewed distribution, the long tail is towards the right (higher values). A few very high salaries pull the mean upwards, making it greater than the median. The relationship is Mean > Median > Mode.",
+        "marks": 1
+      },
+      {
+        "id": "q14",
+        "type": "multipleChoice",
+        "question": "A box plot is a graphical display based on a \"five-number summary.\" Which of the following measures is NOT one of these five numbers?",
+        "options": [
+          {
+            "text": "The Median",
+            "isCorrect": false
+          },
+          {
+            "text": "The Third Quartile (Q3)",
+            "isCorrect": false
+          },
+          {
+            "text": "The Standard Deviation",
+            "isCorrect": true
+          },
+          {
+            "text": "The Minimum Observation",
+            "isCorrect": false
+          }
+        ],
+        "answer": "The Standard Deviation",
+        "rationale": "The text states that the five-number summary consists of \"the median, the upper and lower quartiles and the maximum and minimum observations.\" The standard deviation is a measure of dispersion calculated using all data points and is not part of this specific summary.",
+        "marks": 1
+      },
+      {
+        "id": "q15",
+        "type": "multipleChoice",
+        "question": "In probability theory, if two events are \"mutually exclusive,\" what does this imply?",
+        "options": [
+          {
+            "text": "The occurrence of one event affects the probability of the other.",
+            "isCorrect": false
+          },
+          {
+            "text": "The two events cannot occur simultaneously in a single trial.",
+            "isCorrect": true
+          },
+          {
+            "text": "The two events have the same probability of occurring.",
+            "isCorrect": false
+          },
+          {
+            "text": "The union of the two events constitutes the entire sample space.",
+            "isCorrect": false
+          }
+        ],
+        "answer": "The two events cannot occur simultaneously in a single trial.",
+        "rationale": "The text defines mutually exclusive events as those where \"two or more of them cannot occur simultaneously in a single trial of an experiment.\" For mutually exclusive events A and B, their intersection is an empty set (A ∩ B = ∅).",
+        "marks": 1
+      },
+      {
+        "id": "q16",
+        "type": "multipleChoice",
+        "question": "Differentiate between an \"ungrouped data distribution\" and a \"grouped data distribution.\"",
+        "options": [
+          {
+            "text": "Ungrouped shows individual values; grouped summarizes data into class intervals.",
+            "isCorrect": true
+          },
+          {
+            "text": "Ungrouped is for qualitative data; grouped is for quantitative data.",
+            "isCorrect": false
+          },
+          {
+            "text": "Ungrouped is always sorted; grouped is never sorted.",
+            "isCorrect": false
+          },
+          {
+            "text": "Ungrouped uses bar charts; grouped uses pie charts.",
+            "isCorrect": false
+          }
+        ],
+        "answer": "Ungrouped shows individual values; grouped summarizes data into class intervals.",
+        "rationale": "The text defines an ungrouped data distribution as a table showing each value of the variable and its frequency. A grouped data distribution is defined as a tabular arrangement of data by classes (intervals) with their corresponding frequencies.",
+        "marks": 1
+      },
+      {
+        "id": "q17",
+        "type": "multipleChoice",
+        "question": "When inspecting a randomly selected item from a factory to determine whether it is \"defective\" or \"non-defective,\" what is the sample space for this random experiment?",
+        "options": [
+          {
+            "text": "S = {Defective}",
+            "isCorrect": false
+          },
+          {
+            "text": "S = {Non-Defective}",
+            "isCorrect": false
+          },
+          {
+            "text": "S = {Defective, Non-Defective}",
+            "isCorrect": true
+          },
+          {
+            "text": "S = {Inspection}",
+            "isCorrect": false
+          }
+        ],
+        "answer": "S = {Defective, Non-Defective}",
+        "rationale": "The text defines the sample space as \"the set of all possible outcomes of a random experiment.\" In this case, there are only two possible outcomes for the inspection: the item is either defective or non-defective. Therefore, the sample space contains both elements.",
+        "marks": 1
+      },
+      {
+        "id": "q18",
+        "type": "multipleChoice",
+        "question": "What is the fundamental assumption of the \"Classical approach\" to probability that limits its application in many real-world business scenarios?",
+        "options": [
+          {
+            "text": "It assumes that the experiment has been repeated many times.",
+            "isCorrect": false
+          },
+          {
+            "text": "It assumes that all outcomes are mutually exclusive.",
+            "isCorrect": false
+          },
+          {
+            "text": "It assumes that all outcomes are equally likely.",
+            "isCorrect": true
+          },
+          {
+            "text": "It assumes that the probability is based on subjective belief.",
+            "isCorrect": false
+          }
+        ],
+        "answer": "It assumes that all outcomes are equally likely.",
+        "rationale": "The text explicitly states, \"The basic assumption underling the classical approach is that the outcomes are equally likely. This requirement restricts the application of probability only to such experiment, which gives rise to symmetrical outcomes.\" In business, outcomes (e.g., success/failure of a product) are rarely equally likely.",
+        "marks": 1
+      },
+      {
+        "id": "q19",
+        "type": "multipleChoice",
+        "question": "When evaluating secondary data, what does the factor \"adequacy of data\" refer to?",
+        "options": [
+          {
+            "text": "The reputation of the agency that collected the data.",
+            "isCorrect": false
+          },
+          {
+            "text": "Whether the data is suitable for the purpose of the current investigation.",
+            "isCorrect": false
+          },
+          {
+            "text": "Whether the volume or scope of the data is sufficient for the present analysis.",
+            "isCorrect": true
+          },
+          {
+            "text": "The cost of acquiring the secondary data.",
+            "isCorrect": false
+          }
+        ],
+        "answer": "Whether the volume or scope of the data is sufficient for the present analysis.",
+        "rationale": "The text states, \"If the data are suitable for the purpose of investigation, then we must consider whether the data are useful or adequate for the present analysis.\" This distinguishes adequacy (is there enough data?) from suitability (is it the right kind of data?) and reliability (was it collected properly?).",
+        "marks": 1
+      },
+      {
+        "id": "q20",
+        "type": "multipleChoice",
+        "question": "A professor calculates the average final grade for a course with students from three different majors. Why would a \"weighted arithmetic mean\" be more appropriate than a simple arithmetic mean if the number of students in each major is different?",
+        "options": [
+          {
+            "text": "Because it gives less importance to the major with the most students.",
+            "isCorrect": false
+          },
+          {
+            "text": "Because it gives equal importance (weight) to each major, regardless of size.",
+            "isCorrect": false
+          },
+          {
+            "text": "Because it accounts for the relative importance (number of students) of each group.",
+            "isCorrect": true
+          },
+          {
+            "text": "Because it is easier to calculate than a simple arithmetic mean.",
+            "isCorrect": false
+          }
+        ],
+        "answer": "Because it accounts for the relative importance (number of students) of each group.",
+        "rationale": "The text explains that a weighted average is used when \"the relative importance of the items in the distribution is not the same.\" In this case, a major with more students should have a greater impact on the overall average grade. A weighted mean, using the number of students in each major as the weights, correctly reflects this.",
+        "marks": 1
+      },
+      {
+        "id": "q21",
+        "type": "multipleChoice",
+        "question": "An analyst wants to compare the volatility of two stocks. Stock A trades around $20 with a standard deviation of $2. Stock B trades around $500 with a standard deviation of $25. Which measure should be used for a fair comparison of their relative variability?",
+        "options": [
+          {
+            "text": "The Range",
+            "isCorrect": false
+          },
+          {
+            "text": "The Variance",
+            "isCorrect": false
+          },
+          {
+            "text": "The Standard Deviation",
+            "isCorrect": false
+          },
+          {
+            "text": "The Coefficient of Variation",
+            "isCorrect": true
+          }
+        ],
+        "answer": "The Coefficient of Variation",
+        "rationale": "The text states that the Coefficient of Variation (CV) \"is generally used to compare the variation among different data sets which are measured in different units or having greater differences of means.\" Since the average prices (means) of the two stocks are very different, the CV (which expresses the standard deviation as a percentage of the mean) is the only appropriate measure to compare their relative volatility.",
+        "marks": 1
+      },
+      {
+        "id": "q22",
+        "type": "multipleChoice",
+        "question": "What is the key difference between an \"observational study\" and an \"experimental study\"?",
+        "options": [
+          {
+            "text": "Observational studies are only for qualitative data, while experimental studies are for quantitative data.",
+            "isCorrect": false
+          },
+          {
+            "text": "In an experimental study, the investigator applies treatments to subjects; in an observational study, they do not.",
+            "isCorrect": true
+          },
+          {
+            "text": "Observational studies are always less expensive and easier to conduct.",
+            "isCorrect": false
+          },
+          {
+            "text": "Experimental studies do not require a sample, while observational studies do.",
+            "isCorrect": false
+          }
+        ],
+        "answer": "In an experimental study, the investigator applies treatments to subjects; in an observational study, they do not.",
+        "rationale": "The text clearly defines the difference: \"In an experiment investigators apply treatments to experimental units... In an observational study investigators observe subjects and measure variables of interest without assigning treatments to the subjects.\" This active intervention by the researcher is the defining feature of an experiment.",
+        "marks": 1
+      },
+      {
+        "id": "q23",
+        "type": "multipleChoice",
+        "question": "If a multiple regression model is used to predict house prices based on size, age, and number of bedrooms, \"multicollinearity\" would likely be present if:",
+        "options": [
+          {
+            "text": "The age of the house has no effect on its price.",
+            "isCorrect": false
+          },
+          {
+            "text": "The size of the house is strongly correlated with the number of bedrooms.",
+            "isCorrect": true
+          },
+          {
+            "text": "The model's predictions have a high level of error.",
+            "isCorrect": false
+          },
+          {
+            "text": "The data is measured on different scales (e.g., square feet and years).",
+            "isCorrect": false
+          }
+        ],
+        "answer": "The size of the house is strongly correlated with the number of bedrooms.",
+        "rationale": "Multicollinearity occurs when two or more predictor variables in a model are highly correlated with each other. In this case, a larger house size is very likely to be correlated with a higher number of bedrooms, leading to multicollinearity.",
+        "marks": 1
+      },
+      {
+        "id": "q24",
+        "type": "multipleChoice",
+        "question": "The text mentions a famous statement: \"figures don't lie but the liars can figure.\" Which limitation of statistics does this statement most directly illustrate?",
+        "options": [
+          {
+            "text": "Statistics does not deal with individual values.",
+            "isCorrect": false
+          },
+          {
+            "text": "Statistical conclusions are not universally true.",
+            "isCorrect": false
+          },
+          {
+            "text": "Statistics can be misused.",
+            "isCorrect": true
+          },
+          {
+            "text": "Statistical interpretation requires a high degree of skill.",
+            "isCorrect": false
+          }
+        ],
+        "answer": "Statistics can be misused.",
+        "rationale": "The text introduces this statement directly under the heading \"Statistics can be misused,\" explaining that \"inaccurate or incomplete figures can be manipulated to get desirable references.\" This directly addresses the potential for intentional deception using statistical data.",
+        "marks": 1
+      },
+      {
+        "id": "q25",
+        "type": "multipleChoice",
+        "question": "A company wants to analyze the relationship between customer satisfaction level (High/Medium/Low) and their region (North/South/East/West). Which data presentation tool is specifically designed for this purpose?",
+        "options": [
+          {
+            "text": "A Pie Chart",
+            "isCorrect": false
+          },
+          {
+            "text": "A Cross-Tabulation",
+            "isCorrect": true
+          },
+          {
+            "text": "A Histogram",
+            "isCorrect": false
+          },
+          {
+            "text": "A Simple Bar Diagram",
+            "isCorrect": false
+          }
+        ],
+        "answer": "A Cross-Tabulation",
+        "rationale": "The text describes Cross-Tabulations as \"tables in which the values of one variable are displayed against the values of other variables.\" This is the perfect tool for examining the relationship between two categorical variables, such as satisfaction level and region.",
+        "marks": 1
+      },
+      {
+        "id": "q26",
+        "type": "multipleChoice",
+        "question": "An electronics manufacturer tests a sample of 100 products from a production run of 10,000 to estimate the overall defect rate. In this context, the 10,000 products represent the:",
+        "options": [
+          {
+            "text": "Sample",
+            "isCorrect": false
+          },
+          {
+            "text": "Population",
+            "isCorrect": true
+          },
+          {
+            "text": "Statistic",
+            "isCorrect": false
+          },
+          {
+            "text": "Parameter",
+            "isCorrect": false
+          }
+        ],
+        "answer": "Population",
+        "rationale": "The population is defined as \"The entire lot of anything under study.\" Here, the entire production run of 10,000 products is the population of interest. The 100 products tested constitute the sample.",
+        "marks": 1
+      },
+      {
+        "id": "q27",
+        "type": "multipleChoice",
+        "question": "A course has two sections. Section A has 30 students with an average exam score of 85. Section B has 20 students with an average exam score of 75. To find the average score for all 50 students combined, which formula must be used?",
+        "options": [
+          {
+            "text": "Geometric mean",
+            "isCorrect": false
+          },
+          {
+            "text": "Simple arithmetic mean of the two averages",
+            "isCorrect": false
+          },
+          {
+            "text": "Combined arithmetic mean",
+            "isCorrect": true
+          },
+          {
+            "text": "Median of the two averages",
+            "isCorrect": false
+          }
+        ],
+        "answer": "Combined arithmetic mean",
+        "rationale": "The text provides a specific formula for the Combined arithmetic mean when \"we know the means and the number of items in two or, more related groups.\" A simple average of 85 and 75 would be incorrect because it fails to account for the different number of students (weights) in each section.",
+        "marks": 1
+      },
+      {
+        "id": "q28",
+        "type": "multipleChoice",
+        "question": "A frequency distribution of employee ages includes a final class interval labeled \"65 and over.\" What is this type of interval called?",
+        "options": [
+          {
+            "text": "An exclusive class interval",
+            "isCorrect": false
+          },
+          {
+            "text": "An open class interval",
+            "isCorrect": true
+          },
+          {
+            "text": "A boundary class interval",
+            "isCorrect": false
+          },
+          {
+            "text": "A zero class interval",
+            "isCorrect": false
+          }
+        ],
+        "answer": "An open class interval",
+        "rationale": "The text defines an open class interval as one that \"has either no upper class limit or no lower class limit indicated.\" The example given is \"65 years and over,\" which directly matches the question.",
+        "marks": 1
+      },
+      {
+        "id": "q29",
+        "type": "multipleChoice",
+        "question": "The geometric mean is most appropriately used for calculating the average of which of the following?",
+        "options": [
+          {
+            "text": "The weights of a group of people.",
+            "isCorrect": false
+          },
+          {
+            "text": "The test scores of students in a class.",
+            "isCorrect": false
+          },
+          {
+            "text": "The annual percentage growth rates of an investment.",
+            "isCorrect": true
+          },
+          {
+            "text": "The daily temperatures in a city.",
+            "isCorrect": false
+          }
+        ],
+        "answer": "The annual percentage growth rates of an investment.",
+        "rationale": "The text states, \"Geometric mean is highly useful in averaging ratios, percentages and rate of increase between two periods.\" It is the correct method for finding the average growth rate over time, as it accounts for compounding effects.",
+        "marks": 1
+      },
+      {
+        "id": "q30",
+        "type": "multipleChoice",
+        "question": "What is the primary advantage gained by organizing a large mass of raw data into a grouped frequency distribution?",
+        "options": [
+          {
+            "text": "Every single data point is preserved in its original form.",
+            "isCorrect": false
+          },
+          {
+            "text": "It allows for the precise calculation of the mode for continuous data.",
+            "isCorrect": false
+          },
+          {
+            "text": "A clear \"overall\" picture and vital relationships in the data become evident.",
+            "isCorrect": true
+          },
+          {
+            "text": "It eliminates the need for any further statistical analysis.",
+            "isCorrect": false
+          }
+        ],
+        "answer": "A clear \"overall\" picture and vital relationships in the data become evident.",
+        "rationale": "The text highlights a key trade-off: \"Although the grouping process generally destroys much of the original detail of the data, an important advantage is gained in the clear 'overall' picture that is obtained and in the vital relationships that are thereby made evident.\"",
+        "marks": 1
+      },
+      {
+        "id": "q31",
+        "type": "multipleChoice",
+        "question": "In a 2014 factory survey of 2,000 workers, 1,550 were union members. There were 250 women, of whom 200 were not in a union. How many men were union members in 2014?",
+        "options": [
+          {
+            "text": "1,500",
+            "isCorrect": true
+          },
+          {
+            "text": "1,750",
+            "isCorrect": false
+          },
+          {
+            "text": "1,550",
+            "isCorrect": false
+          },
+          {
+            "text": "1,250",
+            "isCorrect": false
+          }
+        ],
+        "answer": "1,500",
+        "rationale": "Total union members = 1,550. Women non-union = 200. Total women = 250. Therefore, women union members = 250 - 200 = 50. Men who are union members = Total union members - women union members = 1,550 - 50 = 1,500.",
+        "marks": 1
+      },
+      {
+        "id": "q32",
+        "type": "multipleChoice",
+        "question": "The profits of a firm (in Rs. '000) over six years were: 14, 19, 21, 15, 12, 18. What is the mean profit?",
+        "options": [
+          {
+            "text": "16,500",
+            "isCorrect": true
+          },
+          {
+            "text": "17,000",
+            "isCorrect": false
+          },
+          {
+            "text": "16,000",
+            "isCorrect": false
+          },
+          {
+            "text": "16,833",
+            "isCorrect": false
+          }
+        ],
+        "answer": "16,500",
+        "rationale": "Sum of profits = 14 + 19 + 21 + 15 + 12 + 18 = 99. Number of years = 6. Mean = 99 / 6 = 16.5. In thousands, this is 16,500.",
+        "marks": 1
+      },
+      {
+        "id": "q33",
+        "type": "multipleChoice",
+        "question": "Data on public sector investment for two five-year plans are given. In the first plan, investment in Agriculture was 357 and Transport was 654 out of a total of 2160. What percentage of the first plan's investment was allocated to Agriculture and Transport combined?",
+        "options": [
+          {
+            "text": "46.81%",
+            "isCorrect": true
+          },
+          {
+            "text": "16.53%",
+            "isCorrect": false
+          },
+          {
+            "text": "30.28%",
+            "isCorrect": false
+          },
+          {
+            "text": "42.15%",
+            "isCorrect": false
+          }
+        ],
+        "answer": "46.81%",
+        "rationale": "Combined investment = 357 (Agriculture) + 654 (Transport) = 1011. Total investment = 2160. Percentage = (1011 / 2160) * 100 = 46.81%.",
+        "marks": 1
+      },
+      {
+        "id": "q34",
+        "type": "multipleChoice",
+        "question": "The total area of the world's oceans is 152.9 million sq. km. The Pacific Ocean's area is 70.8 million sq. km. In a pie chart representing the oceans, what would be the angle of the sector for the Pacific Ocean (to the nearest degree)?",
+        "options": [
+          {
+            "text": "167°",
+            "isCorrect": true
+          },
+          {
+            "text": "46°",
+            "isCorrect": false
+          },
+          {
+            "text": "180°",
+            "isCorrect": false
+          },
+          {
+            "text": "125°",
+            "isCorrect": false
+          }
+        ],
+        "answer": "167°",
+        "rationale": "The proportion of the Pacific Ocean is 70.8 / 152.9 = 0.4630. The angle is this proportion multiplied by 360°: 0.4630 * 360° = 166.68°, which rounds to 167°.",
+        "marks": 1
+      },
+      {
+        "id": "q35",
+        "type": "multipleChoice",
+        "question": "A dataset of 40 raw scores has a minimum value of 30 and a maximum value of 99. If you were to create a grouped frequency distribution with 7 class intervals of equal width, what would be the width of each class interval?",
+        "options": [
+          {
+            "text": "9",
+            "isCorrect": false
+          },
+          {
+            "text": "10",
+            "isCorrect": true
+          },
+          {
+            "text": "11",
+            "isCorrect": false
+          },
+          {
+            "text": "12",
+            "isCorrect": false
+          }
+        ],
+        "answer": "10",
+        "rationale": "The range of the data is 99 - 30 = 69. To find the class width, divide the range by the number of class intervals: 69 / 7 = 9.857. Since the class width must be a convenient number, it is standard practice to round up, so a width of 10 is the most appropriate choice.",
+        "marks": 1
+      },
+      {
+        "id": "q36",
+        "type": "multipleChoice",
+        "question": "Using the data from the previous question (Range=69, 7 classes, width=10), if the first class interval is 30-39, what is the class mark of the third class interval?",
+        "options": [
+          {
+            "text": "44.5",
+            "isCorrect": false
+          },
+          {
+            "text": "54.5",
+            "isCorrect": true
+          },
+          {
+            "text": "55",
+            "isCorrect": false
+          },
+          {
+            "text": "50",
+            "isCorrect": false
+          }
+        ],
+        "answer": "54.5",
+        "rationale": "The class intervals would be: Class 1: 30-39, Class 2: 40-49, Class 3: 50-59. The class mark is the midpoint of the class interval. Class Mark = (Lower Limit + Upper Limit) / 2 = (50 + 59) / 2 = 54.5.",
+        "marks": 1
+      },
+      {
+        "id": "q37",
+        "type": "multipleChoice",
+        "question": "The following marks were scored by a sample of students: 40, 50, 55, 78, 58, 60, 73, 35, 43, 48. What is the sample mean?",
+        "options": [
+          {
+            "text": "54.0",
+            "isCorrect": true
+          },
+          {
+            "text": "55.0",
+            "isCorrect": false
+          },
+          {
+            "text": "59.0",
+            "isCorrect": false
+          },
+          {
+            "text": "52.5",
+            "isCorrect": false
+          }
+        ],
+        "answer": "54.0",
+        "rationale": "Sum of marks = 40+50+55+78+58+60+73+35+43+48 = 540. Number of students = 10. Sample Mean = 540 / 10 = 54.0.",
+        "marks": 1
+      },
+      {
+        "id": "q38",
+        "type": "multipleChoice",
+        "question": "Using the data: 35, 40, 43, 48, 50, 55, 58, 60, 73, 78. What is the median?",
+        "options": [
+          {
+            "text": "55.0",
+            "isCorrect": false
+          },
+          {
+            "text": "52.5",
+            "isCorrect": true
+          },
+          {
+            "text": "50.0",
+            "isCorrect": false
+          },
+          {
+            "text": "54.5",
+            "isCorrect": false
+          }
+        ],
+        "answer": "52.5",
+        "rationale": "First, arrange the data in ascending order: 35, 40, 43, 48, 50, 55, 58, 60, 73, 78. Since there are n=10 (an even number) of observations, the median is the average of the two middle values (the n/2-th and (n/2 + 1)-th values). These are the 5th and 6th values. Median = (50 + 55) / 2 = 52.5.",
+        "marks": 1
+      },
+      {
+        "id": "q39",
+        "type": "multipleChoice",
+        "question": "A student's final grades are: Management 82 (3 credits), Economics 86 (5 credits), Statistics 90 (3 credits), and English 70 (1 credit). What is the student's weighted average grade?",
+        "options": [
+          {
+            "text": "82.00",
+            "isCorrect": false
+          },
+          {
+            "text": "84.67",
+            "isCorrect": true
+          },
+          {
+            "text": "83.46",
+            "isCorrect": false
+          },
+          {
+            "text": "85.50",
+            "isCorrect": false
+          }
+        ],
+        "answer": "84.67",
+        "rationale": "We calculate the weighted arithmetic mean. Multiply each grade by its corresponding credit (weight): (82×3) + (86×5) + (90×3) + (70×1) = 246 + 430 + 270 + 70 = 1016. Divide by the sum of the weights (total credits): 3 + 5 + 3 + 1 = 12. Weighted Average = 1016 / 12 = 84.67.",
+        "marks": 1
+      },
+      {
+        "id": "q40",
+        "type": "multipleChoice",
+        "question": "Two company branches have 100 and 80 employees, with average monthly salaries of Rs. 71,500 and Rs. 87,500, respectively. What is the combined arithmetic mean of the salaries for all employees?",
+        "options": [
+          {
+            "text": "Rs. 79,500",
+            "isCorrect": false
+          },
+          {
+            "text": "Rs. 78,611",
+            "isCorrect": true
+          },
+          {
+            "text": "Rs. 80,000",
+            "isCorrect": false
+          },
+          {
+            "text": "Rs. 79,250",
+            "isCorrect": false
+          }
+        ],
+        "answer": "Rs. 78,611",
+        "rationale": "Use the formula for combined arithmetic mean: [(n₁ * x̄₁) + (n₂ * x̄₂)] / (n₁ + n₂). [(100 * 71,500) + (80 * 87,500)] / (100 + 80) = [7,150,000 + 7,000,000] / 180 = 14,150,000 / 180 ≈ 78,611.",
+        "marks": 1
+      },
+      {
+        "id": "q41",
+        "type": "multipleChoice",
+        "question": "The price of a commodity increased by 5% in 2019, 20% in 2020, and 30% in 2021. What is the average percentage increase per year (Geometric Mean)?",
+        "options": [
+          {
+            "text": "18.33%",
+            "isCorrect": false
+          },
+          {
+            "text": "17.92%",
+            "isCorrect": true
+          },
+          {
+            "text": "18.05%",
+            "isCorrect": false
+          },
+          {
+            "text": "20.00%",
+            "isCorrect": false
+          }
+        ],
+        "answer": "17.92%",
+        "rationale": "To find the average rate of increase, we use the geometric mean. The growth factors are 1.05, 1.20, and 1.30. Geometric Mean of factors = (1.05 * 1.20 * 1.30)^(1/3) = (1.638)^(1/3) ≈ 1.1792. The average growth rate is 1.1792 - 1 = 0.1792, or 17.92%.",
+        "marks": 1
+      },
+      {
+        "id": "q42",
+        "type": "multipleChoice",
+        "question": "The following dataset is of 20 observations: 29, 29, 29, 29, 29, 31, 35, 37, 40, 40, 43, 48, 50, 55, 58, 60, 67, 73, 78, 79. What is the value of the first quartile (Q1)?",
+        "options": [
+          {
+            "text": "29.0",
+            "isCorrect": false
+          },
+          {
+            "text": "29.5",
+            "isCorrect": false
+          },
+          {
+            "text": "30.0",
+            "isCorrect": true
+          },
+          {
+            "text": "31.0",
+            "isCorrect": false
+          }
+        ],
+        "answer": "30.0",
+        "rationale": "The first quartile (Q1) is the median of the lower half of the dataset. The full dataset has 20 values. The lower half consists of the first 10 values: {29, 29, 29, 29, 29, 31, 35, 37, 40, 40}. The median of this lower half is the average of its 5th and 6th values. Q1 = (29 + 31) / 2 = 30.",
+        "marks": 1
+      },
+      {
+        "id": "q43",
+        "type": "multipleChoice",
+        "question": "Using the same dataset from the previous question, what is the Interquartile Range (IQR)?",
+        "options": [
+          {
+            "text": "31",
+            "isCorrect": false
+          },
+          {
+            "text": "29",
+            "isCorrect": true
+          },
+          {
+            "text": "30",
+            "isCorrect": false
+          },
+          {
+            "text": "59",
+            "isCorrect": false
+          }
+        ],
+        "answer": "29",
+        "rationale": "First, we need Q3, which is the median of the upper half of the data. The upper half consists of the values: {43, 48, 50, 55, 58, 60, 67, 73, 78, 79}. The median of this upper half is the average of its 5th and 6th values: Q3 = (58 + 60) / 2 = 59. We found Q1 = 30 from the previous question. The Interquartile Range (IQR) = Q3 - Q1 = 59 - 30 = 29.",
+        "marks": 1
+      },
+      {
+        "id": "q44",
+        "type": "multipleChoice",
+        "question": "A population dataset is: 40, 29, 50, 29, 55. What is the population variance (σ²)?",
+        "options": [
+          {
+            "text": "113.04",
+            "isCorrect": true
+          },
+          {
+            "text": "141.30",
+            "isCorrect": false
+          },
+          {
+            "text": "40.60",
+            "isCorrect": false
+          },
+          {
+            "text": "10.63",
+            "isCorrect": false
+          }
+        ],
+        "answer": "113.04",
+        "rationale": "First, calculate the population mean (μ): (40 + 29 + 50 + 29 + 55) / 5 = 203 / 5 = 40.6. Next, find the sum of the squared differences from the mean: (40-40.6)² + (29-40.6)² + (50-40.6)² + (29-40.6)² + (55-40.6)² = 0.36 + 134.56 + 88.36 + 134.56 + 207.36 = 565.2. The population variance (σ²) is the sum divided by the population size (N): 565.2 / 5 = 113.04.",
+        "marks": 1
+      },
+      {
+        "id": "q45",
+        "type": "multipleChoice",
+        "question": "For a sample of data, the mean is 80 and the standard deviation is 12. What is the Coefficient of Variation (CV)?",
+        "options": [
+          {
+            "text": "15%",
+            "isCorrect": true
+          },
+          {
+            "text": "6.67%",
+            "isCorrect": false
+          },
+          {
+            "text": "0.15%",
+            "isCorrect": false
+          },
+          {
+            "text": "96%",
+            "isCorrect": false
+          }
+        ],
+        "answer": "15%",
+        "rationale": "The formula for the Coefficient of Variation for a sample is (s / x̄) * 100. CV = (12 / 80) * 100 = 0.15 * 100 = 15%.",
+        "marks": 1
+      },
+      {
+        "id": "q46",
+        "type": "multipleChoice",
+        "question": "Outlet A has mean monthly sales of Rs. 200 (in '000s) and a standard deviation of Rs. 40. Outlet B has mean sales of Rs. 240 and a standard deviation of Rs. 54. Which outlet has greater relative variation in sales?",
+        "options": [
+          {
+            "text": "Outlet A",
+            "isCorrect": false
+          },
+          {
+            "text": "Outlet B",
+            "isCorrect": true
+          },
+          {
+            "text": "Both have the same variation.",
+            "isCorrect": false
+          },
+          {
+            "text": "Cannot be determined.",
+            "isCorrect": false
+          }
+        ],
+        "answer": "Outlet B",
+        "rationale": "We must compare their Coefficients of Variation (CV). CV for Outlet A = (40 / 200) * 100 = 20%. CV for Outlet B = (54 / 240) * 100 = 22.5%. Since Outlet B has a higher CV, it has greater relative variation in its monthly sales.",
+        "marks": 1
+      },
+      {
+        "id": "q47",
+        "type": "multipleChoice",
+        "question": "From a summary of 100 worker heights, the following is known: ΣX = 17,000 cm and Σ(X - X̄)² = 3,600 cm². What is the sample standard deviation of the heights?",
+        "options": [
+          {
+            "text": "6.03 cm",
+            "isCorrect": true
+          },
+          {
+            "text": "36.36 cm",
+            "isCorrect": false
+          },
+          {
+            "text": "6.00 cm",
+            "isCorrect": false
+          },
+          {
+            "text": "36.00 cm",
+            "isCorrect": false
+          }
+        ],
+        "answer": "6.03 cm",
+        "rationale": "First, calculate the sample variance (s²). The formula is Σ(X - X̄)² / (n-1). s² = 3600 / (100 - 1) = 3600 / 99 ≈ 36.3636. The sample standard deviation (s) is the square root of the variance. s = √36.3636 ≈ 6.03 cm.",
+        "marks": 1
+      },
+      {
+        "id": "q48",
+        "type": "multipleChoice",
+        "question": "For the same 100 workers, the summary for weights is: ΣY = 6,500 kg and Σ(Y - Ȳ)² = 4,950 kg². Compare the variability of heights and weights using the appropriate measure.",
+        "options": [
+          {
+            "text": "Heights are more variable (CV_H > CV_W).",
+            "isCorrect": false
+          },
+          {
+            "text": "Weights are more variable (CV_W > CV_H).",
+            "isCorrect": true
+          },
+          {
+            "text": "They have the same variability.",
+            "isCorrect": false
+          },
+          {
+            "text": "Comparison is not possible.",
+            "isCorrect": false
+          }
+        ],
+        "answer": "Weights are more variable (CV_W > CV_H).",
+        "rationale": "We must calculate and compare the CV for both. Height: Mean X̄ = 17000/100 = 170. St. Dev. s_x = 6.03. CV_H = (6.03 / 170) * 100 ≈ 3.55%. Weight: Mean Ȳ = 6500/100 = 65. Variance s_y² = 4950 / (100-1) = 50. St. Dev. s_y = √50 ≈ 7.07. CV_W = (7.07 / 65) * 100 ≈ 10.88%. Since CV_W (10.88%) > CV_H (3.55%), the weights are more variable.",
+        "marks": 1
+      },
+      {
+        "id": "q49",
+        "type": "multipleChoice",
+        "question": "For a dataset, the median is 50, the lower quartile (QL) is 35, and the upper quartile (QU) is 75. A data point at 140 would be classified as what?",
+        "options": [
+          {
+            "text": "A normal data point",
+            "isCorrect": false
+          },
+          {
+            "text": "A possible outlier",
+            "isCorrect": true
+          },
+          {
+            "text": "A probable outlier",
+            "isCorrect": false
+          },
+          {
+            "text": "An impossible value",
+            "isCorrect": false
+          }
+        ],
+        "answer": "A possible outlier",
+        "rationale": "First, calculate the Interquartile Range (IQR): IQR = QU - QL = 75 - 35 = 40. Next, calculate the fences. Upper Inner Fence = QU + 1.5 * IQR = 75 + 1.5 * 40 = 75 + 60 = 135. Upper Outer Fence = QU + 3 * IQR = 75 + 3 * 40 = 75 + 120 = 195. The data point 140 lies between the inner fence (135) and the outer fence (195). According to the text, points in this range are classified as \"possible outliers.\"",
+        "marks": 1
+      },
+      {
+        "id": "q50",
+        "type": "multipleChoice",
+        "question": "For the same dataset (QL=35, QU=75), what is the location of the lower outer fence?",
+        "options": [
+          {
+            "text": "-85",
+            "isCorrect": true
+          },
+          {
+            "text": "-45",
+            "isCorrect": false
+          },
+          {
+            "text": "5",
+            "isCorrect": false
+          },
+          {
+            "text": "-25",
+            "isCorrect": false
+          }
+        ],
+        "answer": "-85",
+        "rationale": "The IQR = 40. The formula for the lower outer fence is QL - 3 * IQR. Lower Outer Fence = 35 - 3 * 40 = 35 - 120 = -85.",
+        "marks": 1
+      },
+      {
+        "id": "q51",
+        "type": "multipleChoice",
+        "question": "A coin is tossed twice. What is the probability of getting exactly one head and one tail (in any order)?",
+        "options": [
+          {
+            "text": "0.25",
+            "isCorrect": false
+          },
+          {
+            "text": "0.50",
+            "isCorrect": true
+          },
+          {
+            "text": "0.75",
+            "isCorrect": false
+          },
+          {
+            "text": "1.00",
+            "isCorrect": false
+          }
+        ],
+        "answer": "0.50",
+        "rationale": "The sample space S = {HH, HT, TH, TT}. There are n=4 equally likely outcomes. The event A (one head and one tail) consists of the outcomes {HT, TH}, so there are m=2 favorable outcomes. The probability P(A) = m/n = 2/4 = 0.50.",
+        "marks": 1
+      },
+      {
+        "id": "q52",
+        "type": "multipleChoice",
+        "question": "In a batch of 200 items, 80 passed Part I inspection, 60 passed Part II, and 44 passed both parts. What is the probability that a randomly selected item passed at least one of the parts?",
+        "options": [
+          {
+            "text": "0.48",
+            "isCorrect": true
+          },
+          {
+            "text": "0.70",
+            "isCorrect": false
+          },
+          {
+            "text": "0.22",
+            "isCorrect": false
+          },
+          {
+            "text": "0.96",
+            "isCorrect": false
+          }
+        ],
+        "answer": "0.48",
+        "rationale": "We use the addition law of probability: P(A U B) = P(A) + P(B) - P(A ∩ B). P(Passed I) = 80/200 = 0.4. P(Passed II) = 60/200 = 0.3. P(Passed Both) = 44/200 = 0.22. P(Passed at least one) = 0.4 + 0.3 - 0.22 = 0.7 - 0.22 = 0.48.",
+        "marks": 1
+      },
+      {
+        "id": "q53",
+        "type": "multipleChoice",
+        "question": "A box contains 5 red, 4 black, and 6 white balls. If three balls are drawn at random without replacement, what is the probability that all three are white?",
+        "options": [
+          {
+            "text": "0.022",
+            "isCorrect": false
+          },
+          {
+            "text": "0.044",
+            "isCorrect": true
+          },
+          {
+            "text": "0.133",
+            "isCorrect": false
+          },
+          {
+            "text": "0.005",
+            "isCorrect": false
+          }
+        ],
+        "answer": "0.044",
+        "rationale": "Total balls = 5+4+6 = 15. The probability is the product of the probabilities for each draw. P(1st is W) = 6/15. P(2nd is W) = 5/14. P(3rd is W) = 4/13. P(all three are W) = (6/15) * (5/14) * (4/13) = 120/2730 ≈ 0.044.",
+        "marks": 1
+      },
+      {
+        "id": "q54",
+        "type": "multipleChoice",
+        "question": "Using the same box (5R, 4B, 6W), if three balls are drawn, what is the probability of getting one of each color?",
+        "options": [
+          {
+            "text": "0.264",
+            "isCorrect": true
+          },
+          {
+            "text": "0.088",
+            "isCorrect": false
+          },
+          {
+            "text": "0.312",
+            "isCorrect": false
+          },
+          {
+            "text": "0.154",
+            "isCorrect": false
+          }
+        ],
+        "answer": "0.264",
+        "rationale": "The number of ways to choose 1 red from 5 is 5C1=5. The number of ways to choose 1 black from 4 is 4C1=4. The number of ways to choose 1 white from 6 is 6C1=6. Total number of ways to get one of each color = 5 * 4 * 6 = 120. Total number of ways to choose 3 balls from 15 is 15C3 = (15*14*13)/(3*2*1) = 455. Probability = 120 / 455 ≈ 0.264.",
+        "marks": 1
+      },
+      {
+        "id": "q55",
+        "type": "multipleChoice",
+        "question": "A survey of 100 employees classified them by gender and opinion on a proposal. 15 Males were in favor, 45 Males were against. 4 Females were in favor, 36 Females were against. What is the probability that a randomly chosen employee is Male AND in favor?",
+        "options": [
+          {
+            "text": "0.15",
+            "isCorrect": true
+          },
+          {
+            "text": "0.60",
+            "isCorrect": false
+          },
+          {
+            "text": "0.19",
+            "isCorrect": false
+          },
+          {
+            "text": "0.79",
+            "isCorrect": false
+          }
+        ],
+        "answer": "0.15",
+        "rationale": "This is a joint probability. The number of employees who are Male and in Favor is 15. The total number of employees is 100. The probability is simply 15 / 100 = 0.15.",
+        "marks": 1
+      },
+      {
+        "id": "q56",
+        "type": "multipleChoice",
+        "question": "Using the same survey data, what is the marginal probability that a randomly chosen employee is \"In Favor\"?",
+        "options": [
+          {
+            "text": "0.15",
+            "isCorrect": false
+          },
+          {
+            "text": "0.04",
+            "isCorrect": false
+          },
+          {
+            "text": "0.19",
+            "isCorrect": true
+          },
+          {
+            "text": "0.40",
+            "isCorrect": false
+          }
+        ],
+        "answer": "0.19",
+        "rationale": "Marginal probability looks at the total for a single category. The total number of employees \"In Favor\" is 15 (Males) + 4 (Females) = 19. The total number of employees is 100. The marginal probability is 19 / 100 = 0.19.",
+        "marks": 1
+      },
+      {
+        "id": "q57",
+        "type": "multipleChoice",
+        "question": "Using the same survey data, given that a chosen employee is Female, what is the conditional probability that she is \"Against\" the proposal?",
+        "options": [
+          {
+            "text": "0.81",
+            "isCorrect": false
+          },
+          {
+            "text": "0.36",
+            "isCorrect": false
+          },
+          {
+            "text": "0.90",
+            "isCorrect": true
+          },
+          {
+            "text": "0.44",
+            "isCorrect": false
+          }
+        ],
+        "answer": "0.90",
+        "rationale": "This is a conditional probability, P(Against | Female). We only consider the Female employees. Total Females = 4 + 36 = 40. Number of Females who are Against = 36. The probability is 36 / 40 = 0.90.",
+        "marks": 1
+      },
+      {
+        "id": "q58",
+        "type": "multipleChoice",
+        "question": "In an exam, 40% of students failed Mathematics, 25% failed Economics, and 15% failed both. What is the probability that a randomly selected student failed Mathematics GIVEN that they failed Economics?",
+        "options": [
+          {
+            "text": "0.60",
+            "isCorrect": true
+          },
+          {
+            "text": "0.375",
+            "isCorrect": false
+          },
+          {
+            "text": "0.15",
+            "isCorrect": false
+          },
+          {
+            "text": "0.50",
+            "isCorrect": false
+          }
+        ],
+        "answer": "0.60",
+        "rationale": "We use the conditional probability formula: P(M | E) = P(M ∩ E) / P(E). P(M ∩ E) = 0.15 (failed both). P(E) = 0.25 (failed Economics). P(M | E) = 0.15 / 0.25 = 0.60.",
+        "marks": 1
+      }
+    ]
+}
