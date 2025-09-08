@@ -31,6 +31,7 @@ export async function loadAllQuizzes(): Promise<Quiz[]> {
     'lessonQuizzes/DSC1371PresentationofCategoricalData',
     'lessonQuizzes/DSC1371PresentationOfQuantitativeData',
     'lessonQuizzes/DSC1371SummaryMeasures',
+    'lessonQuizzes/DSC1371ProbabilityTheory',
 
     // Mock exam quizzes
     'mockExamQuizzes/mockFinalPart1',
@@ -74,6 +75,7 @@ export const SUBJECT_MAPPING: Record<string, string[]> = {
     'quiz - Chapter 3 - Presentation of Categorical Data',
     'quiz - Chapter 4 - Presentation of Quantitative Data',
     'quiz - Chapter 5 - Summary Measures',
+    'quiz - Chapter 6 - Probability Theory'
 
 
   ],
