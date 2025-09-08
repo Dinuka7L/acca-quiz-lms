@@ -1,6 +1,5 @@
 import { create } from 'zustand';
 import { Quiz, QuizAttempt, QuizState, QuestionStatus } from '../types/quiz';
-import { allQuizzes } from '../data/quizLoader';
 import { persist, createJSONStorage } from 'zustand/middleware';
 
 // Storage management utilities
@@ -105,6 +104,7 @@ const storageUtils = {
 interface QuizStore extends QuizState {
   randomizeQuestions: boolean;
   // Actions
+  setQuizzes: (quizzes: Quiz[]) => void;
   startQuiz: (quizId: string, timeLimit: number) => void;
   setCurrentQuestion: (index: number) => void;
   saveAnswer: (questionId: string, answer: any) => void;
@@ -142,7 +142,7 @@ const createInitialState = (): QuizState & {
   randomizeQuestions: boolean;
 } => ({
   randomizeQuestions: true,
-  quizzes: allQuizzes,
+  quizzes: [],
   attempts: [],
   currentQuiz: null,
   currentAttempt: null,
@@ -461,6 +461,10 @@ export const useQuizStore = create<QuizStore>()(
       },
 
       // Actions
+      setQuizzes: (quizzes: Quiz[]) => {
+        set({ quizzes });
+      },
+
       setCurrentAttemptAndQuiz: (attempt, quiz) => {
         set({
           currentAttempt: attempt,
@@ -942,7 +946,6 @@ export const useQuizStore = create<QuizStore>()(
             return {
               ...createInitialState(),
               attempts: cleanedAttempts,
-              quizzes: allQuizzes,
             };
           }
         } catch (error) {
@@ -950,8 +953,6 @@ export const useQuizStore = create<QuizStore>()(
         }
         
         return {
-          ...createInitialState(),
-          quizzes: allQuizzes,
         };
       },
     }

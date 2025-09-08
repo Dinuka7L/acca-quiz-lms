@@ -1,6 +1,3 @@
-import { Quiz } from '../../types/quiz';
-
-export const BusinessProcessQuiz: Quiz =
 {
   "id": "Business Process-Quiz",
   "title": "Lesson 7 - Business Processes",
@@ -36,43 +33,43 @@ export const BusinessProcessQuiz: Quiz =
       "marks": 3
     },
     {
-    "id": "q3",
-    "type": "dropdown",
-    "question": "Fill in the blanks:\n\nI. The [dropdown_1] is a system used to manage employee data, payroll, performance management, and training activities within an organization.\n\nII. A [dropdown_2] helps in storing, organizing, and retrieving electronic documents while ensuring version control and document security.\n\nIII. The system used to deliver and monitor training programs, certifications, and e-learning modules is called a [dropdown_3].",
-    "dropdownBlanks": [
+      "id": "q3",
+      "type": "dropdown",
+      "question": "Fill in the blanks:\n\nI. The [dropdown_1] is a system used to manage employee data, payroll, performance management, and training activities within an organization.\n\nII. A [dropdown_2] helps in storing, organizing, and retrieving electronic documents while ensuring version control and document security.\n\nIII. The system used to deliver and monitor training programs, certifications, and e-learning modules is called a [dropdown_3].",
+      "dropdownBlanks": [
         {
-        "id": "dropdown_1",
-        "options": [
+          "id": "dropdown_1",
+          "options": [
             "Human Resource Information System (HRIS)",
             "Document Management System (DMS)",
             "Learning Management System (LMS)",
             "Customer Relationship Management (CRM)"
-        ],
-        "correctAnswer": "Human Resource Information System (HRIS)"
+          ],
+          "correctAnswer": "Human Resource Information System (HRIS)"
         },
         {
-        "id": "dropdown_2",
-        "options": [
+          "id": "dropdown_2",
+          "options": [
             "Human Resource Information System (HRIS)",
             "Document Management System (DMS)",
             "Learning Management System (LMS)",
             "Supply Chain Management System (SCM)"
-        ],
-        "correctAnswer": "Document Management System (DMS)"
+          ],
+          "correctAnswer": "Document Management System (DMS)"
         },
         {
-        "id": "dropdown_3",
-        "options": [
+          "id": "dropdown_3",
+          "options": [
             "Human Resource Information System (HRIS)",
             "Document Management System (DMS)",
             "Learning Management System (LMS)",
             "Enterprise Resource Planning (ERP)"
-        ],
-        "correctAnswer": "Learning Management System (LMS)"
+          ],
+          "correctAnswer": "Learning Management System (LMS)"
         }
-    ],
-    "rationale": "HRIS manages employee data, DMS manages documents, and LMS manages training programs.",
-    "marks": 6
+      ],
+      "rationale": "HRIS manages employee data, DMS manages documents, and LMS manages training programs.",
+      "marks": 6
     },
     {
       "id": "q4",

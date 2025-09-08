@@ -1,15 +1,12 @@
-import { Quiz } from '../../types/quiz';
-
-export const SoftwareQuiz: Quiz = 
 {
-  id: "quiz-software-03",
-  title: "Lesson 03 - Computer Software",
-  description: "Assessment covering key concepts of software types, operating systems, software licensing, and strategic software use.",
-  timeOptions: [45, 60, 90],
-  totalMarks: 100,
-  weight: 0,
-  category: "lesson",
-  questions: [
+  "id": "quiz-software-03",
+  "title": "Lesson 03 - Computer Software",
+  "description": "Assessment covering key concepts of software types, operating systems, software licensing, and strategic software use.",
+  "timeOptions": [45, 60, 90],
+  "totalMarks": 100,
+  "weight": 0,
+  "category": "lesson",
+  "questions": [
     {
       "id": "q1",
       "type": "fillInBlank",

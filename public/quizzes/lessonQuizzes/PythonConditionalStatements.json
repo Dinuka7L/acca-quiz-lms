@@ -1,6 +1,4 @@
-import { Quiz } from '../../types/quiz';
-
-export const PythonConditionalStatementsQuiz: Quiz = {
+{
   "id": "quiz-conditional-statements-1",
   "title": "Python - Conditional Statements Mastery Test",
   "description": "Assess your knowledge of if, elif, else, logical operators, and nested if statements in Python.",

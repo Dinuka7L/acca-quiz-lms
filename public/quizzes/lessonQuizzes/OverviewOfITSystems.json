@@ -1,6 +1,3 @@
-import { Quiz } from '../../types/quiz';
-
-export const OverviewOfInformationTechnologyAndSystemsQuiz: Quiz = 
 {
   "id": "quiz- lesson 01- Overiew of IT&S",
   "title": "Lesson 1 - Overview of Information Technology",
@@ -121,35 +118,34 @@ export const OverviewOfInformationTechnologyAndSystemsQuiz: Quiz =
       "marks": 5
     },
     {
-    "id": "q10",
-    "type": "dropdown",
-    "question": "State whether these statements are TRUE or FALSE:<br>I. Decision Support Systems (DSS) are primarily used for processing large volumes of routine daily business transactions. [dropdown_1]<br><br>II. Information Technology (IT) is a broader concept than Information Systems (IS). [dropdown_2]<br><br>III. Transaction Processing Systems (TPS) are designed to support strategic decision-making for senior executives. [dropdown_3]<br><br>IV. An Information System cannot function without people. [dropdown_4]",
-    "dropdownBlanks": [
+      "id": "q10",
+      "type": "dropdown",
+      "question": "State whether these statements are TRUE or FALSE:<br>I. Decision Support Systems (DSS) are primarily used for processing large volumes of routine daily business transactions. [dropdown_1]<br><br>II. Information Technology (IT) is a broader concept than Information Systems (IS). [dropdown_2]<br><br>III. Transaction Processing Systems (TPS) are designed to support strategic decision-making for senior executives. [dropdown_3]<br><br>IV. An Information System cannot function without people. [dropdown_4]",
+      "dropdownBlanks": [
         {
-        "id": "dropdown_1",
-        "options": ["True", "False"],
-        "correctAnswer": "False"
+          "id": "dropdown_1",
+          "options": ["True", "False"],
+          "correctAnswer": "False"
         },
         {
-        "id": "dropdown_2",
-        "options": ["True", "False"],
-        "correctAnswer": "False"
+          "id": "dropdown_2",
+          "options": ["True", "False"],
+          "correctAnswer": "False"
         },
         {
-        "id": "dropdown_3",
-        "options": ["True", "False"],
-        "correctAnswer": "False"
+          "id": "dropdown_3",
+          "options": ["True", "False"],
+          "correctAnswer": "False"
         },
         {
-        "id": "dropdown_4",
-        "options": ["True", "False"],
-        "correctAnswer": "True"
+          "id": "dropdown_4",
+          "options": ["True", "False"],
+          "correctAnswer": "True"
         }
-    ],
-    "rationale": "DSS are for non-routine decisions, IT is narrower than IS, TPS support operational decisions, and people are essential for IS.",
-    "marks": 4
+      ],
+      "rationale": "DSS are for non-routine decisions, IT is narrower than IS, TPS support operational decisions, and people are essential for IS.",
+      "marks": 4
     },
-
     {
       "id": "q11",
       "type": "multipleChoice",

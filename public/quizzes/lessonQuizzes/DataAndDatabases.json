@@ -1,6 +1,4 @@
-import { Quiz } from '../../types/quiz';
-
-export const DataAndDatabasesQuiz: Quiz = {
+{
   "id": "quiz-data-and-databases-1",
   "title": "Lesson 4 - Data and Databases",
   "description": "Practice quiz covering business analytics, DBMS concepts, DIKW hierarchy, and big data.",
@@ -185,56 +183,56 @@ export const DataAndDatabasesQuiz: Quiz = {
       "marks": 3
     },
     {
-    "id": "q9",
-    "type": "dropdown",
-    "question": "Based on the diagram shown above, select the most appropriate database model corresponding to each concept of data organization and visualization:<br><br>I. A simple structure storing data in plain text without relationships: [dropdown_1]<br><br>II. A tree-like structure where each record has a single parent: [dropdown_2]<br><br>III. A flexible structure allowing records to have multiple parent and child relationships: [dropdown_3]<br><br>IV. A structure where data is stored in tables with rows and columns and can be related through keys: [dropdown_4].",
-    "image": "/images/DBMS-Database-Types-P2.png",
-    "imageAlt": "Diagram illustrating Database models",
-    "dropdownBlanks": [
-      {
-        "id": "dropdown_1",
-        "options": [
-          "Flat File Model",
-          "Hierarchical Model",
-          "Network Model",
-          "Relational Model"
-        ],
-        "correctAnswer": "Flat File Model"
-      },
-      {
-        "id": "dropdown_2",
-        "options": [
-          "Flat File Model",
-          "Hierarchical Model",
-          "Network Model",
-          "Relational Model"
-        ],
-        "correctAnswer": "Hierarchical Model"
-      },
-      {
-        "id": "dropdown_3",
-        "options": [
-          "Flat File Model",
-          "Hierarchical Model",
-          "Network Model",
-          "Relational Model"
-        ],
-        "correctAnswer": "Network Model"
-      },
-      {
-        "id": "dropdown_4",
-        "options": [
-          "Flat File Model",
-          "Hierarchical Model",
-          "Network Model",
-          "Relational Model"
-        ],
-        "correctAnswer": "Relational Model"
-      }
-    ],
-    "rationale": "The Flat File Model stores unstructured data; the Hierarchical Model uses tree-like parent-child relationships; the Network Model allows more complex many-to-many relationships; and the Relational Model organizes data in related tables.",
-    "marks": 5
-  },
+      "id": "q9",
+      "type": "dropdown",
+      "question": "Based on the diagram shown above, select the most appropriate database model corresponding to each concept of data organization and visualization:<br><br>I. A simple structure storing data in plain text without relationships: [dropdown_1]<br><br>II. A tree-like structure where each record has a single parent: [dropdown_2]<br><br>III. A flexible structure allowing records to have multiple parent and child relationships: [dropdown_3]<br><br>IV. A structure where data is stored in tables with rows and columns and can be related through keys: [dropdown_4].",
+      "image": "/images/DBMS-Database-Types-P2.png",
+      "imageAlt": "Diagram illustrating Database models",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "Flat File Model",
+            "Hierarchical Model",
+            "Network Model",
+            "Relational Model"
+          ],
+          "correctAnswer": "Flat File Model"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "Flat File Model",
+            "Hierarchical Model",
+            "Network Model",
+            "Relational Model"
+          ],
+          "correctAnswer": "Hierarchical Model"
+        },
+        {
+          "id": "dropdown_3",
+          "options": [
+            "Flat File Model",
+            "Hierarchical Model",
+            "Network Model",
+            "Relational Model"
+          ],
+          "correctAnswer": "Network Model"
+        },
+        {
+          "id": "dropdown_4",
+          "options": [
+            "Flat File Model",
+            "Hierarchical Model",
+            "Network Model",
+            "Relational Model"
+          ],
+          "correctAnswer": "Relational Model"
+        }
+      ],
+      "rationale": "The Flat File Model stores unstructured data; the Hierarchical Model uses tree-like parent-child relationships; the Network Model allows more complex many-to-many relationships; and the Relational Model organizes data in related tables.",
+      "marks": 5
+    },
     {
       "id": "q10",
       "type": "multipleChoice",
@@ -314,7 +312,6 @@ export const DataAndDatabasesQuiz: Quiz = {
       "rationale": "Statements I and III are true benefits of Business Analytics. Statement II exaggerates the scope of sentiment analysis, and Statement IV is incorrect as Big Data does not eliminate all human involvement.",
       "marks": 4
     },
-
     {
       "id": "q15",
       "type": "matching",
@@ -342,34 +339,33 @@ export const DataAndDatabasesQuiz: Quiz = {
       "marks": 3
     },
     {
-    "id": "q17",
-    "type": "dropdown",
-    "question": "For each statement below, select whether it describes a Data Mart or a Data Warehouse:<br><br>I. Serves a specific business function with focused data relevant only to that area: [dropdown_1]<br><br>II. Consolidates and integrates data from across all departments in the organization: [dropdown_2]<br><br>III. Generally faster to deploy due to smaller size and scope: [dropdown_3]<br><br>IV. Designed to support enterprise-wide, long-term data storage and analysis: [dropdown_4]",
-    "dropdownBlanks": [
-      {
-        "id": "dropdown_1",
-        "options": ["Data Mart", "Data Warehouse"],
-        "correctAnswer": "Data Mart"
-      },
-      {
-        "id": "dropdown_2",
-        "options": ["Data Mart", "Data Warehouse"],
-        "correctAnswer": "Data Warehouse"
-      },
-      {
-        "id": "dropdown_3",
-        "options": ["Data Mart", "Data Warehouse"],
-        "correctAnswer": "Data Mart"
-      },
-      {
-        "id": "dropdown_4",
-        "options": ["Data Mart", "Data Warehouse"],
-        "correctAnswer": "Data Warehouse"
-      }
-    ],
-    "rationale": "Data Marts serve specific departments and are quicker to deploy, while Data Warehouses integrate organization-wide data for long-term analysis.",
-    "marks": 6
-  }
-
+      "id": "q17",
+      "type": "dropdown",
+      "question": "For each statement below, select whether it describes a Data Mart or a Data Warehouse:<br><br>I. Serves a specific business function with focused data relevant only to that area: [dropdown_1]<br><br>II. Consolidates and integrates data from across all departments in the organization: [dropdown_2]<br><br>III. Generally faster to deploy due to smaller size and scope: [dropdown_3]<br><br>IV. Designed to support enterprise-wide, long-term data storage and analysis: [dropdown_4]",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["Data Mart", "Data Warehouse"],
+          "correctAnswer": "Data Mart"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["Data Mart", "Data Warehouse"],
+          "correctAnswer": "Data Warehouse"
+        },
+        {
+          "id": "dropdown_3",
+          "options": ["Data Mart", "Data Warehouse"],
+          "correctAnswer": "Data Mart"
+        },
+        {
+          "id": "dropdown_4",
+          "options": ["Data Mart", "Data Warehouse"],
+          "correctAnswer": "Data Warehouse"
+        }
+      ],
+      "rationale": "Data Marts serve specific departments and are quicker to deploy, while Data Warehouses integrate organization-wide data for long-term analysis.",
+      "marks": 6
+    }
   ]
 }

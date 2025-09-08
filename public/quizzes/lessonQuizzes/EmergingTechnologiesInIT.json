@@ -1,7 +1,4 @@
-import { Quiz } from '../../types/quiz';
-
-export const EmergingTechnologiesInITQuiz: Quiz = 
-    {
+{
   "id": "quiz-Emerging Technologies in IT",
   "title": " Lesson 9 - Emerging Technologies in IT",
   "description": "Quiz assessing understanding of key emerging IT technologies and their impact.",
@@ -102,18 +99,17 @@ export const EmergingTechnologiesInITQuiz: Quiz =
       "marks": 4
     },
     {
-    "id": "q7",
-    "type": "dragDrop",
-    "question": "Drag and drop the technology used in each application:\n\nI. Remote patient monitoring and diagnosis using predictive analytics: [blank_1]\n\nII. Smart refrigerators adjusting temperature automatically and sending alerts to users' smartphones: [blank_2]\n\nIII. Decentralized ledger system used to securely record transactions in cryptocurrencies: [blank_3]\n\nIV. A university enables students to access real-time simulations and large-scale data models for scientific experiments from any device: [blank_4]\n\nV. A global bank uses advanced computing to analyze billions of market transactions per second and optimize portfolio strategies: [blank_5]",
-    "dragItems": [
+      "id": "q7",
+      "type": "dragDrop",
+      "question": "Drag and drop the technology used in each application:\n\nI. Remote patient monitoring and diagnosis using predictive analytics: [blank_1]\n\nII. Smart refrigerators adjusting temperature automatically and sending alerts to users' smartphones: [blank_2]\n\nIII. Decentralized ledger system used to securely record transactions in cryptocurrencies: [blank_3]\n\nIV. A university enables students to access real-time simulations and large-scale data models for scientific experiments from any device: [blank_4]\n\nV. A global bank uses advanced computing to analyze billions of market transactions per second and optimize portfolio strategies: [blank_5]",
+      "dragItems": [
         { "id": "item1", "content": "Blockchain", "category": "blank_3" },
         { "id": "item2", "content": "Quantum Computing", "category": "blank_5" },
         { "id": "item3", "content": "AI", "category": "blank_1" },
         { "id": "item4", "content": "Cloud Computing", "category": "blank_4" },
-        { "id": "item5", "content": "IoT", "category": "blank_2" },
-       
-    ],
-    "marks": 10
+        { "id": "item5", "content": "IoT", "category": "blank_2" }
+      ],
+      "marks": 10
     },
     {
       "id": "q8",

@@ -8,9 +8,10 @@ import { useQuizStore } from '../store/quizStore';
 
 interface DashboardProps {
   onStartQuiz: (quizId: string) => void;
+  onGoHome?: () => void;
 }
 
-const Dashboard: React.FC<DashboardProps> = ({ onStartQuiz }) => {
+const Dashboard: React.FC<DashboardProps> = ({ onStartQuiz, onGoHome }) => {
   const { 
     getQuizProgress, 
     getQuizScore, 
@@ -51,6 +52,14 @@ const Dashboard: React.FC<DashboardProps> = ({ onStartQuiz }) => {
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Complete all quiz assessments to evaluate your understanding of IT subjects focused for the final exams.
             </p>
+            {onGoHome && (
+              <button
+                onClick={onGoHome}
+                className="mt-4 px-6 py-2 bg-primary-600 hover:bg-primary-700 text-white rounded-lg transition-colors duration-200"
+              >
+                ← Back to Home
+              </button>
+            )}
           </div>
           
           {/* Total Marks Card */}

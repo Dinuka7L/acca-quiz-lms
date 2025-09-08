@@ -1,14 +1,12 @@
-import { Quiz } from '../../types/quiz';
-
-export const HardwareQuiz: Quiz = {
-  id: "quiz-Computer Hardware",
-  title: "Lesson 02 – Computer Hardware",
-  description: "Test your knowledge on basic computer operations and types of computers to essential components like the CPU, memory, and storage. ",
-  timeOptions: [10, 20, 30],
-  totalMarks: 40,
-  weight: 0,
-  category: "lesson",
-  questions: [
+{
+  "id": "quiz-Computer Hardware",
+  "title": "Lesson 02 – Computer Hardware",
+  "description": "Test your knowledge on basic computer operations and types of computers to essential components like the CPU, memory, and storage.",
+  "timeOptions": [10, 20, 30],
+  "totalMarks": 40,
+  "weight": 0,
+  "category": "lesson",
+  "questions": [
     {
       "id": "q1",
       "type": "essay",
@@ -190,71 +188,6 @@ export const HardwareQuiz: Quiz = {
       ],
       "rationale": "Only the first statement is true; others are false or misleading.",
       "marks": 4
-    },
-    {
-  "id": "q13",
-  "type": "essay",
-  "question": "Explain the difference between Intel and AMD processors.",
-  "idealKeywords": [
-    "performance",
-    "power efficiency",
-    "integrated graphics",
-    "price",
-    "compatibility",
-    "overclocking"
-  ],
-  "marks": 4
-},
-{
-  "id": "q14",
-  "type": "essay",
-  "question": "Where is the GPU located?",
-  "idealKeywords": [
-    "motherboard",
-    "graphics card",
-    "integrated",
-    "discrete",
-    "expansion slot"
-  ],
-  "marks": 2
-},
-{
-  "id": "q15",
-  "type": "essay",
-  "question": "Compare the difference between network storage and cloud storage.",
-  "idealKeywords": [
-    "local network",
-    "remote server",
-    "access",
-    "security",
-    "internet",
-    "NAS",
-    "cloud provider"
-  ],
-  "marks": 4
-},
-{
-  "id": "q16",
-  "type": "fillInBlank",
-  "question": "Convert 2 PB (Petabytes) into MB (Megabytes). Your answer should be a numerical value without units. Steps to calculate will be given marks.",
-  "answer": "2097152000",
-  "rationale": "1 Petabyte = 1,048,576 Megabytes; therefore, 2 PB = 2,097,152,000 MB.",
-  "marks": 2
-},
-{
-  "id": "q17",
-  "type": "essay",
-  "question": "Briefly explain the block diagram of a computer.",
-  "idealKeywords": [
-    "input unit",
-    "output unit",
-    "CPU",
-    "memory",
-    "control unit",
-    "ALU",
-    "data flow"
-  ],
-  "marks": 4
-}
+    }
   ]
 }
