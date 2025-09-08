@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircle, XCircle, Award, RotateCcw, Home } from 'lucide-react';
+import { CheckCircle, XCircle, Award, RotateCcw, Home, ChevronLeft } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import QuestionRenderer from '../components/QuestionRenderer';
@@ -95,7 +95,7 @@ const QuizResults: React.FC<QuizResultsProps> = ({ onReturnHome, onRetakeQuiz })
           <div className="flex items-center justify-center space-x-4">
             <button
               onClick={onReturnHome}
-              className="flex items-center space-x-2 px-6 py-3 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors duration-200"
+              className="flex items-center space-x-2 px-6 py-3 border border-gray-300 rounded-lg hover:bg-gray-200 transition-colors duration-200"
             >
               <Home className="h-4 w-4" />
               <span>Return to Dashboard</span>
@@ -146,10 +146,23 @@ const QuizResults: React.FC<QuizResultsProps> = ({ onReturnHome, onRetakeQuiz })
                 </div>
                 
                 <QuestionRenderer question={question} showResults={true} />
+
+                
               </div>
             );
           })}
+
         </div>
+        <div className="flex justify-center mt-8">
+        <button
+              onClick={onReturnHome}
+              className="flex items-center space-x-2 px-6 py-3 border border-gray-300 rounded-lg hover:bg-red-700 transition-colors duration-200"
+            >
+              <ChevronLeft className="h-4 w-4" />
+              <span>Return to Dashboard</span>
+              </button>
+        </div>
+
       </main>
       
       <Footer />

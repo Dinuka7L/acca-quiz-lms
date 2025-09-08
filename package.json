@@ -10,11 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "framer-motion": "^12.23.12",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
     "react-dnd": "^16.0.1",
     "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "^18.3.1",
     "zustand": "^4.4.7"
   },
   "devDependencies": {

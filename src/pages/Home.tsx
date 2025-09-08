@@ -6,6 +6,9 @@ import QuizCard from '../components/QuizCard';
 import { Quiz } from '../types/quiz';
 import { loadAllQuizzes, getQuizzesBySubject } from '../utils/quizLoader';
 import { useQuizStore } from '../store/quizStore';
+import { motion, AnimatePresence } from "framer-motion";
+
+
 
 interface HomeProps {
   onStartQuiz: (quizId: string) => void;
@@ -108,6 +111,8 @@ const Home: React.FC<HomeProps> = ({ onStartQuiz }) => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex flex-col">
       <Header />
+
+      
       
       <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="text-center mb-8">
@@ -115,11 +120,33 @@ const Home: React.FC<HomeProps> = ({ onStartQuiz }) => {
             USJ - FMSC First Year Quizzess by 2023/2024 Batch
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Explore our comprehensive collection of quizzes organized by subject. Practice with lesson quizzes or test your knowledge with mock final exams.
+            Explore our comprehensive collection of quizzes organized by subject. Practice with lesson quizzes or test your knowledge with mock final exams. Note to users: the questions and answers are not fact checked and generated via AI models. Therefore, please verify all information independently.
           </p>
         </div>
 
-        <div className="space-y-8">
+        {/* Stats Summary */}
+        <div className="mt-12 bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-lg border border-gray-200/50">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+            <div>
+              <div className="text-3xl font-bold text-primary-600">{quizzes.length}</div>
+              <div className="text-gray-600">Total Quizzes</div>
+            </div>
+            <div>
+              <div className="text-3xl font-bold text-green-600">
+                {quizzes.filter(q => getQuizProgress(q.id) === 100).length}
+              </div>
+              <div className="text-gray-600">Completed</div>
+            </div>
+            <div>
+              <div className="text-3xl font-bold text-blue-600">
+                {Object.keys(quizzesBySubject).filter(subject => subject !== "Mock Final Exams").length}
+              </div>
+              <div className="text-gray-600">Subjects</div>
+            </div>
+          </div>
+        </div>
+
+        <div className="space-y-8 mt-5 mb-10">
           {Object.entries(quizzesBySubject).map(([subject, subjectQuizzes]) => {
             if (subjectQuizzes.length === 0) return null;
             
@@ -171,8 +198,17 @@ const Home: React.FC<HomeProps> = ({ onStartQuiz }) => {
                 </div>
 
                 {/* Quiz Cards */}
+                <AnimatePresence>
                 {isExpanded && (
-                  <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 pl-4">
+                  <motion.div
+                    key="quiz-cards"
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: "auto", opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.2, ease: "easeInOut" }}
+                    className="overflow-hidden mt-6 pl-4"
+                  >
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mb-5 mr-5">
                     {subjectQuizzes.map((quiz) => (
                       <QuizCard
                         key={quiz.id}
@@ -190,33 +226,15 @@ const Home: React.FC<HomeProps> = ({ onStartQuiz }) => {
                       />
                     ))}
                   </div>
+                  </motion.div>
                 )}
+                </AnimatePresence>
               </div>
             );
           })}
         </div>
 
-        {/* Stats Summary */}
-        <div className="mt-12 bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-lg border border-gray-200/50">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-            <div>
-              <div className="text-3xl font-bold text-primary-600">{quizzes.length}</div>
-              <div className="text-gray-600">Total Quizzes</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-green-600">
-                {quizzes.filter(q => getQuizProgress(q.id) === 100).length}
-              </div>
-              <div className="text-gray-600">Completed</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-blue-600">
-                {Object.keys(quizzesBySubject).length}
-              </div>
-              <div className="text-gray-600">Subjects</div>
-            </div>
-          </div>
-        </div>
+        
       </main>
       
       <Footer />
