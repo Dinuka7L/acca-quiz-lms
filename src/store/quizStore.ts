@@ -920,11 +920,11 @@ export const useQuizStore = create<QuizStore>()(
       },
     }),
     {
-      version: 9, // Updated to version 9 with storage fault tolerance
+      version: 10, // Updated to version 10 complete makeover
       name: 'quiz-store',
       storage: createJSONStorage(() => createStorage()),
       migrate: (persistedState, version) => {
-        if (version === 9) {
+        if (version === 10) {
           return persistedState;
         }
         
