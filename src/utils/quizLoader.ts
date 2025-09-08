@@ -48,22 +48,6 @@ export async function loadAllQuizzes(): Promise<Quiz[]> {
 
 // Subject mapping for organizing quizzes
 export const SUBJECT_MAPPING: Record<string, string[]> = {
-  'ITC1370 - Information Technology For Business': [
-    'quiz- lesson 01- Overiew of IT&S',
-    'quiz-Computer Hardware',
-    'quiz-software-03',
-    'quiz-data-and-databases-1',
-    'quiz- Networking and Communication',
-    'quiz-Information Systems Security',
-    'Business Process-Quiz',
-    'quiz-Information Systems Development',
-    'quiz-Emerging Technologies in IT',
-    'quiz-python fundamentals',
-    'python-operators-test',
-    'quiz-conditional-statements-1',
-
-    
-  ],
 
   'ACC1370 - Financial Accounting & Reporting': [
     'quiz - Chapter 1 - Overview of Financial Accounting and Reporting',
@@ -81,10 +65,28 @@ export const SUBJECT_MAPPING: Record<string, string[]> = {
 
 
   ],
-  'Mock Final Exams': [
-    'mock-Part 01 - Chapter 1',
-    'mock-final-4'
-  ]
+
+  'Y1 S1 - ITC1370 - Information Technology For Business': [
+    'quiz- lesson 01- Overiew of IT&S',
+    'quiz-Computer Hardware',
+    'quiz-software-03',
+    'quiz-data-and-databases-1',
+    'quiz- Networking and Communication',
+    'quiz-Information Systems Security',
+    'Business Process-Quiz',
+    'quiz-Information Systems Development',
+    'quiz-Emerging Technologies in IT',
+    'quiz-python fundamentals',
+    'python-operators-test',
+    'quiz-conditional-statements-1',
+
+    
+  ],
+
+   //'Mock Final Exams': [
+   // 'mock-Part 01 - Chapter 1',
+   // 'mock-final-4'
+  //]
 };
 
 export function getQuizzesBySubject(quizzes: Quiz[]): Record<string, Quiz[]> {

@@ -208,7 +208,7 @@ const Home: React.FC<HomeProps> = ({ onStartQuiz }) => {
                     transition={{ duration: 0.2, ease: "easeInOut" }}
                     className="overflow-hidden mt-6 pl-4"
                   >
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mb-5 mr-5">
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mb-5 mr-5 mt-5">
                     {subjectQuizzes.map((quiz) => (
                       <QuizCard
                         key={quiz.id}
