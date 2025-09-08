@@ -253,15 +253,15 @@
     {
       "id": "q18",
       "type": "multipleChoice",
-      "question": "A variable that can be classified and counted, where the only possible comparisons are equality and inequality, is what type of variable?",
+      "question": "A variable that can be classified into categories, where the only possible comparisons are equality and inequality, is what type of variable?",
       "options": [
         "Quantitative variable",
         "Discrete variable",
-        "Qualitative variable",
+        "Qualitative nominal variable",
         "Continuous variable"
       ],
-      "answer": "Qualitative variable",
-      "rationale": "Qualitative variables are measured on a nominal scale[cite: 394]. They can be classified and counted, and the only possible comparisons are equality and inequality[cite: 394, 395].",
+      "answer": "Qualitative nominal variable",
+      "rationale": "Qualitative nominal variables are measured on a nominal scale[cite: 394]. They can be classified and counted, and the only possible comparisons are equality and inequality[cite: 394, 395].",
       "marks": 5
     },
     {
