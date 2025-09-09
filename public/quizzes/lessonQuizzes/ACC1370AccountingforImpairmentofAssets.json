@@ -1,0 +1,438 @@
+{
+  "id": "quiz - Chapter 05 - Accounting for Impairment of Assets",
+  "title": "Chapter 5 - Accounting for Impairment of Assets",
+  "description": "Quiz on the principles, tests, and accounting treatment for the impairment of assets, based on Chapter 5 of the provided documents.",
+  "subject": "ACC1370 - Financial Accounting and Reporting",
+  "gradientColors": ["#2563eb", "#1d4ed8", "#1e40af", "#1e3a8a"],
+  "timeOptions": [
+    15,
+    20,
+    30,
+    60
+  ],
+  "totalMarks": 60,
+  "weight": 0,
+  "category": "lesson",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multipleChoice",
+      "question": "An asset is recorded at a carrying amount of Rs. 150,000. Its value in use is estimated at Rs. 120,000, and its fair value less cost of disposal is Rs. 140,000. What is the impairment loss to be recognized?",
+      "options": [
+        "Rs. 10,000",
+        "Rs. 20,000",
+        "Rs. 30,000",
+        "No impairment loss"
+      ],
+      "answer": "Rs. 10,000",
+      "rationale": "The recoverable amount is the higher of the value in use (Rs. 120,000) and the fair value less cost of disposal (Rs. 140,000). Thus, the recoverable amount is Rs. 140,000. The impairment loss is the carrying amount (Rs. 150,000) minus the recoverable amount (Rs. 140,000), which equals Rs. 10,000.",
+      "marks": 2
+    },
+    {
+      "id": "q2",
+      "type": "multipleChoice",
+      "question": "According to LKAS 36, when must an entity test an individual asset for impairment?",
+      "options": [
+        "At the end of every financial year.",
+        "Only when the asset is revalued upwards.",
+        "Only when the asset is sold or disposed of.",
+        "If there is any indication that the asset may be impaired."
+      ],
+      "answer": "If there is any indication that the asset may be impaired.",
+      "rationale": "An entity is required to assess at the end of each reporting period whether there is any indication that an asset may be impaired. If such an indication exists, the entity must test the asset for impairment.",
+      "marks": 2
+    },
+    {
+      "id": "q3",
+      "type": "multipleChoice",
+      "question": "A machine's carrying amount is Rs. 1.5 million. Its value in use is Rs. 1.8 million and its fair value less cost of disposal is Rs. 1.6 million. What is the correct accounting treatment?",
+      "options": [
+        "Recognize an impairment loss of Rs. 300,000.",
+        "Recognize an impairment loss of Rs. 100,000.",
+        "Recognize a revaluation surplus of Rs. 300,000.",
+        "Do nothing, as no impairment loss has occurred."
+      ],
+      "answer": "Do nothing, as no impairment loss has occurred.",
+      "rationale": "The recoverable amount is the higher of value in use (Rs. 1.8 million) and fair value less cost of disposal (Rs. 1.6 million), which is Rs. 1.8 million. Since the carrying amount (Rs. 1.5 million) is less than the recoverable amount, the asset is not impaired, and no action is required under LKAS 36.",
+      "marks": 2
+    },
+    {
+      "id": "q4",
+      "type": "multipleChoice",
+      "question": "What is the correct journal entry to record an impairment loss of Rs. 50,000 for an asset measured under the cost model?",
+      "options": [
+        "Dr. Impairment Loss Rs. 50,000; Cr. Asset Rs. 50,000",
+        "Dr. Impairment Loss Rs. 50,000; Cr. Accumulated Depreciation and Impairment Rs. 50,000",
+        "Dr. Accumulated Depreciation and Impairment Rs. 50,000; Cr. Impairment Loss Rs. 50,000",
+        "Dr. Revaluation Reserve Rs. 50,000; Cr. Asset Rs. 50,000"
+      ],
+      "answer": "Dr. Impairment Loss Rs. 50,000; Cr. Accumulated Depreciation and Impairment Rs. 50,000",
+      "rationale": "An impairment loss for an asset carried at cost should be recognized immediately in the Statement of Profit or Loss and Other Comprehensive Income, with a corresponding credit to accumulated impairment losses or a direct reduction to the asset's carrying amount.",
+      "marks": 2
+    },
+    {
+      "id": "q5",
+      "type": "multipleChoice",
+      "question": "When an asset is revalued and an impairment loss is recognized for the first time, what is the correct accounting treatment?",
+      "options": [
+        "The impairment loss is recognized fully in profit or loss.",
+        "The impairment loss is recognized in other comprehensive income (OCI).",
+        "The impairment loss is first offset against any previous revaluation surplus, and any excess is recognized in profit or loss.",
+        "The impairment loss is recognized as a direct reduction to the asset's carrying amount without affecting the profit or loss."
+      ],
+      "answer": "The impairment loss is first offset against any previous revaluation surplus, and any excess is recognized in profit or loss.",
+      "rationale": "When a revalued asset is impaired, the loss is first recognized in OCI to the extent of any prior revaluation surplus for that specific asset. Any remaining impairment loss is then recognized in profit or loss.",
+      "marks": 2
+    },
+    {
+      "id": "q6",
+      "type": "multipleChoice",
+      "question": "What is the primary objective of LKAS 36, 'Impairment of Assets'?",
+      "options": [
+        "To ensure that all assets are measured at fair value.",
+        "To ensure that an asset’s carrying amount does not exceed its recoverable amount.",
+        "To prescribe the amortization of all intangible assets.",
+        "To require a revaluation of assets at the end of each reporting period."
+      ],
+      "answer": "To ensure that an asset’s carrying amount does not exceed its recoverable amount.",
+      "rationale": "The objective of LKAS 36 is to prescribe the procedures that an entity applies to ensure that its assets are carried at no more than their recoverable amount.",
+      "marks": 2
+    },
+    {
+      "id": "q7",
+      "type": "multipleChoice",
+      "question": "Which of the following assets is explicitly **excluded** from the scope of LKAS 36?",
+      "options": [
+        "Property, plant and equipment.",
+        "Intangible assets with indefinite useful lives.",
+        "Inventories.",
+        "Investment property measured using the cost model."
+      ],
+      "answer": "Inventories.",
+      "rationale": "The scope of LKAS 36 explicitly excludes several assets, including inventories (covered by LKAS 2), deferred tax assets, and assets arising from employee benefits.",
+      "marks": 2
+    },
+    {
+      "id": "q8",
+      "type": "multipleChoice",
+      "question": "An entity has a cash-generating unit (CGU) with a carrying amount of Rs. 5 million. The recoverable amount of the CGU is Rs. 4.2 million. How is the impairment loss allocated to the assets within the CGU?",
+      "options": [
+        "Pro-rata based on the carrying amount of each asset.",
+        "First to goodwill, and then pro-rata to the other assets based on their carrying amounts.",
+        "First to any revalued assets, then to goodwill, and finally to the other assets.",
+        "Only to the specific asset that caused the impairment."
+      ],
+      "answer": "First to goodwill, and then pro-rata to the other assets based on their carrying amounts.",
+      "rationale": "When an impairment loss is recognized for a CGU, it is allocated to the assets of the unit in a specific order: first to any goodwill allocated to the CGU, and then to the other assets of the unit pro rata based on the carrying amount of each asset in the unit.",
+      "marks": 2
+    },
+    {
+      "id": "q9",
+      "type": "multipleChoice",
+      "question": "Which of the following is an **external** indication of impairment?",
+      "options": [
+        "Evidence of obsolescence or physical damage of an asset.",
+        "The entity’s financial position has deteriorated, or a reorganization is being undertaken.",
+        "The market value of the asset has declined significantly more than expected.",
+        "A budget or forecast shows a reduction in the future cash flows from the asset."
+      ],
+      "answer": "The market value of the asset has declined significantly more than expected.",
+      "rationale": "A significant decline in the asset's market value is an external indicator of impairment. The other options are internal indicators.",
+      "marks": 2
+    },
+    {
+      "id": "q10",
+      "type": "multipleChoice",
+      "question": "What is the definition of 'recoverable amount' under LKAS 36?",
+      "options": [
+        "The carrying amount of the asset after deducting accumulated depreciation.",
+        "The fair value of the asset at the measurement date.",
+        "The higher of an asset’s fair value less costs of disposal and its value in use.",
+        "The value of the asset in a forced liquidation."
+      ],
+      "answer": "The higher of an asset’s fair value less costs of disposal and its value in use.",
+      "rationale": "The recoverable amount of an asset is defined as the 'higher of an asset’s fair value less costs of disposal and its value in use'.",
+      "marks": 2
+    },
+    {
+      "id": "q11",
+      "type": "multipleChoice",
+      "question": "A plant with a carrying amount of Rs. 1 million is impaired by Rs. 200,000. It had a prior revaluation surplus of Rs. 150,000. How is the impairment loss recognized?",
+      "options": [
+        "Rs. 200,000 loss in profit or loss.",
+        "Rs. 150,000 reduction in revaluation reserve and Rs. 50,000 loss in profit or loss.",
+        "Rs. 200,000 reduction in revaluation reserve.",
+        "Rs. 150,000 loss in profit or loss and Rs. 50,000 reduction in revaluation reserve."
+      ],
+      "answer": "Rs. 150,000 reduction in revaluation reserve and Rs. 50,000 loss in profit or loss.",
+      "rationale": "The impairment loss is first recognized in OCI, reducing the revaluation surplus for that asset. The remaining portion of the loss is recognized in profit or loss. Therefore, Rs. 150,000 reduces the revaluation reserve, and the remaining Rs. 50,000 is a loss in profit or loss.",
+      "marks": 2
+    },
+    {
+      "id": "q12",
+      "type": "multipleChoice",
+      "question": "An entity has a machine that was revalued in a prior period. The revaluation surplus is Rs. 100,000. The machine's carrying amount is now Rs. 900,000. The recoverable amount is Rs. 750,000. What is the journal entry for the impairment loss?",
+      "options": [
+        "Dr. Impairment Loss Rs. 150,000; Cr. Accumulated Impairment Loss Rs. 150,000",
+        "Dr. Revaluation Reserve Rs. 100,000; Dr. Impairment Loss Rs. 50,000; Cr. Accumulated Impairment Loss Rs. 150,000",
+        "Dr. Revaluation Reserve Rs. 150,000; Cr. Accumulated Impairment Loss Rs. 150,000",
+        "Dr. OCI Rs. 100,000; Dr. Profit or Loss Rs. 50,000; Cr. Accumulated Impairment Loss Rs. 150,000"
+      ],
+      "answer": "Dr. Revaluation Reserve Rs. 100,000; Dr. Impairment Loss Rs. 50,000; Cr. Accumulated Impairment Loss Rs. 150,000",
+      "rationale": "The impairment loss is Rs. 900,000 (CA) - Rs. 750,000 (RA) = Rs. 150,000. Since there is a revaluation surplus of Rs. 100,000, this portion of the loss is debited to the revaluation reserve. The remaining loss of Rs. 50,000 (Rs. 150,000 - Rs. 100,000) is recognized in the Statement of Profit or Loss and Other Comprehensive Income.",
+      "marks": 2
+    },
+    {
+      "id": "q13",
+      "type": "multipleChoice",
+      "question": "What is the definition of 'value in use'?",
+      "options": [
+        "The amount obtained from selling an asset in an orderly transaction.",
+        "The present value of the future cash flows expected to be derived from an asset or a cash-generating unit.",
+        "The amount for which an asset could be exchanged between knowledgeable, willing parties.",
+        "The amount that would be required to replace the service capacity of an asset."
+      ],
+      "answer": "The present value of the future cash flows expected to be derived from an asset or a cash-generating unit.",
+      "rationale": "Value in use is defined as the present value of the future cash flows expected to be derived from an asset or a cash-generating unit.",
+      "marks": 2
+    },
+    {
+      "id": "q14",
+      "type": "multipleChoice",
+      "question": "Which of the following would be considered a 'cash-generating unit' (CGU)?",
+      "options": [
+        "A single machine that can be sold individually.",
+        "The smallest identifiable group of assets that generates cash inflows that are largely independent of the cash inflows from other assets or groups of assets.",
+        "The entire business of an entity.",
+        "A single asset, regardless of its ability to generate independent cash flows."
+      ],
+      "answer": "The smallest identifiable group of assets that generates cash inflows that are largely independent of the cash inflows from other assets or groups of assets.",
+      "rationale": "A cash-generating unit is defined as the 'smallest identifiable group of assets that generates cash inflows that are largely independent of the cash inflows from other assets or groups of assets'.",
+      "marks": 2
+    },
+    {
+      "id": "q15",
+      "type": "multipleChoice",
+      "question": "An entity has an asset with a carrying amount of Rs. 800,000. Due to a new technological advancement, its value in use has decreased to Rs. 650,000. The fair value less cost of disposal is estimated at Rs. 700,000. What is the impairment loss?",
+      "options": [
+        "Rs. 100,000",
+        "Rs. 150,000",
+        "Rs. 200,000",
+        "Rs. 50,000"
+      ],
+      "answer": "Rs. 100,000",
+      "rationale": "The recoverable amount is the higher of value in use (Rs. 650,000) and fair value less cost of disposal (Rs. 700,000), which is Rs. 700,000. The impairment loss is the carrying amount (Rs. 800,000) minus the recoverable amount (Rs. 700,000), which is Rs. 100,000.",
+      "marks": 2
+    },
+    {
+      "id": "q16",
+      "type": "multipleChoice",
+      "question": "A reversal of an impairment loss is recognized when:",
+      "options": [
+        "The asset's fair value increases, regardless of its recoverable amount.",
+        "The recoverable amount of the asset increases above its carrying amount, but not above the amount that would have been the carrying amount (net of depreciation) had no impairment loss been recognized.",
+        "The recoverable amount of the asset increases above the original cost of the asset.",
+        "The fair value of the asset increases, and the entity revalues all its assets."
+      ],
+      "answer": "The recoverable amount of the asset increases above its carrying amount, but not above the amount that would have been the carrying amount (net of depreciation) had no impairment loss been recognized.",
+      "rationale": "A reversal of an impairment loss is recognized only to the extent that it restores the asset's carrying amount to what it would have been, net of depreciation or amortization, had the original impairment loss not been recognized.",
+      "marks": 2
+    },
+    {
+      "id": "q17",
+      "type": "multipleChoice",
+      "question": "An asset, initially at a cost of Rs. 1 million with a 10-year useful life, was impaired by Rs. 200,000 at the end of Year 1. At the end of Year 2, its recoverable amount is Rs. 850,000. What is the maximum reversal of the impairment loss that can be recognized?",
+      "options": [
+        "Rs. 50,000",
+        "Rs. 100,000",
+        "Rs. 150,000",
+        "Rs. 200,000"
+      ],
+      "answer": "Rs. 50,000",
+      "rationale": "At the end of Year 1, the carrying amount was Rs. 1M - (1M/10) - 200k = Rs. 700k. The asset's carrying amount without impairment would have been Rs. 1M - (2*1M/10) = Rs. 800k. The recoverable amount at the end of Year 2 is Rs. 850k. The carrying amount after depreciation and impairment at the beginning of Year 2 is Rs. 700k. A reversal can be recognized up to the carrying amount that would have existed without the impairment (Rs. 800k). The impairment reversal is the difference between the recoverable amount (Rs. 850,000) and the carrying amount (Rs. 700,000), capped at Rs. 100,000 (800k-700k). Therefore, the reversal is Rs. 100,000.",
+      "marks": 2
+    },
+    {
+      "id": "q18",
+      "type": "multipleChoice",
+      "question": "A company performs an impairment test on a building. The carrying amount is Rs. 5 million. The fair value less cost of disposal is Rs. 4.8 million. The company's internal budget shows the present value of future cash flows from the building is Rs. 5.1 million. What is the correct accounting treatment?",
+      "options": [
+        "Recognize an impairment loss of Rs. 200,000.",
+        "Recognize a gain of Rs. 100,000.",
+        "Do nothing, as no impairment loss is required.",
+        "Revalue the building to Rs. 5.1 million."
+      ],
+      "answer": "Do nothing, as no impairment loss is required.",
+      "rationale": "The recoverable amount is the higher of the fair value less cost of disposal (Rs. 4.8 million) and the value in use (Rs. 5.1 million), which is Rs. 5.1 million. Since the carrying amount (Rs. 5 million) is less than the recoverable amount, no impairment has occurred.",
+      "marks": 2
+    },
+    {
+      "id": "q19",
+      "type": "multipleChoice",
+      "question": "An entity has an intangible asset with an indefinite useful life. When is it required to test this asset for impairment?",
+      "options": [
+        "Every five years.",
+        "Only when there are indicators of impairment.",
+        "At the end of each financial year, regardless of impairment indicators.",
+        "Only when the asset is sold."
+      ],
+      "answer": "At the end of each financial year, regardless of impairment indicators.",
+      "rationale": "According to the documents, an intangible asset with an indefinite useful life or goodwill acquired in a business combination shall be tested for impairment annually and whenever there is an indication that the asset may be impaired.",
+      "marks": 2
+    },
+    {
+      "id": "q20",
+      "type": "multipleChoice",
+      "question": "How is an impairment loss on a revalued asset that exceeds any prior revaluation surplus treated?",
+      "options": [
+        "It is recognized as a reduction to the asset's carrying amount.",
+        "It is recognized as an expense in the Statement of Profit or Loss and Other Comprehensive Income.",
+        "It is allocated to the revaluation reserve.",
+        "It is capitalized as part of the asset's cost."
+      ],
+      "answer": "It is recognized as an expense in the Statement of Profit or Loss and Other Comprehensive Income.",
+      "rationale": "An impairment loss on a revalued asset is recognized in other comprehensive income to the extent of the revaluation surplus. Any excess is recognized in profit or loss.",
+      "marks": 2
+    },
+    {
+      "id": "q21",
+      "type": "multipleChoice",
+      "question": "What is the primary purpose of accounting for a reversal of an impairment loss?",
+      "options": [
+        "To increase the carrying amount of the asset above its original cost.",
+        "To reflect the recovery of an asset's value that was previously written down.",
+        "To recognize a gain in profit or loss.",
+        "To adjust the depreciation method for the asset."
+      ],
+      "answer": "To reflect the recovery of an asset's value that was previously written down.",
+      "rationale": "A reversal of an impairment loss is the process of reversing a previously recognized impairment loss when there are indications that the asset's recoverable amount has increased.",
+      "marks": 2
+    },
+    {
+      "id": "q22",
+      "type": "multipleChoice",
+      "question": "An entity is considering a strategic decision to discontinue a product line. What type of impairment indicator is this?",
+      "options": [
+        "External indicator related to market changes.",
+        "Internal indicator related to a change in asset use.",
+        "Internal indicator related to a deterioration in the asset's performance.",
+        "External indicator related to a decline in market interest rates."
+      ],
+      "answer": "Internal indicator related to a change in asset use.",
+      "rationale": "A plan to discontinue or reorganize a product line is an internal source of information indicating potential impairment. It falls under the category of 'Changes with a beneficial effect on the entity'.",
+      "marks": 2
+    },
+    {
+      "id": "q23",
+      "type": "multipleChoice",
+      "question": "A group of assets is considered a cash-generating unit because:",
+      "options": [
+        "They are physically located in the same building.",
+        "They are used for the same purpose.",
+        "They generate cash inflows that are largely independent of other assets.",
+        "They are all recorded under the same general ledger account."
+      ],
+      "answer": "They generate cash inflows that are largely independent of other assets.",
+      "rationale": "The definition of a CGU is based on its ability to generate cash inflows that are largely independent of other assets or groups of assets.",
+      "marks": 2
+    },
+    {
+      "id": "q24",
+      "type": "multipleChoice",
+      "question": "Which of the following would be an internal indicator that an asset may be impaired?",
+      "options": [
+        "Significant changes in the technological environment.",
+        "Increases in market interest rates.",
+        "Evidence of obsolescence or physical damage.",
+        "An unexpected decrease in the asset's market price."
+      ],
+      "answer": "Evidence of obsolescence or physical damage.",
+      "rationale": "The document categorizes 'evidence of obsolescence or physical damage' as an internal source of information indicating impairment.",
+      "marks": 2
+    },
+    {
+      "id": "q25",
+      "type": "multipleChoice",
+      "question": "When calculating the 'value in use', what is the key consideration for the discount rate used?",
+      "options": [
+        "It should be a nominal pre-tax rate.",
+        "It should be a nominal post-tax rate.",
+        "It should be a real post-tax rate.",
+        "It should be a real pre-tax rate."
+      ],
+      "answer": "It should be a nominal pre-tax rate.",
+      "rationale": "The discount rate used to calculate value in use should be a pre-tax rate that reflects the time value of money and the risks specific to the asset.",
+      "marks": 2
+    },
+    {
+      "id": "q26",
+      "type": "multipleChoice",
+      "question": "Which of the following is NOT a component of the 'recoverable amount' calculation for an asset?",
+      "options": [
+        "Fair value.",
+        "Costs of disposal.",
+        "Value in use.",
+        "Carrying amount."
+      ],
+      "answer": "Carrying amount.",
+      "rationale": "The recoverable amount is the higher of the fair value less costs of disposal and the value in use. The carrying amount is compared to the recoverable amount to determine if impairment has occurred, but it is not a component of the recoverable amount itself.",
+      "marks": 2
+    },
+    {
+      "id": "q27",
+      "type": "multipleChoice",
+      "question": "An entity has an intangible asset with a carrying amount of Rs. 2 million. Its value in use is Rs. 1.8 million, and the fair value less cost of disposal is Rs. 2.1 million. What is the impairment loss, if any?",
+      "options": [
+        "Rs. 200,000",
+        "Rs. 300,000",
+        "Rs. 100,000",
+        "No impairment loss"
+      ],
+      "answer": "No impairment loss",
+      "rationale": "The recoverable amount is the higher of Rs. 1.8 million (value in use) and Rs. 2.1 million (fair value less cost of disposal), which is Rs. 2.1 million. Since the carrying amount of Rs. 2 million is less than the recoverable amount, no impairment loss is recognized.",
+      "marks": 2
+    },
+    {
+      "id": "q28",
+      "type": "multipleChoice",
+      "question": "When an entity tests an asset for impairment, and the carrying amount is equal to its recoverable amount, what is the appropriate action?",
+      "options": [
+        "Recognize an impairment loss of zero.",
+        "Recognize a gain of zero.",
+        "Do nothing, as there is no impairment.",
+        "Recognize an impairment loss equal to the costs of disposal."
+      ],
+      "answer": "Do nothing, as there is no impairment.",
+      "rationale": "The purpose of the impairment test is to ensure the carrying amount is not more than the recoverable amount. If they are equal, the objective is met and no impairment loss is recognized.",
+      "marks": 2
+    },
+    {
+      "id": "q29",
+      "type": "multipleChoice",
+      "question": "A reversal of an impairment loss on a revalued asset is recognized how?",
+      "options": [
+        "First in profit or loss, and any excess in other comprehensive income.",
+        "First in other comprehensive income, and any excess in profit or loss.",
+        "Entirely in profit or loss.",
+        "Entirely in other comprehensive income."
+      ],
+      "answer": "First in other comprehensive income, and any excess in profit or loss.",
+      "rationale": "A reversal of an impairment loss on a revalued asset is recognized in other comprehensive income to the extent of the prior impairment loss. Any remaining reversal is recognized in profit or loss.",
+      "marks": 2
+    },
+    {
+      "id": "q30",
+      "type": "multipleChoice",
+      "question": "Which of the following is a key disclosure requirement for impairment losses under LKAS 36?",
+      "options": [
+        "The reason for the impairment, the amount, and the asset to which it relates.",
+        "The name of the auditor who verified the impairment test.",
+        "A list of all assets that were not impaired during the period.",
+        "The detailed calculation of the value in use for every asset."
+      ],
+      "answer": "The reason for the impairment, the amount, and the asset to which it relates.",
+      "rationale": "The documents mention providing the journal entries and financial statement extracts, which implicitly requires disclosing the reason, amount, and related asset for the impairment loss.",
+      "marks": 2
+    }
+  ]
+}

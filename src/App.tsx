@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Home from './pages/Home';
-import Dashboard from './pages/Dashboard';
 import QuizSetup from './pages/QuizSetup';
 import QuizInterface from './pages/QuizInterface';
 import QuizResults from './pages/QuizResults';
@@ -97,7 +96,7 @@ function App() {
   const handleReturnHome = () => {
     resetQuiz();
     setSelectedQuizId(null);
-    setCurrentState('dashboard');
+    setCurrentState('home');
   };
 
   const handleRetakeQuiz = () => {
@@ -111,9 +110,6 @@ function App() {
     setCurrentState('home');
   };
 
-  const handleGoToDashboard = () => {
-    setCurrentState('dashboard');
-  };
 
   if (loading) {
     return (
@@ -130,9 +126,6 @@ function App() {
     switch (currentState) {
       case 'home':
         return <Home onStartQuiz={handleStartQuiz} />;
-        
-      case 'dashboard':
-        return <Dashboard onStartQuiz={handleStartQuiz} onGoHome={handleBackToDashboard} />;
       
       case 'setup':
         return selectedQuizId ? (
@@ -163,7 +156,7 @@ function App() {
       case 'results':
         return (
           <QuizResults
-            onReturnHome={handleReturnHome}
+            onGoHome={handleReturnHome}
             onRetakeQuiz={handleRetakeQuiz}
           />
         );

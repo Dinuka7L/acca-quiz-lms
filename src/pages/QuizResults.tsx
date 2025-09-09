@@ -6,11 +6,11 @@ import QuestionRenderer from '../components/QuestionRenderer';
 import { useQuizStore } from '../store/quizStore';
 
 interface QuizResultsProps {
-  onReturnHome: () => void;
+  onGoHome: () => void;
   onRetakeQuiz: () => void;
 }
 
-const QuizResults: React.FC<QuizResultsProps> = ({ onReturnHome, onRetakeQuiz }) => {
+const QuizResults: React.FC<QuizResultsProps> = ({ onGoHome, onRetakeQuiz }) => {
   const { currentQuiz, currentAttempt } = useQuizStore();
 
   if (!currentQuiz || !currentAttempt || !currentAttempt.isCompleted) {
@@ -24,7 +24,7 @@ const QuizResults: React.FC<QuizResultsProps> = ({ onReturnHome, onRetakeQuiz })
   const score = currentAttempt.score || 0;
   const percentage = currentAttempt.percentage || 0;
   const totalMarks = currentQuiz.totalMarks;
-  const weightedScore = (percentage / 100) * currentQuiz.weight;
+  
 
   const getGrade = (percentage: number): string => {
     if (percentage >= 90) return 'A+';
@@ -66,7 +66,7 @@ const QuizResults: React.FC<QuizResultsProps> = ({ onReturnHome, onRetakeQuiz })
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             <div className="text-center p-4 bg-gray-50 rounded-lg">
               <div className="text-2xl font-bold text-gray-900">{score}</div>
               <div className="text-sm text-gray-600">Score</div>
@@ -85,16 +85,11 @@ const QuizResults: React.FC<QuizResultsProps> = ({ onReturnHome, onRetakeQuiz })
               <div className="text-sm text-gray-600">Grade</div>
             </div>
             
-            <div className="text-center p-4 bg-gray-50 rounded-lg">
-              <div className="text-2xl font-bold text-green-600">{weightedScore.toFixed(1)}%</div>
-              <div className="text-sm text-gray-600">Weighted Score</div>
-              <div className="text-xs text-gray-500">of {currentQuiz.weight}% total</div>
-            </div>
           </div>
           
           <div className="flex items-center justify-center space-x-4">
             <button
-              onClick={onReturnHome}
+              onClick={onGoHome}
               className="flex items-center space-x-2 px-6 py-3 border border-gray-300 rounded-lg hover:bg-gray-200 transition-colors duration-200"
             >
               <Home className="h-4 w-4" />
@@ -155,7 +150,7 @@ const QuizResults: React.FC<QuizResultsProps> = ({ onReturnHome, onRetakeQuiz })
         </div>
         <div className="flex justify-center mt-8">
         <button
-              onClick={onReturnHome}
+              onClick={onGoHome}
               className="flex items-center space-x-2 px-6 py-3 border border-gray-300 rounded-lg hover:bg-red-700 transition-colors duration-200"
             >
               <ChevronLeft className="h-4 w-4" />

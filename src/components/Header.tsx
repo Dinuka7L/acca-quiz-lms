@@ -30,7 +30,33 @@ const Header: React.FC<HeaderProps> = ({ currentQuiz, onNavigateHome }) => {
 
   return (
     <>
-      <header className="relative bg-white/60 backdrop-blur-md border-b border-gray-200/50 shadow-md sticky top-0 z-50">
+      {/* Mobile Header View */}
+      <header className="md:hidden relative bg-white/60 backdrop-blur-md border-b border-gray-200/50 shadow-md sticky top-0 z-50">
+        <div className="flex items-center justify-between h-14 px-4">
+          {/* Home Button */}
+          <div className="z-10 shrink-0">
+            <button
+              onClick={handleLogoClick}
+              className="p-2 rounded-full hover:bg-gray-200 transition-colors duration-200"
+              title="Return to dashboard"
+            >
+              <Home className="h-5 w-5 text-gray-800" />
+            </button>
+          </div>
+          
+          {/* Quiz Name */}
+          <div className="flex-grow flex justify-center z-10 mx-2 overflow-hidden">
+            <span className="bg-red-800 text-white text-xs px-2 py-1 rounded-full font-medium whitespace-nowrap truncate">
+              {currentQuiz || ''}
+            </span>
+          </div>
+
+          
+        </div>
+      </header>
+
+      {/* Desktop Header View */}
+      <header className="hidden md:block relative bg-white/60 backdrop-blur-md border-b border-gray-200/50 shadow-md sticky top-0 z-50">
         {/* Gradient Red Overlay on Left */}
         <div className="absolute inset-y-0 left-0 w-[150px] sm:w-[200px] bg-gradient-to-r from-red-500/20 to-transparent pointer-events-none" />
 
@@ -79,10 +105,8 @@ const Header: React.FC<HeaderProps> = ({ currentQuiz, onNavigateHome }) => {
                   alt="Website Logo"
                   className="w-16 sm:w-20 md:w-24 lg:w-32 h-auto rounded-full object-cover"
                 />
-
               </button>
             </div>
-
           </div>
         </div>
       </header>

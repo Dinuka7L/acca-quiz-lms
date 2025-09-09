@@ -1,0 +1,438 @@
+{
+  "id": "quiz - Chapter 04 - Fair Value Accounting",
+  "title": "Chapter 4 - Fair Value Accounting",
+  "description": "Quiz on the principles, applications, and valuation techniques of fair value accounting, based on Chapter 4 of the provided documents.",
+  "subject": "ACC1370 - Financial Accounting and Reporting",
+  "gradientColors": ["#2563eb", "#1d4ed8", "#1e40af", "#1e3a8a"],
+  "timeOptions": [
+    15,
+    20,
+    30,
+    60
+  ],
+  "totalMarks": 60,
+  "weight": 0,
+  "category": "lesson",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multipleChoice",
+      "question": "SLFRS 13 provides guidance on fair value measurement. However, which of the following is explicitly **excluded** from the scope of SLFRS 13's measurement and disclosure requirements?",
+      "options": [
+        "Financial instruments measured under SLFRS 9",
+        "Business combinations under SLFRS 3",
+        "Leasing transactions within the scope of SLFRS 16",
+        "Intangible assets under LKAS 38"
+      ],
+      "answer": "Leasing transactions within the scope of SLFRS 16",
+      "rationale": "The measurement and disclosure requirements of SLFRS 13 are not applicable to 'Leasing transactions within the scope of SLFRS: 16 Leases'[cite: 203]. Other options are explicitly mentioned as using or permitting fair value measurements[cite: 214, 218].",
+      "marks": 2
+    },
+    {
+      "id": "q2",
+      "type": "multipleChoice",
+      "question": "According to the definition in SLFRS 13, which of the following best describes the 'price' component of fair value?",
+      "options": [
+        "The price an entity would pay to acquire an asset.",
+        "A market-based entry price, including transaction and transport costs.",
+        "An exit price, reflecting what would be received to sell an asset or paid to transfer a liability.",
+        "An entity-specific price reflecting internal expectations of future cash flows."
+      ],
+      "answer": "An exit price, reflecting what would be received to sell an asset or paid to transfer a liability.",
+      "rationale": "SLFRS 13 defines fair value as the 'price that would be received to sell an asset or paid to transfer a liability...'[cite: 227]. The document further clarifies that fair value is an exit price [cite: 480] and a market-based measurement, not an entity-specific measurement[cite: 228].",
+      "marks": 2
+    },
+    {
+      "id": "q3",
+      "type": "multipleChoice",
+      "question": "An entity is measuring the fair value of an asset for which a principal market exists. A potentially more advantageous price is available in a different market. According to SLFRS 13, which market's price should the entity use?",
+      "options": [
+        "The principal market, regardless of the price in the other market.",
+        "The most advantageous market, as it maximizes the amount received.",
+        "An average of the prices from both the principal and the other market.",
+        "The market that the entity would normally enter into, even if it's not the principal market."
+      ],
+      "answer": "The principal market, regardless of the price in the other market.",
+      "rationale": "If a principal market exists for the asset or liability, the fair value measurement shall represent the price in that market, even if the price in a different market is potentially more advantageous[cite: 40].",
+      "marks": 2
+    },
+    {
+      "id": "q4",
+      "type": "multipleChoice",
+      "question": "In the context of SLFRS 13, what is the primary assumption about a fair value transaction?",
+      "options": [
+        "It is a forced transaction to liquidate an asset quickly.",
+        "It is an entity-specific transaction between a company and its subsidiary.",
+        "It is an orderly transaction in the principal or most advantageous market.",
+        "It is a transaction where the buyer's entry price is used as the basis for valuation."
+      ],
+      "answer": "It is an orderly transaction in the principal or most advantageous market.",
+      "rationale": "Fair value measurement assumes that the asset or liability is exchanged in an orderly transaction between market participants[cite: 248]. The transaction is assumed to take place in either the principal market or, in its absence, the most advantageous market[cite: 250].",
+      "marks": 2
+    },
+    {
+      "id": "q5",
+      "type": "multipleChoice",
+      "question": "Which of the following would a market participant be least likely to consider when pricing a non-financial asset under SLFRS 13?",
+      "options": [
+        "The physical condition of the asset.",
+        "The location of the asset.",
+        "A restriction on the sale of the asset that is specific to the entity.",
+        "The 'highest and best use' of the asset from a market participant's perspective."
+      ],
+      "answer": "A restriction on the sale of the asset that is specific to the entity.",
+      "rationale": "Fair value measurement is a market-based measurement, not an entity-specific measurement[cite: 228]. While the characteristics of the asset such as condition, location, and restrictions are considered, the valuation focuses on the perspective of a market participant, not a specific entity's situation or restriction[cite: 240, 241].",
+      "marks": 2
+    },
+    {
+      "id": "q6",
+      "type": "multipleChoice",
+      "question": "An entity uses a financial forecast based on its own internal data to value an asset. There is no publicly available information to suggest market participants would use different assumptions. According to the fair value hierarchy, what level input is this an example of?",
+      "options": [
+        "Level 1 input",
+        "Level 2 input",
+        "Level 3 input",
+        "This would be an entity-specific measurement, not a valid fair value measurement."
+      ],
+      "answer": "Level 3 input",
+      "rationale": "Level 3 input would be a financial forecast (e.g., of cash flows or profit or loss) developed using the entity’s own data if there is no reasonably available information that indicates that market participants would use different assumptions[cite: 485].",
+      "marks": 2
+    },
+    {
+      "id": "q7",
+      "type": "multipleChoice",
+      "question": "An entity owns a rare piece of art. There is no active market for it, and the last transaction involving a similar piece of art occurred ten years ago. What would be the most likely valuation technique and input level to determine its fair value?",
+      "options": [
+        "The market approach, using Level 1 inputs from an active market.",
+        "The income approach, using Level 2 inputs based on a recent sale of a similar item.",
+        "The cost approach, using Level 3 inputs based on the replacement cost of a similar piece.",
+        "A combination of the income and market approaches, using significant unobservable (Level 3) inputs."
+      ],
+      "answer": "A combination of the income and market approaches, using significant unobservable (Level 3) inputs.",
+      "rationale": "Since there is no active market or recent comparable sales, Level 1 and Level 2 inputs are not available. This would require using unobservable inputs (Level 3)[cite: 485]. The income approach (present value of future benefits) and the market approach (using data from the old transaction as a starting point) could be combined to estimate fair value[cite: 260, 262, 263].",
+      "marks": 2
+    },
+    {
+      "id": "q8",
+      "type": "multipleChoice",
+      "question": "SLFRS 13 defines fair value as a market-based measurement. What does this principle imply regarding the assumptions used in the measurement?",
+      "options": [
+        "Assumptions are based on what the entity would do in a sale.",
+        "Assumptions are based on what related parties would agree on.",
+        "Assumptions are based on those that market participants would use when pricing the asset or liability.",
+        "Assumptions are based on the entity's own data, regardless of external information."
+      ],
+      "answer": "Assumptions are based on those that market participants would use when pricing the asset or liability.",
+      "rationale": "The document states that fair value is a market-based measurement, and an entity should measure the fair value using the assumptions that market participants would use when pricing the asset or liability[cite: 228, 478].",
+      "marks": 2
+    },
+    {
+      "id": "q9",
+      "type": "multipleChoice",
+      "question": "When is an entity required to apply SLFRS 13 for fair value measurements?",
+      "options": [
+        "When it is the only applicable standard for a specific asset or liability.",
+        "Only for financial instruments and investment property.",
+        "When another SLFRS requires or permits fair value measurements or disclosures.",
+        "Whenever a fair value measurement is required by a local law, regardless of the SLFRS."
+      ],
+      "answer": "When another SLFRS requires or permits fair value measurements or disclosures.",
+      "rationale": "SLFRS 13 applies when another SLFRS requires or permits fair value measurements or disclosures about fair value measurements[cite: 201]. It provides guidance on 'how' to measure fair value rather than 'when' to measure it[cite: 564].",
+      "marks": 2
+    },
+    {
+      "id": "q10",
+      "type": "multipleChoice",
+      "question": "Under the 'most advantageous market' definition, which costs are explicitly considered in maximizing the amount received or minimizing the amount paid?",
+      "options": [
+        "Only transaction costs.",
+        "Only transport costs.",
+        "Both transaction and transport costs.",
+        "Neither transaction nor transport costs."
+      ],
+      "answer": "Both transaction and transport costs.",
+      "rationale": "The most advantageous market is defined as the market that maximizes the amount that would be received to sell the asset or minimizes the amount that would be paid to transfer the liability, after taking into account transaction costs and transport costs[cite: 252].",
+      "marks": 2
+    },
+    {
+      "id": "q11",
+      "type": "multipleChoice",
+      "question": "An entity values an asset for which an active market exists. The price in this market is directly observable. This is an example of a fair value measurement using which level of inputs?",
+      "options": [
+        "Level 1 inputs",
+        "Level 2 inputs",
+        "Level 3 inputs",
+        "This cannot be a fair value measurement as an active market's price is not a true 'exit price'."
+      ],
+      "answer": "Level 1 inputs",
+      "rationale": "Level 1 inputs are defined as quoted prices (unadjusted) in active markets for identical assets or liabilities that the entity can access at the measurement date. This is the highest level in the fair value hierarchy[cite: 270].",
+      "marks": 2
+    },
+    {
+      "id": "q12",
+      "type": "multipleChoice",
+      "question": "Which of the following is considered a Level 2 input according to the fair value hierarchy described in the documents?",
+      "options": [
+        "A quoted price for an identical asset in an active market.",
+        "A quoted price for a similar asset in a non-active market.",
+        "A financial forecast based on the entity's own unobservable data.",
+        "The cost to reproduce a building using the cost approach."
+      ],
+      "answer": "A quoted price for a similar asset in a non-active market.",
+      "rationale": "Level 2 inputs are defined as inputs other than quoted prices included within Level 1 that are observable for the asset or liability, either directly or indirectly[cite: 271]. Examples include quoted prices for similar assets in active markets or quoted prices for identical or similar assets in markets that are not active[cite: 272].",
+      "marks": 2
+    },
+    {
+      "id": "q13",
+      "type": "multipleChoice",
+      "question": "Why did the IASB release IFRS 13 Fair Value Measurement?",
+      "options": [
+        "To replace the historical cost model with a fair value model for all assets.",
+        "To provide a single, consistent framework for fair value measurements.",
+        "To introduce a new standard for recognizing and derecognizing assets.",
+        "To address the limitations of descriptive statistics in financial reporting."
+      ],
+      "answer": "To provide a single, consistent framework for fair value measurements.",
+      "rationale": "The IASB released IFRS 13 to 'draw together the dissimilar definitions and explanations of fair value into a single standard, which will be applied across all relevant accounting standards'[cite: 223].",
+      "marks": 2
+    },
+    {
+      "id": "q14",
+      "type": "multipleChoice",
+      "question": "In a situation where the 'most advantageous market' is used for a fair value measurement, what is the key characteristic that distinguishes it from the 'principal market'?",
+      "options": [
+        "It is always the market with the highest volume and activity.",
+        "It is the market that minimizes the cost of transferring a liability, without considering transaction or transport costs.",
+        "It is the market that maximizes the price received for an asset after accounting for transaction and transport costs.",
+        "It is a market that an entity must undertake an exhaustive search to identify."
+      ],
+      "answer": "It is the market that maximizes the price received for an asset after accounting for transaction and transport costs.",
+      "rationale": "The most advantageous market is defined as the market that maximizes the amount that would be received to sell the asset or minimizes the amount that would be paid to transfer the liability, after taking into account transaction costs and transport costs[cite: 252]. The principal market is the one with the greatest volume and activity, regardless of costs[cite: 251].",
+      "marks": 2
+    },
+    {
+      "id": "q15",
+      "type": "multipleChoice",
+      "question": "According to SLFRS 13, which of the following is **not** a characteristic of 'market participants'?",
+      "options": [
+        "They are knowledgeable and have a reasonable understanding of the asset or liability.",
+        "They are able to enter into a transaction.",
+        "They are related parties, as defined in LKAS 24, to ensure a smooth transaction.",
+        "They are independent of each other."
+      ],
+      "answer": "They are related parties, as defined in LKAS 24, to ensure a smooth transaction.",
+      "rationale": "The document explicitly states that market participants 'are independent of each other, i.e., they are not related parties as defined in IAS/LKAS 24'[cite: 46].",
+      "marks": 2
+    },
+    {
+      "id": "q16",
+      "type": "multipleChoice",
+      "question": "What is the unit of account for a fair value measurement, as defined by SLFRS 13?",
+      "options": [
+        "It is always a stand-alone asset or liability.",
+        "It is the level at which an asset or a liability is aggregated or disaggregated for recognition purposes.",
+        "It is a group of assets, liabilities, and equity items.",
+        "It is the smallest identifiable component of an asset or liability."
+      ],
+      "answer": "It is the level at which an asset or a liability is aggregated or disaggregated for recognition purposes.",
+      "rationale": "The unit of account is defined as 'the level at which an asset or a liability is aggregated or disaggregated in an SLFRS for recognition purposes'[cite: 246].",
+      "marks": 2
+    },
+    {
+      "id": "q17",
+      "type": "multipleChoice",
+      "question": "Which of the following describes the 'income approach' to valuation?",
+      "options": [
+        "It uses prices and other relevant information generated by market transactions involving identical or comparable assets.",
+        "It reflects the amount that would be required currently to replace the service capacity of an asset.",
+        "It converts future amounts (e.g., cash flows or income and expenses) to a single current (discounted) amount.",
+        "It is the same as the cost approach, but only for financial assets."
+      ],
+      "answer": "It converts future amounts (e.g., cash flows or income and expenses) to a single current (discounted) amount.",
+      "rationale": "The income approach converts future amounts (e.g., cash flows or income and expenses) to a single current (i.e., discounted) amount[cite: 263]. The market approach uses market prices [cite: 260], and the cost approach reflects replacement cost[cite: 262].",
+      "marks": 2
+    },
+    {
+      "id": "q18",
+      "type": "multipleChoice",
+      "question": "The measurement of biological assets and agricultural produce at 'fair value less cost to sell' is a requirement under which standard?",
+      "options": [
+        "LKAS 16 Property, Plant and Equipment",
+        "LKAS 36 Impairment of Assets",
+        "SLFRS 9 Financial Instruments",
+        "LKAS 41 Agriculture"
+      ],
+      "answer": "LKAS 41 Agriculture",
+      "rationale": "LKAS 41 Agriculture requires biological assets and agricultural produce to be measured at fair value less cost to sell[cite: 214].",
+      "marks": 2
+    },
+    {
+      "id": "q19",
+      "type": "multipleChoice",
+      "question": "How does the fair value of a non-financial asset determined by the 'highest and best use' principle relate to its 'current use'?",
+      "options": [
+        "Fair value is always determined by the asset's current use, regardless of any other potential use.",
+        "Highest and best use always assumes the asset's current use.",
+        "Highest and best use is only relevant if the current use is not physically possible or legally permissible.",
+        "Highest and best use is considered, which may be different from the asset's current use."
+      ],
+      "answer": "Highest and best use is considered, which may be different from the asset's current use.",
+      "rationale": "The document states that the fair value of a non-financial asset is based on its 'highest and best use' from a market participant's perspective, which may be different from the entity's current use of the asset[cite: 240, 256].",
+      "marks": 2
+    },
+    {
+      "id": "q20",
+      "type": "multipleChoice",
+      "question": "An entity is required to make disclosures about fair value measurements. Which of the following is a key purpose of these disclosures, as stated in the documents?",
+      "options": [
+        "To assess the impact of fair value on the entity's profitability.",
+        "To determine the total cost of capital for the entity.",
+        "To provide a complete list of all assets measured at fair value.",
+        "To assess the valuation techniques and inputs used for the measurements."
+      ],
+      "answer": "To assess the valuation techniques and inputs used for the measurements.",
+      "rationale": "The document states that disclosures are required to help users of the financial statements assess 'the valuation techniques and inputs used to develop those measurements'[cite: 494].",
+      "marks": 2
+    },
+    {
+      "id": "q21",
+      "type": "multipleChoice",
+      "question": "According to the fair value hierarchy, which of the following best represents a Level 2 input for a financial asset?",
+      "options": [
+        "A directly observable quoted price for the asset in an active market.",
+        "An unobservable input based on a management assumption.",
+        "An observable interest rate swap curve for a similar financial asset.",
+        "The present value of future cash flows derived from the entity’s own forecasts."
+      ],
+      "answer": "An observable interest rate swap curve for a similar financial asset.",
+      "rationale": "Level 2 inputs are observable inputs other than Level 1 quoted prices[cite: 271]. The document provides an 'interest rate swap curve' as an example of a Level 2 input[cite: 272]. Level 1 is for identical assets in active markets, and Level 3 is for unobservable inputs like management assumptions[cite: 270, 274].",
+      "marks": 2
+    },
+    {
+      "id": "q22",
+      "type": "multipleChoice",
+      "question": "Under what circumstance would an entity **not** be required to consider transaction costs when determining the fair value of an asset?",
+      "options": [
+        "When identifying the principal market.",
+        "When identifying the most advantageous market.",
+        "When determining the 'exit price' of the asset.",
+        "Transaction costs are always considered in fair value measurement."
+      ],
+      "answer": "When identifying the principal market.",
+      "rationale": "Transaction costs are not factored into the fair value itself, as fair value is an exit price. However, they are considered in determining the *most advantageous market* [cite: 252], but not the *principal market* which is based on volume and activity[cite: 251]. Transaction costs are also not a characteristic of the asset and do not factor into the 'exit price'[cite: 252].",
+      "marks": 2
+    },
+    {
+      "id": "q23",
+      "type": "multipleChoice",
+      "question": "A fair value measurement of an asset would be considered a Level 3 measurement under which of the following conditions?",
+      "options": [
+        "It uses a quoted price for the identical asset in an active market.",
+        "It uses an observable input for a similar asset, such as a market interest rate.",
+        "It uses significant unobservable inputs, such as the entity's own financial forecasts.",
+        "It is based on the cost to replace the asset, and the costs are directly observable."
+      ],
+      "answer": "It uses significant unobservable inputs, such as the entity's own financial forecasts.",
+      "rationale": "Level 3 inputs are unobservable inputs for the asset or liability[cite: 274]. The document gives the example that a Level 3 input would be a financial forecast developed using the entity's own data if there is no reasonably available market information[cite: 485].",
+      "marks": 2
+    },
+    {
+      "id": "q24",
+      "type": "multipleChoice",
+      "question": "What is the key difference between 'fair value' and 'net realizable value' as per the documents?",
+      "options": [
+        "They are interchangeable terms.",
+        "Fair value is a market-based measurement, while net realizable value is an entity-specific measurement.",
+        "Fair value includes transport costs, while net realizable value does not.",
+        "Net realizable value is a concept under SLFRS 13, whereas fair value is not."
+      ],
+      "answer": "Fair value is a market-based measurement, while net realizable value is an entity-specific measurement.",
+      "rationale": "The document notes that net realizable value (e.g., in LKAS 2) has similarities to fair value but is not considered fair value[cite: 204]. Fair value is explicitly defined as a 'market-based measurement'[cite: 228], while net realizable value in LKAS 2 is an entity-specific measurement.",
+      "marks": 2
+    },
+    {
+      "id": "q25",
+      "type": "multipleChoice",
+      "question": "Fair value measurement requires an entity to have access to the principal or most advantageous market. What does this principle imply for different entities?",
+      "options": [
+        "The fair value of the same asset must be identical for all entities.",
+        "An entity must undertake an exhaustive search to find the single principal market for the asset.",
+        "The fair value of the same asset could be different for different entities depending on their market access.",
+        "An entity must always use the price from the market with the largest volume globally."
+      ],
+      "answer": "The fair value of the same asset could be different for different entities depending on their market access.",
+      "rationale": "The document states that the principal (or most advantageous) market for the same asset might be different for different entities because 'different entities (and businesses within those entities) with different activities have access to different markets'[cite: 42].",
+      "marks": 2
+    },
+    {
+      "id": "q26",
+      "type": "multipleChoice",
+      "question": "What is a key difference between the 'cost approach' and the 'market approach' in fair value measurement?",
+      "options": [
+        "The market approach is used for financial assets, while the cost approach is for non-financial assets.",
+        "The cost approach uses a market price for a similar asset, while the market approach uses replacement cost.",
+        "The market approach uses prices from market transactions, while the cost approach reflects the replacement cost of the asset's service capacity.",
+        "The cost approach is a Level 3 valuation technique, while the market approach is a Level 1 technique."
+      ],
+      "answer": "The market approach uses prices from market transactions, while the cost approach reflects the replacement cost of the asset's service capacity.",
+      "rationale": "The market approach uses prices and other relevant information generated by market transactions [cite: 260], whereas the cost approach reflects the amount that would be required currently to replace the service capacity of an asset[cite: 262].",
+      "marks": 2
+    },
+    {
+      "id": "q27",
+      "type": "multipleChoice",
+      "question": "Which of the following describes the key principle of an 'orderly transaction' as defined by SLFRS 13?",
+      "options": [
+        "It is a transaction that happens instantaneously without any marketing activity.",
+        "It is a forced transaction, such as a liquidation, that must be completed by the measurement date.",
+        "It is a transaction that assumes exposure to the market for a period to allow for usual marketing activities and is not forced.",
+        "It is a transaction between a parent and its subsidiary at a predetermined price."
+      ],
+      "answer": "It is a transaction that assumes exposure to the market for a period to allow for usual marketing activities and is not forced.",
+      "rationale": "An orderly transaction is defined as a transaction that assumes exposure to the market for a period before the measurement date to allow marketing activities that are usual and customary for transactions involving such assets or liabilities, and it is not a forced transaction[cite: 249].",
+      "marks": 2
+    },
+    {
+      "id": "q28",
+      "type": "multipleChoice",
+      "question": "What is the primary objective of using fair value accounting, as opposed to historical cost, as a measurement base?",
+      "options": [
+        "To make accounting information less complex and more easily verifiable.",
+        "To make the information more relevant to the users of financial reporting.",
+        "To ensure that all assets and liabilities are reported at their original cost.",
+        "To eliminate the need for any professional judgment in financial statement preparation."
+      ],
+      "answer": "To make the information more relevant to the users of financial reporting.",
+      "rationale": "Proponents of fair value accounting view that it would 'enable to deal with the criticisms of historical cost accounting and make the information more relevant to the users of financial reporting'[cite: 199].",
+      "marks": 2
+    },
+    {
+      "id": "q29",
+      "type": "multipleChoice",
+      "question": "What are the two components of the 'highest and best use' of a non-financial asset, from a market participant's perspective, as described in the documents?",
+      "options": [
+        "Legally permissible and financially feasible.",
+        "Physically possible and economically viable.",
+        "Physically possible and legally permissible.",
+        "Physically possible and financially feasible."
+      ],
+      "answer": "Physically possible and legally permissible.",
+      "rationale": "The 'highest and best use' is described as a non-financial asset's use that is physically possible, legally permissible, and financially feasible[cite: 257]. However, the core components are physical possibility and legal permissibility, with financial feasibility being a related but distinct consideration in the definition[cite: 257, 258, 259].",
+      "marks": 2
+    },
+    {
+      "id": "q30",
+      "type": "multipleChoice",
+      "question": "Which of the following is a potential limitation or criticism of fair value-based measurement mentioned in the documents?",
+      "options": [
+        "Fair value is always a Level 1 measurement, which may not be accurate.",
+        "It can lead to manipulation of financial statements with inappropriate valuation methods.",
+        "It is an entity-specific measurement, which reduces relevance to external users.",
+        "It makes financial statements too stable and less reflective of market changes."
+      ],
+      "answer": "It can lead to manipulation of financial statements with inappropriate valuation methods.",
+      "rationale": "The document notes that a lack of a precise definition of fair value has 'even led to the manipulation of financial statements with the use of inappropriate valuation methods to achieve financial or political ends'[cite: 222].",
+      "marks": 2
+    }
+  ]
+}
