@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Clock, ArrowRight, ArrowLeft, Infinity, RotateCcw, AlertTriangle } from 'lucide-react';
 import Header from '../components/Header';
 import { useQuizStore } from '../store/quizStore';
-
 
 interface QuizSetupProps {
   quizId: string;
@@ -12,17 +11,26 @@ interface QuizSetupProps {
 }
 
 const QuizSetup: React.FC<QuizSetupProps> = ({ quizId, onStart, onBack, onViewResults }) => {
-  const { 
-    quizzes, 
-    randomizeQuestions, 
-    setRandomizeQuestions, 
-    hasInProgressQuiz, 
+  const {
+    quizzes,
+    randomizeQuestions,
+    setRandomizeQuestions,
+    hasInProgressQuiz,
     getInProgressAttempt,
-    resumeQuiz 
+    resumeQuiz
   } = useQuizStore();
-  
+
   const [selectedTime, setSelectedTime] = useState<number | null>(null);
-  
+  const [showTimeWarning, setShowTimeWarning] = useState(false);
+
+  // Focus to top on page load
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }, []);
+
   const quiz = quizzes.find(q => q.id === quizId);
   const { attempts } = useQuizStore();
   const pastAttempt = attempts.find(
@@ -35,7 +43,7 @@ const QuizSetup: React.FC<QuizSetupProps> = ({ quizId, onStart, onBack, onViewRe
 
   const hasInProgress = hasInProgressQuiz(quizId);
   const inProgressAttempt = getInProgressAttempt(quizId);
-  
+
   if (!quiz) {
     return <div>Quiz not found</div>;
   }
@@ -43,6 +51,8 @@ const QuizSetup: React.FC<QuizSetupProps> = ({ quizId, onStart, onBack, onViewRe
   const handleStart = () => {
     if (selectedTime !== null) {
       onStart(selectedTime);
+    } else {
+      setShowTimeWarning(true);
     }
   };
 
@@ -52,16 +62,23 @@ const QuizSetup: React.FC<QuizSetupProps> = ({ quizId, onStart, onBack, onViewRe
     window.dispatchEvent(new CustomEvent('continueQuiz'));
   };
 
+  const handleTimeSelection = (time: number | null) => {
+    setSelectedTime(time);
+    if (time !== null) {
+      setShowTimeWarning(false);
+    }
+  };
+
   // Special value for no time limit (using -1 to represent unlimited time)
   const NO_TIME_LIMIT = -1;
 
   const getInProgressInfo = () => {
     if (!inProgressAttempt) return null;
-    
+
     const answeredQuestions = Object.keys(inProgressAttempt.answers).length;
     const totalQuestions = quiz.questions.length;
     const currentQuestion = (inProgressAttempt.currentQuestionIndex || 0) + 1;
-    
+
     return {
       answeredQuestions,
       totalQuestions,
@@ -82,7 +99,7 @@ const QuizSetup: React.FC<QuizSetupProps> = ({ quizId, onStart, onBack, onViewRe
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex flex-col">
       <Header currentQuiz={quiz.title} onNavigateHome={onBack} />
-      
+
       <main className="flex-1 flex items-center justify-center px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl w-full">
           <div className="bg-white/80 backdrop-blur-sm rounded-xl p-8 shadow-lg border border-gray-200/50">
@@ -90,14 +107,14 @@ const QuizSetup: React.FC<QuizSetupProps> = ({ quizId, onStart, onBack, onViewRe
               <div className="p-4 bg-primary-100 rounded-full w-20 h-20 mx-auto mb-4 flex items-center justify-center">
                 <Clock className="h-10 w-10 text-primary-600" />
               </div>
-              
+
               <h1 className="text-3xl font-bold text-gray-900 mb-2">
                 {quiz.title}
               </h1>
               <p className="text-gray-600 mb-6">
                 {quiz.description}
               </p>
-              
+
               <div className="grid grid-cols-2 gap-4 text-sm text-gray-600 mb-8">
                 <div className="bg-gray-50 rounded-lg p-4">
                   <div className="font-medium text-gray-900">Questions</div>
@@ -122,7 +139,7 @@ const QuizSetup: React.FC<QuizSetupProps> = ({ quizId, onStart, onBack, onViewRe
                     <p className="text-orange-700">You have an unfinished quiz that you can continue</p>
                   </div>
                 </div>
-                
+
                 <div className="grid grid-cols-2 gap-4 mb-4 text-sm">
                   <div className="bg-white/70 rounded-lg p-3">
                     <div className="font-medium text-gray-900">Progress</div>
@@ -160,24 +177,25 @@ const QuizSetup: React.FC<QuizSetupProps> = ({ quizId, onStart, onBack, onViewRe
                   <div className="flex items-start space-x-2">
                     <AlertTriangle className="h-4 w-4 text-orange-600 mt-0.5 flex-shrink-0" />
                     <div className="text-xs text-orange-800">
-                      <strong>Note:</strong> Continuing will resume your quiz from where you left off. 
+                      <strong>Note:</strong> Continuing will resume your quiz from where you left off.
                       Starting a new quiz will discard your current progress.
                     </div>
                   </div>
                 </div>
               </div>
             )}
-            
+
             {/* Time Selection Section */}
             <div className="mb-8">
               <h2 className="text-xl font-semibold text-gray-900 mb-4 text-center">
                 {hasInProgress ? 'Or Start a New Quiz' : 'Select Time Limit'}
               </h2>
               
+              
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                 {/* No Time Limit Option */}
                 <button
-                  onClick={() => setSelectedTime(NO_TIME_LIMIT)}
+                  onClick={() => handleTimeSelection(NO_TIME_LIMIT)}
                   className={`
                     p-4 rounded-lg border-2 transition-all duration-200 text-center
                     ${selectedTime === NO_TIME_LIMIT
@@ -197,7 +215,7 @@ const QuizSetup: React.FC<QuizSetupProps> = ({ quizId, onStart, onBack, onViewRe
                 {quiz.timeOptions.map((time) => (
                   <button
                     key={time}
-                    onClick={() => setSelectedTime(time)}
+                    onClick={() => handleTimeSelection(time)}
                     className={`
                       p-4 rounded-lg border-2 transition-all duration-200 text-center
                       ${selectedTime === time
@@ -212,7 +230,7 @@ const QuizSetup: React.FC<QuizSetupProps> = ({ quizId, onStart, onBack, onViewRe
                 ))}
               </div>
             </div>
-            
+
             {/* Randomization Toggle */}
             {!hasInProgress && (
               <div className="mb-8 flex items-center space-x-2">
@@ -229,7 +247,7 @@ const QuizSetup: React.FC<QuizSetupProps> = ({ quizId, onStart, onBack, onViewRe
               </div>
             )}
 
-            
+
             <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-8">
               <div className="flex items-start space-x-3">
                 <div className="text-yellow-600 mt-0.5">⚠️</div>
@@ -245,7 +263,15 @@ const QuizSetup: React.FC<QuizSetupProps> = ({ quizId, onStart, onBack, onViewRe
                 </div>
               </div>
             </div>
-            
+
+            {/* Warning Popup Card */}
+              {showTimeWarning && (
+                <div className="bg-red-50 border border-red-200 rounded-lg p-3 text-sm text-red-800 flex items-center mb-4">
+                  <AlertTriangle className="h-4 w-4 text-red-600 mr-2" />
+                  <span>Please select a time limit before starting the quiz.</span>
+                </div>
+              )}
+              
             <div className="flex flex-col sm:flex-row items-center justify-between space-y-3 sm:space-y-0 sm:space-x-3">
               <button
                 onClick={onBack}
@@ -266,7 +292,6 @@ const QuizSetup: React.FC<QuizSetupProps> = ({ quizId, onStart, onBack, onViewRe
 
               <button
                 onClick={handleStart}
-                disabled={selectedTime === null}
                 className={`
                   flex items-center space-x-2 px-8 py-3 rounded-lg font-medium transition-all duration-200 w-full sm:w-auto
                   ${selectedTime !== null
@@ -279,6 +304,7 @@ const QuizSetup: React.FC<QuizSetupProps> = ({ quizId, onStart, onBack, onViewRe
                 <ArrowRight className="h-4 w-4" />
               </button>
             </div>
+            
 
           </div>
         </div>
