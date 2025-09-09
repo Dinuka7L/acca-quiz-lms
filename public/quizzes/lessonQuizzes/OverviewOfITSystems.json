@@ -2,6 +2,8 @@
   "id": "quiz- lesson 01- Overiew of IT&S",
   "title": "Lesson 1 - Overview of Information Technology",
   "description": "covers fundamental concepts of Information Technology and Information Systems, including components, eras, ICT4D, and strategic IT roles.",
+  "subject": "Y1 S1 - ITC1370 - Information Technology For Business",
+  "gradientColors": ["#3b82f6", "#2563eb", "#1d4ed8", "#1e40af"],
   "timeOptions": [45, 60, 90],
   "totalMarks": 100,
   "weight": 0,

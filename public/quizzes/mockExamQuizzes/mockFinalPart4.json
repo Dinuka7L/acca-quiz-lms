@@ -2,6 +2,8 @@
   "id": "mock-final-4",
   "title": "Mock Final Exam - Part 4 (Module 3:Python Programming)",
   "description": "A comprehensive final exam covering key concepts in Python programming, including data types, control structures, and functions.",
+  "subject": "Mock Final Exams",
+  "gradientColors": ["#a855f7", "#9333ea", "#7c3aed", "#6b21a8"],
   "timeOptions": [30, 45, 60],
   "totalMarks": 79,
   "weight": 50,

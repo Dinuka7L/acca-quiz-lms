@@ -2,6 +2,8 @@
   "id": "mock-Part 01 - Chapter 1",
   "title": "Mock Final Exam - Part 1 (Module 1:Chapters 1-9)",
   "description": "Comprehensive assessment covering Lessons 1-9 of the course, including key concepts in Information Technology, computer hardware, software, data management, and networking fundamentals.",
+  "subject": "Mock Final Exams",
+  "gradientColors": ["#8b5cf6", "#7c3aed", "#6d28d9", "#5b21b6"],
   "timeOptions": [],
   "totalMarks": 225,
   "weight": 50,

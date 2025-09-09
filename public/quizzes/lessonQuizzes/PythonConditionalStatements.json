@@ -2,6 +2,8 @@
   "id": "quiz-conditional-statements-1",
   "title": "Python - Conditional Statements Mastery Test",
   "description": "Assess your knowledge of if, elif, else, logical operators, and nested if statements in Python.",
+  "subject": "Y1 S1 - ITC1370 - Information Technology For Business",
+  "gradientColors": ["#f43f5e", "#e11d48", "#be123c", "#9f1239"],
   "timeOptions": [10, 15, 20, 35],
   "totalMarks": 80,
   "weight": 0,

@@ -2,6 +2,8 @@
   "id": "quiz - Chapter 5 - Summary Measures",
   "title": "Chapter 5 - Summary Measures",
   "description": "A hard-difficulty multiple-choice quiz on measures of central tendency, dispersion, and other summary measures.",
+  "subject": "DSC1371 - Business Statistics",
+  "gradientColors": ["#ea580c", "#c2410c", "#9a3412", "#7c2d12"],
   "timeOptions": [
     15,
     20,

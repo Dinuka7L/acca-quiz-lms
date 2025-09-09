@@ -2,6 +2,8 @@
   "id": "quiz-Emerging Technologies in IT",
   "title": " Lesson 9 - Emerging Technologies in IT",
   "description": "Quiz assessing understanding of key emerging IT technologies and their impact.",
+  "subject": "Y1 S1 - ITC1370 - Information Technology For Business",
+  "gradientColors": ["#ec4899", "#db2777", "#be185d", "#9d174d"],
   "timeOptions": [10, 15, 20, 60],
   "totalMarks": 41,
   "weight": 0,

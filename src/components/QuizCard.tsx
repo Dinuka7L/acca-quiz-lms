@@ -2,6 +2,7 @@ import React from 'react';
 import { Clock, CheckCircle, Circle, Play, RotateCcw } from 'lucide-react';
 import { Quiz } from '../types/quiz';
 import { useQuizStore } from '../store/quizStore';
+import { getDefaultGradientColors, generateGradientClasses } from '../utils/quizLoader';
 
 interface QuizCardProps {
   quiz: Quiz;
@@ -23,26 +24,13 @@ const QuizCard: React.FC<QuizCardProps> = ({
   const hasInProgress = hasInProgressQuiz(quiz.id);
   const inProgressAttempt = getInProgressAttempt(quiz.id);
   
-  const theme = getThemeColors();
-
-  function getThemeColors() {
-    if (quiz.category === 'lesson') {
-      return {
-        gradient: 'from-blue-600 to-blue-800',
-        progressBg: 'from-blue-500 to-blue-700',
-        buttonBg: 'bg-blue-700 hover:bg-blue-800',
-        buttonText: 'text-white'
-      };
-    } else {
-      // Mock final exams keep the purple theme
-      return {
-        gradient: 'from-purple-500 to-purple-700',
-        progressBg: 'from-purple-500 to-purple-600',
-        buttonBg: 'bg-purple-600 hover:bg-purple-700',
-        buttonText: 'text-white'
-      };
-    }
-  }
+  // Get gradient colors from quiz or use defaults
+  const gradientColors = quiz.gradientColors || getDefaultGradientColors(quiz.category);
+  const gradientClasses = generateGradientClasses(gradientColors);
+  
+  // Generate button colors based on the gradient
+  const buttonColor = gradientColors[2]; // Use the third color for buttons
+  const buttonHoverColor = gradientColors[3]; // Use the fourth color for hover
 
   const getButtonText = () => {
     if (hasInProgress) {
@@ -85,7 +73,7 @@ const QuizCard: React.FC<QuizCardProps> = ({
   return (
     <div className="group relative">
       <div
-        className={`absolute inset-0 bg-gradient-to-r ${theme.gradient} rounded-xl blur opacity-25 group-hover:opacity-40 transition-opacity duration-300`}
+        className={`absolute inset-0 ${gradientClasses} rounded-xl blur opacity-25 group-hover:opacity-40 transition-opacity duration-300`}
       />
 
       <div className="relative bg-white/70 backdrop-blur-sm border border-white/50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:transform hover:scale-[1.02]">
@@ -120,15 +108,26 @@ const QuizCard: React.FC<QuizCardProps> = ({
 
           <div className="w-full bg-gray-200 rounded-full h-2">
             <div
-              className={`w-full 
+              className={`h-2 rounded-full transition-all duration-200
                 ${hasInProgress 
-                  ? 'bg-orange-600 hover:bg-orange-700' 
+                  ? 'bg-orange-500' 
                   : hasPastAttempt 
-                    ? 'bg-green-600 hover:bg-green-700' 
-                    : theme.buttonBg
-                } 
-                ${theme.buttonText} font-medium py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center space-x-2 group`}
+                    ? 'bg-green-500' 
+                    : ''
+                }`}
+              style={{ 
+                width: `${progressInfo.percentage}%`,
+                backgroundColor: hasInProgress 
+                  ? '#f97316' 
+                  : hasPastAttempt 
+                    ? '#10b981' 
+                    : buttonColor
+              }}
+            />
+          </div>
 
+          <div className="w-full bg-gray-200 rounded-full h-2">
+            <div
               style={{ width: `${progressInfo.percentage}%` }}
             />
           </div>
@@ -162,15 +161,31 @@ const QuizCard: React.FC<QuizCardProps> = ({
 
         <button
           onClick={onStart}
-          className={`w-full 
+          className={`w-full font-medium py-3 px-4 rounded-lg transition-all duration-200 flex items-center justify-center space-x-2 group hover:transform hover:scale-105
             ${hasInProgress 
               ? 'bg-orange-600 hover:bg-orange-700' 
               : hasPastAttempt 
                 ? 'bg-green-600 hover:bg-green-700' 
-                : theme.buttonBg
+                : ''
             } 
-            ${theme.buttonText} font-medium py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center space-x-2 group`}
-
+            text-white`}
+          style={{
+            backgroundColor: hasInProgress 
+              ? '#ea580c' 
+              : hasPastAttempt 
+                ? '#059669' 
+                : buttonColor
+          }}
+          onMouseEnter={(e) => {
+            if (!hasInProgress && !hasPastAttempt) {
+              e.currentTarget.style.backgroundColor = buttonHoverColor;
+            }
+          }}
+          onMouseLeave={(e) => {
+            if (!hasInProgress && !hasPastAttempt) {
+              e.currentTarget.style.backgroundColor = buttonColor;
+            }
+          }}
         >
           {getButtonIcon()}
           <span>{getButtonText()}</span>

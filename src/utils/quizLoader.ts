@@ -1,14 +1,70 @@
 import { Quiz } from '../types/quiz';
 
-export async function loadQuiz(path: string): Promise<Quiz> {
-  const response = await fetch(`/quizzes/${path}.json`);
-  if (!response.ok) {
-    throw new Error(`Failed to load quiz: ${path}`);
+// Cache for loaded quizzes to avoid repeated fetches
+let quizCache: Quiz[] | null = null;
+
+/**
+ * Auto-discover and load all quiz JSON files from public/quizzes directory
+ */
+export async function loadAllQuizzes(): Promise<Quiz[]> {
+  // Return cached quizzes if available
+  if (quizCache) {
+    return quizCache;
   }
-  return response.json();
+
+  try {
+    // Use import.meta.glob to get all JSON files in the quizzes directory
+    const quizModules = import.meta.glob('/public/quizzes/**/*.json', { 
+      as: 'url',
+      eager: false 
+    });
+
+    const quizPromises = Object.entries(quizModules).map(async ([path, moduleLoader]) => {
+      try {
+        // Convert the path to a public URL
+        const publicPath = path.replace('/public', '');
+        const response = await fetch(publicPath);
+        
+        if (!response.ok) {
+          console.warn(`Failed to load quiz from ${publicPath}: ${response.statusText}`);
+          return null;
+        }
+        
+        const quiz: Quiz = await response.json();
+        
+        // Validate required fields
+        if (!quiz.id || !quiz.title || !Array.isArray(quiz.questions)) {
+          console.warn(`Invalid quiz structure in ${publicPath}:`, quiz);
+          return null;
+        }
+        
+        return quiz;
+      } catch (error) {
+        console.error(`Error loading quiz from ${path}:`, error);
+        return null;
+      }
+    });
+
+    const loadedQuizzes = await Promise.all(quizPromises);
+    
+    // Filter out null values and cache the result
+    quizCache = loadedQuizzes.filter((quiz): quiz is Quiz => quiz !== null);
+    
+    console.log(`Successfully loaded ${quizCache.length} quizzes`);
+    return quizCache;
+    
+  } catch (error) {
+    console.error('Error auto-discovering quizzes:', error);
+    
+    // Fallback to manual loading if auto-discovery fails
+    return loadQuizzesManually();
+  }
 }
 
-export async function loadAllQuizzes(): Promise<Quiz[]> {
+/**
+ * Fallback manual loading method (keeps existing functionality as backup)
+ */
+async function loadQuizzesManually(): Promise<Quiz[]> {
   const quizPaths = [
     // Lesson quizzes
     'lessonQuizzes/OverviewOfITSystems',
@@ -23,9 +79,7 @@ export async function loadAllQuizzes(): Promise<Quiz[]> {
     'lessonQuizzes/PythonFundamentals',
     'lessonQuizzes/PythonOperators',
     'lessonQuizzes/PythonConditionalStatements',
-
     'lessonQuizzes/OverviewFinancialAccountingandReporting',
-
     'lessonQuizzes/DSC1371MeaningandScopeofStats',
     'lessonQuizzes/DSC1371DataandDataCollection',
     'lessonQuizzes/DSC1371PresentationofCategoricalData',
@@ -34,69 +88,77 @@ export async function loadAllQuizzes(): Promise<Quiz[]> {
     'lessonQuizzes/DSC1371ProbabilityTheory',
     'lessonQuizzes/DSC1371Probability2',
     'lessonQuizzes/DSC1371MIDSemesterExamination(Practice)',
-
     // Mock exam quizzes
     'mockExamQuizzes/mockFinalPart1',
     'mockExamQuizzes/mockFinalPart4'
   ];
 
   const quizzes = await Promise.all(
-    quizPaths.map(path => loadQuiz(path))
+    quizPaths.map(path => loadQuiz(path).catch(error => {
+      console.warn(`Failed to load quiz ${path}:`, error);
+      return null;
+    }))
   );
 
-  return quizzes;
+  return quizzes.filter((quiz): quiz is Quiz => quiz !== null);
 }
 
-// Subject mapping for organizing quizzes
-export const SUBJECT_MAPPING: Record<string, string[]> = {
+/**
+ * Load a single quiz from a path (kept for backward compatibility)
+ */
+export async function loadQuiz(path: string): Promise<Quiz> {
+  const response = await fetch(`/quizzes/${path}.json`);
+  if (!response.ok) {
+    throw new Error(`Failed to load quiz: ${path}`);
+  }
+  return response.json();
+}
 
-  'ACC1370 - Financial Accounting & Reporting': [
-    'quiz - Chapter 1 - Overview of Financial Accounting and Reporting',
-
-    
-  ],
-  'DSC1371 - Business Statistics': [
-    'quiz - Chapter 01 - Meaning and Scope of Statistics',
-    'quiz - Chapter 2 - Data and Data Collection',
-    'quiz - Chapter 3 - Presentation of Categorical Data',
-    'quiz - Chapter 4 - Presentation of Quantitative Data',
-    'quiz - Chapter 5 - Summary Measures',
-    'quiz - Chapter 6 - Probability Theory',
-    'quiz - Chapter 6 - Probability Theory & Assignment 02',
-    'DSC1370 - Business Statistics- MID Semester Examination(Practice)'
-
-
-  ],
-
-  'Y1 S1 - ITC1370 - Information Technology For Business': [
-    'quiz- lesson 01- Overiew of IT&S',
-    'quiz-Computer Hardware',
-    'quiz-software-03',
-    'quiz-data-and-databases-1',
-    'quiz- Networking and Communication',
-    'quiz-Information Systems Security',
-    'Business Process-Quiz',
-    'quiz-Information Systems Development',
-    'quiz-Emerging Technologies in IT',
-    'quiz-python fundamentals',
-    'python-operators-test',
-    'quiz-conditional-statements-1',
-
-    
-  ],
-
-   //'Mock Final Exams': [
-   // 'mock-Part 01 - Chapter 1',
-   // 'mock-final-4'
-  //]
-};
-
+/**
+ * Group quizzes by subject using the subject field from each quiz
+ */
 export function getQuizzesBySubject(quizzes: Quiz[]): Record<string, Quiz[]> {
   const result: Record<string, Quiz[]> = {};
   
-  Object.entries(SUBJECT_MAPPING).forEach(([subject, quizIds]) => {
-    result[subject] = quizzes.filter(quiz => quizIds.includes(quiz.id));
+  quizzes.forEach(quiz => {
+    // Use the subject field from the quiz, or create a default based on category
+    const subject = quiz.subject || (quiz.category === 'mockFinal' ? 'Mock Final Exams' : 'Other Quizzes');
+    
+    if (!result[subject]) {
+      result[subject] = [];
+    }
+    
+    result[subject].push(quiz);
+  });
+  
+  // Sort quizzes within each subject by title
+  Object.keys(result).forEach(subject => {
+    result[subject].sort((a, b) => a.title.localeCompare(b.title));
   });
   
   return result;
+}
+
+/**
+ * Get default gradient colors based on quiz category
+ */
+export function getDefaultGradientColors(category: 'lesson' | 'mockFinal'): [string, string, string, string] {
+  if (category === 'mockFinal') {
+    return ['#8b5cf6', '#7c3aed', '#6d28d9', '#5b21b6']; // Purple gradient
+  }
+  return ['#3b82f6', '#2563eb', '#1d4ed8', '#1e40af']; // Blue gradient
+}
+
+/**
+ * Generate Tailwind CSS gradient classes from color array
+ */
+export function generateGradientClasses(colors: [string, string, string, string]): string {
+  return `bg-gradient-to-br from-[${colors[0]}] via-[${colors[1]}] via-[${colors[2]}] to-[${colors[3]}]`;
+}
+
+/**
+ * Clear the quiz cache (useful for development or when quizzes are updated)
+ */
+export function clearQuizCache(): void {
+  quizCache = null;
 }

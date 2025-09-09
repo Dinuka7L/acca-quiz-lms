@@ -2,6 +2,8 @@
   "id": "quiz - Chapter 01 - Meaning and Scope of Statistics",
   "title": "Chapter 1 - Meaning and Scope of Statistics",
   "description": "Quiz on the fundamental concepts and scope of statistics, based on Chapter 1 of the provided document.",
+  "subject": "DSC1371 - Business Statistics",
+  "gradientColors": ["#2563eb", "#1d4ed8", "#1e40af", "#1e3a8a"],
   "timeOptions": [
     15,
     20,

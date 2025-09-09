@@ -5,7 +5,7 @@ import QuizSetup from './pages/QuizSetup';
 import QuizInterface from './pages/QuizInterface';
 import QuizResults from './pages/QuizResults';
 import { useQuizStore } from './store/quizStore';
-import { loadQuiz } from './utils/quizLoader';
+import { loadQuiz, loadAllQuizzes } from './utils/quizLoader';
 
 type AppState = 'home' | 'dashboard' | 'setup' | 'quiz' | 'results';
 
@@ -13,8 +13,26 @@ function App() {
   const [currentState, setCurrentState] = useState<AppState>('home');
   const [selectedQuizId, setSelectedQuizId] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+  const [quizzesLoaded, setQuizzesLoaded] = useState(false);
   
   const { startQuiz, submitQuiz, resetQuiz, hasInProgressQuiz, resumeQuiz, setQuizzes } = useQuizStore();
+
+  // Load all quizzes on app initialization
+  useEffect(() => {
+    const initializeQuizzes = async () => {
+      if (quizzesLoaded) return;
+      
+      try {
+        const allQuizzes = await loadAllQuizzes();
+        setQuizzes(allQuizzes);
+        setQuizzesLoaded(true);
+      } catch (error) {
+        console.error('Failed to initialize quizzes:', error);
+      }
+    };
+
+    initializeQuizzes();
+  }, [setQuizzes, quizzesLoaded]);
 
   // Listen for continue quiz event
   useEffect(() => {
@@ -32,17 +50,19 @@ function App() {
   const handleStartQuiz = async (quizId: string) => {
     setLoading(true);
     try {
-      // Load the specific quiz data
-      const quizPath = getQuizPath(quizId);
-      if (quizPath) {
-        const quiz = await loadQuiz(quizPath);
-        // Update the quiz in the store
-        const { quizzes } = useQuizStore.getState();
-        const updatedQuizzes = quizzes.map(q => q.id === quizId ? quiz : q);
-        if (!quizzes.find(q => q.id === quizId)) {
-          updatedQuizzes.push(quiz);
+      // Check if quiz is already loaded in the store
+      const { quizzes } = useQuizStore.getState();
+      const existingQuiz = quizzes.find(q => q.id === quizId);
+      
+      if (!existingQuiz) {
+        // If quiz not found, reload all quizzes
+        const allQuizzes = await loadAllQuizzes();
+        setQuizzes(allQuizzes);
+        
+        const quiz = allQuizzes.find(q => q.id === quizId);
+        if (!quiz) {
+          throw new Error(`Quiz with ID "${quizId}" not found`);
         }
-        setQuizzes(updatedQuizzes);
       }
     } catch (error) {
       console.error('Failed to load quiz:', error);
@@ -60,38 +80,6 @@ function App() {
     } else {
       setCurrentState('setup');
     }
-  };
-
-  // Helper function to get quiz path from quiz ID
-  const getQuizPath = (quizId: string): string | null => {
-    const pathMapping: Record<string, string> = {
-      'quiz- lesson 01- Overiew of IT&S': 'lessonQuizzes/OverviewOfITSystems',
-      'quiz-Computer Hardware': 'lessonQuizzes/Hardware',
-      'quiz-software-03': 'lessonQuizzes/Software',
-      'quiz-data-and-databases-1': 'lessonQuizzes/DataAndDatabases',
-      'quiz- Networking and Communication': 'lessonQuizzes/NetworkingFundamentals',
-      'quiz-Information Systems Security': 'lessonQuizzes/InformationSecurity',
-      'Business Process-Quiz': 'lessonQuizzes/BusinessProcess',
-      'quiz-Information Systems Development': 'lessonQuizzes/InformationSystemsDevelopment',
-      'quiz-Emerging Technologies in IT': 'lessonQuizzes/EmergingTechnologiesInIT',
-      'quiz-python fundamentals': 'lessonQuizzes/PythonFundamentals',
-      'python-operators-test': 'lessonQuizzes/PythonOperators',
-      'quiz-conditional-statements-1': 'lessonQuizzes/PythonConditionalStatements',
-      'mock-Part 01 - Chapter 1': 'mockExamQuizzes/mockFinalPart1',
-      'mock-final-4': 'mockExamQuizzes/mockFinalPart4',
-      'quiz - Chapter 1 - Overview of Financial Accounting and Reporting': 'lessonQuizzes/OverviewFinancialAccountingandReporting',
-      'quiz - Chapter 01 - Meaning and Scope of Statistics': 'lessonQuizzes/DSC1371MeaningandScopeofStats',
-      'quiz - Chapter 2 - Data and Data Collection': 'lessonQuizzes/DSC1371DataandDataCollection',
-      'quiz - Chapter 3 - Presentation of Categorical Data': 'lessonQuizzes/DSC1371PresentationofCategoricalData',
-      'quiz - Chapter 4 - Presentation of Quantitative Data': 'lessonQuizzes/DSC1371PresentationOfQuantitativeData',
-      'quiz - Chapter 5 - Summary Measures': 'lessonQuizzes/DSC1371SummaryMeasures',
-      'quiz - Chapter 6 - Probability Theory': 'lessonQuizzes/DSC1371ProbabilityTheory',
-      'quiz - Chapter 6 - Probability Theory & Assignment 02': 'lessonQuizzes/DSC1371Probability2',
-      'DSC1370 - Business Statistics- MID Semester Examination(Practice)': 'lessonQuizzes/DSC1371MIDSemesterExamination(Practice)'
-
-
-    };
-    return pathMapping[quizId] || null;
   };
 
   const handleBeginQuiz = (timeLimit: number) => {

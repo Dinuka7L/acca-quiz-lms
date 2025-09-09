@@ -2,6 +2,8 @@
   "id": "quiz-data-and-databases-1",
   "title": "Lesson 4 - Data and Databases",
   "description": "Practice quiz covering business analytics, DBMS concepts, DIKW hierarchy, and big data.",
+  "subject": "Y1 S1 - ITC1370 - Information Technology For Business",
+  "gradientColors": ["#8b5cf6", "#7c3aed", "#6d28d9", "#5b21b6"],
   "timeOptions": [10, 15, 20, 45, 60],
   "totalMarks": 63,
   "weight": 0,

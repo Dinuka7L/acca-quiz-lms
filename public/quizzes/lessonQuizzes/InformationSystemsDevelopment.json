@@ -2,6 +2,8 @@
   "id": "quiz-Information Systems Development",
   "title": "Lesson 8 – Information Systems Development",
   "description": "A quiz assessing knowledge of key concepts in systems development, including SDLC, methodologies, roles, and implementation strategies.",
+  "subject": "Y1 S1 - ITC1370 - Information Technology For Business",
+  "gradientColors": ["#84cc16", "#65a30d", "#4d7c0f", "#365314"],
   "timeOptions": [10, 25, 35],
   "totalMarks": 60,
   "weight": 0,

@@ -2,6 +2,8 @@
   "id": "quiz - Chapter 2 - Data and Data Collection",
   "title": "Chapter 2 - Data and Data Collection",
   "description": "A hard-difficulty multiple-choice quiz on variables, levels of measurement, and data collection methods.",
+  "subject": "DSC1371 - Business Statistics",
+  "gradientColors": ["#7c3aed", "#6d28d9", "#5b21b6", "#4c1d95"],
   "timeOptions": [
     15,
     20,

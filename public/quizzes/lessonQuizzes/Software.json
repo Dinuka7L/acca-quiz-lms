@@ -2,6 +2,8 @@
   "id": "quiz-software-03",
   "title": "Lesson 03 - Computer Software",
   "description": "Assessment covering key concepts of software types, operating systems, software licensing, and strategic software use.",
+  "subject": "Y1 S1 - ITC1370 - Information Technology For Business",
+  "gradientColors": ["#f59e0b", "#d97706", "#b45309", "#92400e"],
   "timeOptions": [45, 60, 90],
   "totalMarks": 100,
   "weight": 0,

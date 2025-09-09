@@ -2,6 +2,8 @@
   "id": "quiz - Chapter 4 - Presentation of Quantitative Data",
   "title": "Chapter 4 - Presentation of Quantitative Data",
   "description": "Quiz on the presentation of quantitative data, including frequency distributions, class intervals, and graphical representations.",
+  "subject": "DSC1371 - Business Statistics",
+  "gradientColors": ["#059669", "#047857", "#065f46", "#064e3b"],
   "timeOptions": [
     15,
     20,

@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import QuizCard from '../components/QuizCard';
 import { Quiz } from '../types/quiz';
-import { loadAllQuizzes, getQuizzesBySubject } from '../utils/quizLoader';
+import { getQuizzesBySubject, generateGradientClasses, getDefaultGradientColors } from '../utils/quizLoader';
 import { useQuizStore } from '../store/quizStore';
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -15,38 +15,62 @@ interface HomeProps {
 }
 
 const Home: React.FC<HomeProps> = ({ onStartQuiz }) => {
-  const [quizzes, setQuizzes] = useState<Quiz[]>([]);
   const [quizzesBySubject, setQuizzesBySubject] = useState<Record<string, Quiz[]>>({});
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [expandedSubjects, setExpandedSubjects] = useState<Record<string, boolean>>({});
 
   const { 
+    quizzes,
     getQuizProgress, 
     getQuizScore, 
     attempts 
   } = useQuizStore();
 
   useEffect(() => {
-    const loadQuizzes = async () => {
+    const organizeQuizzes = () => {
       try {
-        setLoading(true);
-        const allQuizzes = await loadAllQuizzes();
-        setQuizzes(allQuizzes);
-        setQuizzesBySubject(getQuizzesBySubject(allQuizzes));
-        
-        // Expand Mock Final Exams by default
-        setExpandedSubjects({ 'Mock Final Exams': true });
+        if (quizzes.length > 0) {
+          setQuizzesBySubject(getQuizzesBySubject(quizzes));
+          
+          // Expand Mock Final Exams by default
+          setExpandedSubjects({ 'Mock Final Exams': true });
+        }
       } catch (err) {
-        setError('Failed to load quizzes. Please try again later.');
-        console.error('Error loading quizzes:', err);
-      } finally {
-        setLoading(false);
+        setError('Failed to organize quizzes. Please try again later.');
+        console.error('Error organizing quizzes:', err);
       }
     };
 
-    loadQuizzes();
-  }, []);
+    organizeQuizzes();
+  }, [quizzes]);
+
+  // Show loading state if no quizzes are loaded yet
+  useEffect(() => {
+    if (quizzes.length === 0) {
+      setLoading(true);
+    } else {
+      setLoading(false);
+    }
+  }, [quizzes]);
+
+  const getSubjectGradientColors = (subject: string, quizzes: Quiz[]): [string, string, string, string] => {
+    // Try to get gradient colors from the first quiz in the subject
+    const firstQuiz = quizzes[0];
+    if (firstQuiz?.gradientColors) {
+      return firstQuiz.gradientColors;
+    }
+    
+    // Fallback to default colors based on category
+    if (subject === 'Mock Final Exams') {
+      return getDefaultGradientColors('mockFinal');
+    }
+    
+    // For other subjects, try to determine from quiz categories
+    const hasMockFinal = quizzes.some(q => q.category === 'mockFinal');
+    return getDefaultGradientColors(hasMockFinal ? 'mockFinal' : 'lesson');
+  };
+        
 
   const toggleSubject = (subject: string) => {
     setExpandedSubjects(prev => ({
@@ -153,13 +177,25 @@ const Home: React.FC<HomeProps> = ({ onStartQuiz }) => {
             const isExpanded = expandedSubjects[subject];
             const isMockFinal = subject === 'Mock Final Exams';
             
+            // Get gradient colors for this subject
+            const gradientColors = getSubjectGradientColors(subject, subjectQuizzes);
+            const gradientClasses = generateGradientClasses(gradientColors);
+            
             return (
               <div key={subject} className="relative">
                 {/* Subject Header */}
                 <div 
-                  className={`relative bg-gradient-to-br ${isMockFinal ? 'from-purple-100/60 via-indigo-50/40 to-blue-100/60' : 'from-blue-100/60 via-cyan-50/40 to-teal-100/60'} backdrop-blur-sm rounded-2xl shadow-xl border border-white/30 overflow-hidden`}
+                  className="relative backdrop-blur-sm rounded-2xl shadow-xl border border-white/30 overflow-hidden"
+                  style={{
+                    background: `linear-gradient(to bottom right, ${gradientColors[0]}20, ${gradientColors[1]}15, ${gradientColors[2]}15, ${gradientColors[3]}20)`
+                  }}
                 >
-                  <div className={`absolute inset-0 bg-gradient-to-br ${isMockFinal ? 'from-purple-500/10 to-blue-500/10' : 'from-blue-500/10 to-teal-500/10'} rounded-2xl`} />
+                  <div 
+                    className="absolute inset-0 rounded-2xl opacity-10"
+                    style={{
+                      background: `linear-gradient(to bottom right, ${gradientColors[0]}, ${gradientColors[3]})`
+                    }}
+                  />
                   
                   <button
                     onClick={() => toggleSubject(subject)}
@@ -167,11 +203,21 @@ const Home: React.FC<HomeProps> = ({ onStartQuiz }) => {
                   >
                     <div className="flex items-center justify-between">
                       <div className="flex items-center space-x-4">
-                        <div className={`p-3 bg-gradient-to-br ${getSubjectColor(subject)} rounded-full shadow-lg text-white`}>
+                        <div 
+                          className="p-3 rounded-full shadow-lg text-white"
+                          style={{
+                            background: `linear-gradient(to bottom right, ${gradientColors[0]}, ${gradientColors[2]})`
+                          }}
+                        >
                           {getSubjectIcon(subject)}
                         </div>
                         <div>
-                          <h2 className={`text-2xl font-bold bg-gradient-to-r ${isMockFinal ? 'from-purple-700 to-indigo-700' : 'from-blue-700 to-teal-700'} bg-clip-text text-transparent`}>
+                          <h2 
+                            className="text-2xl font-bold bg-clip-text text-transparent"
+                            style={{
+                              backgroundImage: `linear-gradient(to right, ${gradientColors[2]}, ${gradientColors[3]})`
+                            }}
+                          >
                             {subject}
                           </h2>
                           <p className="text-gray-700 font-medium">

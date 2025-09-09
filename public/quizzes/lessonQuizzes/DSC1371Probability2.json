@@ -2,6 +2,8 @@
   "id": "quiz - Chapter 6 - Probability Theory & Assignment 02",
   "title": "Chapter 6 & Assignment 2 - Probability Theory",
   "description": "A set of 20 hard-level questions on probability theory, including Bayes' Theorem and conditional probability, based on the provided lecture slides and assignment.",
+  "subject": "DSC1371 - Business Statistics",
+  "gradientColors": ["#65a30d", "#4d7c0f", "#365314", "#1a2e05"],
   "timeOptions": [
     30,
     45,

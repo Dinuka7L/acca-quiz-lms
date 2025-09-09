@@ -2,6 +2,8 @@
   "id": "quiz-Information Systems Security",
   "title": "Lesson 6 - Information Systems Security",
   "description": "A quiz assessing knowledge of key concepts in information systems security, including threats, the CIA triad, malware, attackers, and security strategies.",
+  "subject": "Y1 S1 - ITC1370 - Information Technology For Business",
+  "gradientColors": ["#f97316", "#ea580c", "#c2410c", "#9a3412"],
   "timeOptions": [10,25,35],
   "totalMarks": 60,
   "weight": 0,

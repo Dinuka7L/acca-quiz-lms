@@ -2,6 +2,8 @@
   "id": "Business Process-Quiz",
   "title": "Lesson 7 - Business Processes",
   "description": "Quiz on business process concepts, systems, and IT integration.",
+  "subject": "Y1 S1 - ITC1370 - Information Technology For Business",
+  "gradientColors": ["#06b6d4", "#0891b2", "#0e7490", "#155e75"],
   "timeOptions": [10, 15, 20, 60],
   "totalMarks": 38,
   "weight": 0,

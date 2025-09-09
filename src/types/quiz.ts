@@ -36,6 +36,8 @@ export interface Quiz {
   id: string;
   title: string;
   description: string;
+  subject?: string; // Subject for grouping quizzes
+  gradientColors?: [string, string, string, string]; // 4-point gradient colors
   timeOptions: number[];
   questions: Question[];
   totalMarks: number;

@@ -2,6 +2,8 @@
   "id": "python-operators-test",
   "title": "Python Operators Test",
   "description": "Comprehensive assessment covering Python fundamentals and programming concepts",
+  "subject": "Y1 S1 - ITC1370 - Information Technology For Business",
+  "gradientColors": ["#a855f7", "#9333ea", "#7c3aed", "#6b21a8"],
   "timeOptions": [30],
   "totalMarks": 25,
   "weight": 0,

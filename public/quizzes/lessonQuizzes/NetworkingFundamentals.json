@@ -2,6 +2,8 @@
   "id": "quiz- Networking and Communication",
   "title": "Lesson 5 - Networking and Communication",
   "description": "A comprehensive quiz covering key concepts in networking and communication, including network types, devices, protocols, and applications.",
+  "subject": "Y1 S1 - ITC1370 - Information Technology For Business",
+  "gradientColors": ["#ef4444", "#dc2626", "#b91c1c", "#991b1b"],
   "timeOptions": [10,25,35],
   "totalMarks": 60,
   "weight": 0,

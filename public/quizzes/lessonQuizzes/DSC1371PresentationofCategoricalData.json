@@ -2,6 +2,8 @@
   "id": "quiz - Chapter 3 - Presentation of Categorical Data",
   "title": "Chapter 3 - Presentation of Categorical Data",
   "description": "A hard-difficulty multiple-choice quiz on the presentation of categorical data.",
+  "subject": "DSC1371 - Business Statistics",
+  "gradientColors": ["#dc2626", "#b91c1c", "#991b1b", "#7f1d1d"],
   "timeOptions": [
     15,
     20,
