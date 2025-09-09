@@ -47,11 +47,18 @@ const Header: React.FC<HeaderProps> = ({ currentQuiz, onNavigateHome }) => {
           {/* Quiz Name */}
           <div className="flex-grow flex justify-center z-10 mx-2 overflow-hidden">
             <span className="bg-red-800 text-white text-xs px-2 py-1 rounded-full font-medium whitespace-nowrap truncate">
-              {currentQuiz || ''}
+              {currentQuiz || 'Academia'}
             </span>
           </div>
 
-          
+          {/* Academia Logo */}
+          <div className="z-10 shrink-0">
+            <img
+              src="/Academia-logo.png"
+              alt="Academia Logo"
+              className="w-10 rounded-full"
+            />
+          </div>
         </div>
       </header>
 
