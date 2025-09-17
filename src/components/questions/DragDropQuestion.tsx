@@ -40,8 +40,8 @@ const DraggableItem: React.FC<DraggableItemProps> = ({ item, isAssigned, showRes
         p-3 rounded-lg border-2 transition-all duration-200
         ${isDragging ? 'opacity-50 scale-105' : ''}
         ${showResults || isAssigned
-          ? 'border-gray-300 bg-gray-100 cursor-not-allowed'
-          : 'border-primary-300 bg-white hover:border-primary-500 hover:bg-primary-25 cursor-move hover:shadow-md'
+          ? 'border-gray-300 dark:border-gray-600 bg-gray-100 dark:bg-gray-700 cursor-not-allowed text-gray-900 dark:text-gray-200'
+          : 'border-primary-300 dark:border-primary-500 bg-white dark:bg-gray-800 hover:border-primary-500 dark:hover:border-primary-400 hover:bg-primary-25 dark:hover:bg-primary-900/20 cursor-move hover:shadow-md text-gray-900 dark:text-gray-200'
         }
       `}
     >
@@ -68,27 +68,27 @@ const DropZone: React.FC<DropZoneProps> = ({ blankId, assignedItem, onDrop, show
       ref={drop}
       className={`
         inline-block min-w-32 min-h-10 px-3 py-2 border-2 border-dashed rounded-lg transition-all duration-200 mx-1
-        ${isOver && !showResults ? 'border-primary-500 bg-primary-50' : ''}
+        ${isOver && !showResults ? 'border-primary-500 dark:border-primary-400 bg-primary-50 dark:bg-primary-900/30' : ''}
         ${showResults
           ? isCorrect
-            ? 'border-green-500 bg-green-50'
+            ? 'border-green-500 dark:border-green-400 bg-green-50 dark:bg-green-900/30'
             : isWrong
-            ? 'border-red-500 bg-red-50'
-            : 'border-gray-300 bg-gray-50'
-          : 'border-gray-400 bg-gray-50 hover:border-primary-400'
+            ? 'border-red-500 dark:border-red-400 bg-red-50 dark:bg-red-900/30'
+            : 'border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700'
+          : 'border-gray-400 dark:border-gray-500 bg-gray-50 dark:bg-gray-700 hover:border-primary-400 dark:hover:border-primary-500'
         }
       `}
     >
       {assignedItem ? (
         <div className={`
-          text-center font-medium text-sm
+          text-center font-medium text-sm transition-colors duration-300
           ${showResults
             ? isCorrect
-              ? 'text-green-800'
+              ? 'text-green-800 dark:text-green-300'
               : isWrong
-              ? 'text-red-800'
-              : 'text-gray-800'
-            : 'text-gray-800'
+              ? 'text-red-800 dark:text-red-300'
+              : 'text-gray-800 dark:text-gray-300'
+            : 'text-gray-800 dark:text-gray-300'
           }
         `}>
           {assignedItem.content}
@@ -99,7 +99,7 @@ const DropZone: React.FC<DropZoneProps> = ({ blankId, assignedItem, onDrop, show
           )}
         </div>
       ) : (
-        <div className="text-center text-gray-400 text-sm">
+        <div className="text-center text-gray-400 dark:text-gray-500 text-sm transition-colors duration-300">
           Drop here
         </div>
       )}
@@ -171,17 +171,17 @@ const DragDropQuestion: React.FC<DragDropQuestionProps> = ({
   return (
     <DndProvider backend={HTML5Backend}>
       <div className="space-y-6">
-        <div className="text-lg font-medium text-gray-900 leading-relaxed">
+        <div className="text-lg font-medium text-gray-900 dark:text-white leading-relaxed transition-colors duration-300">
           {parseQuestionWithBlanks(question.question)}
         </div>
         
-        <div className="text-sm text-gray-600">
+        <div className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300">
           Drag the items below to fill in the blanks in the sentence above.
         </div>
         
         {!showResults && (
           <div>
-            <div className="font-medium text-gray-700 mb-3">Available Items:</div>
+            <div className="font-medium text-gray-700 dark:text-gray-300 mb-3 transition-colors duration-300">Available Items:</div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
               {getUnassignedItems().map(item => (
                 <DraggableItem
@@ -196,14 +196,14 @@ const DragDropQuestion: React.FC<DragDropQuestionProps> = ({
         )}
         
         {showResults && (
-          <div className="mt-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
-            <div className="font-medium text-blue-900 mb-2">Correct answers:</div>
+          <div className="mt-6 p-4 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-700 rounded-lg transition-colors duration-300">
+            <div className="font-medium text-blue-900 dark:text-blue-300 mb-2 transition-colors duration-300">Correct answers:</div>
             <div className="space-y-2">
               {question.dragItems?.map(item => (
-                <div key={item.id} className="flex items-center justify-between p-2 bg-white rounded border">
-                  <span className="font-medium">{item.category.replace('blank_', 'Blank ')}</span>
-                  <span className="text-gray-500">→</span>
-                  <span className="font-medium">{item.content}</span>
+                <div key={item.id} className="flex items-center justify-between p-2 bg-white dark:bg-gray-800 rounded border border-gray-200 dark:border-gray-600 transition-colors duration-300">
+                  <span className="font-medium text-gray-900 dark:text-gray-200 transition-colors duration-300">{item.category.replace('blank_', 'Blank ')}</span>
+                  <span className="text-gray-500 dark:text-gray-400 transition-colors duration-300">→</span>
+                  <span className="font-medium text-gray-900 dark:text-gray-200 transition-colors duration-300">{item.content}</span>
                 </div>
               ))}
             </div>

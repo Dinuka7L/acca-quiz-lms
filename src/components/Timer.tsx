@@ -123,23 +123,23 @@ const Timer: React.FC = () => {
   // Don't show timer for unlimited quizzes
   if (isUnlimited) {
     return (
-      <div className="bg-white/90 backdrop-blur-sm rounded-xl p-4 shadow-lg border-2 border-green-200">
+      <div className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-xl p-4 shadow-lg border-2 border-green-200 dark:border-green-700 transition-colors duration-300">
         <div className="flex items-center space-x-3">
-          <div className="p-2 bg-green-100 rounded-full">
-            <Infinity className="h-5 w-5 text-green-600" />
+          <div className="p-2 bg-green-100 dark:bg-green-900/30 rounded-full transition-colors duration-300">
+            <Infinity className="h-5 w-5 text-green-600 dark:text-green-400 transition-colors duration-300" />
           </div>
           
           <div>
-            <div className="text-xs text-gray-500 uppercase tracking-wide font-medium">
+            <div className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wide font-medium transition-colors duration-300">
               Time Limit
             </div>
-            <div className="text-2xl font-bold text-green-600 tabular-nums">
+            <div className="text-2xl font-bold text-green-600 dark:text-green-400 tabular-nums transition-colors duration-300">
               Unlimited
             </div>
           </div>
         </div>
         
-        <div className="mt-2 text-xs font-medium text-green-600">
+        <div className="mt-2 text-xs font-medium text-green-600 dark:text-green-400 transition-colors duration-300">
           ✨ Take your time!
         </div>
       </div>
@@ -152,28 +152,28 @@ const Timer: React.FC = () => {
 
   return (
     <div className={`
-      bg-white/90 backdrop-blur-sm rounded-xl p-4 shadow-lg border-2 transition-all duration-300
-      ${isTimeUp ? 'border-red-600 bg-red-100/90' : isCritical ? 'border-red-500 bg-red-50/90' : isLowTime ? 'border-yellow-500 bg-yellow-50/90' : 'border-gray-200'}
+      bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-xl p-4 shadow-lg border-2 transition-all duration-300
+      ${isTimeUp ? 'border-red-600 dark:border-red-500 bg-red-100/90 dark:bg-red-900/30' : isCritical ? 'border-red-500 dark:border-red-400 bg-red-50/90 dark:bg-red-900/20' : isLowTime ? 'border-yellow-500 dark:border-yellow-400 bg-yellow-50/90 dark:bg-yellow-900/20' : 'border-gray-200 dark:border-gray-600'}
     `}>
       <div className="flex items-center space-x-3">
         <div className={`
           p-2 rounded-full transition-colors duration-300
-          ${isTimeUp ? 'bg-red-200' : isCritical ? 'bg-red-100' : isLowTime ? 'bg-yellow-100' : 'bg-gray-100'}
+          ${isTimeUp ? 'bg-red-200 dark:bg-red-800/50' : isCritical ? 'bg-red-100 dark:bg-red-800/30' : isLowTime ? 'bg-yellow-100 dark:bg-yellow-800/30' : 'bg-gray-100 dark:bg-gray-700'}
         `}>
           {isTimeUp || isCritical ? (
-            <AlertTriangle className={`h-5 w-5 ${isTimeUp ? 'text-red-700' : 'text-red-600'}`} />
+            <AlertTriangle className={`h-5 w-5 ${isTimeUp ? 'text-red-700 dark:text-red-300' : 'text-red-600 dark:text-red-400'} transition-colors duration-300`} />
           ) : (
-            <Clock className="h-5 w-5 text-gray-600" />
+            <Clock className="h-5 w-5 text-gray-600 dark:text-gray-400 transition-colors duration-300" />
           )}
         </div>
         
         <div>
-          <div className="text-xs text-gray-500 uppercase tracking-wide font-medium">
+          <div className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wide font-medium transition-colors duration-300">
             Time Remaining
           </div>
           <div className={`
             text-2xl font-bold tabular-nums transition-colors duration-300
-            ${isTimeUp ? 'text-red-700' : isCritical ? 'text-red-600' : isLowTime ? 'text-yellow-600' : 'text-gray-900'}
+            ${isTimeUp ? 'text-red-700 dark:text-red-300' : isCritical ? 'text-red-600 dark:text-red-400' : isLowTime ? 'text-yellow-600 dark:text-yellow-400' : 'text-gray-900 dark:text-white'}
           `}>
             {formatTime(timeRemaining)}
           </div>
@@ -181,14 +181,14 @@ const Timer: React.FC = () => {
       </div>
       
       {isTimeUp && (
-        <div className="mt-2 text-xs font-medium text-red-700 animate-pulse">
+        <div className="mt-2 text-xs font-medium text-red-700 dark:text-red-300 animate-pulse transition-colors duration-300">
           🚨 Time's up! Submitting quiz...
         </div>
       )}
       {!isTimeUp && isLowTime && (
         <div className={`
-          mt-2 text-xs font-medium animate-pulse
-          ${isCritical ? 'text-red-600' : 'text-yellow-600'}
+          mt-2 text-xs font-medium animate-pulse transition-colors duration-300
+          ${isCritical ? 'text-red-600 dark:text-red-400' : 'text-yellow-600 dark:text-yellow-400'}
         `}>
           {isCritical ? '⚠️ Critical time!' : '⏰ Time is running low'}
         </div>

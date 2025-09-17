@@ -5,6 +5,7 @@ import QuizInterface from './pages/QuizInterface';
 import QuizResults from './pages/QuizResults';
 import { useQuizStore } from './store/quizStore';
 import { loadQuiz, loadAllQuizzes } from './utils/quizLoader';
+import { useThemeStore } from './store/themeStore';
 
 type AppState = 'home' | 'dashboard' | 'setup' | 'quiz' | 'results';
 
@@ -15,6 +16,7 @@ function App() {
   const [quizzesLoaded, setQuizzesLoaded] = useState(false);
   
   const { startQuiz, submitQuiz, resetQuiz, hasInProgressQuiz, resumeQuiz, setQuizzes } = useQuizStore();
+  const { isDarkMode } = useThemeStore();
 
   // Load all quizzes on app initialization
   useEffect(() => {
@@ -113,10 +115,10 @@ function App() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center">
+      <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 flex items-center justify-center transition-colors duration-300">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600 mx-auto mb-4"></div>
-          <p className="text-gray-600">Loading quiz...</p>
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600 dark:border-primary-400 mx-auto mb-4 transition-colors duration-300"></div>
+          <p className="text-gray-600 dark:text-gray-300 transition-colors duration-300">Loading quiz...</p>
         </div>
       </div>
     );

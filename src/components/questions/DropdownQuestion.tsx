@@ -62,11 +62,11 @@ const DropdownQuestion: React.FC<DropdownQuestionProps> = ({
               mx-1 px-3 py-1 border-2 rounded-md font-medium transition-all duration-200
               ${showResults
                 ? isCorrect
-                  ? 'border-green-500 bg-green-50 text-green-800'
+                  ? 'border-green-500 dark:border-green-400 bg-green-50 dark:bg-green-900/30 text-green-800 dark:text-green-300'
                   : isWrong
-                  ? 'border-red-500 bg-red-50 text-red-800'
-                  : 'border-gray-300 bg-gray-50'
-                : 'border-gray-300 focus:border-primary-500 focus:ring-2 focus:ring-primary-200'
+                  ? 'border-red-500 dark:border-red-400 bg-red-50 dark:bg-red-900/30 text-red-800 dark:text-red-300'
+                  : 'border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-200'
+                : 'border-gray-300 dark:border-gray-600 focus:border-primary-500 dark:focus:border-primary-400 focus:ring-2 focus:ring-primary-200 dark:focus:ring-primary-900/30 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-200'
               }
             `}
           >
@@ -85,11 +85,11 @@ const DropdownQuestion: React.FC<DropdownQuestionProps> = ({
 
   return (
     <div className="space-y-6">
-      <div className="text-lg font-medium text-gray-900 leading-relaxed">
+      <div className="text-lg font-medium text-gray-900 dark:text-white leading-relaxed transition-colors duration-300">
         {parseQuestionWithDropdowns(question.question)}
       </div>
       
-      <div className="text-sm text-gray-600">
+      <div className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300">
         Select the correct option from each dropdown menu to complete the sentence.
       </div>
       
@@ -100,20 +100,20 @@ const DropdownQuestion: React.FC<DropdownQuestionProps> = ({
             const isCorrect = userAnswer === blank.correctAnswer;
             
             return (
-              <div key={blank.id} className={`p-3 rounded-lg border ${isCorrect ? 'border-green-200 bg-green-50' : 'border-red-200 bg-red-50'}`}>
-                <div className="text-sm font-medium text-gray-700 mb-1">
+              <div key={blank.id} className={`p-3 rounded-lg border transition-colors duration-300 ${isCorrect ? 'border-green-200 dark:border-green-700 bg-green-50 dark:bg-green-900/30' : 'border-red-200 dark:border-red-700 bg-red-50 dark:bg-red-900/30'}`}>
+                <div className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-1 transition-colors duration-300">
                   {blank.id.replace('dropdown_', 'Dropdown ')}:
                 </div>
                 <div className="flex items-center justify-between">
                   <div>
-                    <span className="text-sm text-gray-600">Your answer: </span>
-                    <span className={`font-medium ${isCorrect ? 'text-green-800' : 'text-red-800'}`}>
+                    <span className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300">Your answer: </span>
+                    <span className={`font-medium transition-colors duration-300 ${isCorrect ? 'text-green-800 dark:text-green-300' : 'text-red-800 dark:text-red-300'}`}>
                       {userAnswer || 'Not answered'}
                     </span>
                   </div>
                   <div>
-                    <span className="text-sm text-gray-600">Correct: </span>
-                    <span className="font-medium text-green-800">{blank.correctAnswer}</span>
+                    <span className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300">Correct: </span>
+                    <span className="font-medium text-green-800 dark:text-green-300 transition-colors duration-300">{blank.correctAnswer}</span>
                   </div>
                 </div>
               </div>
@@ -121,9 +121,9 @@ const DropdownQuestion: React.FC<DropdownQuestionProps> = ({
           })}
           
           {question.rationale && (
-            <div className="mt-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
-              <div className="font-medium text-blue-900 mb-2">Explanation:</div>
-              <div className="text-blue-800">{question.rationale}</div>
+            <div className="mt-6 p-4 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-700 rounded-lg transition-colors duration-300">
+              <div className="font-medium text-blue-900 dark:text-blue-300 mb-2 transition-colors duration-300">Explanation:</div>
+              <div className="text-blue-800 dark:text-blue-400 transition-colors duration-300">{question.rationale}</div>
             </div>
           )}
         </div>

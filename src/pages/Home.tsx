@@ -133,39 +133,39 @@ const Home: React.FC<HomeProps> = ({ onStartQuiz }) => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex flex-col">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 flex flex-col transition-colors duration-300">
       <Header />
 
       
       
       <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
+          <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4 transition-colors duration-300">
             USJ - FMSC First Year Quizzes by 2023/2024 Batch
           </h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto transition-colors duration-300">
             Explore our comprehensive collection of quizzes organized by subject. Practice with lesson quizzes or test your knowledge with mock final exams. Note to users: the questions and answers are not fact checked and generated via AI models. Therefore, please verify all information independently.
           </p>
         </div>
 
         {/* Stats Summary */}
-        <div className="mt-12 bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-lg border border-gray-200/50">
+        <div className="mt-12 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-xl p-6 shadow-lg border border-gray-200/50 dark:border-gray-600/50 transition-colors duration-300">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
             <div>
-              <div className="text-3xl font-bold text-primary-600">{quizzes.length}</div>
-              <div className="text-gray-600">Total Quizzes</div>
+              <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 transition-colors duration-300">{quizzes.length}</div>
+              <div className="text-gray-600 dark:text-gray-300 transition-colors duration-300">Total Quizzes</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-green-600">
+              <div className="text-3xl font-bold text-green-600 dark:text-green-400 transition-colors duration-300">
                 {quizzes.filter(q => getQuizProgress(q.id) === 100).length}
               </div>
-              <div className="text-gray-600">Completed</div>
+              <div className="text-gray-600 dark:text-gray-300 transition-colors duration-300">Completed</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-blue-600">
+              <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 transition-colors duration-300">
                 {Object.keys(quizzesBySubject).filter(subject => subject !== "Mock Final Exams").length}
               </div>
-              <div className="text-gray-600">Subjects</div>
+              <div className="text-gray-600 dark:text-gray-300 transition-colors duration-300">Subjects</div>
             </div>
           </div>
         </div>
@@ -185,7 +185,7 @@ const Home: React.FC<HomeProps> = ({ onStartQuiz }) => {
               <div key={subject} className="relative">
                 {/* Subject Header */}
                 <div 
-                  className="relative backdrop-blur-sm rounded-2xl shadow-xl border border-white/30 overflow-hidden"
+                  className="relative backdrop-blur-sm rounded-2xl shadow-xl border border-white/30 dark:border-gray-600/30 overflow-hidden transition-colors duration-300"
                   style={{
                     background: `linear-gradient(to bottom right, ${gradientColors[0]}20, ${gradientColors[1]}15, ${gradientColors[2]}15, ${gradientColors[3]}20)`
                   }}
@@ -199,7 +199,7 @@ const Home: React.FC<HomeProps> = ({ onStartQuiz }) => {
                   
                   <button
                     onClick={() => toggleSubject(subject)}
-                    className="relative w-full p-6 text-left hover:bg-white/10 transition-colors duration-200"
+                    className="relative w-full p-6 text-left hover:bg-white/10 dark:hover:bg-gray-700/20 transition-colors duration-200"
                   >
                     <div className="flex items-center justify-between">
                       <div className="flex items-center space-x-4">
@@ -220,7 +220,7 @@ const Home: React.FC<HomeProps> = ({ onStartQuiz }) => {
                           >
                             {subject}
                           </h2>
-                          <p className="text-gray-700 font-medium">
+                          <p className="text-gray-700 dark:text-gray-300 font-medium transition-colors duration-300">
                             {subjectQuizzes.length} quiz{subjectQuizzes.length !== 1 ? 'es' : ''} available
                           </p>
                         </div>
@@ -228,15 +228,15 @@ const Home: React.FC<HomeProps> = ({ onStartQuiz }) => {
                       
                       <div className="flex items-center space-x-4">
                         <div className="text-right">
-                          <div className="text-sm text-gray-600">
+                          <div className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300">
                             {subjectQuizzes.filter(q => getQuizProgress(q.id) === 100).length} completed
                           </div>
-                          <div className="text-xs text-gray-500">
+                          <div className="text-xs text-gray-500 dark:text-gray-500 transition-colors duration-300">
                             {Math.round((subjectQuizzes.filter(q => getQuizProgress(q.id) === 100).length / subjectQuizzes.length) * 100)}% progress
                           </div>
                         </div>
                         <ChevronRight 
-                          className={`h-6 w-6 text-gray-600 transition-transform duration-200 ${isExpanded ? 'rotate-90' : ''}`} 
+                          className={`h-6 w-6 text-gray-600 dark:text-gray-400 transition-all duration-200 ${isExpanded ? 'rotate-90' : ''}`} 
                         />
                       </div>
                     </div>

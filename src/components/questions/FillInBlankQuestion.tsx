@@ -83,13 +83,13 @@ const FillInBlankQuestion: React.FC<FillInBlankQuestionProps> = ({
   return (
     <div className="space-y-4">
       <div 
-        className="text-lg font-medium text-gray-900 leading-relaxed"
+        className="text-lg font-medium text-gray-900 dark:text-white leading-relaxed transition-colors duration-300"
         dangerouslySetInnerHTML={{ __html: question.question }}
       />
       
-      <div className="text-sm text-gray-600 mb-4">
+      <div className="text-sm text-gray-600 dark:text-gray-400 mb-4 transition-colors duration-300">
         💡 <strong>Tip:</strong> Minor spelling mistakes and punctuation differences are automatically handled.
-        <span className="block mt-1 text-orange-600 text-xs">
+        <span className="block mt-1 text-orange-600 dark:text-orange-400 text-xs transition-colors duration-300">
           ⚠️ Keep answers brief and to the point for fill-in-blank questions.
         </span>
       </div>
@@ -106,13 +106,13 @@ const FillInBlankQuestion: React.FC<FillInBlankQuestionProps> = ({
               w-full p-4 border-2 rounded-lg text-lg font-mono transition-all duration-200
               ${showResults
                 ? isCorrect
-                  ? 'border-green-500 bg-green-50 text-green-900'
+                  ? 'border-green-500 dark:border-green-400 bg-green-50 dark:bg-green-900/30 text-green-900 dark:text-green-300'
                   : isWrong
-                  ? 'border-red-500 bg-red-50 text-red-900'
-                  : 'border-gray-300 bg-gray-50'
+                  ? 'border-red-500 dark:border-red-400 bg-red-50 dark:bg-red-900/30 text-red-900 dark:text-red-300'
+                  : 'border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-200'
                 : userAnswer.length > 1000
-                ? 'border-orange-300 focus:border-orange-500 focus:ring-4 focus:ring-orange-100'
-                : 'border-gray-300 focus:border-primary-500 focus:ring-4 focus:ring-primary-100'
+                ? 'border-orange-300 dark:border-orange-500 focus:border-orange-500 dark:focus:border-orange-400 focus:ring-4 focus:ring-orange-100 dark:focus:ring-orange-900/30 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-200'
+                : 'border-gray-300 dark:border-gray-600 focus:border-primary-500 dark:focus:border-primary-400 focus:ring-4 focus:ring-primary-100 dark:focus:ring-primary-900/30 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-200'
               }
             `}
           />
@@ -129,10 +129,10 @@ const FillInBlankQuestion: React.FC<FillInBlankQuestionProps> = ({
         </div>
 
         {userAnswer.length > 1000 && !showResults && (
-          <div className="p-3 bg-orange-50 border border-orange-200 rounded-lg">
+          <div className="p-3 bg-orange-50 dark:bg-orange-900/20 border border-orange-200 dark:border-orange-700 rounded-lg transition-colors duration-300">
             <div className="flex items-start space-x-2">
-              <span className="text-orange-600">⚠️</span>
-              <div className="text-orange-800 text-sm">
+              <span className="text-orange-600 dark:text-orange-400 transition-colors duration-300">⚠️</span>
+              <div className="text-orange-800 dark:text-orange-300 text-sm transition-colors duration-300">
                 <strong>Long Answer:</strong> Fill-in-blank answers are typically brief. 
                 Consider shortening your response ({userAnswer.length} characters).
               </div>
@@ -143,36 +143,36 @@ const FillInBlankQuestion: React.FC<FillInBlankQuestionProps> = ({
         {showResults && (
           <div className="space-y-3">
             {userAnswer && (
-              <div className={`p-3 rounded-lg ${isCorrect ? 'bg-green-50 border border-green-200' : 'bg-red-50 border border-red-200'}`}>
-                <div className="text-sm font-medium text-gray-700 mb-1">Your answer:</div>
-                <div className={`font-mono ${isCorrect ? 'text-green-800' : 'text-red-800'}`}>
+              <div className={`p-3 rounded-lg transition-colors duration-300 ${isCorrect ? 'bg-green-50 dark:bg-green-900/30 border border-green-200 dark:border-green-700' : 'bg-red-50 dark:bg-red-900/30 border border-red-200 dark:border-red-700'}`}>
+                <div className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-1 transition-colors duration-300">Your answer:</div>
+                <div className={`font-mono transition-colors duration-300 ${isCorrect ? 'text-green-800 dark:text-green-300' : 'text-red-800 dark:text-red-300'}`}>
                   {userAnswer}
                 </div>
                 {isCorrect && (
-                  <div className="text-xs text-green-600 mt-1">
+                  <div className="text-xs text-green-600 dark:text-green-400 mt-1 transition-colors duration-300">
                     ✓ Accepted (including minor variations)
                   </div>
                 )}
                 {wasTruncated && (
-                  <div className="text-xs text-red-600 mt-1">
+                  <div className="text-xs text-red-600 dark:text-red-400 mt-1 transition-colors duration-300">
                     ⚠️ Answer was truncated for storage efficiency
                   </div>
                 )}
               </div>
             )}
             
-            <div className="p-3 bg-green-50 border border-green-200 rounded-lg">
-              <div className="text-sm font-medium text-gray-700 mb-1">Correct answer:</div>
-              <div className="font-mono text-green-800">{correctAnswer}</div>
+            <div className="p-3 bg-green-50 dark:bg-green-900/30 border border-green-200 dark:border-green-700 rounded-lg transition-colors duration-300">
+              <div className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-1 transition-colors duration-300">Correct answer:</div>
+              <div className="font-mono text-green-800 dark:text-green-300 transition-colors duration-300">{correctAnswer}</div>
             </div>
           </div>
         )}
       </div>
       
       {showResults && question.rationale && (
-        <div className="mt-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
-          <div className="font-medium text-blue-900 mb-2">Explanation:</div>
-          <div className="text-blue-800">{question.rationale}</div>
+        <div className="mt-6 p-4 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-700 rounded-lg transition-colors duration-300">
+          <div className="font-medium text-blue-900 dark:text-blue-300 mb-2 transition-colors duration-300">Explanation:</div>
+          <div className="text-blue-800 dark:text-blue-400 transition-colors duration-300">{question.rationale}</div>
         </div>
       )}
     </div>

@@ -179,22 +179,22 @@ const QuizInterface: React.FC<QuizInterfaceProps> = ({ onSubmit, onNavigateHome 
   const unansweredQuestions = getUnansweredQuestions();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex flex-col">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 flex flex-col transition-colors duration-300">
       <Header currentQuiz={currentQuiz.title} onNavigateHome={handleNavigateHome} />
       
       {/* Storage Warning Banner */}
       {storageWarning && (
-        <div className="bg-orange-100 border-b border-orange-200 px-4 py-3">
+        <div className="bg-orange-100 dark:bg-orange-900/30 border-b border-orange-200 dark:border-orange-700 px-4 py-3 transition-colors duration-300">
           <div className="max-w-7xl mx-auto flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <HardDrive className="h-5 w-5 text-orange-600" />
-              <div className="text-orange-800">
+              <HardDrive className="h-5 w-5 text-orange-600 dark:text-orange-400 transition-colors duration-300" />
+              <div className="text-orange-800 dark:text-orange-300 transition-colors duration-300">
                 <span className="font-medium">Storage Warning:</span> {storageWarning}
               </div>
             </div>
             <button
               onClick={handleCleanupStorage}
-              className="px-3 py-1 bg-orange-600 hover:bg-orange-700 text-white text-sm rounded transition-colors duration-200"
+              className="px-3 py-1 bg-orange-600 dark:bg-orange-700 hover:bg-orange-700 dark:hover:bg-orange-600 text-white text-sm rounded transition-colors duration-200"
             >
               Clean Up
             </button>
@@ -204,7 +204,7 @@ const QuizInterface: React.FC<QuizInterfaceProps> = ({ onSubmit, onNavigateHome 
       
       <main className="flex-1 flex">
         {/* Left Sidebar */}
-        <aside className="w-80 bg-white/50 backdrop-blur-sm border-r border-gray-200/50 p-4 overflow-y-auto">
+        <aside className="w-80 bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm border-r border-gray-200/50 dark:border-gray-600/50 p-4 overflow-y-auto transition-colors duration-300">
           <QuestionNavigation />
         </aside>
         
@@ -214,16 +214,16 @@ const QuizInterface: React.FC<QuizInterfaceProps> = ({ onSubmit, onNavigateHome 
             <div className="max-w-4xl mx-auto">
               <div className="flex items-center justify-between mb-6">
                 <div className="flex items-center space-x-4">
-                  <div className="bg-primary-100 text-primary-800 px-4 py-2 rounded-full font-medium">
+                  <div className="bg-primary-100 dark:bg-primary-900/30 text-primary-800 dark:text-primary-300 px-4 py-2 rounded-full font-medium transition-colors duration-300">
                     Question {currentQuestionIndex + 1} of {currentQuiz.questions.length}
                   </div>
-                  <div className="text-sm text-gray-600">
+                  <div className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300">
                     {currentQuestion.marks} {currentQuestion.marks === 1 ? 'mark' : 'marks'}
                   </div>
                 </div>
                 
                 {/* Auto-save indicator */}
-                <div className="text-xs text-green-600 bg-green-50 px-2 py-1 rounded-full">
+                <div className="text-xs text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/30 px-2 py-1 rounded-full transition-colors duration-300">
                   ✓ Progress auto-saved
                 </div>
               </div>
@@ -233,7 +233,7 @@ const QuizInterface: React.FC<QuizInterfaceProps> = ({ onSubmit, onNavigateHome 
           </div>
           
           {/* Navigation Controls */}
-          <div className="bg-white/80 backdrop-blur-sm border-t border-gray-200/50 p-6">
+          <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border-t border-gray-200/50 dark:border-gray-600/50 p-6 transition-colors duration-300">
             <div className="max-w-4xl mx-auto flex items-center justify-between">
               <button
                 onClick={handlePrevious}
@@ -241,8 +241,8 @@ const QuizInterface: React.FC<QuizInterfaceProps> = ({ onSubmit, onNavigateHome 
                 className={`
                   flex items-center space-x-2 px-6 py-3 rounded-lg font-medium transition-all duration-200
                   ${isFirstQuestion
-                    ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
-                    : 'bg-white border border-gray-300 hover:bg-gray-50 text-gray-700'
+                    ? 'bg-gray-100 dark:bg-gray-700 text-gray-400 dark:text-gray-600 cursor-not-allowed'
+                    : 'bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-200'
                   }
                 `}
               >
@@ -250,11 +250,11 @@ const QuizInterface: React.FC<QuizInterfaceProps> = ({ onSubmit, onNavigateHome 
                 <span>Previous</span>
               </button>
               
-              <div className="text-sm text-gray-600">
+              <div className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300">
                 {questionStatuses[currentQuestion.id]?.answered ? (
-                  <span className="text-green-600 font-medium">✓ Answered</span>
+                  <span className="text-green-600 dark:text-green-400 font-medium transition-colors duration-300">✓ Answered</span>
                 ) : (
-                  <span className="text-yellow-600 font-medium">Not answered</span>
+                  <span className="text-yellow-600 dark:text-yellow-400 font-medium transition-colors duration-300">Not answered</span>
                 )}
               </div>
               
@@ -264,8 +264,8 @@ const QuizInterface: React.FC<QuizInterfaceProps> = ({ onSubmit, onNavigateHome 
                 className={`
                   flex items-center space-x-2 px-6 py-3 rounded-lg font-medium transition-all duration-200 hover:transform hover:scale-105
                   ${isSubmitting 
-                    ? 'bg-gray-400 text-white cursor-not-allowed'
-                    : 'bg-primary-600 hover:bg-primary-700 text-white'
+                    ? 'bg-gray-400 dark:bg-gray-600 text-white cursor-not-allowed'
+                    : 'bg-primary-600 dark:bg-primary-700 hover:bg-primary-700 dark:hover:bg-primary-600 text-white'
                   }
                 `}
               >
@@ -281,7 +281,7 @@ const QuizInterface: React.FC<QuizInterfaceProps> = ({ onSubmit, onNavigateHome 
         </div>
         
         {/* Right Sidebar */}
-        <aside className="w-64 bg-white/50 backdrop-blur-sm border-l border-gray-200/50 p-4 space-y-4">
+        <aside className="w-64 bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm border-l border-gray-200/50 dark:border-gray-600/50 p-4 space-y-4 transition-colors duration-300">
           <Timer />
           <QuickNavigation />
         </aside>
@@ -289,28 +289,28 @@ const QuizInterface: React.FC<QuizInterfaceProps> = ({ onSubmit, onNavigateHome 
       
       {/* Submit Confirmation Modal */}
       {showSubmitModal && (
-        <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-xl p-6 shadow-xl max-w-md w-full">
+        <div className="fixed inset-0 bg-black/50 dark:bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4 transition-colors duration-300">
+          <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-xl max-w-md w-full transition-colors duration-300">
             <div className="flex items-center space-x-3 mb-4">
-              <div className="p-2 bg-yellow-100 rounded-full">
-                <AlertTriangle className="h-6 w-6 text-yellow-600" />
+              <div className="p-2 bg-yellow-100 dark:bg-yellow-900/30 rounded-full transition-colors duration-300">
+                <AlertTriangle className="h-6 w-6 text-yellow-600 dark:text-yellow-400 transition-colors duration-300" />
               </div>
-              <h3 className="text-lg font-semibold text-gray-900">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white transition-colors duration-300">
                 Submit Quiz?
               </h3>
             </div>
             
             <div className="mb-6">
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600 dark:text-gray-300 mb-4 transition-colors duration-300">
                 Are you sure you want to submit your quiz? This action cannot be undone.
               </p>
               
               {unansweredQuestions.length > 0 && (
-                <div className="bg-red-50 border border-red-200 rounded-lg p-4">
-                  <div className="font-medium text-red-900 mb-2">
+                <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-700 rounded-lg p-4 transition-colors duration-300">
+                  <div className="font-medium text-red-900 dark:text-red-300 mb-2 transition-colors duration-300">
                     ⚠️ Unanswered Questions ({unansweredQuestions.length})
                   </div>
-                  <div className="text-red-800 text-sm space-y-1">
+                  <div className="text-red-800 dark:text-red-400 text-sm space-y-1 transition-colors duration-300">
                     {unansweredQuestions.slice(0, 5).map((q, index) => (
                       <div key={q.id}>
                         • Question {currentQuiz.questions.findIndex(qu => qu.id === q.id) + 1}
@@ -328,14 +328,14 @@ const QuizInterface: React.FC<QuizInterfaceProps> = ({ onSubmit, onNavigateHome 
               <button
                 onClick={() => setShowSubmitModal(false)}
                 disabled={isSubmitting}
-                className="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors duration-200 disabled:opacity-50"
+                className="px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 text-gray-900 dark:text-gray-200 transition-colors duration-200 disabled:opacity-50"
               >
                 Cancel
               </button>
               <button
                 onClick={handleSubmit}
                 disabled={isSubmitting}
-                className="px-6 py-2 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="px-6 py-2 bg-primary-600 dark:bg-primary-700 hover:bg-primary-700 dark:hover:bg-primary-600 text-white rounded-lg font-medium transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {isSubmitting ? 'Submitting...' : 'Submit Quiz'}
               </button>

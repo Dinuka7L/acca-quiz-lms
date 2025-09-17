@@ -46,10 +46,10 @@ const QuestionNavigation: React.FC = () => {
   };
 
   return (
-    <div className="bg-white/90 backdrop-blur-sm rounded-xl p-4 shadow-lg border border-gray-200/50">
+    <div className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-xl p-4 shadow-lg border border-gray-200/50 dark:border-gray-600/50 transition-colors duration-300">
       <div className="flex items-center justify-between mb-4">
-        <h3 className="font-semibold text-gray-900">Questions</h3>
-        <div className="text-sm text-gray-600">
+        <h3 className="font-semibold text-gray-900 dark:text-white transition-colors duration-300">Questions</h3>
+        <div className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300">
           {currentQuestionIndex + 1} of {currentQuiz.questions.length}
         </div>
       </div>
@@ -66,20 +66,20 @@ const QuestionNavigation: React.FC = () => {
               >
                 <div className="flex items-center space-x-3">
                   {getQuestionIcon(question.id, index)}
-                  <span className="text-sm font-medium">Q{index + 1}</span>
+                  <span className="text-sm font-medium text-gray-900 dark:text-white transition-colors duration-300">Q{index + 1}</span>
                 </div>
                 
                 <div className="flex items-center space-x-2">
                   {status?.flagged && (
                     <Flag className="h-4 w-4 text-red-500 fill-red-500" />
                   )}
-                  <span className="text-xs text-gray-500">{question.marks}pts</span>
+                  <span className="text-xs text-gray-500 dark:text-gray-400 transition-colors duration-300">{question.marks}pts</span>
                 </div>
               </button>
               
               <button
                 onClick={() => toggleQuestionFlag(question.id)}
-                className="absolute -top-1 -right-1 p-1 rounded-full bg-white shadow-md hover:bg-gray-50 transition-colors duration-200"
+                className="absolute -top-1 -right-1 p-1 rounded-full bg-white dark:bg-gray-700 shadow-md hover:bg-gray-50 dark:hover:bg-gray-600 transition-colors duration-200"
                 title={status?.flagged ? 'Remove flag' : 'Flag for review'}
               >
                 <Flag className={`h-3 w-3 ${status?.flagged ? 'text-red-500 fill-red-500' : 'text-gray-400'}`} />
@@ -89,23 +89,23 @@ const QuestionNavigation: React.FC = () => {
         })}
       </div>
       
-      <div className="mt-4 pt-4 border-t border-gray-200">
+      <div className="mt-4 pt-4 border-t border-gray-200 dark:border-gray-600 transition-colors duration-300">
         <div className="grid grid-cols-2 gap-4 text-xs">
           <div className="flex items-center space-x-2">
             <CheckCircle className="h-3 w-3 text-green-500" />
-            <span className="text-gray-600">Answered</span>
+            <span className="text-gray-600 dark:text-gray-400 transition-colors duration-300">Answered</span>
           </div>
           <div className="flex items-center space-x-2">
             <AlertCircle className="h-3 w-3 text-yellow-500" />
-            <span className="text-gray-600">Visited</span>
+            <span className="text-gray-600 dark:text-gray-400 transition-colors duration-300">Visited</span>
           </div>
           <div className="flex items-center space-x-2">
             <Circle className="h-3 w-3 text-gray-300" />
-            <span className="text-gray-600">Not visited</span>
+            <span className="text-gray-600 dark:text-gray-400 transition-colors duration-300">Not visited</span>
           </div>
           <div className="flex items-center space-x-2">
             <Flag className="h-3 w-3 text-red-500 fill-red-500" />
-            <span className="text-gray-600">Flagged</span>
+            <span className="text-gray-600 dark:text-gray-400 transition-colors duration-300">Flagged</span>
           </div>
         </div>
       </div>

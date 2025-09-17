@@ -28,11 +28,11 @@ const MultiSelectQuestion: React.FC<MultiSelectQuestionProps> = ({
   return (
     <div className="space-y-4">
       <div 
-        className="text-lg font-medium text-gray-900 leading-relaxed"
+        className="text-lg font-medium text-gray-900 dark:text-white leading-relaxed transition-colors duration-300"
         dangerouslySetInnerHTML={{ __html: question.question }}
       />
       
-      <div className="text-sm text-gray-600 mb-4">
+      <div className="text-sm text-gray-600 dark:text-gray-400 mb-4 transition-colors duration-300">
         Select all that apply
       </div>
       
@@ -47,19 +47,19 @@ const MultiSelectQuestion: React.FC<MultiSelectQuestionProps> = ({
           
           if (showResults) {
             if (isCorrect && isSelected) {
-              optionClass += "border-green-500 bg-green-50 ";
+              optionClass += "border-green-500 dark:border-green-400 bg-green-50 dark:bg-green-900/30 ";
             } else if (shouldBeSelected && !isSelected) {
-              optionClass += "border-yellow-500 bg-yellow-50 ";
+              optionClass += "border-yellow-500 dark:border-yellow-400 bg-yellow-50 dark:bg-yellow-900/30 ";
             } else if (isWrong) {
-              optionClass += "border-red-500 bg-red-50 ";
+              optionClass += "border-red-500 dark:border-red-400 bg-red-50 dark:bg-red-900/30 ";
             } else {
-              optionClass += "border-gray-200 bg-gray-50 ";
+              optionClass += "border-gray-200 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 ";
             }
           } else {
             if (isSelected) {
-              optionClass += "border-primary-500 bg-primary-50 ";
+              optionClass += "border-primary-500 dark:border-primary-400 bg-primary-50 dark:bg-primary-900/30 ";
             } else {
-              optionClass += "border-gray-200 hover:border-primary-300 hover:bg-primary-25 ";
+              optionClass += "border-gray-200 dark:border-gray-600 hover:border-primary-300 dark:hover:border-primary-500 hover:bg-primary-25 dark:hover:bg-primary-900/20 ";
             }
           }
           
@@ -77,15 +77,15 @@ const MultiSelectQuestion: React.FC<MultiSelectQuestionProps> = ({
                 w-5 h-5 rounded border-2 mr-3 flex items-center justify-center transition-all duration-200
                 ${showResults
                   ? isCorrect && isSelected
-                    ? 'border-green-500 bg-green-500'
+                    ? 'border-green-500 dark:border-green-400 bg-green-500 dark:bg-green-400'
                     : shouldBeSelected && !isSelected
-                    ? 'border-yellow-500 bg-yellow-500'
+                    ? 'border-yellow-500 dark:border-yellow-400 bg-yellow-500 dark:bg-yellow-400'
                     : isWrong
-                    ? 'border-red-500 bg-red-500'
-                    : 'border-gray-300'
+                    ? 'border-red-500 dark:border-red-400 bg-red-500 dark:bg-red-400'
+                    : 'border-gray-300 dark:border-gray-600'
                   : isSelected
-                  ? 'border-primary-500 bg-primary-500'
-                  : 'border-gray-300'
+                  ? 'border-primary-500 dark:border-primary-400 bg-primary-500 dark:bg-primary-400'
+                  : 'border-gray-300 dark:border-gray-600'
                 }
               `}>
                 {isSelected && (
@@ -95,16 +95,16 @@ const MultiSelectQuestion: React.FC<MultiSelectQuestionProps> = ({
                 )}
               </div>
               
-              <span className="text-gray-900 flex-1">{option}</span>
+              <span className="text-gray-900 dark:text-gray-200 flex-1 transition-colors duration-300">{option}</span>
               
               {showResults && isCorrect && isSelected && (
-                <div className="ml-2 text-green-600 font-medium text-sm">✓ Correct</div>
+                <div className="ml-2 text-green-600 dark:text-green-400 font-medium text-sm transition-colors duration-300">✓ Correct</div>
               )}
               {showResults && shouldBeSelected && !isSelected && (
-                <div className="ml-2 text-yellow-600 font-medium text-sm">⚠ Missed</div>
+                <div className="ml-2 text-yellow-600 dark:text-yellow-400 font-medium text-sm transition-colors duration-300">⚠ Missed</div>
               )}
               {showResults && isWrong && (
-                <div className="ml-2 text-red-600 font-medium text-sm">✗ Wrong</div>
+                <div className="ml-2 text-red-600 dark:text-red-400 font-medium text-sm transition-colors duration-300">✗ Wrong</div>
               )}
             </label>
           );
@@ -112,9 +112,9 @@ const MultiSelectQuestion: React.FC<MultiSelectQuestionProps> = ({
       </div>
       
       {showResults && question.rationale && (
-        <div className="mt-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
-          <div className="font-medium text-blue-900 mb-2">Explanation:</div>
-          <div className="text-blue-800">{question.rationale}</div>
+        <div className="mt-6 p-4 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-700 rounded-lg transition-colors duration-300">
+          <div className="font-medium text-blue-900 dark:text-blue-300 mb-2 transition-colors duration-300">Explanation:</div>
+          <div className="text-blue-800 dark:text-blue-400 transition-colors duration-300">{question.rationale}</div>
         </div>
       )}
     </div>

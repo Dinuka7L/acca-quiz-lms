@@ -23,7 +23,7 @@ const QuickNavigation: React.FC = () => {
   };
 
   return (
-    <div className="bg-white/90 backdrop-blur-sm rounded-xl p-3 shadow-lg border border-gray-200/50">
+    <div className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-xl p-3 shadow-lg border border-gray-200/50 dark:border-gray-600/50 transition-colors duration-300">
       <div className="flex flex-col space-y-2">
         <button
           onClick={handlePrevious}
@@ -31,8 +31,8 @@ const QuickNavigation: React.FC = () => {
           className={`
             p-3 rounded-lg transition-all duration-200 flex items-center justify-center
             ${canGoUp 
-              ? 'bg-primary-50 hover:bg-primary-100 text-primary-600 hover:scale-105' 
-              : 'bg-gray-50 text-gray-300 cursor-not-allowed'
+              ? 'bg-primary-50 dark:bg-primary-900/30 hover:bg-primary-100 dark:hover:bg-primary-800/40 text-primary-600 dark:text-primary-400 hover:scale-105' 
+              : 'bg-gray-50 dark:bg-gray-700 text-gray-300 dark:text-gray-600 cursor-not-allowed'
             }
           `}
           title="Previous question"
@@ -46,8 +46,8 @@ const QuickNavigation: React.FC = () => {
           className={`
             p-3 rounded-lg transition-all duration-200 flex items-center justify-center
             ${canGoDown 
-              ? 'bg-primary-50 hover:bg-primary-100 text-primary-600 hover:scale-105' 
-              : 'bg-gray-50 text-gray-300 cursor-not-allowed'
+              ? 'bg-primary-50 dark:bg-primary-900/30 hover:bg-primary-100 dark:hover:bg-primary-800/40 text-primary-600 dark:text-primary-400 hover:scale-105' 
+              : 'bg-gray-50 dark:bg-gray-700 text-gray-300 dark:text-gray-600 cursor-not-allowed'
             }
           `}
           title="Next question"
@@ -56,7 +56,7 @@ const QuickNavigation: React.FC = () => {
         </button>
         
         <button
-          className="p-3 rounded-lg bg-blue-50 hover:bg-blue-100 text-blue-600 transition-all duration-200 hover:scale-105"
+          className="p-3 rounded-lg bg-blue-50 dark:bg-blue-900/30 hover:bg-blue-100 dark:hover:bg-blue-800/40 text-blue-600 dark:text-blue-400 transition-all duration-200 hover:scale-105"
           title="Help"
         >
           <HelpCircle className="h-5 w-5" />

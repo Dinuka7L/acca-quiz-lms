@@ -66,18 +66,18 @@ const EssayQuestion: React.FC<EssayQuestionProps> = ({
   return (
     <div className="space-y-4">
       <div 
-        className="text-lg font-medium text-gray-900 leading-relaxed"
+        className="text-lg font-medium text-gray-900 dark:text-white leading-relaxed transition-colors duration-300"
         dangerouslySetInnerHTML={{ __html: question.question }}
       />
       
-      <div className="text-sm text-gray-600 mb-4">
+      <div className="text-sm text-gray-600 dark:text-gray-400 mb-4 transition-colors duration-300">
         This is an essay question. Provide a comprehensive answer in the text area below.
         {question.idealKeywords && question.idealKeywords.length > 0 && (
-          <span className="block mt-1 text-blue-600">
+          <span className="block mt-1 text-blue-600 dark:text-blue-400 transition-colors duration-300">
             💡 Try to include key concepts related to the topic for better scoring. (Need {requiredKeywords} key concepts for full marks)
           </span>
         )}
-        <span className="block mt-1 text-orange-600 text-xs">
+        <span className="block mt-1 text-orange-600 dark:text-orange-400 text-xs transition-colors duration-300">
           ⚠️ Keep answers concise (recommended under 10,000 characters) for optimal performance.
         </span>
       </div>
@@ -92,29 +92,29 @@ const EssayQuestion: React.FC<EssayQuestionProps> = ({
           className={`
             w-full p-4 border-2 rounded-lg text-base leading-relaxed resize-vertical transition-all duration-200
             ${showResults
-              ? 'border-gray-300 bg-gray-50'
+              ? 'border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-200'
               : userAnswer.length > 8000
-              ? 'border-orange-300 focus:border-orange-500 focus:ring-4 focus:ring-orange-100'
-              : 'border-gray-300 focus:border-primary-500 focus:ring-4 focus:ring-primary-100'
+              ? 'border-orange-300 dark:border-orange-500 focus:border-orange-500 dark:focus:border-orange-400 focus:ring-4 focus:ring-orange-100 dark:focus:ring-orange-900/30 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-200'
+              : 'border-gray-300 dark:border-gray-600 focus:border-primary-500 dark:focus:border-primary-400 focus:ring-4 focus:ring-primary-100 dark:focus:ring-primary-900/30 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-200'
             }
           `}
         />
         
         <div className="flex justify-between text-sm">
-          <span className={`${userAnswer.length > 8000 ? 'text-orange-600 font-medium' : 'text-gray-500'}`}>
+          <span className={`transition-colors duration-300 ${userAnswer.length > 8000 ? 'text-orange-600 dark:text-orange-400 font-medium' : 'text-gray-500 dark:text-gray-400'}`}>
             {displayLength.toLocaleString()} characters
-            {wasTruncated && <span className="text-red-600 ml-2">(Truncated for storage)</span>}
+            {wasTruncated && <span className="text-red-600 dark:text-red-400 ml-2 transition-colors duration-300">(Truncated for storage)</span>}
           </span>
-          <span className="text-gray-500">
+          <span className="text-gray-500 dark:text-gray-400 transition-colors duration-300">
             {userAnswer.split(/\s+/).filter(word => word.length > 0).length} words
           </span>
         </div>
         
         {userAnswer.length > 8000 && !showResults && (
-          <div className="p-3 bg-orange-50 border border-orange-200 rounded-lg">
+          <div className="p-3 bg-orange-50 dark:bg-orange-900/20 border border-orange-200 dark:border-orange-700 rounded-lg transition-colors duration-300">
             <div className="flex items-start space-x-2">
-              <span className="text-orange-600">⚠️</span>
-              <div className="text-orange-800 text-sm">
+              <span className="text-orange-600 dark:text-orange-400 transition-colors duration-300">⚠️</span>
+              <div className="text-orange-800 dark:text-orange-300 text-sm transition-colors duration-300">
                 <strong>Long Answer Warning:</strong> Your answer is getting quite long. 
                 Consider being more concise to ensure optimal performance and storage.
               </div>
@@ -126,13 +126,13 @@ const EssayQuestion: React.FC<EssayQuestionProps> = ({
       {showResults && (
         <div className="mt-6 space-y-4">
           {userAnswer && (
-            <div className="p-4 bg-gray-50 border border-gray-200 rounded-lg">
-              <div className="font-medium text-gray-900 mb-2">Your answer:</div>
-              <div className="text-gray-800 whitespace-pre-wrap leading-relaxed">
+            <div className="p-4 bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg transition-colors duration-300">
+              <div className="font-medium text-gray-900 dark:text-white mb-2 transition-colors duration-300">Your answer:</div>
+              <div className="text-gray-800 dark:text-gray-300 whitespace-pre-wrap leading-relaxed transition-colors duration-300">
                 {userAnswer}
               </div>
               {wasTruncated && (
-                <div className="mt-2 p-2 bg-red-50 border border-red-200 rounded text-sm text-red-800">
+                <div className="mt-2 p-2 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-700 rounded text-sm text-red-800 dark:text-red-300 transition-colors duration-300">
                   <strong>Note:</strong> Your original answer was longer but was truncated for storage efficiency. 
                   The scoring is based on the saved portion.
                 </div>
@@ -141,10 +141,10 @@ const EssayQuestion: React.FC<EssayQuestionProps> = ({
           )}
           
           <div className={`p-4 border rounded-lg ${keywordScore >= 70 ? 'bg-green-50 border-green-200' : keywordScore >= 40 ? 'bg-yellow-50 border-yellow-200' : 'bg-red-50 border-red-200'}`}>
-            <div className={`font-medium mb-2 ${keywordScore >= 70 ? 'text-green-900' : keywordScore >= 40 ? 'text-yellow-900' : 'text-red-900'}`}>
+            <div className={`font-medium mb-2 transition-colors duration-300 ${keywordScore >= 70 ? 'text-green-900 dark:text-green-300' : keywordScore >= 40 ? 'text-yellow-900 dark:text-yellow-300' : 'text-red-900 dark:text-red-300'}`}>
               📊 Auto-Evaluation Results
             </div>
-            <div className={`mb-3 ${keywordScore >= 70 ? 'text-green-800' : keywordScore >= 40 ? 'text-yellow-800' : 'text-red-800'}`}>
+            <div className={`mb-3 transition-colors duration-300 ${keywordScore >= 70 ? 'text-green-800 dark:text-green-400' : keywordScore >= 40 ? 'text-yellow-800 dark:text-yellow-400' : 'text-red-800 dark:text-red-400'}`}>
               <div className="flex items-center justify-between">
                 <span>Keywords Found: {matchedCount}/{requiredKeywords} required (Total available: {question.idealKeywords?.length || 0})</span>
                 <span className="font-bold">Score: {earnedMarks}/{question.marks} marks</span>
@@ -159,17 +159,17 @@ const EssayQuestion: React.FC<EssayQuestionProps> = ({
             
             {question.idealKeywords && (
               <div>
-                <div className="font-medium text-gray-700 mb-2">Key concepts to include:</div>
+                <div className="font-medium text-gray-700 dark:text-gray-300 mb-2 transition-colors duration-300">Key concepts to include:</div>
                 <div className="flex flex-wrap gap-2">
                   {question.idealKeywords.map((keyword, index) => {
                     const isIncluded = userAnswer.toLowerCase().includes(keyword.toLowerCase());
                     return (
                       <span
                         key={index}
-                        className={`px-3 py-1 rounded-full text-sm font-medium ${
+                        className={`px-3 py-1 rounded-full text-sm font-medium transition-colors duration-300 ${
                           isIncluded 
-                            ? 'bg-green-100 text-green-800 border border-green-300' 
-                            : 'bg-gray-100 text-gray-600 border border-gray-300'
+                            ? 'bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 border border-green-300 dark:border-green-600' 
+                            : 'bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-400 border border-gray-300 dark:border-gray-600'
                         }`}
                       >
                         {isIncluded ? '✓' : '○'} {keyword}
@@ -177,7 +177,7 @@ const EssayQuestion: React.FC<EssayQuestionProps> = ({
                     );
                   })}
                 </div>
-                <div className="text-xs text-gray-600 mt-2">
+                <div className="text-xs text-gray-600 dark:text-gray-400 mt-2 transition-colors duration-300">
                   Note: You need {requiredKeywords} keywords for full marks, but including more shows deeper understanding.
                 </div>
               </div>
@@ -185,9 +185,9 @@ const EssayQuestion: React.FC<EssayQuestionProps> = ({
           </div>
 
           {question.rationale && (
-            <div className="p-4 bg-blue-50 border border-blue-200 rounded-lg">
-              <div className="font-medium text-blue-900 mb-2">Explanation:</div>
-              <div className="text-blue-800">{question.rationale}</div>
+            <div className="p-4 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-700 rounded-lg transition-colors duration-300">
+              <div className="font-medium text-blue-900 dark:text-blue-300 mb-2 transition-colors duration-300">Explanation:</div>
+              <div className="text-blue-800 dark:text-blue-400 transition-colors duration-300">{question.rationale}</div>
             </div>
           )}
         </div>

@@ -72,13 +72,13 @@ const QuestionRenderer: React.FC<QuestionRendererProps> = ({ question, showResul
   };
 
   return (
-    <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-lg border border-gray-200/50">
+    <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-xl p-6 shadow-lg border border-gray-200/50 dark:border-gray-600/50 transition-colors duration-300">
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center space-x-3">
-          <div className="bg-primary-100 text-primary-800 px-3 py-1 rounded-full text-sm font-medium">
+          <div className="bg-primary-100 dark:bg-primary-900/30 text-primary-800 dark:text-primary-300 px-3 py-1 rounded-full text-sm font-medium transition-colors duration-300">
             {getQuestionTypeLabel(question.type)}
           </div>
-          <div className="text-sm text-gray-600">
+          <div className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300">
             {question.marks} {question.marks === 1 ? 'mark' : 'marks'}
           </div>
         </div>
@@ -87,7 +87,7 @@ const QuestionRenderer: React.FC<QuestionRendererProps> = ({ question, showResul
       {/* Display image if provided */}
       {question.image && (
         <div className="mb-6">
-          <div className="relative bg-gray-50 rounded-lg p-4 border border-gray-200">
+          <div className="relative bg-gray-50 dark:bg-gray-700 rounded-lg p-4 border border-gray-200 dark:border-gray-600 transition-colors duration-300">
             <img
               src={question.image}
               alt={question.imageAlt || 'Question image'}
@@ -95,7 +95,7 @@ const QuestionRenderer: React.FC<QuestionRendererProps> = ({ question, showResul
               style={{ maxHeight: '400px' }}
             />
             {question.imageAlt && (
-              <p className="text-xs text-gray-500 mt-2 text-center italic">
+              <p className="text-xs text-gray-500 dark:text-gray-400 mt-2 text-center italic transition-colors duration-300">
                 {question.imageAlt}
               </p>
             )}
