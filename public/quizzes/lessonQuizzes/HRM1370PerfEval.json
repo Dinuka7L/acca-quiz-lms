@@ -1,14 +1,9 @@
 {
-  "id": "quiz-HRM-Performance-Evaluation",
+  "id": "quiz - Chapter 9 - Performance Evaluation",
   "title": "Chapter 9 - Performance Evaluation (PE)",
   "description": "Hard-level quiz questions on Human Resource Management performance evaluation, covering definitions, purposes, the process, methods, and evaluator biases.",
   "subject": "HRM1370 - Human Resource Management",
-  "gradientColors": [
-    "#2563eb",
-    "#1d4ed8",
-    "#1e40af",
-    "#1e3a8a"
-  ],
+  "gradientColors": ["#2563eb", "#1d4ed8", "#1e40af", "#1e3a8a"],
   "timeOptions": [
     30,
     45,
@@ -30,8 +25,7 @@
         "D) It is an informal discussion about an employee's future potential."
       ],
       "answer": "C) It is a systematic process of identifying, measuring, influencing, and developing job performance in relation to set norms and standards.",
-      "rationale": "The definition provided by Opatha explicitly states that PE is a 'systematic process of identifying, measuring, influencing and developing job performance of the employees... in relation to the set norms and standards for a particular period of time.' The other options describe informal processes or aspects of performance management, not PE.",
-      "marks": 2
+      "rationale": "The definition provided by Opatha explicitly states that PE is a 'systematic process of identifying, measuring, influencing and developing job performance of the employees... in relation to the set norms and standards for a particular period of time.' The other options describe informal processes or aspects of performance management, not PE."
     },
     {
       "id": "q2",
@@ -44,8 +38,7 @@
         "D) Evaluating the success of a recent training program for employees."
       ],
       "answer": "B) Using evaluation results to decide on salary increments and promotions.",
-      "rationale": "Administrative purposes of PE provide information for functions like reward management and employee movement (e.g., promotions). The other options relate to development, informative, and personal development purposes, respectively.",
-      "marks": 2
+      "rationale": "Administrative purposes of PE provide information for functions like reward management and employee movement (e.g., promotions). The other options relate to development, informative, and personal development purposes, respectively."
     },
     {
       "id": "q3",
@@ -58,8 +51,7 @@
         "D) Manager-centric process; employee-centric process."
       ],
       "answer": "C) Systematic process; natural and comprehensive process.",
-      "rationale": "The slides define PE as a 'systematic process' and Performance Management as a 'continuous and much wider, more comprehensive, and more natural process of management.'",
-      "marks": 2
+      "rationale": "The slides define PE as a 'systematic process' and Performance Management as a 'continuous and much wider, more comprehensive, and more natural process of management.'"
     },
     {
       "id": "q4",
@@ -72,8 +64,7 @@
         "D) To simplify the discipline administration process."
       ],
       "answer": "C) To reinforce strengths and identify deficiencies for future performance changes.",
-      "rationale": "The slides list several purposes from the employee's perspective, including to 'reinforce strengths, identifies deficiencies and feedbacks necessary information for changes in future performance.' The other options are purposes from the organization's perspective.",
-      "marks": 2
+      "rationale": "The slides list several purposes from the employee's perspective, including to 'reinforce strengths, identifies deficiencies and feedbacks necessary information for changes in future performance.' The other options are purposes from the organization's perspective."
     },
     {
       "id": "q5",
@@ -86,8 +77,7 @@
         "D) Review and renewal."
       ],
       "answer": "C) Train evaluators.",
-      "rationale": "The PE process flow chart shows that 'Train evaluators' is the step directly preceding 'Appraise.' 'Discuss PE results' and 'Make decisions and store' occur after appraisal, and 'Review and renewal' is the final step.",
-      "marks": 2
+      "rationale": "The PE process flow chart shows that 'Train evaluators' is the step directly preceding 'Appraise.' 'Discuss PE results' and 'Make decisions and store' occur after appraisal, and 'Review and renewal' is the final step."
     },
     {
       "id": "q6",
@@ -100,8 +90,7 @@
         "D) Select method(s) of PE."
       ],
       "answer": "B) Formulate policies of PE.",
-      "rationale": "The formulation of policies involves decisions on 'Whose performance should be evaluated?', which includes options like permanent, temporary, and casual employees.",
-      "marks": 2
+      "rationale": "The formulation of policies involves decisions on 'Whose performance should be evaluated?', which includes options like permanent, temporary, and casual employees."
     },
     {
       "id": "q7",
@@ -114,8 +103,7 @@
         "D) Behavioral criteria."
       ],
       "answer": "C) Subjective criteria.",
-      "rationale": "The slides define subjective criteria as 'factors of evaluation that are not quantifiable distinctly' and use 'cooperation and interpersonal relations' as a direct example for a salesman's job.",
-      "marks": 2
+      "rationale": "The slides define subjective criteria as 'factors of evaluation that are not quantifiable distinctly' and use 'cooperation and interpersonal relations' as a direct example for a salesman's job."
     },
     {
       "id": "q8",
@@ -128,8 +116,7 @@
         "D) Subjective."
       ],
       "answer": "C) Result.",
-      "rationale": "The slides list 'Results' as an outcome produced by the employee and use 'number of lectures done' as a specific example for a university lecturer.",
-      "marks": 2
+      "rationale": "The slides list 'Results' as an outcome produced by the employee and use 'number of lectures done' as a specific example for a university lecturer."
     },
     {
       "id": "q9",
@@ -142,8 +129,7 @@
         "D) Management by Objectives (MBO)."
       ],
       "answer": "D) Management by Objectives (MBO).",
-      "rationale": "The slides explicitly state that MBO is a method that 'deals with determining objectives to be accomplished' and 'focuses on results.'",
-      "marks": 2
+      "rationale": "The slides explicitly state that MBO is a method that 'deals with determining objectives to be accomplished' and 'focuses on results.'"
     },
     {
       "id": "q10",
@@ -156,275 +142,9 @@
         "D) Feedback."
       ],
       "answer": "C) Evaluation.",
-      "rationale": "The MBO process shows 'Evaluation' as the step where the comparison between actual and desired performance is made, which is followed by 'Feedback' to explore reasons for variations.",
-      "marks": 2
+      "rationale": "The MBO process shows 'Evaluation' as the step where the comparison between actual and desired performance is made, which is followed by 'Feedback' to explore reasons for variations."
     },
-    {
-      "id": "q11",
-      "type": "multipleChoice",
-      "question": "An evaluator rates all employees in their department as 'Satisfactory' on every criterion, avoiding high or low scores. What type of evaluator bias is this?",
-      "options": [
-        "A) Halo effect.",
-        "B) Leniency.",
-        "C) Central Tendency.",
-        "D) Recency effect."
-      ],
-      "answer": "C) Central Tendency.",
-      "rationale": "Central Tendency is the 'tendency of the evaluator to rate averagely on many or all PE criteria.'",
-      "marks": 2
-    },
-    {
-      "id": "q12",
-      "type": "multipleChoice",
-      "question": "Which of the following is a correct statement regarding the 'Fixed Time Approach' for when PE should be done?",
-      "options": [
-        "A) It is the same as the 'Arbitrary dates approach.'",
-        "B) It is based on a specific event like an employee's hiring anniversary date.",
-        "C) It evaluates performance within a certain, fixed period of time for all employees.",
-        "D) It evaluates performance after a major task is completed."
-      ],
-      "answer": "C) It evaluates performance within a certain, fixed period of time for all employees.",
-      "rationale": "The slides state that in the 'Fixed Time Approach,' 'employee’s performance is evaluated within a certain period of time... depending on the number of the employees and the workload of the evaluator.' The other options describe the 'Arbitrary dates approach' and the 'Job Cycle approach.'",
-      "marks": 2
-    },
-    {
-      "id": "q13",
-      "type": "multipleChoice",
-      "question": "An evaluator gives an employee an excellent rating across all criteria solely because the employee recently achieved a major project milestone. This is an example of which two biases?",
-      "options": [
-        "A) Leniency and Central Tendency.",
-        "B) Halo Effect and Recency Effect.",
-        "C) Personal Prejudice and Recency Effect.",
-        "D) Central Tendency and Harshness."
-      ],
-      "answer": "B) Halo Effect and Recency Effect.",
-      "rationale": "The 'Recency effect' occurs when the evaluation is influenced by recent behaviors. The 'Halo effect' occurs when a high rating on one criterion (the project milestone) influences a high rating on all other criteria.",
-      "marks": 2
-    },
-    {
-      "id": "q14",
-      "type": "multipleChoice",
-      "question": "In the 'Problem Solving' type of PE interview, what is the key dynamic between the evaluator and the evaluee?",
-      "options": [
-        "A) The evaluator tells the employee what to do to improve.",
-        "B) The evaluee is given a chance to explain their feelings and reasons for the rating.",
-        "C) A combination of telling the employee what to do and listening to their side of the story.",
-        "D) Active and open dialogue to mutually identify and solve job performance problems.",
-      ],
-      "answer": "D) Active and open dialogue to mutually identify and solve job performance problems.",
-      "rationale": "The 'Problem Solving' interview is defined as one that 'involves participative problem solving in which active and open dialogue is established between the evaluator and the evaluee.'",
-      "marks": 2
-    },
-    {
-      "id": "q15",
-      "type": "multipleChoice",
-      "question": "Which of the following is an essential recommendation for designing a Performance Evaluation form?",
-      "options": [
-        "A) It should be designed for a single evaluation method only.",
-        "B) It should be as detailed and comprehensive as possible to avoid any ambiguity.",
-        "C) It should be presented in a language that can be well understood by evaluators.",
-        "D) It should be a single, long form without separate sections."
-      ],
-      "answer": "C) It should be presented in a language that can be well understood by evaluators.",
-      "rationale": "The slides list several recommendations for designing PE forms, including 'Present them in a language, that can be understood well by evaluators.' It also states the form should be as brief as possible and have several parts.",
-      "marks": 2
-    },
-    {
-      "id": "q16",
-      "type": "multipleChoice",
-      "question": "According to the slides, what is a key purpose of training evaluators before implementing a PE program?",
-      "options": [
-        "A) To ensure they do not become too lenient in their evaluations.",
-        "B) To make sure they can perform the actual evaluation activities successfully.",
-        "C) To teach them how to avoid all evaluator biases.",
-        "D) To simplify the PE form and procedures for them."
-      ],
-      "answer": "B) To make sure they can perform the actual evaluation activities successfully.",
-      "rationale": "The slides state that evaluators should be trained 'so that activities involved in actual evaluation can be performed successfully.'",
-      "marks": 2
-    },
-    {
-      "id": "q17",
-      "type": "multipleChoice",
-      "question": "Which of the following is an example of a 'Behaviour' criterion for a salesman's PE?",
-      "options": [
-        "A) The number of units sold.",
-        "B) The number of new customers created.",
-        "C) Punctuality and attendance.",
-        "D) Interpersonal relations and cooperation."
-      ],
-      "answer": "C) Punctuality and attendance.",
-      "rationale": "The slides define 'Behaviors' as the ways an employee acts in relation to the job and lists 'punctuality' and 'attendance' as examples. 'Number of units sold' and 'number of new customers created' are results. 'Interpersonal relations' is a subjective criterion.",
-      "marks": 2
-    },
-    {
-      "id": "q18",
-      "type": "multipleChoice",
-      "question": "A manager who rates an employee as 'excellent' on a single criterion, causing them to also be rated 'excellent' on all other criteria, is demonstrating which type of bias?",
-      "options": [
-        "A) Personal Prejudice.",
-        "B) Recency effect.",
-        "C) Halo effect.",
-        "D) Leniency."
-      ],
-      "answer": "C) Halo effect.",
-      "rationale": "The Halo effect occurs when 'an evaluator appraises an employee as high or low on many or all criteria because of one criterion.'",
-      "marks": 2
-    },
-    {
-      "id": "q19",
-      "type": "multipleChoice",
-      "question": "Which of the following describes the 'Tell-and-Sell' type of PE interview?",
-      "options": [
-        "A) The evaluator tells the evaluee the rating and then listens to their response.",
-        "B) The evaluator presents the evaluation and persuades the employee to accept the rating and the plan for improvement.",
-        "C) The evaluator and evaluee work together to solve performance problems.",
-        "D) The evaluee is given the primary responsibility for identifying their own weaknesses."
-      ],
-      "answer": "B) The evaluator presents the evaluation and persuades the employee to accept the rating and the plan for improvement.",
-      "rationale": "The slides state that in the 'Tell- and –Sell' interview, the 'evaluator tells the degree to which the evaluee has performed... and sells him/her to steps to be taken for improvement.'",
-      "marks": 2
-    },
-    {
-      "id": "q20",
-      "type": "multipleChoice",
-      "question": "The 'Job Cycle approach' for when PE should be done is best described as:",
-      "options": [
-        "A) A fixed period of time (e.g., annually) for all employees.",
-        "B) The evaluation is conducted on the employee's hiring anniversary date.",
-        "C) The evaluation occurs after a major task or a complete set of duties is finished.",
-        "D) The evaluation is done at different dates for different employees."
-      ],
-      "answer": "C) The evaluation occurs after a major task or a complete set of duties is finished.",
-      "rationale": "The slides define the 'Job Cycle approach' as the 'required time to complete every duty in the job for once' or a 'full completion of a major task.'",
-      "marks": 2
-    },
-    {
-      "id": "q21",
-      "type": "multipleChoice",
-      "question": "According to the slides, what is the final step in the Performance Evaluation process?",
-      "options": [
-        "A) Appraise.",
-        "B) Make decisions and store.",
-        "C) Discuss PE results.",
-        "D) Review and renewal."
-      ],
-      "answer": "D) Review and renewal.",
-      "rationale": "The slides present a flow chart of the PE process, with 'Review and renewal' listed as the final step.",
-      "marks": 2
-    },
-    {
-      "id": "q22",
-      "type": "multipleChoice",
-      "question": "Which of the following is considered a 'traditional' method of Performance Evaluation?",
-      "options": [
-        "A) Assessment Center.",
-        "B) 360-degree Evaluation.",
-        "C) Behaviorally Anchored Rating Scales (BARS).",
-        "D) Critical Incident Method."
-      ],
-      "answer": "D) Critical Incident Method.",
-      "rationale": "The slides classify 'Critical Incident Method' as a 'Traditional' method, while the other options are listed under 'Modern' methods.",
-      "marks": 2
-    },
-    {
-      "id": "q23",
-      "type": "multipleChoice",
-      "question": "An evaluator gives excessively low ratings to a young employee based on the evaluator's personal bias against their age. This is a direct example of which evaluator bias?",
-      "options": [
-        "A) Central Tendency.",
-        "B) Harshness.",
-        "C) Personal Prejudice.",
-        "D) Unawareness."
-      ],
-      "answer": "C) Personal Prejudice.",
-      "rationale": "The slides define 'Personal Prejudice' as giving 'excessively low or high ratings... because of race, age, sex, religion, cast, personal relationships, jealously and dislike.'",
-      "marks": 2
-    },
-    {
-      "id": "q24",
-      "type": "multipleChoice",
-      "question": "Which of the following is a purpose of PE from the organization's perspective?",
-      "options": [
-        "A) To achieve better personal development for the employee.",
-        "B) To help employees advance their potential.",
-        "C) To evaluate the success of training programs.",
-        "D) To improve work satisfaction for employees."
-      ],
-      "answer": "C) To evaluate the success of training programs.",
-      "rationale": "The slides list 'To evaluate the success of training' as a 'Development Purpose,' which is a sub-category of the organization's perspective.",
-      "marks": 2
-    },
-    {
-      "id": "q25",
-      "type": "multipleChoice",
-      "question": "In the MBO process, what is the role of the supervisor and employee in the 'Study the job' step?",
-      "options": [
-        "A) They set the objectives and standards for the job.",
-        "B) They compare actual performance with desired performance.",
-        "C) They work together to identify the reasons for performance variations.",
-        "D) They get together to understand the job's tasks, duties, and responsibilities.",
-      ],
-      "answer": "D) They get together to understand the job's tasks, duties, and responsibilities.",
-      "rationale": "The slides state that in the 'Study the job' step, 'Both supervisor and employee get together and study the job... to understand tasks, duties, responsibilities and working conditions.'",
-      "marks": 2
-    },
-    {
-      "id": "q26",
-      "type": "multipleChoice",
-      "question": "A manager who is 'too hard in evaluating performance' is committing which type of error?",
-      "options": [
-        "A) The error of leniency.",
-        "B) The error of harshness.",
-        "C) The error of Central Tendency.",
-        "D) The error of Unawareness."
-      ],
-      "answer": "B) The error of harshness.",
-      "rationale": "The slides define 'The error of harshness' as when the evaluator 'tends to be too hard in evaluating performance.'",
-      "marks": 2
-    },
-    {
-      "id": "q27",
-      "type": "multipleChoice",
-      "question": "Which of the following is not a key component of a Performance Evaluation form, according to the recommendations in the slides?",
-      "options": [
-        "A) Identification information.",
-        "B) A section for comments of the evaluee.",
-        "C) A detailed section for evaluator biases.",
-        "D) An evaluation of results, behaviors, and traits."
-      ],
-      "answer": "C) A detailed section for evaluator biases.",
-      "rationale": "The recommendations for the content of the PE form include sections for identification, evaluation of results/behaviors/traits, comments from the evaluator, comments from the evaluee, and comments on reviewing officials. It does not mention a section for evaluator biases.",
-      "marks": 2
-    },
-    {
-      "id": "q28",
-      "type": "multipleChoice",
-      "question": "The 'Critical Incident Method' of PE requires an evaluator to:",
-      "options": [
-        "A) Use a numerical scale to rate various criteria.",
-        "B) Record positive and negative job-related behaviors in a separate book.",
-        "C) Compare an employee's performance directly with another's.",
-        "D) Evaluate an employee based on a set of predetermined objectives."
-      ],
-      "answer": "B) Record positive and negative job-related behaviors in a separate book.",
-      "rationale": "The slides describe the Critical Incident Method as using a 'separate book... where on each side, positive and negative critical incidents should be recorded for each employee.'",
-      "marks": 2
-    },
-    {
-      "id": "q29",
-      "type": "multipleChoice",
-      "question": "Which of the following is a direct example of an 'Informative Purpose' of Performance Evaluation?",
-      "options": [
-        "A) PE helps with human power planning.",
-        "B) PE provides upward and downward communication to the employee.",
-        "C) PE is used for discipline administration.",
-        "D) PE helps employees feel more involved in the organization."
-      ],
-      "answer": "B) PE provides upward and downward communication to the employee.",
-      "rationale": "The slides define 'Informative Purposes' by stating that 'PE is a communication to the employee' and 'It deals with upward and downward communication facilitating human resource improvement.'",
-      "marks": 2
-    },
+    ...
     {
       "id": "q30",
       "type": "multipleChoice",
@@ -436,8 +156,7 @@
         "D) To blend a directive approach with a participative one."
       ],
       "answer": "C) To allow the evaluee to explain their perspective on the performance rating.",
-      "rationale": "The 'Tell- and Listen' type is described as providing 'the evaluee with a chance to explain reasons, excuses, and defensive feelings regarding performance rating given by the evaluator.'",
-      "marks": 2
+      "rationale": "The 'Tell- and Listen' type is described as providing 'the evaluee with a chance to explain reasons, excuses, and defensive feelings regarding performance rating given by the evaluator.'"
     }
   ]
 }
