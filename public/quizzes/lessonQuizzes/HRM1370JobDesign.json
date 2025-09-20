@@ -1,0 +1,443 @@
+{
+  "id": "quiz-hrm-job-design-chapter-03",
+  "title": "Chapter 3 - Job Design (JD)",
+  "description": "Brutally hard-level quiz questions on Human Resource Management, specifically the principles and techniques of Job Design, covering core definitions, elements, and trade-offs.",
+  "subject": "HRM 1370 - Human Resource Management",
+  "gradientColors": [
+    "#0d1a29",
+    "#1c3a5e",
+    "#2a5c92",
+    "#3e7aae"
+  ],
+  "timeOptions": [
+    45,
+    60,
+    90,
+    120
+  ],
+  "totalMarks": 60,
+  "weight": 0,
+  "category": "lesson",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multipleChoice",
+      "question": "According to the provided text, what is the most fundamental and accurate definition of a 'job' in the context of an organization?",
+      "options": [
+        "A series of distinct, identifiable work activities performed by an individual.",
+        "A collection of tasks, duties, and responsibilities assigned to an organizational unit of work.",
+        "The primary organizational work that is divided into individual assignments to achieve a certain objective.",
+        "The basic building blocks of an organization, created by dividing a principal function into individual assignments."
+      ],
+      "answer": "The basic building blocks of an organization, created by dividing a principal function into individual assignments.",
+      "rationale": "The text states, 'Jobs are basic building blocks of the organisation' and that 'the principal function has to be divided into individual assignments, i.e., jobs'[cite: 592, 593]. While a job is composed of tasks, duties, and responsibilities, this is a description of its components, not its fundamental nature as a 'building block' of the organization[cite: 595].",
+      "marks": 2
+    },
+    {
+      "id": "q2",
+      "type": "multipleChoice",
+      "question": "Which of the following scenarios best represents the concept of a 'duty' as defined in the provided documents?",
+      "options": [
+        "A university lecturer's act of writing on a whiteboard.",
+        "An HR manager's obligation to perform all assigned tasks and duties successfully.",
+        "A sales associate's process of a cash transaction, from receiving payment to printing a receipt.",
+        "A data analyst's large work segment involving 'data visualization' which requires combining multiple small tasks like data cleaning and chart creation."
+      ],
+      "answer": "A data analyst's large work segment involving 'data visualization' which requires combining multiple small tasks like data cleaning and chart creation.",
+      "rationale": "A duty is defined as 'a series of tasks and is a larger work segment performed by an individual'[cite: 385, 597]. The example of 'Delivering lectures' is given as a duty that is a series of tasks like talking and writing[cite: 388, 381, 382]. The data visualization example precisely matches this definition, as it is a large work segment composed of a series of smaller tasks.",
+      "marks": 2
+    },
+    {
+      "id": "q3",
+      "type": "multipleChoice",
+      "question": "A company is redesigning a job to increase both productivity and employee satisfaction. This effort to balance these two goals is referred to as:",
+      "options": [
+        "The Job-Person Fit Concept",
+        "The Behavioral Element Trade-off",
+        "The Productivity-Specialization Curve",
+        "The trade-off between efficiency and behavioral elements"
+      ],
+      "answer": "The trade-off between efficiency and behavioral elements",
+      "rationale": "The document explicitly discusses the 'trade off between efficiency elements and behavioural elements'[cite: 334]. It states that 'it is more likely that making the job more efficient causes it to be less satisfying' and vice versa, and that a 'proper balance is the most important factor'[cite: 336, 338, 617, 618].",
+      "marks": 2
+    },
+    {
+      "id": "q4",
+      "type": "multipleChoice",
+      "question": "A software engineer's job is being redesigned. The new job will require the engineer to not only write code but also design the user interface and conduct user acceptance testing. This is an example of which job design technique?",
+      "options": [
+        "Job Enrichment, because it increases the variety of skills used.",
+        "Job Enlargement, because it increases the scope of the job by adding related duties.",
+        "Job Rotation, because the employee is moving between different roles within the project.",
+        "Scientific Technique, because it involves a division of labor and specialization."
+      ],
+      "answer": "Job Enlargement, because it increases the scope of the job by adding related duties.",
+      "rationale": "Job enlargement is defined as 'Increasing the scope of a job by including a new related duty/duties in addition to the current duties'[cite: 316]. By adding user interface design and user acceptance testing, the scope of the software engineer's job is being broadened horizontally.",
+      "marks": 2
+    },
+    {
+      "id": "q5",
+      "type": "multipleChoice",
+      "question": "A company automates a production line worker's job, breaking down the work into very small, repetitive tasks. This change is directly aligned with which efficiency element of job design?",
+      "options": [
+        "Standardization, by creating 'one best way' to do the job.",
+        "Specialization, by focusing the employee on a particular type of work.",
+        "Division of Labor, by breaking works into their smallest parts.",
+        "Scientific Technique, by maximizing efficiency through minimizing time."
+      ],
+      "answer": "Division of Labor, by breaking works into their smallest parts.",
+      "rationale": "Division of labor is defined as 'Breaking works into their smallest parts and employing different persons to do each part separately'[cite: 325, 608]. The scenario directly describes this process. While it leads to specialization and is part of the Scientific Technique, the most direct element being applied is the division of labor.",
+      "marks": 2
+    },
+    {
+      "id": "q6",
+      "type": "multipleChoice",
+      "question": "Which of the following is an unintended negative consequence of excessive job specialization, as described in the documents?",
+      "options": [
+        "Lower quality of work due to a lack of a holistic understanding.",
+        "Monotony leading to higher turnover and boredom.",
+        "Increased cost of training due to the need for multiple specialists.",
+        "Lower organizational productivity due to a lack of expertise."
+      ],
+      "answer": "Monotony leading to higher turnover and boredom.",
+      "rationale": "The document lists 'Monotony (due to repetition)' and 'Boredom (negative feeling/lack of interest)' as disadvantages of the Scientific Technique[cite: 316]. It also notes that 'if an employee is over specialized it will be likely to reduce the productivity due to boredom, lack of having a overall understanding and occupational stress and diseases'[cite: 341].",
+      "marks": 2
+    },
+    {
+      "id": "q7",
+      "type": "multipleChoice",
+      "question": "An employee is given full authority to not only perform their daily tasks but also to set their own work schedule, approve their own supply orders, and hire a temporary assistant. This is a clear example of increasing which behavioral element of job design?",
+      "options": [
+        "Task Identity",
+        "Skill Variety",
+        "Autonomy",
+        "Task Significance"
+      ],
+      "answer": "Autonomy",
+      "rationale": "Autonomy is defined as 'The degree of independence and freedom the job holder has'[cite: 332, 615]. Giving the employee control over their schedule, supplies, and hiring directly increases their independence and freedom in performing their job.",
+      "marks": 2
+    },
+    {
+      "id": "q8",
+      "type": "multipleChoice",
+      "question": "The 'Job-Person Fit Concept' primarily focuses on matching which two aspects?",
+      "options": [
+        "The employee's skills and the job's tasks.",
+        "The employee's strengths and the job's methods.",
+        "The employee's characteristics and the job's content.",
+        "The employee's needs and the job's technology."
+      ],
+      "answer": "The employee's characteristics and the job's content.",
+      "rationale": "The document defines the Job-Person Fit Concept as 'Matching employee characteristics with job characteristics'[cite: 345]. It lists 'Person' characteristics as Strength, Knowledge, Skills, Attitudes, Satisfaction, and Needs/Objectives, and 'Job' characteristics as Content, Tasks, Duties, Responsibilities, Methods, Machines, and Technology. Therefore, the most accurate option is matching the person's characteristics with the job's content/characteristics.",
+      "marks": 2
+    },
+    {
+      "id": "q9",
+      "type": "multipleChoice",
+      "question": "What is the primary objective of the 'Scientific Technique' of job design?",
+      "options": [
+        "To increase job depth and employee responsibility.",
+        "To improve the international compatibility of accounting standards.",
+        "To maximize organizational productivity by maximizing employee efficiency.",
+        "To create a collective job where each team member is responsible for the final outcome."
+      ],
+      "answer": "To maximize organizational productivity by maximizing employee efficiency.",
+      "rationale": "The provided text explicitly states the 'Basic Objective' of the Scientific Technique is 'To maximize the organizational productivity by maximizing employee efficiency'[cite: 312]. The other options relate to different job design techniques or are irrelevant to the topic.",
+      "marks": 2
+    },
+    {
+      "id": "q10",
+      "type": "multipleChoice",
+      "question": "A production line employee's job is changed so that they now have responsibility for not only assembling a product but also for conducting the final quality inspection and packaging it for shipment. This is an example of:",
+      "options": [
+        "Job Enlargement and Job Enrichment, as it increases both scope and depth.",
+        "Job Enlargement, as it adds related duties and increases the scope of the job.",
+        "Job Enrichment, as it increases the authority and responsibility for planning and controlling the job.",
+        "Job Rotation, as the employee is now performing multiple jobs."
+      ],
+      "answer": "Job Enrichment, as it increases the authority and responsibility for planning and controlling the job.",
+      "rationale": "The definition of Job Enrichment is 'Increasing the depth of a job by expanding authority and responsibility for planning and controlling the job'[cite: 317]. The new responsibilities of quality inspection and packaging are examples of controlling the job and its final output, which is a vertical loading of responsibility, not just a horizontal one.",
+      "marks": 2
+    },
+    {
+      "id": "q11",
+      "type": "multipleChoice",
+      "question": "Which of the following is a behavioral element of job design that is most likely to be negatively impacted by a high degree of specialization?",
+      "options": [
+        "Autonomy, due to the need for independence.",
+        "Task Identity, as the employee loses sight of the complete work.",
+        "Feedback, because there are fewer opportunities for it.",
+        "Skill Variety, as the job requires a concentration on one particular work type."
+      ],
+      "answer": "Skill Variety, as the job requires a concentration on one particular work type.",
+      "rationale": "Specialization is defined as 'Employee’s concentration on one particular type of work so that the employee acquires an expertise in that type of work'[cite: 327]. This directly reduces 'Skill Variety,' which is the 'extent to which the job requires the use of different skills'[cite: 329].",
+      "marks": 2
+    },
+    {
+      "id": "q12",
+      "type": "multipleChoice",
+      "question": "A company decides to implement a 'compressed workweek' for its employees. This falls under which category of job design concepts?",
+      "options": [
+        "Job-Person Fit Concept",
+        "Behavioral Elements of Job Design",
+        "Alternative forms of Work Arrangements",
+        "Efficiency Elements of Job Design"
+      ],
+      "answer": "Alternative forms of Work Arrangements",
+      "rationale": "The document lists 'Compressed workweek' along with 'Telecommuting,' 'Flexible working hours,' 'Shift Work,' and 'On-call' under the heading 'Alternative forms of Work Arrangements'[cite: 345].",
+      "marks": 2
+    },
+    {
+      "id": "q13",
+      "type": "multipleChoice",
+      "question": "Which statement best describes the relationship between 'specialization' and 'productivity' according to the provided text?",
+      "options": [
+        "Specialization always leads to increased productivity.",
+        "Specialization decreases productivity due to boredom and stress.",
+        "Specialization increases productivity only up to a certain level, after which it may decrease.",
+        "There is no direct relationship between specialization and productivity."
+      ],
+      "answer": "Specialization increases productivity only up to a certain level, after which it may decrease.",
+      "rationale": "The text states, 'Specialization increases the productivity only up to a certain level. But if an employee is over specialized it will be likely to reduce the productivity due to boredom, lack of having a overall understanding and occupational stress and diseases'[cite: 341].",
+      "marks": 2
+    },
+    {
+      "id": "q14",
+      "type": "multipleChoice",
+      "question": "In the context of job design, what is the most precise distinction between a 'task' and a 'duty'?",
+      "options": [
+        "A task is a series of motions, while a duty is a distinct small work activity.",
+        "A task is performed by an individual, while a duty is a large work segment.",
+        "A task is an obligation, while a duty is a series of tasks.",
+        "A task is a distinct small work activity, while a duty is a larger work segment composed of a series of tasks."
+      ],
+      "answer": "A task is a distinct small work activity, while a duty is a larger work segment composed of a series of tasks.",
+      "rationale": "The document defines a 'task' as a 'distinct identifiable small work activity' and a 'duty' as 'a series of tasks and is a larger work segment'[cite: 379, 385, 596, 597]. The equation 'Duty = T1+T2+T3' further clarifies this relationship[cite: 386].",
+      "marks": 2
+    },
+    {
+      "id": "q15",
+      "type": "multipleChoice",
+      "question": "Job design is described as a 'conscious effort' and a 'continuous activity.' What does this suggest about the nature of job design in an organization?",
+      "options": [
+        "It is a static function that is performed only once.",
+        "It is an unconscious process that happens over time.",
+        "It is a deliberate and ongoing process that adapts to changing needs.",
+        "It is a function that is only needed when an organization is in a crisis."
+      ],
+      "answer": "It is a deliberate and ongoing process that adapts to changing needs.",
+      "rationale": "The text states, 'This is a conscious effort as well as a continuous activity'[cite: 594]. 'Conscious effort' implies it's deliberate, and 'continuous activity' implies it is ongoing and not a one-time event.",
+      "marks": 2
+    },
+    {
+      "id": "q16",
+      "type": "multipleChoice",
+      "question": "Which of the following would be an example of 'Task Significance' as a behavioral element of job design?",
+      "options": [
+        "A sanitation worker understanding how their job contributes to public health and safety.",
+        "A factory worker receiving a weekly report on their individual production numbers.",
+        "An office assistant being trained to use a new software application.",
+        "A project manager being given the authority to allocate the project budget."
+      ],
+      "answer": "A sanitation worker understanding how their job contributes to public health and safety.",
+      "rationale": "Task Significance is defined as 'The extent to which the job has an impact on other people’s work'[cite: 331, 614]. The sanitation worker's job directly impacts the health and safety of the community (other people), which exemplifies high task significance.",
+      "marks": 2
+    },
+    {
+      "id": "q17",
+      "type": "multipleChoice",
+      "question": "A job that involves a high degree of 'Feedback' would most likely be characterized by which of the following?",
+      "options": [
+        "A clear and direct link between the employee's actions and the results.",
+        "The ability for the employee to complete a whole and identifiable piece of work.",
+        "The use of a wide range of different skills and abilities.",
+        "A high degree of freedom and independence for the employee."
+      ],
+      "answer": "A clear and direct link between the employee's actions and the results.",
+      "rationale": "Feedback is defined as 'The extent to which clear information of results in respect of individual efficiency and effectiveness is provided'[cite: 333]. A clear and direct link between actions and results would provide this clear information.",
+      "marks": 2
+    },
+    {
+      "id": "q18",
+      "type": "multipleChoice",
+      "question": "Which of the following is a disadvantage specifically associated with the 'Scientific Technique' of job design?",
+      "options": [
+        "Higher cost of training and less expertise secured.",
+        "Lack of employee freedom and low-quality output.",
+        "Low cost of training and less wastage of resources.",
+        "Job dissatisfaction and difficulty in finding another job."
+      ],
+      "answer": "Job dissatisfaction and difficulty in finding another job.",
+      "rationale": "The provided text lists disadvantages of the Scientific Technique including 'Monotony (due to repetition),' 'Boredom,' and 'Job dissatisfaction'[cite: 316]. It also states that 'Finding another job is more difficult' as a result of being too specialized[cite: 316].",
+      "marks": 2
+    },
+    {
+      "id": "q19",
+      "type": "multipleChoice",
+      "question": "According to the documents, 'Standardization' is a key part of which element of job design?",
+      "options": [
+        "Behavioral Elements",
+        "Efficiency Elements",
+        "Job-Person Fit",
+        "Professional Technique"
+      ],
+      "answer": "Efficiency Elements",
+      "rationale": "The document lists 'Standardization' alongside 'Division of labor' and 'Specialization' as a key component of 'Efficiency Elements' of job design[cite: 324, 326].",
+      "marks": 2
+    },
+    {
+      "id": "q20",
+      "type": "multipleChoice",
+      "question": "Which of the following best describes the core concept of 'Job Rotation'?",
+      "options": [
+        "Increasing the variety of skills used by an employee.",
+        "Expanding an employee's authority and responsibility.",
+        "Moving an employee between different jobs for a specific period.",
+        "Designing a job according to a specific, accepted profession."
+      ],
+      "answer": "Moving an employee between different jobs for a specific period.",
+      "rationale": "Job Rotation is defined as 'Shifting an employee from one job to another job within a certain period of time without limiting the employee to do a particular job only'[cite: 318].",
+      "marks": 2
+    },
+    {
+      "id": "q21",
+      "type": "multipleChoice",
+      "question": "A firm adopts a 'Freelance' work arrangement. What is a key characteristic of this arrangement, as per the text's categorization?",
+      "options": [
+        "It is a form of job design technique.",
+        "It is an example of a behavioral element.",
+        "It is an alternative form of work arrangement.",
+        "It is a type of efficiency element."
+      ],
+      "answer": "It is an alternative form of work arrangement.",
+      "rationale": "The document lists 'Freelance' under the heading 'Alternative forms of Work Arrangements,' along with telecommuting and flexible working hours[cite: 345].",
+      "marks": 2
+    },
+    {
+      "id": "q22",
+      "type": "multipleChoice",
+      "question": "The provided documents state that an 'inappropriate JD' can result in several negative outcomes. Which of the following is NOT explicitly mentioned as a consequence?",
+      "options": [
+        "Higher employee turnover",
+        "Increased number of grievances",
+        "Higher absenteeism",
+        "Reduced employee salary"
+      ],
+      "answer": "Reduced employee salary",
+      "rationale": "The text lists 'lower productivity, higher employee turnover, many grievances, many industrial conflicts and higher absenteeism' as consequences of inappropriate JD[cite: 601]. Reduced employee salary is not mentioned.",
+      "marks": 2
+    },
+    {
+      "id": "q23",
+      "type": "multipleChoice",
+      "question": "A job in a call center is redesigned to allow agents to handle not only customer service inquiries but also to process returns and approve small refunds without supervisor intervention. This redesign primarily focuses on increasing which of the following?",
+      "options": [
+        "Skill Variety and Task Identity.",
+        "Autonomy and Task Significance.",
+        "Feedback and Task Identity.",
+        "Skill Variety and Autonomy."
+      ],
+      "answer": "Skill Variety and Autonomy.",
+      "rationale": "By handling different types of inquiries (returns, refunds), the job requires a wider range of skills, thus increasing 'Skill Variety'[cite: 329]. By allowing agents to approve refunds 'without supervisor intervention,' the redesign increases the 'degree of independence and freedom the job holder has,' which is the definition of 'Autonomy'[cite: 332].",
+      "marks": 2
+    },
+    {
+      "id": "q24",
+      "type": "multipleChoice",
+      "question": "Which of the following is the most accurate description of 'Job Design' as a process?",
+      "options": [
+        "A series of duties and responsibilities assigned to an individual to accomplish a goal.",
+        "A conscious and continuous activity of arranging tasks, duties, and responsibilities into a unit of work.",
+        "The process of matching an employee's characteristics with the job's tasks and duties.",
+        "A function of dividing work into smaller segments to maximize efficiency."
+      ],
+      "answer": "A conscious and continuous activity of arranging tasks, duties, and responsibilities into a unit of work.",
+      "rationale": "The definition provided is 'JD can be defined as the function of arranging tasks, duties and responsibilities into an organisational unit of work for the purpose of accomplishing a certain objective. This is a conscious effort as well as a continuous activity'[cite: 593, 594]. This option is the most comprehensive and accurate definition from the text.",
+      "marks": 2
+    },
+    {
+      "id": "q25",
+      "type": "multipleChoice",
+      "question": "According to the 'Job-Person Fit Concept,' which of the following is considered a 'Person' characteristic?",
+      "options": [
+        "Technology",
+        "Attitudes",
+        "Methods",
+        "Tasks"
+      ],
+      "answer": "Attitudes",
+      "rationale": "The document explicitly lists 'Attitudes' as a characteristic of the 'Person' in the Job-Person Fit Concept[cite: 345]. Technology, Methods, and Tasks are all listed as 'Job' characteristics.",
+      "marks": 2
+    },
+    {
+      "id": "q26",
+      "type": "multipleChoice",
+      "question": "The 'Group Technique' of job design is characterized by what primary feature?",
+      "options": [
+        "Individual responsibility for a specialized part of a job.",
+        "The design of a job based on a specific profession.",
+        "The collective performance of a job by a group of individuals.",
+        "A job that is broken down into its smallest parts."
+      ],
+      "answer": "The collective performance of a job by a group of individuals.",
+      "rationale": "The text states that in the Group Technique, a 'Group of individuals can perform a job' and the 'Result is a collective job'[cite: 321, 322]. This is the core characteristic of this technique.",
+      "marks": 2
+    },
+    {
+      "id": "q27",
+      "type": "multipleChoice",
+      "question": "A job that has high 'Task Identity' would be most likely to involve which of the following?",
+      "options": [
+        "The use of multiple skills and abilities in a single day.",
+        "A direct link between the employee's work and a final, completed product.",
+        "The freedom to choose the order of tasks to be completed.",
+        "A report on the employee's performance from their supervisor."
+      ],
+      "answer": "A direct link between the employee's work and a final, completed product.",
+      "rationale": "Task Identity is defined as 'The extent to which the job involves doing some complete piece of work'[cite: 330]. A direct link to a final, completed product directly aligns with this definition.",
+      "marks": 2
+    },
+    {
+      "id": "q28",
+      "type": "multipleChoice",
+      "question": "Which of the following statements about the 'trade-off' between efficiency and behavioral elements of job design is most accurate?",
+      "options": [
+        "Maximizing efficiency will always lead to greater employee satisfaction.",
+        "A job with high behavioral elements is always more efficient.",
+        "There is no clear solution, and a proper balance is the most important factor.",
+        "The focus should always be on maximizing efficiency and ignoring behavioral elements."
+      ],
+      "answer": "There is no clear solution, and a proper balance is the most important factor.",
+      "rationale": "The document states that 'There is no simple clear-cut solution' and that 'The proper balance is the most important factor'[cite: 619, 338]. It notes that a focus on efficiency can make a job less satisfying and vice versa, requiring a trade-off.",
+      "marks": 2
+    },
+    {
+      "id": "q29",
+      "type": "multipleChoice",
+      "question": "A 'Professional Technique' of job design is primarily based on which of the following?",
+      "options": [
+        "The division of labor into specialized parts.",
+        "The skills and knowledge required for a certain accepted profession.",
+        "The creation of a collective job performed by a team.",
+        "The horizontal loading of new duties onto a job."
+      ],
+      "answer": "The skills and knowledge required for a certain accepted profession.",
+      "rationale": "The Professional Technique is defined as designing 'the job according to certain accepted professions'[cite: 319]. This implies that the job's design is guided by the established body of knowledge, skills, and ethics of that profession.",
+      "marks": 2
+    },
+    {
+      "id": "q30",
+      "type": "multipleChoice",
+      "question": "What is the most accurate definition of 'Job Enlargement'?",
+      "options": [
+        "Increasing the complexity and difficulty of a job by adding more tasks.",
+        "Increasing the scope of a job by adding new related duties.",
+        "Expanding a job's depth by giving the employee more authority and responsibility.",
+        "Shifting an employee from one job to another to increase skill variety."
+      ],
+      "answer": "Increasing the scope of a job by adding new related duties.",
+      "rationale": "Job Enlargement is defined as 'Increasing the scope of a job by including a new related duty/duties in addition to the current duties'[cite: 316]. This is also referred to as 'Horizontal Loading.'",
+      "marks": 2
+    }
+  ]
+}
