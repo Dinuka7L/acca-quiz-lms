@@ -62,7 +62,7 @@ const QuestionNavigation: React.FC = () => {
       </div>
       
       {/* Questions */}
-      <div className="space-y-2 max-h-96 overflow-y-auto">
+      <div className="space-y-2 max-h-96 overflow-y-auto px-2 ">
         {currentQuiz.questions.map((question, index) => {
           const status = questionStatuses[question.id];
           
@@ -79,9 +79,9 @@ const QuestionNavigation: React.FC = () => {
                   </span>
                 </div>
                 
-                <div className="flex items-center space-x-2">
+                <div className="flex items-center space-x-1">
                   {status?.flagged && (
-                    <Flag className="h-4 w-4 text-red-600 dark:text-red-400 fill-red-600 dark:fill-red-400 transition-colors duration-300" />
+                    <Flag className="h-4 w-4 text-red-600 dark:text-red-400 fill-red-600 dark:fill-red-400 transition-colors duration-100" />
                   )}
                   <span className="text-xs text-gray-500 dark:text-gray-400 transition-colors duration-300">
                     &nbsp;{question.marks}pts
@@ -92,11 +92,11 @@ const QuestionNavigation: React.FC = () => {
               {/* Flag button */}
               <button
                 onClick={() => toggleQuestionFlag(question.id)}
-                className="absolute -top-1 -right-1 p-1 rounded-full bg-white dark:bg-gray-700 shadow-md hover:bg-gray-50 dark:hover:bg-gray-600 transition-colors duration-200"
+                className="absolute -top-1 mt-3 -right-1 p-1 rounded-full bg-white dark:bg-gray-700 shadow-md hover:bg-gray-50 dark:hover:bg-gray-600 transition-colors duration-100"
                 title={status?.flagged ? 'Remove flag' : 'Flag for review'}
               >
                 <Flag
-                  className={`h-3 w-3 transition-colors duration-300 ${
+                  className={`h-3 w-3 transition-colors duration-100 ${
                     status?.flagged
                       ? 'text-red-600 dark:text-red-400 fill-red-600 dark:fill-red-400'
                       : 'text-gray-400 dark:text-gray-500'

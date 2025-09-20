@@ -62,61 +62,59 @@ const Header: React.FC<HeaderProps> = ({ currentQuiz, onNavigateHome }) => {
         </div>
       </header>
 
+    
+
+
       {/* Desktop Header View */}
-      <header className="hidden md:block relative bg-white/60 dark:bg-gray-800/60 backdrop-blur-md border-b border-gray-200/50 dark:border-gray-600/50 shadow-md sticky top-0 z-50 transition-colors duration-300">
-        {/* Gradient Red Overlay on Left */}
-        <div className="absolute inset-y-0 left-0 w-[150px] sm:w-[200px] bg-gradient-to-r from-red-500/20 dark:from-red-600/30 to-transparent pointer-events-none transition-colors duration-300" />
+<header className="hidden md:block relative bg-white/60 dark:bg-gray-800/60 backdrop-blur-md border-b border-gray-200/50 dark:border-gray-600/50 shadow-md sticky top-0 z-50 transition-colors duration-300">
+  <div className="relative max-w-7xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8">
+    <div className="flex items-center justify-between min-h-[4rem]">
+      
+      {/* Home Button */}
+      <div className="z-10 shrink-0 mr-2">
+        <button
+          onClick={handleLogoClick}
+          className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-200"
+          title="Return to dashboard"
+        >
+          <Home className="h-5 w-5 text-gray-800 dark:text-gray-200 transition-colors duration-300" />
+        </button>
+      </div>
 
-        <div className="relative max-w-7xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8">
-          <div className="flex flex-wrap items-center justify-between min-h-[4rem] gap-y-2">
-            <div className="z-10 shrink-0 mr-2">
-              <button
-                onClick={handleLogoClick}
-                className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-200"
-                title="Return to dashboard"
-              >
-                <Home className="h-5 w-5 text-gray-800 dark:text-gray-200 transition-colors duration-300" />
-              </button>
-            </div>
-            {/* Left Side: Large Banner */}
-            <div className="text-xl sm:text-2xl font-bold text-gray-800 dark:text-white z-10 transition-colors duration-300">
-              Academia - USJ - FMSC First Year Quizzes
-            </div>
+      {/* Quiz Name */}
+      <div className="flex-grow flex justify-center z-10 mx-2 overflow-hidden">
+        <span className="bg-red-800 dark:bg-red-700 text-white text-sm sm:text-base px-3 py-1 rounded-full font-medium whitespace-nowrap truncate transition-colors duration-300">
+          {currentQuiz || 'Academia'}
+        </span>
+      </div>
 
-            {/* Breadcrumb Navigation */}
-            <nav className="flex flex-wrap items-center space-x-1 sm:space-x-2 text-xs sm:text-sm z-10 overflow-x-auto max-w-full">
-              <span className="text-gray-600 dark:text-gray-400 whitespace-nowrap transition-colors duration-300">Year I</span>
-              <ChevronRight className="h-3 w-3 sm:h-4 sm:w-4 text-gray-400 dark:text-gray-500 transition-colors duration-300" />
-              <span className="text-gray-600 dark:text-gray-400 whitespace-nowrap transition-colors duration-300"></span>
-              <ChevronRight className="h-3 w-3 sm:h-4 sm:w-4 text-gray-400 dark:text-gray-500 transition-colors duration-300" />
-              <span className="text-gray-600 dark:text-gray-400 whitespace-nowrap transition-colors duration-300"></span>
-              {currentQuiz && (
-                <>
-                  <ChevronRight className="h-3 w-3 sm:h-4 sm:w-4 text-gray-400 dark:text-gray-500 transition-colors duration-300" />
-                  <span className="bg-primary-600 dark:bg-primary-500 text-white px-2 sm:px-3 py-0.5 rounded-full text-[10px] sm:text-xs font-medium whitespace-nowrap transition-colors duration-300">
-                    {currentQuiz}
-                  </span>
-                </>
-              )}
-            </nav>
+      {/* Academia Logo */}
+<div className="z-10 shrink-0">
+  <button
+    onClick={handleLogoClick}
+    className="transition-transform duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 rounded-full relative"
+    title={isInQuiz ? "Exit quiz and return home" : "Return to dashboard"}
+  >
+    {/* Light logo */}
+    <img
+      src="/Academia-logo.png"
+      alt="Academia Logo"
+      className="w-16 sm:w-20 md:w-24 lg:w-28 h-auto rounded-full object-cover transition-opacity duration-500 dark:opacity-0"
+    />
+    {/* Dark logo */}
+    <img
+      src="/Academia-logo-dark.png"
+      alt="Academia Logo Dark"
+      className="w-16 sm:w-20 md:w-24 lg:w-28 h-auto rounded-full object-cover absolute inset-0 transition-opacity duration-500 opacity-0 dark:opacity-100"
+    />
+  </button>
+</div>
 
-            {/* Right Side: Website Logo - Clickable */}
-            <div className="z-10 shrink-0">
-              <button
-                onClick={handleLogoClick}
-                className="transition-transform duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 rounded-full"
-                title={isInQuiz ? "Exit quiz and return home" : "Return to dashboard"}
-              >
-                <img
-                  src="/Academia-logo.png"
-                  alt="Website Logo"
-                  className="w-16 sm:w-20 md:w-24 lg:w-32 h-auto rounded-full object-cover"
-                />
-              </button>
-            </div>
-          </div>
-        </div>
-      </header>
+
+    </div>
+  </div>
+</header>
+
 
       {/* Exit Quiz Confirmation Modal */}
       {showExitModal && (
@@ -133,7 +131,7 @@ const Header: React.FC<HeaderProps> = ({ currentQuiz, onNavigateHome }) => {
             
             <div className="mb-6">
               <p className="text-gray-600 dark:text-gray-300 mb-4 transition-colors duration-300">
-                Are you sure you want to exit the quiz? Your progress will be lost and you'll need to start over.
+                Are you sure you want to exit the quiz?
               </p>
               
               <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-700 rounded-lg p-4 transition-colors duration-300">
