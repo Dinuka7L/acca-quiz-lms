@@ -55,12 +55,7 @@ const QuickNavigation: React.FC = () => {
           <ChevronDown className="h-5 w-5" />
         </button>
         
-        <button
-          className="p-3 rounded-lg bg-blue-50 dark:bg-blue-900/30 hover:bg-blue-100 dark:hover:bg-blue-800/40 text-blue-600 dark:text-blue-400 transition-all duration-200 hover:scale-105"
-          title="Help"
-        >
-          <HelpCircle className="h-5 w-5" />
-        </button>
+        
       </div>
     </div>
   );
