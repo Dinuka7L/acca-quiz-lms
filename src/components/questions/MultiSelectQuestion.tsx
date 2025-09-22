@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { Question } from '../../types/quiz';
 import { useQuizStore } from '../../store/quizStore';
 
@@ -14,6 +14,27 @@ const MultiSelectQuestion: React.FC<MultiSelectQuestionProps> = ({
   const { currentAttempt, saveAnswer } = useQuizStore();
   const selectedAnswers = (currentAttempt?.answers[question.id] as string[]) || [];
   const correctAnswers = question.answer as string[];
+
+  // Memoize shuffled options to prevent re-shuffling on re-renders
+  const shuffledOptions = useMemo(() => {
+    if (!question.options) return [];
+    
+    // Create a stable shuffle based on question ID to ensure consistency
+    const options = [...question.options];
+    let seed = 0;
+    for (let i = 0; i < question.id.length; i++) {
+      seed += question.id.charCodeAt(i);
+    }
+    
+    // Simple seeded shuffle algorithm
+    for (let i = options.length - 1; i > 0; i--) {
+      const j = Math.floor((seed * (i + 1)) % (i + 1));
+      [options[i], options[j]] = [options[j], options[i]];
+      seed = (seed * 9301 + 49297) % 233280;
+    }
+    
+    return options;
+  }, [question.id, question.options]);
 
   const handleAnswerChange = (option: string) => {
     if (showResults) return;
@@ -37,7 +58,7 @@ const MultiSelectQuestion: React.FC<MultiSelectQuestionProps> = ({
       </div>
       
       <div className="space-y-3">
-        {question.options?.map((option, index) => {
+        {shuffledOptions.map((option, index) => {
           const isSelected = selectedAnswers.includes(option);
           const isCorrect = showResults && correctAnswers.includes(option);
           const shouldBeSelected = showResults && correctAnswers.includes(option);

@@ -439,6 +439,23 @@ export const useQuizStore = create<QuizStore>()(
     (set, get) => ({
       ...createInitialState(),
 
+      // Utility function to create a seeded shuffle for consistent randomization
+      createSeededShuffle: (array: any[], seed: string) => {
+        const shuffled = [...array];
+        let seedValue = 0;
+        for (let i = 0; i < seed.length; i++) {
+          seedValue += seed.charCodeAt(i);
+        }
+        
+        for (let i = shuffled.length - 1; i > 0; i--) {
+          const j = Math.floor((seedValue * (i + 1)) % (i + 1));
+          [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+          seedValue = (seedValue * 9301 + 49297) % 233280;
+        }
+        
+        return shuffled;
+      },
+
       // Storage health check
       checkStorageHealth: () => {
         const state = get();
