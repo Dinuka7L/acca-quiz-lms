@@ -3,7 +3,7 @@
   "title": "Chapter 1 - Overview of Financial Accounting and Reporting",
   "description": "Quiz on the fundamental concepts of financial accounting and reporting, based on Chapter 1.",
   "subject": "ACC1370 - Financial Accounting and Reporting",
-  "gradientColors": ["#059669", "#047857", "#065f46", "#064e3b"],
+  "gradientColors": ["#ef4444", "#dc2626", "#b91c1c", "#991b1b"],
   "timeOptions": [15, 20, 30, 60],
   "totalMarks": 65,
   "weight": 0,

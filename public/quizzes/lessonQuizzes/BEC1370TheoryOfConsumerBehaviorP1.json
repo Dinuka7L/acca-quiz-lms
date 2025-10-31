@@ -1,0 +1,507 @@
+{
+  "id": "quiz - Chapter 1 - Theory of Consumer Behaviour-Cardinal Utility",
+  "title": "Chapter 01 – Theory of Consumer Behaviour: Cardinal Utility Approach",
+  "description": "Exams conceptual understanding and application of Utility, Total Utility, Marginal Utility, the Law of Diminishing Marginal Utility, and Consumer Equilibrium under the Cardinal Utility Approach.",
+  "subject": "BEC1370 - Microeconomics",
+  "gradientColors": [
+    "#f59e0b",
+    "#fbbf24",
+    "#fcd34d",
+    "#fef08a"
+  ],
+  "timeOptions": [
+    10,
+    20,
+    30
+  ],
+  "totalMarks": 68,
+  "weight": 0,
+  "category": "lesson",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multipleChoice",
+      "question": "A consumer is at an initial consumption level where Marginal Utility (MU) is greater than the price (P) of the only commodity being consumed (MU > P). According to the Cardinal Utility Approach, what rational action should the consumer take to maximize total satisfaction?",
+      "options": [
+        "Decrease consumption, because the utility gained from the last unit is less than its cost.",
+        "Increase consumption, because the additional satisfaction gained exceeds the cost.",
+        "Stop consumption immediately, as MU must equal P for equilibrium.",
+        "Increase consumption only until MU is zero."
+      ],
+      "answer": "Increase consumption, because the additional satisfaction gained exceeds the cost.",
+      "rationale": "When MU > P, the satisfaction gained from the last unit is greater than the sacrifice (price) paid. To maximize total satisfaction, the consumer should increase consumption until MU equals P.",
+      "marks": 2
+    },
+    {
+      "id": "q2",
+      "type": "multipleChoice",
+      "question": "If Total Utility (TU) is increasing at a decreasing rate, what does this imply about Marginal Utility (MU)?",
+      "options": [
+        "MU is increasing.",
+        "MU is positive and decreasing.",
+        "MU is zero.",
+        "MU is negative."
+      ],
+      "answer": "MU is positive and decreasing.",
+      "rationale": "Marginal Utility is the slope of the Total Utility curve. When TU is increasing, MU is positive. When TU is increasing at a decreasing rate, the slope is falling, meaning MU is decreasing. This reflects the Law of Diminishing Marginal Utility.",
+      "marks": 2
+    },
+    {
+      "id": "q3",
+      "type": "multipleChoice",
+      "question": "Under the Cardinal Utility Approach, the concept of 'utility' is measured in hypothetical units called:",
+      "options": [
+        "Rupees",
+        "Units of production",
+        "Utils",
+        "Ranks"
+      ],
+      "answer": "Utils",
+      "rationale": "The Cardinal Utility Theory assumes that utility can be measured in exact units of measurement, which are called 'utils'.",
+      "marks": 1
+    },
+    {
+      "id": "q4",
+      "type": "multipleChoice",
+      "question": "In the table provided in the lecture, maximum Total Utility (63 units) for burgers is reached when Marginal Utility (MU) is:",
+      "options": [
+        "25",
+        "13",
+        "5",
+        "0"
+      ],
+      "answer": "0",
+      "rationale": "Total Utility is maximized at the point where the consumption of an additional unit yields zero Marginal Utility. This is the peak of the TU curve.",
+      "marks": 2
+    },
+    {
+      "id": "q5",
+      "type": "multipleChoice",
+      "question": "Which mathematical condition represents the point where the consumer is maximizing satisfaction from a single commodity, X, with a given price P?",
+      "options": [
+        "TU = MU",
+        "MU / P = 0",
+        "MU = P",
+        "TU = Maximum (M)"
+      ],
+      "answer": "MU = P",
+      "rationale": "The consumer will maximize total satisfaction from the consumption of a particular commodity when Marginal Utility (MU) equals the price (P) of the commodity.",
+      "marks": 2
+    },
+    {
+      "id": "q6",
+      "type": "multipleChoice",
+      "question": "A consumer consumes 6 burgers, resulting in a Marginal Utility (MU) of -4. If the price of a burger (P) is 5, what is the best immediate conclusion about the consumer's current consumption level?",
+      "options": [
+        "The consumer is at equilibrium (MU = P).",
+        "The consumer has maximized Total Utility (MU = 0).",
+        "The consumer is consuming too much (MU < P).",
+        "The consumer needs to increase consumption (MU > P)."
+      ],
+      "answer": "The consumer is consuming too much (MU < P).",
+      "rationale": "With MU = -4 and P = 5, MU < P. This means the additional satisfaction from the last unit is less than the price paid, and the consumer should reduce consumption to move towards equilibrium (MU=P) and maximize satisfaction.",
+      "marks": 3
+    },
+    {
+      "id": "q7",
+      "type": "multipleChoice",
+      "question": "The negatively sloped portion of the Marginal Utility (MU) curve is a direct graphical representation of which economic principle?",
+      "options": [
+        "The Law of Supply",
+        "The Theory of Consumer Behavior",
+        "The Law of Diminishing Marginal Utility",
+        "The concept of Total Utility"
+      ],
+      "answer": "The Law of Diminishing Marginal Utility",
+      "rationale": "The Law of Diminishing Marginal Utility states that MU will eventually tend to decline as a person consumes more and more of a given commodity. The negative slope of the MU curve visually reflects this decline.",
+      "marks": 2
+    },
+    {
+      "id": "q8",
+      "type": "multipleChoice",
+      "question": "Which of the following is NOT an assumption for the validity of the Law of Diminishing Marginal Utility?",
+      "options": [
+        "The unit of the consumer good must be standard.",
+        "Consumer's taste and preferences remained unchanged.",
+        "The consumer's income level must increase over the period of consumption.",
+        "Continuity in the consumption, or a short break where necessary."
+      ],
+      "answer": "The consumer's income level must increase over the period of consumption.",
+      "rationale": "Assumptions for the law include standard unit, unchanged tastes/preferences, and continuity in consumption. The law focuses on the utility change per unit consumed, independent of income *change*.",
+      "marks": 3
+    },
+    {
+      "id": "q9",
+      "type": "multipleChoice",
+      "question": "What does a negative Marginal Utility value imply for a consumer?",
+      "options": [
+        "The consumer is maximizing Total Utility.",
+        "The good is a necessity.",
+        "The consumption of an additional unit causes a reduction in Total Utility.",
+        "The price of the good is zero."
+      ],
+      "answer": "The consumption of an additional unit causes a reduction in Total Utility.",
+      "rationale": "Marginal Utility is the change in Total Utility from an additional unit. A negative MU means that consuming one more unit decreases the total satisfaction, or Total Utility.",
+      "marks": 2
+    },
+    {
+      "id": "q10",
+      "type": "multipleChoice",
+      "question": "Which of the following scenarios best represents a situation where the Law of Diminishing Marginal Utility is likely violated?",
+      "options": [
+        "A consumer eats three standardized scoops of ice cream in rapid succession.",
+        "A stamp collector acquires the second stamp needed to complete a rare pair.",
+        "A consumer is interrupted by a two-hour break between consuming the second and third slice of pizza.",
+        "A person's preference for Chicken Pizza changes to Vegetable Pizza while consuming."
+      ],
+      "answer": "A consumer is interrupted by a two-hour break between consuming the second and third slice of pizza.",
+      "rationale": "One of the key assumptions for the Law of Diminishing Marginal Utility to hold is continuity in consumption, where a break must be appropriately short. A two-hour break could 'reset' the utility, potentially causing the MU to increase for the third slice, thus violating the law's premise.",
+      "marks": 3
+    },
+    {
+      "id": "q11",
+      "type": "multipleChoice",
+      "question": "If the Total Utility function for a good is U = f(Q), what does the second derivative, U''(Q) < 0, mathematically represent?",
+      "options": [
+        "That Total Utility is increasing.",
+        "That Total Utility is constant.",
+        "The Law of Diminishing Marginal Utility.",
+        "The consumer equilibrium condition."
+      ],
+      "answer": "The Law of Diminishing Marginal Utility.",
+      "rationale": "The second derivative U''(Q) shows the slope of the Marginal Utility curve (MU = U'(Q)). A negative second derivative (U''(Q) < 0) means the slope of MU is negative, indicating that MU is decreasing, which is the definition of the Law of Diminishing Marginal Utility.",
+      "marks": 3
+    },
+    {
+      "id": "q12",
+      "type": "multipleChoice",
+      "question": "Which of the following core assumptions underpins the entire Theory of Consumer Behavior, especially regarding a consumer's decision-making process?",
+      "options": [
+        "Consumers always face unlimited resources.",
+        "Consumers minimize their pleasure from consumption.",
+        "Consumers maximize their pleasure from consumption, subject to constraints.",
+        "Consumers' preferences are irrelevant to their economic behavior."
+      ],
+      "answer": "Consumers maximize their pleasure from consumption, subject to constraints.",
+      "rationale": "A fundamental assumption is that consumers aim to maximize the pleasure (utility) they derive from consumption, but they must do so within the limits of the constraints they face (like budget or price).",
+      "marks": 2
+    },
+    {
+      "id": "q13",
+      "type": "multipleChoice",
+      "question": "Marginal Utility (MU) is formally defined as the ratio of:",
+      "options": [
+        "Total Utility to the quantity of the good consumed.",
+        "Total satisfaction to the price of the commodity.",
+        "Change in Total Utility of X to the change in X consumed.",
+        "Total expenditure to the total utility obtained."
+      ],
+      "answer": "Change in Total Utility of X to the change in X consumed.",
+      "rationale": "Marginal Utility measures the additional satisfaction derived from an additional unit of a commodity. Mathematically, it is MUx = Delta TUx / Delta X.",
+      "marks": 2
+    },
+    {
+      "id": "q14",
+      "type": "multipleChoice",
+      "question": "A key difference between the Cardinal Utility Approach and the Ordinal Utility Approach (not covered in detail, but implied by the context) lies in the assumption that:",
+      "options": [
+        "Cardinal utility assumes utility can only be ranked, not measured.",
+        "Cardinal utility assumes utility is objective, not subjective.",
+        "Cardinal utility assumes utility is measurable in specific units ('utils').",
+        "Cardinal utility assumes that MU must always be positive."
+      ],
+      "answer": "Cardinal utility assumes utility is measurable in specific units ('utils').",
+      "rationale": "The defining feature of the Cardinal Utility Approach is the assumption that utility can be measured in exact, quantifiable units called 'utils', which allows for calculation of Total and Marginal Utility.",
+      "marks": 3
+    },
+    {
+      "id": "q15",
+      "type": "multipleChoice",
+      "question": "When applying the consumer equilibrium condition (MU = P) for a single commodity, what is the significance of the price (P) in this equation?",
+      "options": [
+        "P represents the total budget constraint.",
+        "P represents the subjective utility of the commodity.",
+        "P represents the cost/sacrifice the consumer must make for an additional unit.",
+        "P represents the maximum quantity the consumer can purchase."
+      ],
+      "answer": "P represents the cost/sacrifice the consumer must make for an additional unit.",
+      "rationale": "The equilibrium condition MU = P compares the benefit (MU) of the last unit to the sacrifice/cost (P) of the last unit. At equilibrium, the benefit equals the cost, maximizing net satisfaction.",
+      "marks": 3
+    },
+    {
+      "id": "q16",
+      "type": "dropdown",
+      "question": "The Law of Diminishing Marginal Utility is reflected graphically by the [dropdown_1] portion of the MU curve, and Total Utility reaches its maximum when the MU is [dropdown_2].",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "positively sloped",
+            "negatively sloped",
+            "vertical",
+            "horizontal"
+          ],
+          "correctAnswer": "negatively sloped"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "at its maximum",
+            "at its minimum",
+            "zero",
+            "equal to price"
+          ],
+          "correctAnswer": "zero"
+        }
+      ],
+      "rationale": "The declining satisfaction is shown by the negatively sloped MU curve. Total Utility is maximized at the consumption level where the addition to utility (MU) is zero.",
+      "marks": 4
+    },
+    {
+      "id": "q17",
+      "type": "dropdown",
+      "question": "Utility refers to the property of a good that enables it to satisfy human wants, also defined as the level of [dropdown_1]. The Cardinal Utility Approach assumes this satisfaction can be measured in [dropdown_2] units.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "price",
+            "scarcity",
+            "satisfaction or happiness",
+            "cost"
+          ],
+          "correctAnswer": "satisfaction or happiness"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "ordinal",
+            "exact",
+            "nominal",
+            "relative"
+          ],
+          "correctAnswer": "exact"
+        }
+      ],
+      "rationale": "Utility is satisfaction derived from consumption. Cardinal utility is characterized by its assumption that this satisfaction is measurable in exact units (utils).",
+      "marks": 4
+    },
+    {
+      "id": "q18",
+      "type": "dropdown",
+      "question": "If a consumer is consuming at a point where MU < P, they should [dropdown_1] consumption to achieve equilibrium, which will cause their Total Utility to [dropdown_2].",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "increase",
+            "reduce",
+            "maintain",
+            "double"
+          ],
+          "correctAnswer": "reduce"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "decrease",
+            "increase towards maximum",
+            "become zero",
+            "become constant"
+          ],
+          "correctAnswer": "increase towards maximum"
+        }
+      ],
+      "rationale": "When MU < P, the consumer is overconsuming (paying more for the last unit than the satisfaction gained). Reducing consumption means moving to a higher MU level, which increases overall net satisfaction (Total Utility increases towards its maximum).",
+      "marks": 4
+    },
+    {
+      "id": "q19",
+      "type": "fillInBlank",
+      "question": "The slope or first derivative of the total utility function with respect to quantity, U'(Q), represents the economic concept of ________.",
+      "answer": "Marginal Utility",
+      "rationale": "Marginal Utility (MU) is the rate of change of Total Utility (TU) with respect to the quantity consumed, which is mathematically the first derivative or the slope of the TU function.",
+      "marks": 2
+    },
+    {
+      "id": "q20",
+      "type": "fillInBlank",
+      "question": "The total amount of satisfaction that the consumer obtains from the consumption of a commodity per time period is called ________.",
+      "answer": "Total Utility",
+      "rationale": "Total Utility is the cumulative satisfaction from consuming a given quantity of a good over a time period.",
+      "marks": 1
+    },
+    {
+      "id": "q21",
+      "type": "fillInBlank",
+      "question": "A consumer who is maximizing their total satisfaction from a single commodity is said to be at a state of ________.",
+      "answer": "Consumer Equilibrium",
+      "rationale": "Consumer equilibrium, or consumer optimum, is the level of consumption where the consumer maximizes total satisfaction, which occurs when MU = P.",
+      "marks": 2
+    },
+    {
+      "id": "q22",
+      "type": "multiSelect",
+      "question": "Which of the following conditions must hold true for a consumer to be in equilibrium when consuming a single commodity, assuming the Cardinal Utility Approach is valid?",
+      "options": [
+        "Marginal Utility (MU) must equal Price (P).",
+        "The consumer's money (M) must equal the total expenditure (P multiplied by Q).",
+        "Total Utility must be zero.",
+        "Marginal Utility must be increasing."
+      ],
+      "answer": [
+        "Marginal Utility (MU) must equal Price (P).",
+        "The consumer's money (M) must equal the total expenditure (P multiplied by Q)."
+      ],
+      "rationale": "The two general conditions for consumer equilibrium are MU = P (maximizing satisfaction from the last unit) and M = P*Q (the budget constraint is met).",
+      "marks": 3
+    },
+    {
+      "id": "q23",
+      "type": "multiSelect",
+      "question": "Based on the assumptions of the Theory of Consumer Behavior, which statements accurately reflect the reality faced by consumers?",
+      "options": [
+        "Individual preferences are the sole determinant of pleasure from consumption.",
+        "Consumers face constraints or limitations on their choices.",
+        "Consumers aim to maximize pleasure from consumption.",
+        "Utility is measured only by the total cost of the goods consumed."
+      ],
+      "answer": [
+        "Individual preferences are the sole determinant of pleasure from consumption.",
+        "Consumers face constraints or limitations on their choices.",
+        "Consumers aim to maximize pleasure from consumption."
+      ],
+      "rationale": "The theory assumes preferences determine pleasure, consumers face constraints, and they attempt to maximize this pleasure subject to those constraints.",
+      "marks": 3
+    },
+    {
+      "id": "q24",
+      "type": "multiSelect",
+      "question": "Referring to the utility schedule provided, select the consumption quantities for which the Marginal Utility (MU) of burgers is negative.",
+      "options": [
+        "3rd Burger (MU = 13)",
+        "4th Burger (MU = 5)",
+        "5th Burger (MU = 0)",
+        "6th Burger (MU = -4)",
+        "7th Burger (MU = -10)"
+      ],
+      "answer": [
+        "6th Burger (MU = -4)",
+        "7th Burger (MU = -10)"
+      ],
+      "rationale": "Negative Marginal Utility values start at the 6th burger (-4) and continue to the 7th burger (-10), indicating that consuming these units decreases Total Utility.",
+      "marks": 3
+    },
+    {
+      "id": "q25",
+      "type": "matching",
+      "question": "Match the utility concepts with their mathematical description.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Total Utility (TU)",
+          "right": "Function of quantity U = f(Q)"
+        },
+        {
+          "id": "pair2",
+          "left": "Marginal Utility (MU)",
+          "right": "First derivative U'(Q)"
+        },
+        {
+          "id": "pair3",
+          "left": "Law of Diminishing MU",
+          "right": "Second derivative U''(Q) < 0"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q26",
+      "type": "matching",
+      "question": "Match the condition with the corresponding consumer action for a single commodity, assuming MU > 0.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "MU > P",
+          "right": "Consumer tends to increase consumption"
+        },
+        {
+          "id": "pair2",
+          "left": "MU < P",
+          "right": "Consumer tends to reduce consumption"
+        },
+        {
+          "id": "pair3",
+          "left": "MU = P",
+          "right": "Consumer reaches equilibrium"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q27",
+      "type": "matching",
+      "question": "Match the economic concept with its definition.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Utility",
+          "right": "The ability of a good to satisfy human wants"
+        },
+        {
+          "id": "pair2",
+          "left": "Total Utility",
+          "right": "The total satisfaction from consumption"
+        },
+        {
+          "id": "pair3",
+          "left": "Marginal Utility",
+          "right": "Additional satisfaction from an additional unit"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q28",
+      "type": "essay",
+      "question": "A consumer is consuming a product, X, and the price Px is fixed. Use the concepts of Total Utility (TU) and Marginal Utility (MU) to explain the consumption process from the first unit until the point of maximum TU, specifically describing how MU changes and its effect on TU.",
+      "idealKeywords": [
+        "Total Utility",
+        "Marginal Utility",
+        "increasing rate",
+        "decreasing rate",
+        "maximum",
+        "zero"
+      ],
+      "marks": 5
+    },
+    {
+      "id": "q29",
+      "type": "essay",
+      "question": "Critically analyze the scenario where a consumer is at a non-equilibrium state, specifically where MU is significantly less than P (MU << P). Explain why this is not an optimal consumption level and outline the rational adjustment the consumer should make, linking this adjustment back to the Law of Diminishing Marginal Utility.",
+      "idealKeywords": [
+        "MU < P",
+        "disequilibrium",
+        "satisfaction versus sacrifice",
+        "reduce consumption",
+        "increasing MU",
+        "Law of Diminishing MU"
+      ],
+      "marks": 5
+    },
+    {
+      "id": "q30",
+      "type": "essay",
+      "question": "Discuss two critical assumptions required for the Law of Diminishing Marginal Utility to hold true. Explain why a violation of each of these assumptions would lead to a breakdown of the law, potentially causing Marginal Utility to increase instead of decrease.",
+      "idealKeywords": [
+        "standard unit",
+        "tastes and preferences",
+        "continuity of consumption",
+        "mental condition",
+        "violation",
+        "breakdown of the law"
+      ],
+      "marks": 5
+    }
+  ]
+}

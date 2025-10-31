@@ -1,0 +1,346 @@
+{
+  "id": "quiz-CardinalUtilityApproach",
+  "title": "Chapter 01 - Theory of Consumer Behaviour (Cardinal Utility Approach)",
+  "description": "Tests conceptual and applied understanding of the Cardinal Utility Approach, including consumer equilibrium, demand curve derivation, and limitations.",
+  "subject": "BEC1370 - Microeconomics",
+  "gradientColors": ["#4f46e5", "#6366f1", "#4338ca", "#3730a3"],
+  "timeOptions": [10, 20, 30],
+  "totalMarks": 68,
+  "weight": 0,
+  "category": "lesson",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multipleChoice",
+      "question": "According to the Cardinal Utility Approach, if a consumer is currently consuming a quantity of a good where Marginal Utility (MU) is greater than Price (P), a rational consumer should:",
+      "options": ["Decrease consumption to reach equilibrium where MU=P", "Increase consumption until MU falls to the level of P", "Maintain the current consumption level, as total utility is maximized", "Switch to consuming a substitute good where MU is lower"],
+      "answer": "Increase consumption until MU falls to the level of P",
+      "rationale": "A rational consumer will increase consumption as long as the extra satisfaction (MU) exceeds the extra cost (P). Increasing consumption will decrease MU due to the Law of Diminishing Marginal Utility, moving toward the equilibrium condition MU=P.",
+      "marks": 2
+    },
+    {
+      "id": "q2",
+      "type": "multipleChoice",
+      "question": "The derivation of an individual's demand curve under the Cardinal Utility Approach is fundamentally reliant on which underlying principle?",
+      "options": ["The Substitution Effect dominating the Income Effect", "The Law of Diminishing Marginal Utility", "The concept of Indifference Curves", "The assumption of constant Total Utility"],
+      "answer": "The Law of Diminishing Marginal Utility",
+      "rationale": "As price falls, the consumer increases quantity to restore MU=P. This increase in quantity causes MU to fall, which is dictated by the Law of Diminishing Marginal Utility, forming the inverse P-Q relationship.",
+      "marks": 2
+    },
+    {
+      "id": "q3",
+      "type": "multipleChoice",
+      "question": "If MUB/PB is greater than MUI/PI for a consumer purchasing Burgers (B) and Ice Cream (I), the consumer can increase total utility by:",
+      "options": ["Consuming more Ice Cream and fewer Burgers", "Consuming more Burgers and fewer Ice Creams", "Consuming more of both goods", "Consuming less of both goods"],
+      "answer": "Consuming more Burgers and fewer Ice Creams",
+      "rationale": "MUB/PB > MUI/PI means the last rupee spent on Burgers yields more utility than the last rupee spent on Ice Cream. The consumer should reallocate spending toward Burgers to increase overall utility until the ratios are equal.",
+      "marks": 3
+    },
+    {
+      "id": "q4",
+      "type": "multipleChoice",
+      "question": "A key limitation of the Cardinal Utility Approach is that utility is considered 'subjective from person to person'. This means:",
+      "options": ["Total Utility must always be increasing with consumption", "Utility can be measured in cardinal numbers (e.g., 10, 20, 30 utils)", "There is no common, objective standard to compare utility across different individuals", "The Marginal Utility of a good never diminishes"],
+      "answer": "There is no common, objective standard to compare utility across different individuals",
+      "rationale": "If utility is subjective, the assigned utility 'value' (e.g., 20 utils or 30 utils) for the same good is purely personal and cannot be universally compared or measured consistently across consumers (interpersonal comparison is difficult).",
+      "marks": 2
+    },
+    {
+      "id": "q5",
+      "type": "multipleChoice",
+      "question": "Consider the one-commodity equilibrium condition MU = P. If a consumer’s Marginal Utility of money is assumed to be constant, a decrease in the price of the commodity will necessitate:",
+      "options": ["A decrease in consumption to maintain MU = P", "An increase in consumption to cause MU to fall until MU = P_new", "A decrease in consumption to cause MU to rise until MU = P_new", "No change in consumption, as MU is independent of price"],
+      "answer": "An increase in consumption to cause MU to fall until MU = P_new",
+      "rationale": "When P decreases, the new equilibrium requires the consumer to consume more. Due to diminishing MU, the MU will fall to the new, lower price level, restoring the MU = P condition.",
+      "marks": 3
+    },
+    {
+      "id": "q6",
+      "type": "multipleChoice",
+      "question": "In the consumer equilibrium example where Income (M) = Rs. 520, the equilibrium quantity was 2 Burgers and 3 Ice Creams. Why is Bundle 2 (4 Burgers, 4 Ice Creams) not the consumer equilibrium, even though it satisfies the Equi-proportional Utility Rule?",
+      "options": ["Bundle 2 does not maximize total utility because the utility per rupee is lower (2.5 vs 5)", "Bundle 2 violates the Budget Constraint (it is too expensive)", "The Marginal Utility of Burgers is lower in Bundle 2 than in Bundle 1", "The consumer receives negative utility from the 4th burger and ice cream"],
+      "answer": "Bundle 2 violates the Budget Constraint (it is too expensive)",
+      "rationale": "Bundle 2 costs Rs. 960 (4*200 + 4*40), which exceeds the income of Rs. 520. Equilibrium requires both conditions: MUB/PB = MUI/PI AND M = PBQB + PIQI.",
+      "marks": 3
+    },
+    {
+      "id": "q7",
+      "type": "multipleChoice",
+      "question": "What is the primary conceptual difficulty in establishing a 'unique definition for Utils' under the Cardinal Utility Approach?",
+      "options": ["The inability to define the budget constraint precisely", "The dependence of Marginal Utility on Total Utility", "Utility is a psychological feeling, not a physical measure like grams or meters", "The assumption that the Marginal Utility of money is constant"],
+      "answer": "Utility is a psychological feeling, not a physical measure like grams or meters",
+      "rationale": "Utils are units of utility, a subjective psychological satisfaction. Since it is not a tangible, objective unit, a consistent and unique definition across all people and goods is inherently difficult.",
+      "marks": 2
+    },
+    {
+      "id": "q8",
+      "type": "multipleChoice",
+      "question": "The consumer equilibrium condition for two commodities is known by the name:",
+      "options": ["Law of Demand", "Law of Diminishing Marginal Utility", "Law of Equi-proportional Utility Rule", "Law of Indifference"],
+      "answer": "Law of Equi-proportional Utility Rule",
+      "rationale": "The condition MUB/PB = MUI/PI is explicitly called the Equi-proportional Utility Rule in the lecture material.",
+      "marks": 2
+    },
+    {
+      "id": "q9",
+      "type": "multipleChoice",
+      "question": "Suppose MUX/PX = 10 and MUY/PY = 5. To reach equilibrium, the consumer must increase consumption of X until the ratio MUX/PX falls to 5. This adjustment is only possible due to:",
+      "options": ["The assumption that price is a constant factor", "The Law of Equi-marginal Productivity", "The diminishing nature of Marginal Utility of X", "The fixed ratio of prices PX/PY"],
+      "answer": "The diminishing nature of Marginal Utility of X",
+      "rationale": "To lower the ratio MUX/PX, the numerator (MUX) must decrease. This happens only when consumption of X increases, causing MUX to fall, as per the Law of Diminishing Marginal Utility.",
+      "marks": 3
+    },
+    {
+      "id": "q10",
+      "type": "multipleChoice",
+      "question": "Based on the butter cake example, when the price of a butter cake piece decreased from Rs. 400 to Rs. 200, the equilibrium quantity purchased increased from 3 pieces to 4 pieces. This change illustrates:",
+      "options": ["An increase in consumer income", "A shift in the supply curve", "The Law of Demand", "The consumer reaching the point of satiety"],
+      "answer": "The Law of Demand",
+      "rationale": "The Law of Demand states that as the price of a good falls, the quantity demanded increases, which is the relationship used to derive the demand curve (P=400, Q=3; P=200, Q=4).",
+      "marks": 2
+    },
+    {
+      "id": "q11",
+      "type": "multipleChoice",
+      "question": "In the two-commodity equilibrium, the second equilibrium condition, M = PB*QB + PI*QI, represents the:",
+      "options": ["Equi-proportional utility requirement", "Total utility maximization point", "Budget constraint or income expenditure limit", "Law of Diminishing Marginal Utility"],
+      "answer": "Budget constraint or income expenditure limit",
+      "rationale": "M = PB*QB + PI*QI is the budget constraint, ensuring that the total expenditure on the two goods does not exceed the consumer's total money income (M).",
+      "marks": 2
+    },
+    {
+      "id": "q12",
+      "type": "multipleChoice",
+      "question": "If a consumer is in equilibrium consuming Goods X and Y, and the price of X suddenly doubles, the consumer will initially face the condition where:",
+      "options": ["MUX/PX < MUY/PY", "MUX/PX > MUY/PY", "MUX/PX = MUY/PY is maintained", "MUX = MUY"],
+      "answer": "MUX/PX < MUY/PY",
+      "rationale": "Since PX doubled, the MUX/PX ratio (utility per rupee on X) is halved, making it lower than MUY/PY. The consumer should now reduce consumption of X and increase consumption of Y until the ratios are equal again.",
+      "marks": 3
+    },
+    {
+      "id": "q13",
+      "type": "multipleChoice",
+      "question": "Which of the following is NOT an explicit limitation of the Cardinal Utility Approach cited in the lecture material?",
+      "options": ["Utility is difficult to measure", "Utility is subjective from person to person", "Difficult to give a unique definition for Utils", "It assumes Marginal Utility of money is constant"],
+      "answer": "It assumes Marginal Utility of money is constant",
+      "rationale": "The lecture material explicitly lists 'Utility is difficult to measure', 'Difficult to give a unique definition for Utils', and 'Subjective from person to person' as limitations. The constant MU of money is an assumption, not listed as a limitation.",
+      "marks": 2
+    },
+    {
+      "id": "q14",
+      "type": "multipleChoice",
+      "question": "The statement that 'the last rupee spent on each commodity yields an increase in utility by 5 utils' for Bundle 1 (2B, 3I) signifies:",
+      "options": ["The total utility derived from Bundle 1 is exactly 5 utils", "The consumer's money income is 520 utils", "The ratio MUB/PB and MUI/PI is equal to 5", "The consumer should buy 5 units of good B and 5 units of good I"],
+      "answer": "The ratio MUB/PB and MUI/PI is equal to 5",
+      "rationale": "The value '5 utils' is the Marginal Utility per Rupee, which is the result of MUB/PB and MUI/PI when the consumer is in equilibrium (MUB/PB = MUI/PI = 5).",
+      "marks": 3
+    },
+    {
+      "id": "q15",
+      "type": "multipleChoice",
+      "question": "If a consumer spends only Rs. 500 out of an income of Rs. 520, and the Equi-proportional Utility Rule is satisfied, which statement is true about the consumer's utility?",
+      "options": ["The consumer has maximized utility because the utility rule is satisfied", "The consumer has not maximized utility and should increase consumption to spend the remaining Rs. 20", "The consumer should save the remaining Rs. 20 as it yields maximum satisfaction", "Total utility is zero since not all income was spent"],
+      "answer": "The consumer has not maximized utility and should increase consumption to spend the remaining Rs. 20",
+      "rationale": "For maximum utility, a rational consumer must satisfy both conditions. If Rs. 20 remains unspent, the consumer can increase total utility by purchasing more until the entire income is spent, provided MU is still positive.",
+      "marks": 3
+    },
+    {
+      "id": "q16",
+      "type": "dropdown",
+      "question": "The consumer's optimal purchasing rule for two goods, B and I, requires that the [dropdown_1] from the last rupee spent on each commodity is equal. If MUB/PB < MUI/PI, the consumer should shift spending toward [dropdown_2].",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["Total Utility", "Marginal Utility", "Marginal Utility per Rupee", "Price"],
+          "correctAnswer": "Marginal Utility per Rupee"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["Good B", "Good I", "Neither", "Both"],
+          "correctAnswer": "Good I"
+        }
+      ],
+      "rationale": "The optimal rule equalizes the Marginal Utility per Rupee (MUB/PB = MUI/PI). If MUB/PB < MUI/PI, Good I provides more utility per rupee, so the consumer should buy more of Good I.",
+      "marks": 4
+    },
+    {
+      "id": "q17",
+      "type": "dropdown",
+      "question": "The individual demand curve for a good (like butter cake) is derived by observing the quantity consumed at two different [dropdown_1] where the consumer is in equilibrium, defined by the condition [dropdown_2].",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["Incomes", "Prices", "Total Utilities", "Marginal Utilities"],
+          "correctAnswer": "Prices"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["MU < P", "TU is maximized", "MU = P", "MU / P is constant"],
+          "correctAnswer": "MU = P"
+        }
+      ],
+      "rationale": "The demand curve maps the relationship between price and quantity. The equilibrium quantities at P1 and P2 are found where the Marginal Utility equals the respective price.",
+      "marks": 4
+    },
+    {
+      "id": "q18",
+      "type": "dropdown",
+      "question": "In the case of consuming only one commodity, equilibrium is achieved when the consumer has spent his entire income such that [dropdown_1]. The law that governs the decrease in utility as consumption increases is the Law of [dropdown_2].",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["Total Utility is zero", "Marginal Utility is maximized", "Marginal Utility equals Price", "Total Cost is zero"],
+          "correctAnswer": "Marginal Utility equals Price"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["Demand", "Supply", "Diminishing Marginal Utility", "Comparative Advantage"],
+          "correctAnswer": "Diminishing Marginal Utility"
+        }
+      ],
+      "rationale": "Equilibrium for one commodity is at MU=P. The Law of Diminishing Marginal Utility is the basis for MU decreasing with consumption.",
+      "marks": 4
+    },
+    {
+      "id": "q19",
+      "type": "fillInBlank",
+      "question": "For three commodities X, Y, and Z, the Equi-proportional Utility Rule is expressed as MUX/PX = MUY/PY = ________.",
+      "answer": "MUZ/PZ",
+      "rationale": "The rule extends to any number of goods, requiring that the marginal utility per rupee is equal for all goods consumed.",
+      "marks": 2
+    },
+    {
+      "id": "q20",
+      "type": "fillInBlank",
+      "question": "The second condition for consumer equilibrium when purchasing two goods is the ________ constraint, which states that total expenditure must equal total income (M = PB.QB + PI.QI).",
+      "answer": "budget",
+      "rationale": "The second condition M = PB.QB + PI.QI is the budget constraint.",
+      "marks": 2
+    },
+    {
+      "id": "q21",
+      "type": "fillInBlank",
+      "question": "The marginal utility approach is criticized because utility is a psychological feeling, making it difficult to ________ it in objective units.",
+      "answer": "measure",
+      "rationale": "The difficulty of objectively measuring utility is a fundamental limitation of the Cardinal Utility Approach.",
+      "marks": 2
+    },
+    {
+      "id": "q22",
+      "type": "multiSelect",
+      "question": "Which of the following are necessary conditions for a consumer to achieve the optimal equilibrium when purchasing two goods, B and I, under the Cardinal Utility Approach?",
+      "options": ["The ratio of marginal utilities to prices must be equal (MUB/PB = MUI/PI)", "The Marginal Utility of money must be equal for both goods", "Total expenditure must equal total money income (M = PBQB + PIQI)", "The consumer must consume a non-negative quantity of both goods"],
+      "answer": ["The ratio of marginal utilities to prices must be equal (MUB/PB = MUI/PI)", "Total expenditure must equal total money income (M = PBQB + PIQI)", "The consumer must consume a non-negative quantity of both goods"],
+      "rationale": "Equilibrium requires the Equi-proportional Utility Rule and the Budget Constraint. Quantities must be non-negative. Marginal Utility of money is assumed to be constant, not equal for both goods.",
+      "marks": 3
+    },
+    {
+      "id": "q23",
+      "type": "multiSelect",
+      "question": "In the numerical example, if the consumer's income increased to Rs. 960 while prices remained constant, which bundles satisfy the Equi-proportional Utility Rule and would be affordable?",
+      "options": ["Bundle 1: 2 burgers and 3 ice creams", "Bundle 2: 4 burgers and 4 ice creams", "A hypothetical bundle of 5 burgers and 5 ice creams", "A hypothetical bundle of 3 burgers and 6 ice creams"],
+      "answer": ["Bundle 1: 2 burgers and 3 ice creams", "Bundle 2: 4 burgers and 4 ice creams"],
+      "rationale": "Both Bundle 1 (Cost Rs. 520) and Bundle 2 (Cost Rs. 960) satisfy the utility rule (MUB/PB = MUI/PI). If income is Rs. 960, both bundles satisfy the budget constraint and are thus affordable equilibria.",
+      "marks": 4
+    },
+    {
+      "id": "q24",
+      "type": "multiSelect",
+      "question": "Select the key criticisms regarding the cardinal measurement of utility.",
+      "options": ["Utility is difficult to measure", "Utility is subjective from person to person", "The use of the Equi-proportional Utility Rule is too complex", "Difficult to give a unique definition for Utils"],
+      "answer": ["Utility is difficult to measure", "Utility is subjective from person to person", "Difficult to give a unique definition for Utils"],
+      "rationale": "These three points are the explicit limitations of the Cardinal Utility Approach provided in the lecture material.",
+      "marks": 3
+    },
+    {
+      "id": "q25",
+      "type": "matching",
+      "question": "Match the utility ratio with the rational consumption decision the consumer should make to reach equilibrium (MUB/PB = MUI/PI).",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "MUB/PB > MUI/PI",
+          "right": "Consume more B and less I"
+        },
+        {
+          "id": "pair2",
+          "left": "MUB/PB < MUI/PI",
+          "right": "Consume more I and less B"
+        },
+        {
+          "id": "pair3",
+          "left": "MUB/PB = MUI/PI",
+          "right": "Do not adjust consumption"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q26",
+      "type": "matching",
+      "question": "Match the Marginal Utility (MU) value from the butter cake example with its corresponding price for equilibrium.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "MU = 400",
+          "right": "P = 400 (3 pieces)"
+        },
+        {
+          "id": "pair2",
+          "left": "MU = 200",
+          "right": "P = 200 (4 pieces)"
+        },
+        {
+          "id": "pair3",
+          "left": "MU = 600",
+          "right": "Not an equilibrium point"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q27",
+      "type": "matching",
+      "question": "Match the quantity consumed in the two-commodity example with its corresponding Marginal Utility per Rupee (MU/P) value.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "2 Burgers",
+          "right": "MUB/PB = 5"
+        },
+        {
+          "id": "pair2",
+          "left": "4 Ice Creams",
+          "right": "MUI/PI = 2.5"
+        },
+        {
+          "id": "pair3",
+          "left": "1 Ice Cream",
+          "right": "MUI/PI = 17.5"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q28",
+      "type": "essay",
+      "question": "Explain the step-by-step process of deriving an individual consumer's demand curve for a single commodity using the Cardinal Utility Approach and the principle that MU = P.",
+      "idealKeywords": ["equilibrium condition", "MU equals P", "price reduction", "increase in quantity", "Law of Diminishing Marginal Utility", "inverse relationship"],
+      "marks": 5
+    },
+    {
+      "id": "q29",
+      "type": "essay",
+      "question": "A consumer is purchasing three goods, X, Y, and Z. State the two general conditions for consumer equilibrium and explain why failing to satisfy either one would mean the consumer is not maximizing utility.",
+      "idealKeywords": ["Equi-proportional Utility Rule", "Budget Constraint", "utility per rupee", "affordability", "total utility maximization"],
+      "marks": 5
+    },
+    {
+      "id": "q30",
+      "type": "essay",
+      "question": "Discuss the primary theoretical criticisms of the Cardinal Utility Approach. In your discussion, address the implications of utility being 'subjective from person to person'.",
+      "idealKeywords": ["difficult to measure", "subjective", "unique definition for Utils", "interpersonal comparison", "psychological concept"],
+      "marks": 5
+    }
+  ]
+}

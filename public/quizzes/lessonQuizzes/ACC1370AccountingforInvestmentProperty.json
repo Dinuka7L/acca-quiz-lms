@@ -1,0 +1,508 @@
+{
+  "id": "quiz-LKAS 40 Investment Property",
+  "title": "Chapter 9 – Accounting for Investment Property (LKAS 40)",
+  "description": "A challenging exam-standard quiz assessing conceptual and applied knowledge of LKAS 40, including recognition, measurement models, transfers, and disclosures.",
+  "subject": "ACC1370 - Financial Accounting and Reporting",
+  "gradientColors": [
+    "#004d40",
+    "#00695c",
+    "#00897b",
+    "#26a69a"
+  ],
+  "timeOptions": [
+    10,
+    20,
+    30
+  ],
+  "totalMarks": 69,
+  "weight": 0,
+  "category": "lesson",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multipleChoice",
+      "question": "Under which subsequent measurement model for Investment Property (IP) must all fair value changes (gains or losses) be recognized directly in profit or loss?",
+      "options": [
+        "LKAS 16 Revaluation Model",
+        "Cost Model",
+        "Fair Value Model",
+        "Modified Cost Model"
+      ],
+      "answer": "Fair Value Model",
+      "rationale": "In the Fair Value Model for Investment Property, all fair value adjustments are recorded in profit or loss, a key difference from the LKAS 16 Revaluation Model.",
+      "marks": 2
+    },
+    {
+      "id": "q2",
+      "type": "multipleChoice",
+      "question": "An entity owns a large serviced apartment complex where it provides housekeeping, concierge, and catering services. Management deems these services to be a significant component of the arrangement. How should the property be classified?",
+      "options": [
+        "Investment Property",
+        "Inventory",
+        "Owner-occupied property",
+        "Biological asset"
+      ],
+      "answer": "Owner-occupied property",
+      "rationale": "If the ancillary services provided to occupants are significant, the property is classified as owner-occupied property and accounted for under LKAS 16, as its cash flows are not largely independent.",
+      "marks": 2
+    },
+    {
+      "id": "q3",
+      "type": "multipleChoice",
+      "question": "Which of the following is **not** a required condition for the **initial recognition** of an Investment Property?",
+      "options": [
+        "It is probable that future economic benefits will flow to the entity.",
+        "The cost of the property can be measured reliably.",
+        "The fair value of the property can be reliably measured on a continuing basis.",
+        "The property is a land or building held to earn rentals or for capital appreciation."
+      ],
+      "answer": "The fair value of the property can be reliably measured on a continuing basis.",
+      "rationale": "The initial recognition criteria are probable future economic benefits and reliably measurable cost. The reliable measurement of fair value on a continuing basis is a precondition for subsequent measurement under the Fair Value Model, not initial recognition.",
+      "marks": 2
+    },
+    {
+      "id": "q4",
+      "type": "multipleChoice",
+      "question": "How should the costs of day-to-day servicing (repairs and maintenance) of an Investment Property be accounted for?",
+      "options": [
+        "Capitalized and depreciated over the useful life of the property.",
+        "Recognized in Other Comprehensive Income (OCI).",
+        "Recognized in profit or loss as incurred.",
+        "Included in the carrying amount of the property."
+      ],
+      "answer": "Recognized in profit or loss as incurred.",
+      "rationale": "The costs of day-to-day servicing are primarily maintenance costs, which are expenses, and must be recognized in profit or loss as incurred.",
+      "marks": 2
+    },
+    {
+      "id": "q5",
+      "type": "multipleChoice",
+      "question": "An entity uses the Fair Value Model for its Investment Property. When an IP is transferred to owner-occupied property, what is the property's **deemed cost** for subsequent accounting under LKAS 16?",
+      "options": [
+        "The historical cost less accumulated depreciation at the date of change in use.",
+        "The fair value at the date of initial recognition.",
+        "The property's fair value at the date of the change in use.",
+        "The property's carrying amount immediately before the transfer."
+      ],
+      "answer": "The property's fair value at the date of the change in use.",
+      "rationale": "For a transfer from Investment Property (FV Model), the fair value at the date of change in use becomes the deemed cost for the new classification (Owner-occupied property or Inventories).",
+      "marks": 2
+    },
+    {
+      "id": "q6",
+      "type": "multipleChoice",
+      "question": "Which of the following properties is explicitly **excluded** from the scope of LKAS 40 Investment Property and instead falls under LKAS 2 Inventories?",
+      "options": [
+        "A building leased out under an operating lease.",
+        "Land held for long-term capital appreciation.",
+        "Property that is being constructed or developed for subsequent sale in the ordinary course of business.",
+        "A vacant building held to be leased out."
+      ],
+      "answer": "Property that is being constructed or developed for subsequent sale in the ordinary course of business.",
+      "rationale": "Property acquired or developed for subsequent sale in the ordinary course of business is classified as Inventory (LKAS 2).",
+      "marks": 2
+    },
+    {
+      "id": "q7",
+      "type": "multipleChoice",
+      "question": "An owner-occupied property (using the LKAS 16 Revaluation Model) is transferred to Investment Property (using the LKAS 40 Fair Value Model). If the fair value on the date of transfer is higher than its carrying amount, how is the resulting increase treated?",
+      "options": [
+        "Recognized entirely in Profit or Loss.",
+        "Recognized in Other Comprehensive Income and accumulated in the revaluation surplus.",
+        "Deducted from the cost of the Investment Property.",
+        "Recognized as deferred income and amortized."
+      ],
+      "answer": "Recognized in Other Comprehensive Income and accumulated in the revaluation surplus.",
+      "rationale": "Any difference between the carrying amount under LKAS 16 and the fair value at the date of transfer is treated as a revaluation under LKAS 16. An increase is recognized in OCI and Revaluation Surplus.",
+      "marks": 2
+    },
+    {
+      "id": "q8",
+      "type": "multipleChoice",
+      "question": "In an exceptional case, an entity is compelled to measure a specific Investment Property using the Cost Model because its fair value cannot be measured reliably on a continuing basis. How must the entity account for all its **other** Investment Properties?",
+      "options": [
+        "It can choose between the Fair Value Model or the Cost Model for the other properties.",
+        "It must measure all its other Investment Property using the Fair Value Model.",
+        "It must use the Cost Model for all Investment Properties to ensure consistency.",
+        "It must cease using LKAS 40 and apply LKAS 16 to all property."
+      ],
+      "answer": "It must measure all its other Investment Property using the Fair Value Model.",
+      "rationale": "LKAS 40 requires the chosen model to be applied to all IP. The inability to reliably measure fair value for one property is a narrow exception; all other properties must follow the chosen general policy, which in this constrained case, must be the Fair Value Model.",
+      "marks": 2
+    },
+    {
+      "id": "q9",
+      "type": "multipleChoice",
+      "question": "Which factor, in isolation, does **not** provide sufficient evidence of a change in use to justify a transfer of classification under LKAS 40?",
+      "options": [
+        "Commencement of owner-occupation.",
+        "Commencement of an operating lease to another party.",
+        "Change in management's intention for the property's use.",
+        "Commencement of development with a view to sale."
+      ],
+      "answer": "Change in management's intention for the property's use.",
+      "rationale": "A change in management intention alone is insufficient; there must be verifiable evidence of a change in use (e.g., physical event or contractual commitment).",
+      "marks": 2
+    },
+    {
+      "id": "q10",
+      "type": "multipleChoice",
+      "question": "A property developer acquires land and incurs transaction costs (legal fees and taxes). The land is classified as Investment Property. Which of the following components should be excluded from the initial cost of the Investment Property?",
+      "options": [
+        "Purchase price of the land.",
+        "Property transfer taxes.",
+        "Legal fees and other direct costs.",
+        "Operating losses incurred before the property achieves planned occupancy."
+      ],
+      "answer": "Operating losses incurred before the property achieves planned occupancy.",
+      "rationale": "Operating losses, start-up costs, and abnormal wasted materials are explicitly excluded from the cost of a newly acquired or constructed Investment Property and are expensed.",
+      "marks": 2
+    },
+    {
+      "id": "q11",
+      "type": "multipleChoice",
+      "question": "A single office building is 85% leased out to third parties under operating leases, and 15% is used by the entity for administrative purposes. The two portions **cannot** be sold separately. How should the entity classify the entire property?",
+      "options": [
+        "Investment Property, because the owner-occupied portion is insignificant.",
+        "Owner-occupied property, as partial own-use prohibits IP classification.",
+        "Owner-occupied property, because the 15% portion is significant.",
+        "The property must be split and accounted for separately under LKAS 16 and LKAS 40."
+      ],
+      "answer": "Investment Property, because the owner-occupied portion is insignificant.",
+      "rationale": "If portions cannot be sold separately, the entire property is IP only if the owner-occupied portion is insignificant. 15% is generally considered insignificant.",
+      "marks": 2
+    },
+    {
+      "id": "q12",
+      "type": "multipleChoice",
+      "question": "A gain or loss arising from the derecognition of an Investment Property is calculated as the difference between:",
+      "options": [
+        "The fair value at the date of disposal and the original historical cost.",
+        "The net disposal proceeds and the carrying amount of the asset.",
+        "The current fair value and the fair value at the last reporting date.",
+        "The net disposal proceeds and the historical cost less impairment losses."
+      ],
+      "answer": "The net disposal proceeds and the carrying amount of the asset.",
+      "rationale": "The gain or loss on disposal is the difference between the consideration received (net disposal proceeds) and the carrying amount of the asset at the date of disposal.",
+      "marks": 2
+    },
+    {
+      "id": "q13",
+      "type": "multipleChoice",
+      "question": "Subsidiary A owns a building and leases it to Parent Company B for use as its head office. In the **separate financial statements** of Subsidiary A, how should the property be classified?",
+      "options": [
+        "Owner-occupied property.",
+        "Investment Property.",
+        "Inventory.",
+        "Property, Plant, and Equipment."
+      ],
+      "answer": "Investment Property.",
+      "rationale": "From the perspective of the entity that owns it (Subsidiary A), the property is held to earn rentals from an external party (the parent). It is only reclassified as Owner-occupied property in the consolidated financial statements of the group.",
+      "marks": 2
+    },
+    {
+      "id": "q14",
+      "type": "multipleChoice",
+      "question": "When an entity chooses its accounting policy for subsequent measurement of Investment Property (either Fair Value Model or Cost Model), which statement is true?",
+      "options": [
+        "It can choose to apply the Fair Value Model to some properties and the Cost Model to others.",
+        "The chosen model must be applied consistently to **all** of its Investment Property, subject to specific exceptions.",
+        "It must use the Cost Model for land and the Fair Value Model for buildings.",
+        "It can change models voluntarily whenever management believes it provides more relevant information."
+      ],
+      "answer": "The chosen model must be applied consistently to **all** of its Investment Property, subject to specific exceptions.",
+      "rationale": "The 'all-or-nothing' principle applies, requiring a single policy for all Investment Property, with narrow exceptions for subsidiaries or properties where fair value cannot be reliably measured.",
+      "marks": 2
+    },
+    {
+      "id": "q15",
+      "type": "multipleChoice",
+      "question": "For any transfer to or from Investment Property, if the entity uses the **Cost Model** for subsequent measurement, the property is carried at:",
+      "options": [
+        "Its fair value at the date of transfer, with any gain/loss to OCI.",
+        "The lower of cost and net realizable value.",
+        "Its fair value at the date of transfer, with any gain/loss to Profit or Loss.",
+        "Its carrying amount before the date of transfer."
+      ],
+      "answer": "Its carrying amount before the date of transfer.",
+      "rationale": "Under the Cost Model, the asset's historical carrying amount (cost less accumulated depreciation/impairment) remains its basis across transfers, as no re-measurement to fair value is performed.",
+      "marks": 2
+    },
+    {
+      "id": "q16",
+      "type": "dropdown",
+      "question": "At initial recognition, an Investment Property is measured at cost. This cost includes the purchase price and directly attributable expenditure such as professional fees, but **excludes** costs like [dropdown_1] incurred before the property achieves its planned occupancy or [dropdown_2] amounts of wasted material during construction.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "Legal fees",
+            "Property transfer taxes",
+            "Start-up costs",
+            "Renovation costs"
+          ],
+          "correctAnswer": "Start-up costs"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "Normal",
+            "Direct",
+            "Abnormal",
+            "Necessary"
+          ],
+          "correctAnswer": "Abnormal"
+        }
+      ],
+      "rationale": "Costs that are not necessary to bring the property to the condition intended by management, such as start-up costs and abnormal wasted materials, must be expensed and excluded from the capitalized cost of the Investment Property.",
+      "marks": 3
+    },
+    {
+      "id": "q17",
+      "type": "dropdown",
+      "question": "When comparing the Investment Property Fair Value Model with the LKAS 16 Revaluation Model, the IP FV model requires re-measurement [dropdown_1], while the LKAS 16 model requires it [dropdown_2] to ensure the carrying amount does not differ materially from fair value.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "at least once every three years",
+            "periodically",
+            "at the end of every reporting period",
+            "only upon disposal"
+          ],
+          "correctAnswer": "at the end of every reporting period"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "at the end of every reporting period",
+            "periodically",
+            "at least annually",
+            "only when market prices suggest a material change"
+          ],
+          "correctAnswer": "periodically"
+        }
+      ],
+      "rationale": "The IP Fair Value Model mandates re-measurement at every reporting period. The LKAS 16 Revaluation Model requires revaluation with sufficient regularity, which is typically described as periodically.",
+      "marks": 3
+    },
+    {
+      "id": "q18",
+      "type": "dropdown",
+      "question": "When Inventory is transferred to Investment Property that will be measured using the Fair Value Model, the gain or loss is calculated as the difference between the property's [dropdown_1] at the date of change in use and its [dropdown_2] and is recognized in profit or loss.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "Historical cost",
+            "Fair value",
+            "Residual value",
+            "Carrying amount"
+          ],
+          "correctAnswer": "Fair value"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "Fair value",
+            "Net realizable value",
+            "Previous carrying amount",
+            "Depreciated cost"
+          ],
+          "correctAnswer": "Previous carrying amount"
+        }
+      ],
+      "rationale": "For a transfer from Inventories to IP (FV Model), the difference between the Fair Value at the date of change in use and the Inventory's previous carrying amount is recognized in Profit or Loss.",
+      "marks": 3
+    },
+    {
+      "id": "q19",
+      "type": "fillInBlank",
+      "question": "One of the mandatory general disclosures for an entity applying LKAS 40 is the extent to which the fair value of Investment Property is based on a valuation by a qualified **[blank]** valuer.",
+      "answer": "independent",
+      "rationale": "Entities must disclose whether the fair value measurement is based on a valuation by an independent valuer.",
+      "marks": 2
+    },
+    {
+      "id": "q20",
+      "type": "fillInBlank",
+      "question": "Investment Property is defined as property held (by the owner or lessee under a finance lease) to earn rentals or for **[blank]** appreciation or both.",
+      "answer": "capital",
+      "rationale": "The core purpose of Investment Property is to earn rentals or for capital appreciation.",
+      "marks": 2
+    },
+    {
+      "id": "q21",
+      "type": "fillInBlank",
+      "question": "Transfers to or from Investment Property shall only be made when, and only when, there is a **[blank]** in use, evidenced by observable events.",
+      "answer": "change",
+      "rationale": "A documented change in use, not just a change in intention, is the specific trigger required for reclassification of a property to or from Investment Property.",
+      "marks": 2
+    },
+    {
+      "id": "q22",
+      "type": "multiSelect",
+      "question": "Select all of the following properties that would typically be classified as Investment Property under LKAS 40.",
+      "options": [
+        "Land held for a currently undetermined future use.",
+        "A building that is vacant but held to be leased out under operating leases.",
+        "Property leased to another entity under a finance lease.",
+        "Owner-occupied property awaiting disposal."
+      ],
+      "answer": [
+        "Land held for a currently undetermined future use.",
+        "A building that is vacant but held to be leased out under operating leases."
+      ],
+      "rationale": "Land held for undetermined use is considered IP. A vacant building held for future operating lease is IP. Property leased under a finance lease is a financial asset for the lessor, and owner-occupied property awaiting disposal is still owner-occupied (LKAS 16).",
+      "marks": 3
+    },
+    {
+      "id": "q23",
+      "type": "multiSelect",
+      "question": "Select all statements that correctly describe the difference in accounting treatment between the Investment Property Fair Value Model and the Investment Property Cost Model.",
+      "options": [
+        "Depreciation is charged under the Fair Value Model.",
+        "Changes in fair value are recognized in Profit or Loss only under the Fair Value Model.",
+        "Under the Cost Model, the property is measured in accordance with LKAS 16.",
+        "The Cost Model requires disclosure of the fair value of the property."
+      ],
+      "answer": [
+        "Changes in fair value are recognized in Profit or Loss only under the Fair Value Model.",
+        "Under the Cost Model, the property is measured in accordance with LKAS 16.",
+        "The Cost Model requires disclosure of the fair value of the property."
+      ],
+      "rationale": "The Fair Value Model prohibits depreciation. The Fair Value Model recognizes gains/losses in P/L. The Cost Model requires use of LKAS 16 measurement rules and mandates disclosure of the fair value.",
+      "marks": 3
+    },
+    {
+      "id": "q24",
+      "type": "multiSelect",
+      "question": "Select all of the following items that are **not** classified as Investment Property under LKAS 40.",
+      "options": [
+        "Owner-occupied property used for administrative purposes.",
+        "Property held for future use as owner-occupied property.",
+        "Property that is leased to another entity under an operating lease.",
+        "Property intended for sale in the ordinary course of business."
+      ],
+      "answer": [
+        "Owner-occupied property used for administrative purposes.",
+        "Property held for future use as owner-occupied property.",
+        "Property intended for sale in the ordinary course of business."
+      ],
+      "rationale": "Owner-occupied property is LKAS 16. Property held for sale is LKAS 2 Inventory. Property leased under an operating lease is a primary example of Investment Property.",
+      "marks": 3
+    },
+    {
+      "id": "q25",
+      "type": "matching",
+      "question": "Match the event with the required transfer classification under LKAS 40.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Commencement of owner-occupation",
+          "right": "Investment Property to Owner-occupied property"
+        },
+        {
+          "id": "pair2",
+          "left": "End of owner-occupation",
+          "right": "Owner-occupied property to Investment Property"
+        },
+        {
+          "id": "pair3",
+          "left": "Commencement of an operating lease to another party",
+          "right": "Inventory to Investment Property"
+        }
+      ],
+      "marks": 2
+    },
+    {
+      "id": "q26",
+      "type": "matching",
+      "question": "Match the property classification with the primary accounting standard governing its measurement.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Investment Property (Cost Model)",
+          "right": "LKAS 16 Property, Plant and Equipment"
+        },
+        {
+          "id": "pair2",
+          "left": "Property held for sale in the ordinary course of business",
+          "right": "LKAS 2 Inventories"
+        },
+        {
+          "id": "pair3",
+          "left": "Owner-occupied property",
+          "right": "LKAS 16 Property, Plant and Equipment"
+        }
+      ],
+      "marks": 2
+    },
+    {
+      "id": "q27",
+      "type": "matching",
+      "question": "Match the transfer type with the required accounting treatment for the re-measurement difference at the date of transfer, assuming the receiving Investment Property uses the Fair Value Model.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Transfer from Inventory to IP",
+          "right": "Difference recognized in Profit or Loss"
+        },
+        {
+          "id": "pair2",
+          "left": "Transfer from Owner-Occupied Property to IP",
+          "right": "Difference treated as a Revaluation under LKAS 16"
+        },
+        {
+          "id": "pair3",
+          "left": "Transfer from IP to Inventory",
+          "right": "Difference recognized in Profit or Loss"
+        }
+      ],
+      "marks": 2
+    },
+    {
+      "id": "q28",
+      "type": "essay",
+      "question": "Explain the critical conceptual difference in the subsequent accounting treatment of **gains** on re-measurement between an Investment Property using the Fair Value Model (LKAS 40) and Property, Plant and Equipment using the Revaluation Model (LKAS 16). Justify why LKAS 40 adopts this specific approach for its fair value model.",
+      "idealKeywords": [
+        "profit or loss",
+        "other comprehensive income",
+        "revaluation surplus",
+        "primary purpose",
+        "independent cash flows",
+        "capital appreciation"
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q29",
+      "type": "essay",
+      "question": "An entity provides ancillary services to the occupants of its property. Explain the key **judgement** required to determine if this property should be classified as Investment Property (LKAS 40) or Owner-Occupied Property (LKAS 16). Provide a practical example of a situation where this judgement is complex and discuss the specific disclosure requirement related to this complexity.",
+      "idealKeywords": [
+        "significance",
+        "independent cash flows",
+        "owner-managed hotel",
+        "passive investor",
+        "management contract",
+        "criteria disclosure"
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q30",
+      "type": "essay",
+      "question": "A property developer initially holds a land for long-term capital appreciation (Investment Property, FV Model). The entity subsequently starts **construction** on the land with a view to developing and selling luxury condominiums in the near future. Analyze this situation and discuss the appropriate accounting treatment, including the transfer classification, the specific **evidence** required for the transfer, and the required **measurement** on the date of transfer.",
+      "idealKeywords": [
+        "commencement of development",
+        "inventories",
+        "change in use",
+        "fair value",
+        "carrying amount",
+        "profit or loss",
+        "deemed cost"
+      ],
+      "marks": 4
+    }
+  ]
+}

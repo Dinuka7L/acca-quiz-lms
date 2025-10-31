@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
             className="mt-2 inline-flex items-center text-red-300 dark:text-red-400 hover:text-red-500 dark:hover:text-red-300 transition-colors duration-200"
           >
             <Trash2 className="h-4 w-4 mr-1" />
-            Reset All Data
+            Reset All Data & Progress
           </button>
         </div>
 

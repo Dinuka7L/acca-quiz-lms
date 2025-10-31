@@ -1,0 +1,505 @@
+{
+  "id": "quiz-LKAS 38 Intangible Assets",
+  "title": "Chapter 8 – Accounting for Intangible Assets (LKAS 38)",
+  "description": "A challenging exam-standard quiz covering the recognition, measurement, and disclosure requirements for Intangible Assets under Sri Lanka Accounting Standard 38.",
+  "subject": "ACC1370 - Financial Accounting and Reporting",
+  "gradientColors": [
+    "#4f46e5",
+    "#3730a3",
+    "#312e81",
+    "#1e3a8a"
+  ],
+  "timeOptions": [
+    10,
+    20,
+    30
+  ],
+  "totalMarks": 66,
+  "weight": 0,
+  "category": "lesson",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multipleChoice",
+      "question": "Which of the following conditions is always considered satisfied for a separately acquired intangible asset, eliminating the need for management judgement on this specific criterion?",
+      "options": [
+        "The asset meets the definition of an asset.",
+        "The cost of the asset can be measured reliably.",
+        "The asset is identifiable through separability.",
+        "It is probable that expected future economic benefits will flow to the entity."
+      ],
+      "answer": "It is probable that expected future economic benefits will flow to the entity.",
+      "rationale": "For separately acquired intangible assets, the price paid reflects expectations of future economic benefits, so the probability recognition criterion is always considered satisfied, simplifying the recognition process.",
+      "marks": 2
+    },
+    {
+      "id": "q2",
+      "type": "multipleChoice",
+      "question": "Computer software is treated as an item of Property, Plant and Equipment (PPE) instead of an intangible asset under LKAS 38 if:",
+      "options": [
+        "Its cost is significant relative to the entity's total assets.",
+        "It is protected by copyrights enforceable in a court of law.",
+        "It is an integral part of the related hardware and the machine cannot operate without that specific software.",
+        "It is licensed to the entity under a non-cancellable operating agreement."
+      ],
+      "answer": "It is an integral part of the related hardware and the machine cannot operate without that specific software.",
+      "rationale": "If software is an integral part of the related hardware (like a machine's operating system), its physical component is deemed more significant, and it is accounted for under LKAS 16 (PPE).",
+      "marks": 2
+    },
+    {
+      "id": "q3",
+      "type": "multipleChoice",
+      "question": "The primary objective of requiring an intangible asset to be 'identifiable' is to:",
+      "options": [
+        "Ensure the asset's residual value can be determined reliably.",
+        "Distinguish it from goodwill acquired in a business combination.",
+        "Prove the legal enforceability of the control criterion.",
+        "Determine if the asset has a finite or indefinite useful life."
+      ],
+      "answer": "Distinguish it from goodwill acquired in a business combination.",
+      "rationale": "The requirement for identifiability (either separable or arising from contractual/legal rights) serves to clearly separate the intangible asset from the residual future economic benefits captured by goodwill.",
+      "marks": 2
+    },
+    {
+      "id": "q4",
+      "type": "multipleChoice",
+      "question": "An intangible asset's carrying amount is increased as a result of a revaluation. The increase shall be recognised in:",
+      "options": [
+        "Profit or Loss for the period.",
+        "Retained Earnings as a prior period adjustment.",
+        "Other Comprehensive Income and accumulated in equity under Revaluation Surplus.",
+        "Profit or Loss to the extent of the revaluation, with any excess in Other Comprehensive Income."
+      ],
+      "answer": "Other Comprehensive Income and accumulated in equity under Revaluation Surplus.",
+      "rationale": "A revaluation increase is generally taken to Other Comprehensive Income and accumulated in the Revaluation Surplus, unless it reverses a previous decrease on the same asset that was recognised in Profit or Loss.",
+      "marks": 2
+    },
+    {
+      "id": "q5",
+      "type": "multipleChoice",
+      "question": "Which of the following intangible items, whether externally acquired or internally generated, shall always be recognised as an expense as incurred, and never capitalized?",
+      "options": [
+        "Computer software not integral to hardware.",
+        "A patent acquired for exclusive use.",
+        "Subsequent expenditure on existing customer lists.",
+        "Legal fees to register an internally developed trademark."
+      ],
+      "answer": "Subsequent expenditure on existing customer lists.",
+      "rationale": "Subsequent expenditure on brands, mastheads, publishing titles, customer lists, and similar items is always recognised in profit or loss as incurred because it cannot be distinguished from expenditure to develop the business as a whole.",
+      "marks": 2
+    },
+    {
+      "id": "q6",
+      "type": "multipleChoice",
+      "question": "In the context of internally generated intangible assets, what is the correct accounting treatment for costs incurred during the Research Phase?",
+      "options": [
+        "Capitalized immediately at cost.",
+        "Capitalized only if technical feasibility can be demonstrated.",
+        "Recognised as an expense when incurred.",
+        "Deferred and amortized over five years."
+      ],
+      "answer": "Recognised as an expense when incurred.",
+      "rationale": "All expenditure on the research phase of an internal project must be recognised as an expense when it is incurred because the entity cannot demonstrate that an intangible asset exists that will generate probable future economic benefits.",
+      "marks": 2
+    },
+    {
+      "id": "q7",
+      "type": "multipleChoice",
+      "question": "According to LKAS 38, which of the following is considered an expenditure that is not part of the cost of a separately acquired intangible asset?",
+      "options": [
+        "Non-refundable purchase taxes.",
+        "Professional fees for legal registration of the asset.",
+        "Costs incurred while the asset is capable of operating but has yet to be brought into use.",
+        "Costs of testing whether the asset is functioning properly."
+      ],
+      "answer": "Costs incurred while the asset is capable of operating but has yet to be brought into use.",
+      "rationale": "Costs incurred while an asset capable of operating has yet to be brought into use are not included in the carrying amount of that asset, as recognition of costs ceases when the asset is in the condition necessary for its intended use.",
+      "marks": 2
+    },
+    {
+      "id": "q8",
+      "type": "multipleChoice",
+      "question": "An entity can use the Revaluation Model for a class of intangible assets only if:",
+      "options": [
+        "The asset has a finite useful life and is subject to impairment testing.",
+        "The fair value of the asset can be determined by reference to an active market.",
+        "The entity has no internally generated intangible assets in that class.",
+        "The carrying amount of the asset is immaterial to the financial statements."
+      ],
+      "answer": "The fair value of the asset can be determined by reference to an active market.",
+      "rationale": "The Revaluation Model can only be applied if the fair value can be measured by reference to an active market, which is rarely the case for most intangible assets.",
+      "marks": 2
+    },
+    {
+      "id": "q9",
+      "type": "multipleChoice",
+      "question": "If an intangible asset's carrying amount is decreased as a result of a revaluation, the decrease shall be recognised in Profit or Loss, UNLESS:",
+      "options": [
+        "The decrease is due to obsolescence or legal restrictions.",
+        "The asset has an indefinite useful life.",
+        "The decrease reverses a revaluation increase of the same asset previously recognised in Other Comprehensive Income.",
+        "The decrease is less than the previous accumulated impairment losses."
+      ],
+      "answer": "The decrease reverses a revaluation increase of the same asset previously recognised in Other Comprehensive Income.",
+      "rationale": "A revaluation decrease is recognised in Profit or Loss, but it is recognised in Other Comprehensive Income to the extent that it offsets a previous revaluation increase of the same asset accumulated in the Revaluation Surplus.",
+      "marks": 2
+    },
+    {
+      "id": "q10",
+      "type": "multipleChoice",
+      "question": "Which accounting standard provides a basis for selecting and applying accounting policies in the absence of explicit guidance in LKAS 38?",
+      "options": [
+        "LKAS 1 Presentation of Financial Statements.",
+        "LKAS 8 Accounting Policies, Changes in Accounting Estimates and Errors.",
+        "LKAS 36 Impairment of Assets.",
+        "SLFRS 16 Leases."
+      ],
+      "answer": "LKAS 8 Accounting Policies, Changes in Accounting Estimates and Errors.",
+      "rationale": "LKAS 8 provides the framework for developing and applying accounting policies when a specific standard (like LKAS 38) lacks explicit guidance on a matter.",
+      "marks": 2
+    },
+    {
+      "id": "q11",
+      "type": "multipleChoice",
+      "question": "What is the correct treatment for internally generated goodwill under LKAS 38?",
+      "options": [
+        "It must be recognised at cost less accumulated impairment losses.",
+        "It shall be recognised as an asset if the recognition criteria for development costs are met.",
+        "It shall not be recognised as an asset.",
+        "It is amortised over a period not exceeding ten years."
+      ],
+      "answer": "It shall not be recognised as an asset.",
+      "rationale": "Internally generated goodwill shall not be recognised as an asset because it is not an identifiable resource controlled by the entity that can be measured reliably at a cost distinct from the business as a whole.",
+      "marks": 2
+    },
+    {
+      "id": "q12",
+      "type": "multipleChoice",
+      "question": "An intangible asset with an indefinite useful life is characterised by:",
+      "options": [
+        "A useful life of twenty years or more, requiring straight-line amortisation.",
+        "No foreseeable limit to the period over which the asset is expected to generate net cash inflows.",
+        "The ability to be measured reliably at fair value using an active market.",
+        "Amortisation ceasing only when the asset is fully impaired."
+      ],
+      "answer": "No foreseeable limit to the period over which the asset is expected to generate net cash inflows.",
+      "rationale": "An indefinite useful life is assessed when, based on all relevant factors, there is no foreseeable limit to the period the asset is expected to generate net cash inflows. Such assets are not amortised.",
+      "marks": 2
+    },
+    {
+      "id": "q13",
+      "type": "multipleChoice",
+      "question": "If an entity acquires a television license by way of a government grant and chooses to measure it at a nominal fee plus directly attributable expenditure, the entity has implicitly decided to follow which subsequent measurement model?",
+      "options": [
+        "Fair Value Model.",
+        "Revaluation Model.",
+        "Nominal Value Model.",
+        "Cost Model."
+      ],
+      "answer": "Cost Model.",
+      "rationale": "If the asset is initially recognised at a nominal amount (an acceptable treatment for government grants), the Cost Model is the only practical subsequent measurement model, as the fair value path is often not chosen due to complexity or lack of active market. If measured at fair value initially, the entity can choose either Cost or Revaluation.",
+      "marks": 2
+    },
+    {
+      "id": "q14",
+      "type": "multipleChoice",
+      "question": "An exchange of one non-monetary intangible asset for another shall be measured at the fair value of the asset received unless:",
+      "options": [
+        "The non-monetary assets have different remaining useful lives.",
+        "The exchange transaction involves no cash consideration.",
+        "The transaction lacks commercial substance or fair value is not reliably measurable.",
+        "The asset given up has accumulated impairment losses."
+      ],
+      "answer": "The transaction lacks commercial substance or fair value is not reliably measurable.",
+      "rationale": "The cost of the acquired asset is measured at fair value unless (a) the exchange transaction lacks commercial substance or (b) the fair value of neither the asset received nor the asset given up is reliably measurable. Otherwise, the cost is the carrying amount of the asset given up.",
+      "marks": 2
+    },
+    {
+      "id": "q15",
+      "type": "multipleChoice",
+      "question": "Which asset arising from contracts with customers is explicitly excluded from the scope of LKAS 38, requiring a different standard for recognition?",
+      "options": [
+        "Deferred acquisition costs.",
+        "Assets arising from employee benefits.",
+        "Goodwill acquired in a business combination.",
+        "Assets arising from contracts with customers recognised in accordance with SLFRS 15."
+      ],
+      "answer": "Assets arising from contracts with customers recognised in accordance with SLFRS 15.",
+      "rationale": "LKAS 38 explicitly excludes assets arising from contracts with customers that are recognised in accordance with SLFRS 15 Revenue from Contracts with Customers.",
+      "marks": 2
+    },
+    {
+      "id": "q16",
+      "type": "dropdown",
+      "question": "In the Research and Development cycle, expenditure in the research phase is typically [dropdown_1] to profit or loss, while costs incurred in the development phase are [dropdown_2] only if all six capitalization criteria are met.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "capitalized",
+            "expensed",
+            "deferred",
+            "disclosed"
+          ],
+          "correctAnswer": "expensed"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "expensed",
+            "deferred",
+            "capitalized",
+            "ignored"
+          ],
+          "correctAnswer": "capitalized"
+        }
+      ],
+      "rationale": "Research costs are expensed because an asset cannot be demonstrated. Development costs are capitalized only after the entity proves the feasibility and viability of the asset (all six criteria).",
+      "marks": 3
+    },
+    {
+      "id": "q17",
+      "type": "dropdown",
+      "question": "An intangible asset with a finite useful life is subject to [dropdown_1] over its useful life and its residual value is presumed to be [dropdown_2] unless a third party is committed to purchase the asset at the end of its life.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "impairment testing only",
+            "annual review of life",
+            "amortisation",
+            "revaluation"
+          ],
+          "correctAnswer": "amortisation"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "its fair value",
+            "zero",
+            "its cost",
+            "its carrying amount"
+          ],
+          "correctAnswer": "zero"
+        }
+      ],
+      "rationale": "Finite life assets are amortised systematically. Their residual value is presumed to be zero unless there is a commitment from a third party or an active market exists for the asset at the end of its life.",
+      "marks": 3
+    },
+    {
+      "id": "q18",
+      "type": "dropdown",
+      "question": "The definition of an asset under the Conceptual Framework requires a present economic resource to be [dropdown_1] by the entity, which usually stems from [dropdown_2] in the context of an intangible asset.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "owned",
+            "used",
+            "controlled",
+            "managed"
+          ],
+          "correctAnswer": "controlled"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "market share",
+            "legal rights",
+            "revaluation surplus",
+            "employee skills"
+          ],
+          "correctAnswer": "legal rights"
+        }
+      ],
+      "rationale": "An asset must be 'controlled by the entity' (the core control criterion). For intangible assets, control would normally stem from legal rights that are enforceable in a court of law.",
+      "marks": 3
+    },
+    {
+      "id": "q19",
+      "type": "fillInBlank",
+      "question": "An asset is identifiable if it is separable, or if it arises from ________ or other legal rights.",
+      "answer": "contractual",
+      "rationale": "Identifiability criterion (b) is met if the asset arises from contractual or other legal rights, regardless of separability.",
+      "marks": 1
+    },
+    {
+      "id": "q20",
+      "type": "fillInBlank",
+      "question": "The systematic allocation of the depreciable amount of an intangible asset over its useful life is referred to as ________.",
+      "answer": "amortisation",
+      "rationale": "Amortisation is the term used in LKAS 38 for systematically allocating the depreciable amount of an intangible asset, equivalent to depreciation for tangible assets.",
+      "marks": 1
+    },
+    {
+      "id": "q21",
+      "type": "fillInBlank",
+      "question": "Goodwill recognised in a business combination is accounted for under ________, not LKAS 38.",
+      "answer": "SLFRS 3 Business Combinations",
+      "rationale": "Goodwill acquired in a business combination is specifically excluded from the scope of LKAS 38 and is governed by SLFRS 3.",
+      "marks": 1
+    },
+    {
+      "id": "q22",
+      "type": "multiSelect",
+      "question": "Which of the following items must be demonstrated by an entity to meet the definition of an intangible asset?",
+      "options": [
+        "Existence of an active market for revaluation.",
+        "Control over a resource.",
+        "Identifiability.",
+        "Existence of future economic benefits."
+      ],
+      "answer": [
+        "Control over a resource.",
+        "Identifiability.",
+        "Existence of future economic benefits."
+      ],
+      "rationale": "The three criteria in the definition of an intangible asset are: identifiability, control over a resource, and existence of future economic benefits. An active market is only required for the revaluation model.",
+      "marks": 3
+    },
+    {
+      "id": "q23",
+      "type": "multiSelect",
+      "question": "Which of the following are examples of expenditures that LKAS 38 explicitly states are not components of the cost of a separately acquired intangible asset?",
+      "options": [
+        "Costs of introducing a new product or service.",
+        "Professional fees for legal consultation before purchase.",
+        "Costs of employee benefits arising directly from preparing the asset for use.",
+        "Initial operating losses incurred while demand for the asset's output builds up."
+      ],
+      "answer": [
+        "Costs of introducing a new product or service.",
+        "Initial operating losses incurred while demand for the asset's output builds up."
+      ],
+      "rationale": "Costs of introducing a new product and initial operating losses are explicitly excluded. Professional fees directly attributable to bringing the asset to working condition (like legal registration) are included in cost.",
+      "marks": 3
+    },
+    {
+      "id": "q24",
+      "type": "multiSelect",
+      "question": "According to paragraph 57 of LKAS 38, which criteria must an entity demonstrate to capitalize expenditure in the development phase of an internal project?",
+      "options": [
+        "The technical feasibility of completing the asset for use or sale.",
+        "The existence of an active market for the asset's output.",
+        "The intention to complete the asset and use or sell it.",
+        "The ability to measure reliably the expenditure attributable to the asset."
+      ],
+      "answer": [
+        "The technical feasibility of completing the asset for use or sale.",
+        "The intention to complete the asset and use or sell it.",
+        "The ability to measure reliably the expenditure attributable to the asset."
+      ],
+      "rationale": "The entity must demonstrate: technical feasibility, intention to complete and use/sell, ability to use/sell, probable future economic benefits, availability of resources, and ability to measure costs reliably. The existence of a market is a way to demonstrate probable future economic benefits, not one of the six high-level criteria itself.",
+      "marks": 3
+    },
+    {
+      "id": "q25",
+      "type": "matching",
+      "question": "Match the following intangible assets with their required accounting treatment.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Internally generated goodwill",
+          "right": "Expensed as incurred, never capitalised."
+        },
+        {
+          "id": "pair2",
+          "left": "Goodwill acquired in a business combination",
+          "right": "Accounted for under SLFRS 3."
+        },
+        {
+          "id": "pair3",
+          "left": "Computer software not integral to hardware",
+          "right": "Recognised as an Intangible Asset if criteria are met."
+        }
+      ],
+      "marks": 3
+    },
+    {
+      "id": "q26",
+      "type": "matching",
+      "question": "Match the subsequent measurement concept with its defining characteristic under LKAS 38.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Cost Model",
+          "right": "Carried at cost less accumulated amortisation and impairment."
+        },
+        {
+          "id": "pair2",
+          "left": "Revaluation Model",
+          "right": "Requires an active market for the asset class."
+        },
+        {
+          "id": "pair3",
+          "left": "Indefinite Useful Life",
+          "right": "Not amortised but tested for impairment annually."
+        }
+      ],
+      "marks": 3
+    },
+    {
+      "id": "q27",
+      "type": "matching",
+      "question": "Classify the following costs related to a separately acquired intangible asset as either 'Part of Cost' or 'Expense'.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Costs of testing whether the asset is functioning properly",
+          "right": "Part of Cost"
+        },
+        {
+          "id": "pair2",
+          "left": "Initial operating losses",
+          "right": "Expense"
+        },
+        {
+          "id": "pair3",
+          "left": "Costs of employee benefits directly arising from preparing the asset for use",
+          "right": "Part of Cost"
+        }
+      ],
+      "marks": 3
+    },
+    {
+      "id": "q28",
+      "type": "essay",
+      "question": "An entity incurs substantial expenditure to create its own globally recognized brand name. Discuss the required accounting treatment for this expenditure under LKAS 38, including a justification based on the conceptual difficulties of recognition for this type of internally generated item.",
+      "idealKeywords": [
+        "Internally generated brands",
+        "not recognised as assets",
+        "expensed as incurred",
+        "indistinguishable from business development",
+        "reliability of measurement"
+      ],
+      "marks": 2
+    },
+    {
+      "id": "q29",
+      "type": "essay",
+      "question": "Compare and contrast the rules for accounting for a revaluation increase versus a revaluation decrease for an intangible asset measured using the Revaluation Model, including the necessary actions to be taken in the Statement of Comprehensive Income and equity.",
+      "idealKeywords": [
+        "revaluation surplus",
+        "Other Comprehensive Income",
+        "Profit or Loss",
+        "reverses a previous decrease",
+        "reverses a previous increase"
+      ],
+      "marks": 2
+    },
+    {
+      "id": "q30",
+      "type": "essay",
+      "question": "An entity is considering whether to capitalise the costs of a new production process developed internally. Explain the two-part test (definition and recognition criteria) an item must meet to be recognised as an intangible asset, and articulate the key conceptual challenge the entity must overcome to move from expensing costs to capitalising them.",
+      "idealKeywords": [
+        "identifiability",
+        "control",
+        "future economic benefits",
+        "probable flow",
+        "cost measured reliably",
+        "six development criteria"
+      ],
+      "marks": 2
+    }
+  ]
+}

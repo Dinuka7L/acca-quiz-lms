@@ -1,0 +1,516 @@
+{
+  "id": "quiz-Accounting for PPE",
+  "title": "Chapter 7 – Accounting for Property, Plant and Equipment (PPE)",
+  "description": "A comprehensive quiz on the recognition, measurement models, depreciation, and disclosure requirements for Property, Plant and Equipment (PPE) according to LKAS 16.",
+  "subject": "ACC1370 - Financial Accounting and Reporting",
+  "gradientColors": [
+    "#991b1b",
+    "#7f1d1d",
+    "#450a0a",
+    "#7f1d1d"
+  ],
+  "timeOptions": [
+    10,
+    20,
+    30
+  ],
+  "totalMarks": 68,
+  "weight": 0,
+  "category": "lesson",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multipleChoice",
+      "question": "A company purchases equipment for production. The initial cost includes the purchase price, non-refundable taxes, installation costs, and a three-year maintenance contract. Under LKAS 16, which component of the expenditure is NOT capitalized as part of the initial cost of the PPE?",
+      "options": [
+        "Purchase price and non-refundable taxes",
+        "Installation costs",
+        "Cost of a three-year maintenance contract",
+        "Initial estimate of dismantling and site restoration costs"
+      ],
+      "answer": "Cost of a three-year maintenance contract",
+      "rationale": "Costs of day-to-day servicing and future maintenance contracts are recognized in profit or loss in the period incurred, not capitalized as part of the initial cost of PPE.",
+      "marks": 2
+    },
+    {
+      "id": "q2",
+      "type": "multipleChoice",
+      "question": "An entity using the revaluation model experiences a revaluation deficit on an asset that has a pre-existing credit balance in the Revaluation Surplus (OCI). How should this deficit be accounted for?",
+      "options": [
+        "Entirely recognized in Profit or Loss (P&L)",
+        "Entirely recognized in Other Comprehensive Income (OCI)",
+        "Recognized in OCI to the extent of the existing surplus, with any remainder recognized in P&L",
+        "Recognized in P&L to the extent of the existing surplus, with any remainder recognized in OCI"
+      ],
+      "answer": "Recognized in OCI to the extent of the existing surplus, with any remainder recognized in P&L",
+      "rationale": "A revaluation deficit is recognized in OCI to the extent of any credit balance existing in the revaluation surplus for that asset, and the remainder is recognized in Profit or Loss.",
+      "marks": 2
+    },
+    {
+      "id": "q3",
+      "type": "multipleChoice",
+      "question": "A piece of machinery is fully functional but the entity chooses to run it at less than full capacity for the first two months due to low initial product demand. The operating losses incurred during this period must be:",
+      "options": [
+        "Capitalized as part of the machinery's cost",
+        "Treated as an impairment loss",
+        "Expensed immediately in Profit or Loss",
+        "Included in the cost of inventory produced"
+      ],
+      "answer": "Expensed immediately in Profit or Loss",
+      "rationale": "Initial operating losses, such as those incurred while demand builds up or when an asset is operated at less than full capacity but is available for use, cannot be included in the cost of PPE and must be expensed.",
+      "marks": 2
+    },
+    {
+      "id": "q4",
+      "type": "multipleChoice",
+      "question": "Which of the following would cause the useful life of a production asset to be shorter than its economic life?",
+      "options": [
+        "The asset's physical wear and tear from normal use",
+        "The entity's asset management policy involves disposal after a short, specified time",
+        "The expiry date of related leases is beyond the asset's economic life",
+        "The residual value of the asset is reassessed to be nil"
+      ],
+      "answer": "The entity's asset management policy involves disposal after a short, specified time",
+      "rationale": "The useful life is defined in terms of the asset's expected utility to the business. If the entity's policy is to dispose of assets after a specified time, this organizational constraint makes the useful life to the entity shorter than the asset's potential economic life.",
+      "marks": 2
+    },
+    {
+      "id": "q5",
+      "type": "multipleChoice",
+      "question": "An entity uses the Straight-Line depreciation method. If the residual value and useful life of the asset are changed due to a review at the financial year-end, how should this change be accounted for under LKAS 16 and LKAS 8?",
+      "options": [
+        "As a prior period error requiring restatement of previous financial statements",
+        "As a change in accounting policy requiring retrospective application",
+        "As a change in an accounting estimate, applying the change prospectively",
+        "Only when the fair value of the asset falls below its carrying amount"
+      ],
+      "answer": "As a change in an accounting estimate, applying the change prospectively",
+      "rationale": "Changes in residual value and useful life are considered changes in accounting estimates, which are accounted for prospectively in accordance with LKAS 8.",
+      "marks": 2
+    },
+    {
+      "id": "q6",
+      "type": "multipleChoice",
+      "question": "When an asset is revalued at its depreciated replacement cost, how should the accumulated depreciation at the date of revaluation be treated?",
+      "options": [
+        "Eliminated against the gross carrying amount of the asset",
+        "Recognized immediately as a loss in Profit or Loss",
+        "Restated proportionately with the change in the gross carrying amount of the asset",
+        "Carried forward and depreciated over the remaining useful life"
+      ],
+      "answer": "Restated proportionately with the change in the gross carrying amount of the asset",
+      "rationale": "When assets are revalued at depreciated replacement cost, the accumulated depreciation is restated proportionately with the change in the gross carrying amount of the asset.",
+      "marks": 2
+    },
+    {
+      "id": "q7",
+      "type": "multipleChoice",
+      "question": "Which of the following expenditures would be inappropriately capitalized as part of the cost of a new item of PPE?",
+      "options": [
+        "Costs of employee benefits directly arising from the construction of the asset",
+        "Professional fees paid to consultants for preparing the site",
+        "Costs of staff training on how to operate the new asset",
+        "Initial delivery and handling costs"
+      ],
+      "answer": "Costs of staff training on how to operate the new asset",
+      "rationale": "Costs of conducting business in a new location or with a new class of customer (including costs of staff training) cannot be included in determining the cost of PPE.",
+      "marks": 2
+    },
+    {
+      "id": "q8",
+      "type": "multipleChoice",
+      "question": "A company has a building and machinery. If it chooses the Revaluation Model for the building, what must its accounting policy be for the machinery, according to LKAS 16?",
+      "options": [
+        "It must also use the Revaluation Model for the machinery.",
+        "It must use the Cost Model for the machinery.",
+        "It can choose either the Cost Model or the Revaluation Model, provided the choice is applied to the entire class of PPE (e.g., all machinery).",
+        "It must treat the building and machinery as a single class and apply one model to both."
+      ],
+      "answer": "It can choose either the Cost Model or the Revaluation Model, provided the choice is applied to the entire class of PPE (e.g., all machinery).",
+      "rationale": "An entity chooses either the cost model or the revaluation model for measuring PPE after recognition, but must apply that policy to the entire class of PPE (e.g., buildings is one class, machinery is another). The choice for one class does not mandate the choice for another.",
+      "marks": 3
+    },
+    {
+      "id": "q9",
+      "type": "multipleChoice",
+      "question": "Depreciation of a newly acquired asset begins when:",
+      "options": [
+        "The asset is paid for in full and title passes to the entity.",
+        "The asset is available for use, which means it is in the location and condition necessary for its intended operation.",
+        "The asset is actually put into use by the management.",
+        "The entity starts incurring initial operating losses."
+      ],
+      "answer": "The asset is available for use, which means it is in the location and condition necessary for its intended operation.",
+      "rationale": "Depreciation of an asset begins when it is available for use, meaning when it is in the location and condition necessary for it to be capable of operating in the manner intended by management.",
+      "marks": 2
+    },
+    {
+      "id": "q10",
+      "type": "multipleChoice",
+      "question": "Which of the following is NOT a required disclosure for each class of PPE when an entity uses the cost model?",
+      "options": [
+        "The depreciation methods used",
+        "The useful lives or the depreciation rates used",
+        "The effective date of the valuation",
+        "A reconciliation of the carrying amount at the beginning and end of the period"
+      ],
+      "answer": "The effective date of the valuation",
+      "rationale": "The effective date of the valuation is a required additional disclosure only if PPE is stated at revalued amounts (Revaluation Model).",
+      "marks": 2
+    },
+    {
+      "id": "q11",
+      "type": "multipleChoice",
+      "question": "An asset is classified as held for sale in accordance with SLFRS 5. At which point does depreciation of this asset cease?",
+      "options": [
+        "When the asset is fully depreciated.",
+        "At the date the asset is retired from active use.",
+        "At the date the asset is classified as held for sale.",
+        "Depreciation continues until the asset is physically disposed of."
+      ],
+      "answer": "At the date the asset is classified as held for sale.",
+      "rationale": "Depreciation ceases at the earlier of the date the asset is classified as held for sale and the date the asset is derecognized.",
+      "marks": 2
+    },
+    {
+      "id": "q12",
+      "type": "multipleChoice",
+      "question": "An entity can depreciate significant parts of an item of PPE separately. This practice is known as:",
+      "options": [
+        "Component Revaluation",
+        "Unit of Production Method",
+        "Component Depreciation",
+        "Residual Value Accounting"
+      ],
+      "answer": "Component Depreciation",
+      "rationale": "Component Depreciation involves allocating the initially recognized amount of PPE to its significant parts and depreciating each part separately, particularly if they have different economic lives.",
+      "marks": 2
+    },
+    {
+      "id": "q13",
+      "type": "multipleChoice",
+      "question": "According to LKAS 16, a key criterion for recognizing the cost of an item of PPE as an asset is that it must:",
+      "options": [
+        "Have a physical presence that is easily observable.",
+        "Be expected to be used for exactly 10 years or more.",
+        "Provide a faithful representation of the asset.",
+        "Be acquired through a business combination."
+      ],
+      "answer": "Provide a faithful representation of the asset",
+      "rationale": "One of the recognition criteria for PPE is that its cost should be recognized as an asset if, and only if, it provides a faithful representation of the asset (along with meeting the definition of an asset and providing relevant information).",
+      "marks": 2
+    },
+    {
+      "id": "q14",
+      "type": "multipleChoice",
+      "question": "An entity using the Cost Model for its machinery should carry the asset at:",
+      "options": [
+        "Fair value at the reporting date.",
+        "Cost less accumulated depreciation and any accumulated impairment losses.",
+        "Revalued amount less subsequent accumulated depreciation.",
+        "Historical cost adjusted for inflation."
+      ],
+      "answer": "Cost less accumulated depreciation and any accumulated impairment losses.",
+      "rationale": "Under the Cost Model, PPE should be carried at its cost less accumulated depreciation and any accumulated impairment losses.",
+      "marks": 2
+    },
+    {
+      "id": "q15",
+      "type": "multipleChoice",
+      "question": "The gain or loss arising from the de-recognition of an item of PPE is determined by the difference between:",
+      "options": [
+        "The fair value of the asset and its original cost.",
+        "The sale price and the revalued amount.",
+        "The net disposal proceeds and the carrying amount of the asset.",
+        "The net disposal proceeds and the replacement cost."
+      ],
+      "answer": "The net disposal proceeds and the carrying amount of the asset.",
+      "rationale": "The gains and losses arising from the disposal (de-recognition) are the difference between the net disposal proceeds and the carrying amount and are recognized in profit or loss.",
+      "marks": 2
+    },
+    {
+      "id": "q16",
+      "type": "dropdown",
+      "question": "The Cost Model carries PPE at cost less [dropdown_1] and any accumulated impairment losses, while the Revaluation Model carries it at [dropdown_2] less any subsequent accumulated depreciation and impairment losses.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "net book value",
+            "accumulated depreciation",
+            "residual value",
+            "fair value"
+          ],
+          "correctAnswer": "accumulated depreciation"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "cost",
+            "revalued amount (fair value)",
+            "depreciated replacement cost",
+            "historical cost"
+          ],
+          "correctAnswer": "revalued amount (fair value)"
+        }
+      ],
+      "rationale": "The Cost Model uses accumulated depreciation, and the Revaluation Model uses the revalued amount (fair value at the date of revaluation).",
+      "marks": 4
+    },
+    {
+      "id": "q17",
+      "type": "dropdown",
+      "question": "The useful life of an asset is defined in terms of the asset's expected [dropdown_1] to the business, which may be [dropdown_2] than its economic life.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "market value",
+            "economic life",
+            "utility",
+            "replacement cost"
+          ],
+          "correctAnswer": "utility"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "longer",
+            "shorter",
+            "equal to",
+            "unrelated to"
+          ],
+          "correctAnswer": "shorter"
+        }
+      ],
+      "rationale": "The useful life is based on expected utility and can be shorter than economic life due to factors like management policy or obsolescence.",
+      "marks": 4
+    },
+    {
+      "id": "q18",
+      "type": "dropdown",
+      "question": "Depreciation of an asset is a [dropdown_1] allocation of the depreciable amount of an asset over its useful life, which an entity chooses to reflect the pattern in which the asset's future economic benefits are being [dropdown_2] by the organization.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "arbitrary",
+            "systematic",
+            "fixed-percentage",
+            "unpredictable"
+          ],
+          "correctAnswer": "systematic"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "preserved",
+            "consumed",
+            "generated",
+            "acquired"
+          ],
+          "correctAnswer": "consumed"
+        }
+      ],
+      "rationale": "Depreciation is the systematic allocation of the depreciable amount, using a method that reflects the pattern of consumption of economic benefits.",
+      "marks": 4
+    },
+    {
+      "id": "q19",
+      "type": "fillInBlank",
+      "question": "If a revaluation results in an upward revision of an asset's carrying amount and there is no previous revaluation deficit, the resulting surplus is recognized in ________.",
+      "answer": "Other Comprehensive Income (OCI)",
+      "rationale": "An upward revaluation (surplus) is recognized in Other Comprehensive Income and accumulated in equity under the heading revaluation surplus when there is no previous deficit.",
+      "marks": 2
+    },
+    {
+      "id": "q20",
+      "type": "fillInBlank",
+      "question": "LKAS 16 does not apply to Property, Plant and Equipment that is classified as ________ in accordance with SLFRS 5.",
+      "answer": "held for sale",
+      "rationale": "PPE classified as held for sale is scoped out of LKAS 16 and is accounted for under SLFRS 5.",
+      "marks": 2
+    },
+    {
+      "id": "q21",
+      "type": "fillInBlank",
+      "question": "The depreciable amount of an asset is calculated as its cost (or revalued amount) less its ________.",
+      "answer": "residual value",
+      "rationale": "The depreciable amount of an asset is determined after deducting its residual value.",
+      "marks": 2
+    },
+    {
+      "id": "q22",
+      "type": "multiSelect",
+      "question": "Which of the following costs must be excluded when determining the cost of an item of PPE, according to LKAS 16?",
+      "options": [
+        "Costs of initial delivery and handling",
+        "Costs of relocating or reorganizing the entity's operations",
+        "Costs of opening a new facility",
+        "Purchase price after deducting trade discounts"
+      ],
+      "answer": [
+        "Costs of relocating or reorganizing the entity's operations",
+        "Costs of opening a new facility"
+      ],
+      "rationale": "Costs of relocating or reorganizing operations and costs of opening a new facility cannot be included in the cost of PPE. Delivery and purchase price (net of discounts) are included.",
+      "marks": 3
+    },
+    {
+      "id": "q23",
+      "type": "multiSelect",
+      "question": "Select the depreciation methods specifically mentioned in the lecture material for Property, Plant and Equipment.",
+      "options": [
+        "Straight-line method",
+        "Sum-of-the-years-digits method",
+        "Diminishing balance method",
+        "Unit of production method"
+      ],
+      "answer": [
+        "Straight-line method",
+        "Diminishing balance method",
+        "Unit of production method"
+      ],
+      "rationale": "The lecture material explicitly discusses the straight-line method, diminishing balance method, and unit of production method as depreciation methods.",
+      "marks": 3
+    },
+    {
+      "id": "q24",
+      "type": "multiSelect",
+      "question": "According to LKAS 16, which factors must be considered in determining the useful life of an asset?",
+      "options": [
+        "Expected usage of the asset",
+        "The current replacement cost of the asset",
+        "Technical or commercial obsolescence",
+        "Legal or similar limits on the use of the asset"
+      ],
+      "answer": [
+        "Expected usage of the asset",
+        "Technical or commercial obsolescence",
+        "Legal or similar limits on the use of the asset"
+      ],
+      "rationale": "LKAS 16 requires considering expected usage, physical wear and tear, technical/commercial obsolescence, and legal limits on use. Replacement cost is not a factor in determining useful life.",
+      "marks": 3
+    },
+    {
+      "id": "q25",
+      "type": "matching",
+      "question": "Match the cost item with its correct treatment in the initial measurement of PPE (Cost Model).",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Trade Discounts",
+          "right": "Deducted from the purchase price"
+        },
+        {
+          "id": "pair2",
+          "left": "Costs of site preparation",
+          "right": "Directly attributable cost, capitalized"
+        },
+        {
+          "id": "pair3",
+          "left": "Costs of advertising a new product output",
+          "right": "Expense in Profit or Loss"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q26",
+      "type": "matching",
+      "question": "Match the revaluation scenario with the initial required journal entry (ignoring accumulated depreciation and subsequent steps). Assume the asset's initial cost is Rs. 500,000.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Revalued Amount is Rs. 400,000 (No previous surplus)",
+          "right": "P&L Dr 100,000, Asset Cr 100,000"
+        },
+        {
+          "id": "pair2",
+          "left": "Revalued Amount is Rs. 650,000 (No previous deficit)",
+          "right": "Asset Dr 150,000, OCI Cr 150,000"
+        },
+        {
+          "id": "pair3",
+          "left": "Revalued Amount is Rs. 520,000 (Previous deficit of Rs. 100,000 reversed)",
+          "right": "Asset Dr 20,000, P&L Cr 100,000, OCI Cr 20,000"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q27",
+      "type": "matching",
+      "question": "Match the type of asset with the general approach used to determine its Fair Value for revaluation purposes.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Land and Buildings",
+          "right": "Market-based evidence by a professionally qualified valuer"
+        },
+        {
+          "id": "pair2",
+          "left": "Other items of PPE (with an active market)",
+          "right": "Market values determined by appraisal"
+        },
+        {
+          "id": "pair3",
+          "left": "Asset with no market value",
+          "right": "Income or depreciated replacement cost approach"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q28",
+      "type": "essay",
+      "question": "An entity can choose between the Cost Model and the Revaluation Model for subsequent measurement of PPE. Compare and contrast these two models, specifically addressing how the carrying amount is determined and the impact on the financial statements (Statement of Financial Position and Statement of Comprehensive Income).",
+      "idealKeywords": [
+        "cost model",
+        "revaluation model",
+        "carrying amount",
+        "accumulated depreciation",
+        "impairment losses",
+        "fair value",
+        "revaluation surplus",
+        "OCI",
+        "profit or loss"
+      ],
+      "marks": 5
+    },
+    {
+      "id": "q29",
+      "type": "essay",
+      "question": "Explain the concept of Component Depreciation. Provide a reasoned argument for why LKAS 16 requires this approach, using a practical example of a complex asset with distinct components, and discuss the professional judgment required.",
+      "idealKeywords": [
+        "component depreciation",
+        "significant parts",
+        "different economic lives",
+        "separate depreciation",
+        "consumption pattern",
+        "aircraft",
+        "engines",
+        "airframe",
+        "professional judgment"
+      ],
+      "marks": 5
+    },
+    {
+      "id": "q30",
+      "type": "essay",
+      "question": "A company is calculating the initial cost of a new factory machine. The costs include the purchase price, non-refundable taxes, installation and assembly costs, and a cost to correct a material error in the installation process. Analyze which of these costs should be capitalized as part of the PPE's initial cost under LKAS 16 and provide the rationale for the exclusion of any cost.",
+      "idealKeywords": [
+        "capitalization",
+        "initial cost",
+        "directly attributable costs",
+        "purchase price",
+        "non-refundable taxes",
+        "installation costs",
+        "error cost",
+        "expense",
+        "intended condition and location"
+      ],
+      "marks": 5
+    }
+  ]
+}
