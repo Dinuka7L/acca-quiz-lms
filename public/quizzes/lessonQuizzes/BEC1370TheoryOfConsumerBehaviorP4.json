@@ -1,0 +1,346 @@
+{
+  "id": "quiz-Consumer-Behaviour-Part-IV",
+  "title": "Chapter 01.4 – Theory of Consumer Behaviour (Part IV): Consumer Equilibrium",
+  "description": "This quiz tests conceptual understanding and applied reasoning of the budget constraint, its slope, shifts, and the determination of consumer equilibrium.",
+  "subject": "BEC1370 - Microeconomics",
+  "gradientColors": ["#4a90e2", "#50a0f0", "#3a7bd5", "#2c6ac7"],
+  "timeOptions": [10, 20, 30],
+  "totalMarks": 68,
+  "weight": 0,
+  "category": "lesson",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multipleChoice",
+      "question": "A consumer's income (I) is Rs. 200, the price of good X (Px) is Rs. 5, and the price of good Y (Py) is Rs. 10. If the consumer decides to purchase 20 units of good X, what is the maximum number of units of good Y the consumer can afford?",
+      "options": ["5 units", "10 units", "15 units", "20 units"],
+      "answer": "10 units",
+      "rationale": "Total expenditure on X is 20 units * Rs. 5/unit = Rs. 100. Remaining income for Y is Rs. 200 - Rs. 100 = Rs. 100. The maximum quantity of Y is Rs. 100 / Rs. 10/unit = 10 units.",
+      "marks": 3
+    },
+    {
+      "id": "q2",
+      "type": "multipleChoice",
+      "question": "If a consumer is at a market basket located below the budget constraint line, it implies that:",
+      "options": ["The consumer is maximizing utility.", "The consumer is spending all available income.", "The market basket is currently unaffordable.", "The consumer is not spending all available income."],
+      "answer": "The consumer is not spending all available income.",
+      "rationale": "Market baskets below the budget constraint require less than the total available income, meaning the consumer is not utilizing their full budget.",
+      "marks": 2
+    },
+    {
+      "id": "q3",
+      "type": "multipleChoice",
+      "question": "Which of the following equations accurately represents the budget constraint for two goods, X and Y?",
+      "options": ["I = Px / Py", "Qx = I / Px + Qy", "I = (Px * Qx) + (Py * Qy)", "U = (Px * Qx) + (Py * Qy)"],
+      "answer": "I = (Px * Qx) + (Py * Qy)",
+      "rationale": "The budget constraint states that total expenditure on all goods must equal the consumer's income (I).",
+      "marks": 1
+    },
+    {
+      "id": "q4",
+      "type": "multipleChoice",
+      "question": "The slope of the budget constraint is equal to the negative of the price ratio (negative Px/Py) and represents the:",
+      "options": ["Marginal Rate of Substitution (MRS)", "Marginal Utility (MU)", "Marginal Rate of Transformation (MRT)", "Total Expenditure"],
+      "answer": "Marginal Rate of Transformation (MRT)",
+      "rationale": "The slope of the budget constraint is the Marginal Rate of Transformation (MRT), which shows the trade-off imposed by the market prices.",
+      "marks": 2
+    },
+    {
+      "id": "q5",
+      "type": "multipleChoice",
+      "question": "An increase in a consumer's income, with prices of both goods X and Y remaining constant, will cause the budget constraint to:",
+      "options": ["Rotate inward around the Qx intercept.", "Shift outward parallel to the initial line.", "Rotate outward around the Qy intercept.", "Remain unchanged, only the consumer's optimum changes."],
+      "answer": "Shift outward parallel to the initial line.",
+      "rationale": "A change in income with constant prices shifts the budget constraint parallel. An increase shifts it outward, making previously unaffordable bundles accessible.",
+      "marks": 2
+    },
+    {
+      "id": "q6",
+      "type": "multipleChoice",
+      "question": "The condition for consumer equilibrium, assuming the consumer spends all their income, is graphically represented by:",
+      "options": ["The intersection of the Indifference Curve and the Budget Constraint.", "The point where the Budget Constraint is at its maximum distance from the origin.", "The point of tangency between the highest attainable Indifference Curve and the Budget Constraint.", "The intersection of the Budget Constraint with the Qx axis."],
+      "answer": "The point of tangency between the highest attainable Indifference Curve and the Budget Constraint.",
+      "rationale": "Consumer equilibrium occurs at the point of tangency, where the slopes are equal, maximizing utility subject to the budget constraint.",
+      "marks": 3
+    },
+    {
+      "id": "q7",
+      "type": "multipleChoice",
+      "question": "If the price of good X decreases while the price of good Y and income remain constant, the budget constraint will:",
+      "options": ["Shift inward parallel to the initial line.", "Rotate outward with a new horizontal intercept.", "Rotate inward with a new vertical intercept.", "Shift outward parallel to the initial line."],
+      "answer": "Rotate outward with a new horizontal intercept.",
+      "rationale": "A price decrease for X (on the horizontal axis) increases the maximum affordable quantity of X, rotating the line outward on the X-axis while the Y-intercept (I/Py) remains the same.",
+      "marks": 3
+    },
+    {
+      "id": "q8",
+      "type": "multipleChoice",
+      "question": "At the point of consumer equilibrium (optimum bundle), which of the following relationships holds true?",
+      "options": ["Marginal Rate of Substitution (MRS) is less than the Marginal Rate of Transformation (MRT).", "MRS is greater than the MRT.", "MRS is equal to the MRT.", "Total Utility is maximized, but not necessarily MRS = MRT."],
+      "answer": "MRS is equal to the MRT.",
+      "rationale": "At the optimum bundle, the slope of the indifference curve (MRS) is equal to the slope of the budget constraint (MRT), a condition for tangency.",
+      "marks": 2
+    },
+    {
+      "id": "q9",
+      "type": "multipleChoice",
+      "question": "A consumer faces an income (I) of Rs. 100, Px = Rs. 10, and Py = Rs. 5. If I increases to Rs. 200, the new maximum affordable quantity of Y will be:",
+      "options": ["10 units", "20 units", "40 units", "50 units"],
+      "answer": "40 units",
+      "rationale": "Initial max Qy = 100 / 5 = 20. New max Qy = 200 / 5 = 40 units. The consumer can now purchase 40 units of Y if all income is spent on Y.",
+      "marks": 2
+    },
+    {
+      "id": "q10",
+      "type": "multipleChoice",
+      "question": "What is the economic interpretation of the Marginal Rate of Transformation (MRT)?",
+      "options": ["The consumer's subjective willingness to trade one good for another.", "The additional utility gained from consuming one more unit of a good.", "The trade-off the market dictates in terms of how much of one good must be given up to obtain more of the other.", "The total value of a market basket at given prices."],
+      "answer": "The trade-off the market dictates in terms of how much of one good must be given up to obtain more of the other.",
+      "rationale": "MRT is the slope of the budget constraint and reflects the objective, price-based trade-off the market imposes on the consumer.",
+      "marks": 3
+    },
+    {
+      "id": "q11",
+      "type": "multipleChoice",
+      "question": "In the consumer equilibrium diagram, why are market baskets on indifference curves above the budget constraint not chosen?",
+      "options": ["They offer a lower level of utility.", "The consumer has an incentive to substitute one good for another.", "They are outside the feasible consumption set given the current income and prices.", "The marginal rate of substitution is too high at those points."],
+      "answer": "They are outside the feasible consumption set given the current income and prices.",
+      "rationale": "Points on higher indifference curves are desirable but unaffordable, as they require an income greater than the budget constraint allows.",
+      "marks": 2
+    },
+    {
+      "id": "q12",
+      "type": "multipleChoice",
+      "question": "If a consumer is currently consuming a bundle where the Marginal Rate of Substitution (MRS) is greater than the Marginal Rate of Transformation (MRT), the consumer should adjust consumption by:",
+      "options": ["Increasing consumption of the good on the vertical axis (Y) and decreasing the good on the horizontal axis (X).", "Decreasing consumption of both goods.", "Increasing consumption of the good on the horizontal axis (X) and decreasing the good on the vertical axis (Y).", "Remaining at the current bundle, as it is the optimum."],
+      "answer": "Increasing consumption of the good on the horizontal axis (X) and decreasing the good on the vertical axis (Y).",
+      "rationale": "MRS > MRT means the consumer is willing to give up more Y for X than the market requires, so they should substitute more X for Y to move toward equilibrium.",
+      "marks": 3
+    },
+    {
+      "id": "q13",
+      "type": "multipleChoice",
+      "question": "A doubling of both the consumer's income and the prices of both goods X and Y will result in which change to the budget constraint?",
+      "options": ["A parallel shift outward.", "A parallel shift inward.", "A rotation around the origin.", "No change in the budget constraint's position or slope."],
+      "answer": "No change in the budget constraint's position or slope.",
+      "rationale": "The intercepts (I/Px and I/Py) and the slope (Px/Py) remain the same because the income and both prices change by the same proportion (are doubled).",
+      "marks": 3
+    },
+    {
+      "id": "q14",
+      "type": "multipleChoice",
+      "question": "The budget constraint represents the consumer's ability to buy two goods, while an indifference curve represents the consumer's:",
+      "options": ["Income and total expenditure.", "Preferences and equal utility derived from different combinations.", "Objective market trade-off.", "Maximization of profit."],
+      "answer": "Preferences and equal utility derived from different combinations.",
+      "rationale": "Indifference curves show all bundles that yield the same level of satisfaction (utility), reflecting consumer preferences.",
+      "marks": 2
+    },
+    {
+      "id": "q15",
+      "type": "multipleChoice",
+      "question": "If a market basket lies on the budget constraint line, the consumer is:",
+      "options": ["Operating above the maximum utility level.", "Spending exactly all their available income.", "Purchasing an unaffordable combination.", "Equating the marginal utility of X to the marginal utility of Y."],
+      "answer": "Spending exactly all their available income.",
+      "rationale": "The budget constraint line itself shows all combinations of the two goods where the consumer's entire income is spent.",
+      "marks": 1
+    },
+    {
+      "id": "q16",
+      "type": "dropdown",
+      "question": "The slope of the budget constraint is known as the [dropdown_1], which is calculated as the negative ratio of the prices, [dropdown_2].",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["Marginal Rate of Substitution (MRS)", "Marginal Rate of Transformation (MRT)", "Income-Consumption Curve", "Price-Consumption Curve"],
+          "correctAnswer": "Marginal Rate of Transformation (MRT)"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["-MUx/MUy", "-Px/Py", "-Qy/Qx", "I/Py"],
+          "correctAnswer": "-Px/Py"
+        }
+      ],
+      "rationale": "The slope of the budget constraint is the Marginal Rate of Transformation (MRT), which is the negative ratio of the prices, -Px/Py.",
+      "marks": 4
+    },
+    {
+      "id": "q17",
+      "type": "dropdown",
+      "question": "A decrease in the price of good Y causes the budget constraint to [dropdown_1] around the X-axis intercept. This change is considered a [dropdown_2] in the budget constraint.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["rotate inward", "shift parallel outward", "rotate outward", "shift parallel inward"],
+          "correctAnswer": "rotate outward"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["shift", "rotation", "tangency", "translation"],
+          "correctAnswer": "rotation"
+        }
+      ],
+      "rationale": "A decrease in the price of Y increases the maximum affordable quantity of Y, rotating the budget constraint outward from the X-intercept. This is a rotation, not a parallel shift.",
+      "marks": 4
+    },
+    {
+      "id": "q18",
+      "type": "dropdown",
+      "question": "The objective of the consumer is to [dropdown_1] their utility, subject to the [dropdown_2] they face.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["minimize", "equalize", "maximize", "substitute"],
+          "correctAnswer": "maximize"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["indifference curve", "demand curve", "budget constraint", "total utility"],
+          "correctAnswer": "budget constraint"
+        }
+      ],
+      "rationale": "Consumers seek to maximize their well-being (utility) within the limits of their financial resources (budget constraint).",
+      "marks": 4
+    },
+    {
+      "id": "q19",
+      "type": "fillInBlank",
+      "question": "The budget constraint is a linear curve because the consumer faces fixed prices and a fixed amount of ________.",
+      "answer": "income",
+      "rationale": "The budget constraint's linearity depends on the assumption of fixed prices and a fixed money income (I).",
+      "marks": 2
+    },
+    {
+      "id": "q20",
+      "type": "fillInBlank",
+      "question": "At the consumer equilibrium, the ratio of the marginal utility of X to the price of X must be equal to the ratio of the marginal utility of Y to the price of Y. This condition is also known as the marginal utility per ________ spent on each good.",
+      "answer": "rupee",
+      "rationale": "The equilibrium condition can be written as MUx/Px = MUy/Py, meaning the last rupee (or currency unit) spent on each good yields the same additional utility.",
+      "marks": 2
+    },
+    {
+      "id": "q21",
+      "type": "fillInBlank",
+      "question": "A change in consumer income causes a parallel shift of the budget constraint, resulting in a change in the maximum affordable quantity of both goods, but the ________ of the budget constraint remains unchanged.",
+      "answer": "slope",
+      "rationale": "A change in income does not affect the price ratio (slope of the budget constraint) because both prices are assumed constant.",
+      "marks": 2
+    },
+    {
+      "id": "q22",
+      "type": "multiSelect",
+      "question": "Which of the following would lead to a rotation (change in slope) of the budget constraint, assuming all other factors remain constant?",
+      "options": ["An increase in the consumer's total income.", "A decrease in the price of good X.", "An increase in the price of good Y.", "A simultaneous and proportional increase in all prices and income."],
+      "answer": ["A decrease in the price of good X.", "An increase in the price of good Y."],
+      "rationale": "A rotation occurs when the price ratio (slope) changes, which happens if the price of only one good changes. A change in income causes a parallel shift, and proportional changes in all prices and income leave the slope and position unchanged.",
+      "marks": 3
+    },
+    {
+      "id": "q23",
+      "type": "multiSelect",
+      "question": "The two main factors that can cause a change in a consumer's budget constraint are:",
+      "options": ["A change in consumer preferences.", "A change in the consumer's money income.", "Changes in the price levels of the goods.", "Changes in the Marginal Rate of Substitution."],
+      "answer": ["A change in the consumer's money income.", "Changes in the price levels of the goods."],
+      "rationale": "The budget constraint is defined by income and prices. Changes in these two factors will change the constraint.",
+      "marks": 3
+    },
+    {
+      "id": "q24",
+      "type": "multiSelect",
+      "question": "Consider a market basket (A) on the budget line and a market basket (B) on an indifference curve tangent to the budget line at A. Which statements are correct regarding these two points?",
+      "options": ["Both A and B are equally affordable.", "Bundle B provides a lower level of utility than any other bundle on the budget line.", "Bundle A represents the optimum consumption bundle.", "Bundle A and Bundle B represent the same combination of goods."],
+      "answer": ["Both A and B are equally affordable.", "Bundle A represents the optimum consumption bundle."],
+      "rationale": "Since the indifference curve is tangent to the budget line at A, A is the optimum bundle. Because B is on the same indifference curve as A, B does not exist as a separate point; the tangency means A and B are the same point, which is on the budget line and therefore affordable, and also the highest utility point (optimum). The last option is a trick; the optimum point is a unique combination.",
+      "marks": 3
+    },
+    {
+      "id": "q25",
+      "type": "matching",
+      "question": "Match the economic concept with its appropriate graphical representation or definition.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Budget Constraint Intercept (Y-axis)",
+          "right": "Maximum affordable quantity of Y (I/Py)"
+        },
+        {
+          "id": "pair2",
+          "left": "Consumer Equilibrium",
+          "right": "Point of tangency between the highest IC and BC"
+        },
+        {
+          "id": "pair3",
+          "left": "Market Basket Above BC",
+          "right": "Unaffordable combination"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q26",
+      "type": "matching",
+      "question": "Match the budget constraint change with its cause.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Parallel shift inward",
+          "right": "Decrease in income, prices constant"
+        },
+        {
+          "id": "pair2",
+          "left": "Outward rotation around X-intercept",
+          "right": "Decrease in the price of Y, income and Px constant"
+        },
+        {
+          "id": "pair3",
+          "left": "Inward rotation around Y-intercept",
+          "right": "Increase in the price of X, income and Py constant"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q27",
+      "type": "matching",
+      "question": "Match the slope to the curve it represents.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Slope of Budget Constraint",
+          "right": "Negative Price Ratio"
+        },
+        {
+          "id": "pair2",
+          "left": "Slope of Indifference Curve",
+          "right": "Marginal Rate of Substitution (MRS)"
+        },
+        {
+          "id": "pair3",
+          "left": "Slope at Consumer Optimum",
+          "right": "MRS = MRT"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q28",
+      "type": "essay",
+      "question": "Explain the concept of Consumer Equilibrium using the indifference curve and budget constraint framework. What is the fundamental condition that must be satisfied at this optimum point, and what does it imply about the consumer's consumption decision?",
+      "idealKeywords": ["maximize utility", "budget constraint", "tangency", "MRS equals MRT", "no incentive to change", "trade-off"],
+      "marks": 5
+    },
+    {
+      "id": "q29",
+      "type": "essay",
+      "question": "Suppose a consumer's income doubles. If the consumer is to remain at their initial optimum bundle, how must the prices of both goods X and Y change? Elaborate on the new budget constraint's relationship to the old one and the resulting consumer choice.",
+      "idealKeywords": ["doubles", "proportional change in prices", "slope unchanged", "parallel shift", "initial bundle affordable"],
+      "marks": 5
+    },
+    {
+      "id": "q30",
+      "type": "essay",
+      "question": "A consumer is purchasing a market basket where the Marginal Rate of Substitution (MRS) of X for Y is 3, but the Marginal Rate of Transformation (MRT) is 2. Analyze the consumer's current position and explain the necessary adjustments in consumption of X and Y to reach the optimum bundle.",
+      "idealKeywords": ["MRS > MRT", "willingness to trade", "market trade-off", "increase X decrease Y", "move toward tangency"],
+      "marks": 5
+    }
+  ]
+}

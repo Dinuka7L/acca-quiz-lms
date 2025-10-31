@@ -1,346 +1,465 @@
 {
-  "id": "quiz-SLFRS16-Leases",
-  "title": "Chapter 12 – Accounting for Leases – SLFRS 16",
-  "description": "A challenging examination of the conceptual and analytical requirements of SLFRS 16 for both lessee and lessor, including initial and subsequent measurement, classification, and sale and leaseback transactions.",
+  "id": "quiz-ACC1370-Chapter-13",
+  "title": "Chapter 13 - Accounting for Revenue (SLFRS 15)",
+  "description": "Examines the five-step revenue recognition model under SLFRS 15, focusing on conceptual application and analysis of contracts, performance obligations, transaction price, and allocation.",
   "subject": "ACC1370 - Financial Accounting and Reporting",
-  "gradientColors": ["#4b0082", "#800080", "#9400d3", "#a020f0"],
+  "gradientColors": ["#880E4F", "#C2185B", "#F06292", "#FFCDD2"],
   "timeOptions": [10, 20, 30],
-  "totalMarks": 69,
+  "totalMarks": 65,
   "weight": 0,
   "category": "lesson",
   "questions": [
     {
       "id": "q1",
       "type": "multipleChoice",
-      "question": "A lessor enters into a lease where the present value of the minimum lease payments equals 95% of the underlying asset's fair value. Ownership is not transferred. How should the lessor classify this lease, and what is the key conceptual reason?",
-      "options": ["Operating Lease, because ownership does not transfer and the term is not for a major part of economic life.", "Finance Lease, because the transfer of substantially all the risks and rewards is evidenced by the high present value test.", "Operating Lease, because the residual value risk remains fully with the lessor.", "Finance Lease, but only if the asset is specialized in nature with no alternative use for the lessor."],
-      "answer": "Finance Lease, because the transfer of substantially all the risks and rewards is evidenced by the high present value test.",
-      "rationale": "One of the primary indicators of a finance lease is when the present value of the lease payments amounts to substantially all of the fair value of the underlying asset (SLFRS 16 para 63), signifying a transfer of economic risks and rewards.",
+      "question": "An entity enters a contract to sell a product and provide a mandatory, highly specialized installation service that integrates the product into the customer's unique network, making the product unusable without the service. According to SLFRS 15, what is the most appropriate accounting treatment for the performance obligations?",
+      "options": [
+        "The product and the service are two separate performance obligations because they are two distinct promises.",
+        "The product and the service must be combined and accounted for as a single performance obligation because the promises are interdependent and interrelated.",
+        "The product revenue is recognized at a point in time, and the service revenue is recognized over time.",
+        "The service is an input to produce the product, so only the product is a performance obligation."
+      ],
+      "answer": "The product and the service must be combined and accounted for as a single performance obligation because the promises are interdependent and interrelated.",
+      "rationale": "If promised goods or services are not distinct, meaning they are interdependent and interrelated, they are combined and reported as one performance obligation. Highly specialized, essential installation indicates the promises are not distinct.",
       "marks": 2
     },
     {
       "id": "q2",
       "type": "multipleChoice",
-      "question": "Under SLFRS 16, a lessee accounts for the interest expense on the lease liability and the depreciation expense on the Right-of-Use (ROU) asset. Which statement accurately describes the combined pattern of these expenses over the lease term?",
-      "options": ["The total expense (interest plus depreciation) is typically constant (straight-line) over the lease term.", "The total expense is front-loaded, being higher in the early years and declining in later years.", "The total expense is back-loaded, being lower in the early years and increasing in later years.", "Depreciation is decreasing (accelerated) while interest is increasing, leading to a largely constant total expense."],
-      "answer": "The total expense is front-loaded, being higher in the early years and declining in later years.",
-      "rationale": "Depreciation of the ROU asset is typically straight-line. Interest expense is calculated on the reducing balance of the lease liability, meaning interest is highest in the first year and decreases thereafter. Therefore, the total expense is front-loaded.",
+      "question": "What is the primary factor that determines when revenue is recognized according to the final step of the SLFRS 15 model?",
+      "options": [
+        "The collection of cash from the customer.",
+        "The signing date of the contract by all parties.",
+        "The entity satisfying a performance obligation by transferring control of the promised good or service to the customer.",
+        "The date when the entity transfers legal title to the customer."
+      ],
+      "answer": "The entity satisfying a performance obligation by transferring control of the promised good or service to the customer.",
+      "rationale": "Revenue is recognized when the entity satisfies a performance obligation by transferring a promised good or service, which occurs when the customer obtains control of that good or service.",
       "marks": 2
     },
     {
       "id": "q3",
       "type": "multipleChoice",
-      "question": "In a sale and leaseback transaction that qualifies as a sale under SLFRS 15, the Seller-Lessee's recognized gain on sale must be limited to the gain that relates to which of the following?",
-      "options": ["The portion of the asset's fair value that exceeds its carrying amount.", "The rights in the underlying asset retained by the Seller-Lessee as a ROU asset.", "The rights in the underlying asset transferred to the Buyer-Lessor.", "The entire gain, provided the sale price equals the asset's fair value."],
-      "answer": "The rights in the underlying asset transferred to the Buyer-Lessor.",
-      "rationale": "The Seller-Lessee only recognizes the gain or loss that relates to the rights transferred to the buyer-lessor. The gain related to the rights retained (the ROU asset) is deferred by adjusting the ROU asset's initial cost.",
+      "question": "A company sells a machine for Rs 500,000 on 1.1.2021, with payment due on 31.12.2023. The standalone selling price is Rs 400,000. Assuming a significant financing component, what is the Rs 100,000 difference most accurately representing in the context of revenue recognition?",
+      "options": [
+        "A volume discount that will be recognized over the contract period.",
+        "Interest revenue that should be recognized over the two-year period.",
+        "Variable consideration that must be estimated at contract inception.",
+        "An allocation of transaction price to a separate performance obligation."
+      ],
+      "answer": "Interest revenue that should be recognized over the two-year period.",
+      "rationale": "If the payment interval is significant, the difference between the payment amount and the fair value/standalone price includes a significant financing component (interest), which must be adjusted for the time value of money and recognized as interest revenue over time.",
       "marks": 2
     },
     {
       "id": "q4",
       "type": "multipleChoice",
-      "question": "A non-dealer lessor enters into a finance lease. The lessor's initial direct costs should be included in the Net Investment in the Lease. How is this achieved in the measurement of the Net Investment?",
-      "options": ["They are added to the Gross Investment in the Lease.", "They are expensed immediately in the lessor's profit or loss.", "They are included in the initial carrying amount of the underlying asset before the lease commences.", "They are subtracted from the gross investment and then discounted to determine the Net Investment."],
-      "answer": "They are included in the initial carrying amount of the underlying asset before the lease commences.",
-      "rationale": "For a non-dealer/manufacturer finance lease, the initial direct costs are included in the initial measurement of the net investment in the lease, which is equivalent to recognizing them as part of the asset being leased, ensuring the implicit rate calculation correctly allocates finance income over the term.",
+      "question": "Which of the following conditions is NOT a required criterion for a customer contract to exist under Step 1 of the SLFRS 15 model?",
+      "options": [
+        "The parties have approved the contract and are committed to performing their obligations.",
+        "It is probable that the entity will collect the consideration it is entitled to.",
+        "The contract price is fixed and does not include any variable consideration.",
+        "The entity can identify each party's rights regarding the goods or services to be transferred."
+      ],
+      "answer": "The contract price is fixed and does not include any variable consideration.",
+      "rationale": "The transaction price can include variable consideration; therefore, a fixed price is not a required criterion. The other options are explicit criteria for a contract to exist.",
       "marks": 2
     },
     {
       "id": "q5",
       "type": "multipleChoice",
-      "question": "When measuring the Lease Liability, a lessee is required to include the present value of variable lease payments that depend on which factor?",
-      "options": ["Variable payments that depend on the lessee's future sales volume.", "Variable payments that depend on the usage of the underlying asset.", "Variable payments that are linked to an index or a rate, such as the Consumer Price Index (CPI).", "Variable payments that are determined by management's subjective assessment of future performance."],
-      "answer": "Variable payments that are linked to an index or a rate, such as the Consumer Price Index (CPI).",
-      "rationale": "Variable lease payments that depend on an index or a rate are included in the lease liability measurement, initially using the index/rate at the commencement date. Other variable payments (like sales-based) are expensed in the period incurred.",
+      "question": "According to the transaction price allocation step (Step 4), how should a discount included in the total consideration of a contract with multiple performance obligations generally be allocated?",
+      "options": [
+        "Allocated entirely to the performance obligation that generated the highest margin.",
+        "Allocated entirely to the final performance obligation to be satisfied.",
+        "Allocated among all performance obligations on a relative stand-alone selling price basis (proportionate allocation).",
+        "It is recognized as a reduction of Cost of Goods Sold and not allocated."
+      ],
+      "answer": "Allocated among all performance obligations on a relative stand-alone selling price basis (proportionate allocation).",
+      "rationale": "Any overall discount is allocated between the performance obligations on a relative stand-alone selling price basis (Proportionate allocation) unless another basis provides reliable allocation.",
       "marks": 2
     },
     {
       "id": "q6",
       "type": "multipleChoice",
-      "question": "If a lessee has an option to extend a lease, the exercise of this option is included in determining the lease term only if the lessee is:",
-      "options": ["Financially incentivized to extend the lease at the commencement date.", "Certain to obtain economic benefit from the extension.", "Reasonably certain to exercise the option.", "Contractually obligated to exercise the option upon meeting a specific threshold."],
-      "answer": "Reasonably certain to exercise the option.",
-      "rationale": "SLFRS 16 includes extension options in the lease term only if the lessee is reasonably certain to exercise that option, based on economic incentives at the commencement date.",
-      "marks": 2
+      "question": "A contract requires a customer to pay Rs 10,000 upon delivery and an additional Rs 5,000 if the entity achieves a specified customer satisfaction score within 3 months. The entity has no experience with this type of performance bonus but estimates a 60% chance of achieving the bonus. Assuming the entity uses the expected value method, how should the variable consideration be treated in determining the transaction price?",
+      "options": [
+        "The Rs 5,000 must be included in the transaction price immediately.",
+        "The Rs 5,000 is included only if the entity is highly probable that there will not be a significant reversal of previously recognized revenue.",
+        "The Rs 5,000 is excluded because the entity lacks sufficient experience.",
+        "Rs 3,000 (60% of Rs 5,000) is included and recognized as revenue."
+      ],
+      "answer": "The Rs 5,000 is included only if the entity is highly probable that there will not be a significant reversal of previously recognized revenue.",
+      "rationale": "Variable consideration is included in the transaction price only if the entity has experience with a similar contract AND it is highly probable that there will not be a significant reversal of previously recognized revenue. The lack of experience suggests a significant reversal is possible.",
+      "marks": 3
     },
     {
       "id": "q7",
       "type": "multipleChoice",
-      "question": "A lessee measures the ROU asset using the Cost Model. If the ROU asset is subsequently assessed for impairment, which standard should the lessee refer to?",
-      "options": ["SLFRS 16 Leases.", "LKAS 16 Property, Plant and Equipment.", "LKAS 36 Impairment of Assets.", "SLFRS 15 Revenue from Contracts with Customers."],
-      "answer": "LKAS 36 Impairment of Assets.",
-      "rationale": "SLFRS 16 explicitly requires a lessee to apply LKAS 36 to determine whether the ROU asset is impaired.",
+      "question": "Which of the following best describes the difference between a Contract Asset and a Trade Receivable?",
+      "options": [
+        "A Trade Receivable is always current, while a Contract Asset is always non-current.",
+        "A Trade Receivable's right to consideration is unconditional; a Contract Asset's right is conditional on something other than the passage of time.",
+        "A Contract Asset is measured at fair value, while a Trade Receivable is measured at the transaction price.",
+        "A Contract Asset only arises in contracts with multiple performance obligations."
+      ],
+      "answer": "A Trade Receivable's right to consideration is unconditional; a Contract Asset's right is conditional on something other than the passage of time.",
+      "rationale": "A Contract Asset is an entity's right to consideration conditioned on something other than the passage of time (e.g., fulfilling another performance obligation). An unconditional right is presented separately as a receivable (e.g., Trade Receivable).",
       "marks": 2
     },
     {
       "id": "q8",
       "type": "multipleChoice",
-      "question": "What is the primary difference in the recognition of 'Gross Investment in the Lease' versus 'Net Investment in the Lease' for a finance lessor?",
-      "options": ["Net Investment excludes the unguaranteed residual value, while Gross Investment includes it.", "Net Investment is the present value of Gross Investment discounted at the implicit rate.", "Gross Investment is calculated using the lessor's incremental borrowing rate, while Net Investment uses the implicit rate.", "Net Investment includes the initial direct costs, while Gross Investment excludes them."],
-      "answer": "Net Investment is the present value of Gross Investment discounted at the implicit rate.",
-      "rationale": "Gross Investment in the Lease is the sum of lease payments receivable and any unguaranteed residual value. Net Investment is the present value of the Gross Investment, discounted at the interest rate implicit in the lease.",
+      "question": "Under SLFRS 15, when an entity receives non-cash consideration for a transfer of goods or services, how should the revenue generally be recognized?",
+      "options": [
+        "At the book value of the non-cash consideration received.",
+        "At the contractually agreed-upon cash price, ignoring the non-cash item's value.",
+        "At the fair value of what is received.",
+        "At the entity's cost to produce the goods or services transferred."
+      ],
+      "answer": "At the fair value of what is received.",
+      "rationale": "When non-cash consideration is received, the revenue should generally be recognized at the fair value of what is received.",
       "marks": 2
     },
     {
       "id": "q9",
       "type": "multipleChoice",
-      "question": "A lessee utilizes the low-value asset exemption for a piece of office equipment. How is the expense recognized in the lessee's financial statements?",
-      "options": ["A depreciation expense on the ROU asset and an interest expense on the lease liability.", "The entire rental payment is treated as an operating expense on a straight-line basis over the lease term.", "The entire rental payment is recognized as a reduction of the lease liability.", "The ROU asset is recognized at cost, but the liability is expensed over the term."],
-      "answer": "The entire rental payment is treated as an operating expense on a straight-line basis over the lease term.",
-      "rationale": "For low-value or short-term exemptions, the lessee elects not to recognize a ROU asset or lease liability, instead recognizing the lease payments as an expense on a straight-line basis over the lease term.",
+      "question": "In the case of a long-term service contract, when is the performance obligation satisfied and revenue recognized?",
+      "options": [
+        "At a single point in time when the final result of the service is delivered.",
+        "Over time, by selecting an appropriate method for measuring the entity's progress towards completion.",
+        "Only when the entity has a present right to receive payment for the service.",
+        "At the contract inception date, as the service commitment is established."
+      ],
+      "answer": "Over time, by selecting an appropriate method for measuring the entity's progress towards completion.",
+      "rationale": "When the service is long-term, the performance obligation is satisfied over time by selecting an appropriate method for measuring the entity’s progress (e.g., long-term construction contracts).",
       "marks": 2
     },
     {
       "id": "q10",
       "type": "multipleChoice",
-      "question": "How should a lessee classify the cash payment for the interest portion of a lease liability in the Statement of Cash Flows?",
-      "options": ["Always as a financing activity.", "Always as an investing activity.", "As either an operating or financing activity, based on the entity's accounting policy choice.", "Always as an operating activity."],
-      "answer": "As either an operating or financing activity, based on the entity's accounting policy choice.",
-      "rationale": "The interest portion can be classified as either operating or financing cash flow by the lessee, consistent with their policy for other interest paid.",
-      "marks": 1
+      "question": "A software company sells a software license for Rs 100,000 and provides one year of technical support, with a total contract price of Rs 120,000. The standalone selling price of the license is Rs 100,000, and the standalone selling price of the support is Rs 30,000. How should the transaction price be allocated?",
+      "options": [
+        "License Rs 100,000; Support Rs 20,000 (Based on total contract price).",
+        "License Rs 92,308; Support Rs 27,692 (Based on relative standalone selling prices).",
+        "License Rs 100,000; Support Rs 30,000 (Based on standalone prices, with a discount recognized in COGS).",
+        "License Rs 80,000; Support Rs 40,000 (Based on a 4:1 ratio of standalone prices)."
+      ],
+      "answer": "License Rs 92,308; Support Rs 27,692 (Based on relative standalone selling prices).",
+      "rationale": "The total standalone price is 130,000. The discount is Rs 10,000 (130,000-120,000). The allocation ratio for the License is 100/130 (76.92%), and for Support is 30/130 (23.08%). License: 120,000 * 76.92% = Rs 92,308. Support: 120,000 * 23.08% = Rs 27,692.",
+      "marks": 3
     },
     {
       "id": "q11",
       "type": "multipleChoice",
-      "question": "What is the primary conceptual characteristic that distinguishes a lease from a service contract under SLFRS 16?",
-      "options": ["The length of the contract term.", "The explicit or implicit specification of an asset.", "The transfer of the right to control the use of an identified asset for a period of time.", "The materiality of the consideration provided by the customer."],
-      "answer": "The transfer of the right to control the use of an identified asset for a period of time.",
-      "rationale": "A contract is or contains a lease if it conveys the right to control the use of an identified asset for a period of time in exchange for consideration.",
-      "marks": 1
+      "question": "What is the key indicator that a customer has obtained control of an asset, allowing the entity to recognize revenue at a point in time?",
+      "options": [
+        "The customer has made a partial cash payment.",
+        "The entity has a present right to receive the payment for the asset.",
+        "The entity has transferred physical possession of the asset but retained legal title.",
+        "The contract is for the sale of goods rather than services."
+      ],
+      "answer": "The entity has a present right to receive the payment for the asset.",
+      "rationale": "The entity having a present right to receive payment for the asset is a factor indicating that control is passed at a point in time. The transfer of control is the critical concept.",
+      "marks": 2
     },
     {
       "id": "q12",
       "type": "multipleChoice",
-      "question": "In the books of a lessor under an operating lease, initial direct costs are:",
-      "options": ["Expensed immediately.", "Added to the Gross Investment in the Lease.", "Capitalized and amortized over the lease term.", "Capitalized and depreciated over the asset's useful life."],
-      "answer": "Capitalized and amortized over the lease term.",
-      "rationale": "For an operating lease, initial direct costs are added to the carrying amount of the underlying asset and recognized as an expense over the lease term on the same basis as the lease income.",
-      "marks": 1
+      "question": "A Contract Liability is created when a customer pays a company Rs 50,000 in advance for products that will be delivered next month. What is the fundamental accounting concept represented by this liability?",
+      "options": [
+        "An entity's right to consideration for goods transferred.",
+        "An entity's obligation to transfer goods or services for which consideration has been received.",
+        "Unconditional right to a future cash flow from a customer.",
+        "A cost incurred to fulfill a contract that is expected to be recovered."
+      ],
+      "answer": "An entity's obligation to transfer goods or services for which consideration has been received.",
+      "rationale": "A Contract Liability is an entity's obligation to transfer goods or services to a customer for which the entity has received consideration. It is often called unearned revenue.",
+      "marks": 2
     },
     {
       "id": "q13",
       "type": "multipleChoice",
-      "question": "The 'Net Investment in the Lease' balance for a lessor in a finance lease should be presented in the Statement of Financial Position as:",
-      "options": ["An item of Property, Plant and Equipment.", "A liability under financing activities.", "A financial asset (receivable).", "Deferred revenue."],
-      "answer": "A financial asset (receivable).",
-      "rationale": "The Net Investment in the Lease is the lessor's right to receive the lease payments, which is classified as a finance lease receivable (a financial asset).",
-      "marks": 1
+      "question": "In the context of Step 3 (Determine the Transaction Price), for which situation is it *not* practically required to adjust the transaction price for the effects of the time value of money?",
+      "options": [
+        "The customer pays the consideration in advance, and the contract period is 36 months.",
+        "The customer pays in arrears, and the interval between transfer and payment is expected to be 15 months.",
+        "The interval between the transfer of goods and customer payment is expected to be 10 months.",
+        "The contract is a long-term construction contract satisfied over 3 years."
+      ],
+      "answer": "The interval between the transfer of goods and customer payment is expected to be 10 months.",
+      "rationale": "Practically, when the interval between the transfer of promised goods or services and the payment by the customer is expected to be less than 12 months, it does not require adjusting for the effects of the time value of money.",
+      "marks": 2
     },
     {
       "id": "q14",
       "type": "multipleChoice",
-      "question": "What is the consequence for a lessee if the interest rate implicit in the lease cannot be readily determined?",
-      "options": ["The lessee must use the interest rate that the lessor specified in the contract.", "The lessee must use their incremental borrowing rate.", "The lease is classified as an operating lease.", "The lease liability is measured using an estimated fair value rate."],
-      "answer": "The lessee must use their incremental borrowing rate.",
-      "rationale": "If the rate implicit in the lease cannot be readily determined, the lessee shall use the lessee's incremental borrowing rate.",
-      "marks": 1
+      "question": "Incremental costs of obtaining a contract, such as sales commissions, must be recognized as an asset and amortized UNLESS:",
+      "options": [
+        "The commissions are paid to external third-party agents.",
+        "The entity does not expect to recover the costs.",
+        "The amortization period would be one year or less.",
+        "The contract contains variable consideration."
+      ],
+      "answer": "The amortization period would be one year or less.",
+      "rationale": "If the amortization period would be one year or less, the incremental costs of obtaining a contract can be expensed (as a practical expedient) instead of recognized as an asset and amortized.",
+      "marks": 2
     },
     {
       "id": "q15",
       "type": "multipleChoice",
-      "question": "If a lessee decides to adopt the short-term lease exemption, what is the impact on the Balance Sheet at the commencement date?",
-      "options": ["Increase in non-current assets and increase in non-current liabilities.", "Increase in current assets and decrease in current liabilities.", "No recognition of a ROU asset or Lease Liability.", "Recognition of an expense and a corresponding increase in a current payable."],
-      "answer": "No recognition of a ROU asset or Lease Liability.",
-      "rationale": "Choosing the exemption means the lessee elects not to recognize a ROU asset or lease liability.",
-      "marks": 1
+      "question": "What is the fundamental difference between Income and Revenue as defined in the lecture materials?",
+      "options": [
+        "Income results from an increase in assets or decrease in liabilities; Revenue is an income from the ordinary course of business.",
+        "Income is always a fixed amount; Revenue is always variable.",
+        "Income is recognized only at a point in time; Revenue is recognized only over time.",
+        "Income is recognized under SLFRS 15; Revenue is recognized under LKAS 18."
+      ],
+      "answer": "Income results from an increase in assets or decrease in liabilities; Revenue is an income from the ordinary course of business.",
+      "rationale": "Income is a broader concept (increase in assets or decrease in liabilities that results in an increase in equity except for transactions with Equity holders). Revenue is a specific type of income arising from the ordinary course of business.",
+      "marks": 2
     },
     {
       "id": "q16",
       "type": "dropdown",
-      "question": "The ROU asset is typically depreciated over the [dropdown_1] in a lease where ownership transfers, but over the [dropdown_2] in all other circumstances.",
+      "question": "A promise to supply and [dropdown_1] a sophisticated machine like a power plant is typically combined into [dropdown_2] performance obligation because the promises are interdependent and interrelated.",
       "dropdownBlanks": [
         {
           "id": "dropdown_1",
-          "options": ["lease term", "useful life", "shorter of the two", "economic life"],
-          "correctAnswer": "useful life"
+          "options": ["install", "sell", "maintain", "finance"],
+          "correctAnswer": "install"
         },
         {
           "id": "dropdown_2",
-          "options": ["lease term", "shorter of the lease term or useful life", "economic life", "period of guaranteed residual value"],
-          "correctAnswer": "shorter of the lease term or useful life"
+          "options": ["two", "a single", "three", "multiple"],
+          "correctAnswer": "a single"
         }
       ],
-      "rationale": "If the lease transfers ownership or a purchase option is exercised, depreciation is over the useful life. Otherwise, it is over the shorter of the lease term or the useful life.",
-      "marks": 3
+      "rationale": "A promise to supply and install a sophisticated machine is an example where the promises are not distinct and are combined into a single performance obligation, often satisfied over time.",
+      "marks": 4
     },
     {
       "id": "q17",
       "type": "dropdown",
-      "question": "A buyer-lessor in a non-sale and leaseback transaction recognizes a financial [dropdown_1], while the seller-lessee continues to depreciate the underlying asset and recognizes a financial [dropdown_2].",
+      "question": "The SLFRS 15 standard supersedes LKAS 18 (Revenue) and [dropdown_1] (Construction Contracts). The overall objective of SLFRS 15 is to provide information about the nature, amount, timing, and [dropdown_2] of revenue and cash flows.",
       "dropdownBlanks": [
         {
           "id": "dropdown_1",
-          "options": ["liability", "asset", "expense", "deferred revenue"],
-          "correctAnswer": "asset"
+          "options": ["LKAS 11", "LKAS 16", "LKAS 2", "SLFRS 9"],
+          "correctAnswer": "LKAS 11"
         },
         {
           "id": "dropdown_2",
-          "options": ["liability", "asset", "revenue", "gain on sale"],
-          "correctAnswer": "liability"
+          "options": ["certainty", "profitability", "uncertainty", "source"],
+          "correctAnswer": "uncertainty"
         }
       ],
-      "rationale": "If the transfer is not a sale, the seller-lessee accounts for a financial liability, and the buyer-lessor accounts for a financial asset, both under SLFRS 9.",
-      "marks": 3
+      "rationale": "SLFRS 15 supersedes LKAS 11 Construction Contracts and LKAS 18 Revenue. The objective includes establishing principles for reporting information about the nature, amount, timing, and uncertainty of revenue and cash flows.",
+      "marks": 4
     },
     {
       "id": "q18",
       "type": "dropdown",
-      "question": "For a manufacturer-lessor, the initial direct costs are [dropdown_1], whereas for a non-dealer lessor, they are [dropdown_2] and included in the Net Investment in the Lease.",
+      "question": "If a contract contains many performance obligations, the entity must allocate the transaction price by reference to their relative [dropdown_1]. If this price is not directly observable, the entity must [dropdown_2] it.",
       "dropdownBlanks": [
         {
           "id": "dropdown_1",
-          "options": ["capitalized and amortized", "expensed immediately", "deferred and recognized as a cost of sale", "added to the Gross Investment"],
-          "correctAnswer": "expensed immediately"
+          "options": ["fair market values", "standalone selling prices", "cost plus margin", "negotiated prices"],
+          "correctAnswer": "standalone selling prices"
         },
         {
           "id": "dropdown_2",
-          "options": ["expensed immediately", "added to the cost of the underlying asset", "excluded from the Net Investment calculation", "treated as revenue"],
-          "correctAnswer": "added to the cost of the underlying asset"
+          "options": ["ignore", "estimate", "renegotiate", "defer"],
+          "correctAnswer": "estimate"
         }
       ],
-      "rationale": "A manufacturer or dealer lessor expenses initial direct costs at the commencement date. A non-dealer lessor adds these costs to the Net Investment in the Lease.",
-      "marks": 3
+      "rationale": "If there are many performance obligations, the transaction price is allocated by reference to their relative stand-alone selling prices. If not directly observable, the entity must estimate it.",
+      "marks": 4
     },
     {
       "id": "q19",
       "type": "fillInBlank",
-      "question": "The total of the lease payments receivable by a lessor and the unguaranteed residual value is termed the ________ in the lease.",
-      "answer": "Gross Investment",
-      "rationale": "Gross Investment in the Lease is the total of the lease payments receivable plus any unguaranteed residual value accruing to the lessor.",
+      "question": "The second step in the five-step revenue model is to identify the ________ in the contract.",
+      "answer": "performance obligations",
+      "rationale": "The five steps are 1. Identify the contract, 2. Identify the performance obligations, 3. Determine the transaction price, 4. Allocate the transaction price, 5. Recognize revenue.",
       "marks": 2
     },
     {
       "id": "q20",
       "type": "fillInBlank",
-      "question": "When a lease modification decreases the scope of the lease, the lessee must re-measure the lease liability and recognize a gain or loss in profit or loss corresponding to the full or partial termination, applying the principles of ________.",
-      "answer": "SLFRS 9",
-      "rationale": "Lease modifications that decrease the scope are treated as a partial termination, and the lessee applies the derecognition requirements in SLFRS 9 to the portion of the lease that is terminated.",
+      "question": "A customer purchasing more than 1,000 units in a year, leading to a reduced price per unit for all purchases, is an example of ________ consideration.",
+      "answer": "variable",
+      "rationale": "Variable consideration is consideration of a contract that depends on future events (e.g., Discounts; Refunds; Price concessions; Performance bonuses; Rebates; Credits; Incentives; and Penalties).",
       "marks": 2
     },
     {
       "id": "q21",
       "type": "fillInBlank",
-      "question": "If a lease transfer is classified as an operating lease by the lessor, the underlying asset continues to be recognized in the lessor's Statement of Financial Position and is subject to annual depreciation under ________.",
-      "answer": "LKAS 16",
-      "rationale": "Under an operating lease, the lessor retains the asset and continues to recognize it as Property, Plant and Equipment (or Investment Property) and applies the relevant accounting standards, primarily LKAS 16.",
+      "question": "The combination of an entity's rights to consideration and its performance obligations under a contract gives rise to a net asset or a net ________ in the Statement of Financial Position.",
+      "answer": "liability",
+      "rationale": "The combination of those rights and performance obligations gives rise to an asset (net) or a liability (net) on the Statement of Financial Position (e.g., Contract Asset or Contract Liability).",
       "marks": 2
     },
     {
       "id": "q22",
       "type": "multiSelect",
-      "question": "Which of the following items are included in the calculation of the Lease Liability's initial measurement for a lessee?",
-      "options": ["Residual value guarantees provided by the lessee.", "Fixed payments less any lease incentives receivable.", "Variable lease payments that are based on an index or a rate.", "Variable lease payments that depend on future usage of the asset."],
-      "answer": ["Residual value guarantees provided by the lessee.", "Fixed payments less any lease incentives receivable.", "Variable lease payments that are based on an index or a rate."],
-      "rationale": "The lease liability is the present value of: fixed payments (less incentives), variable payments dependent on an index/rate, amounts expected to be payable under residual value guarantees, exercise price of a purchase option (if reasonably certain), and termination penalties (if the term reflects exercise). Usage-based variable payments are excluded.",
+      "question": "Select all the factors that may indicate the transfer of control of a good to a customer at a point in time, allowing revenue recognition.",
+      "options": [
+        "The entity has a present right to receive payment for the asset.",
+        "The entity has transferred legal title to the asset.",
+        "The contract has commercial substance.",
+        "The customer has significant risks and rewards related to the ownership of the asset."
+      ],
+      "answer": [
+        "The entity has a present right to receive payment for the asset.",
+        "The entity has transferred legal title to the asset.",
+        "The customer has significant risks and rewards related to the ownership of the asset."
+      ],
+      "rationale": "Factors indicating control is passed at a point in time include the entity's present right to payment, transfer of legal title, transfer of physical possession, transfer of significant risks and rewards, and customer acceptance. Commercial substance is a contract existence criterion, not a control transfer factor.",
       "marks": 3
     },
     {
       "id": "q23",
       "type": "multiSelect",
-      "question": "Select the indicators that, individually or in combination, would lead a lessor to classify a lease as a Finance Lease (SLFRS 16 para 63).",
-      "options": ["The present value of the lease payments amounts to substantially all of the fair value of the underlying asset.", "The underlying asset is of a specialized nature and only the lessee can use it without major modifications.", "The lease term is for only 50% of the underlying asset's economic life.", "The lease provides the lessee with an option to purchase the asset at a price expected to be sufficiently lower than fair value at the date the option becomes exercisable."],
-      "answer": ["The present value of the lease payments amounts to substantially all of the fair value of the underlying asset.", "The underlying asset is of a specialized nature and only the lessee can use it without major modifications.", "The lease provides the lessee with an option to purchase the asset at a price expected to be sufficiently lower than fair value at the date the option becomes exercisable."],
-      "rationale": "These are three explicit indicators provided in SLFRS 16 para 63. A lease term of only 50% is generally not considered for a major part of the economic life.",
+      "question": "Which of the following costs incurred to obtain or fulfill a contract must be recognized as an asset?",
+      "options": [
+        "Commissions paid to sales employees for a 3-year contract.",
+        "Costs for IT equipment that will be used exclusively to service a single 3-year contract, expected to be recovered.",
+        "External legal fees for due diligence on a contract.",
+        "Incremental costs of obtaining a contract with an expected amortization period of 8 months."
+      ],
+      "answer": [
+        "Commissions paid to sales employees for a 3-year contract.",
+        "Costs for IT equipment that will be used exclusively to service a single 3-year contract, expected to be recovered."
+      ],
+      "rationale": "Commissions for a multi-year contract are incremental costs of obtaining the contract and should be recognized as an asset and amortized. IT equipment specifically used for the contract meets the criteria for 'Costs to Fulfill a Contract' (relate directly, generate/enhance resources, expected to be recovered). Legal fees are generally expensed as they are not incremental to obtaining the contract, and the 8-month incremental cost can be expensed under the practical expedient.",
       "marks": 3
     },
     {
       "id": "q24",
       "type": "multiSelect",
-      "question": "A lessee must consider which of the following cash flow components of the lease when initially measuring the cost of the Right-of-Use asset?",
-      "options": ["Initial direct costs incurred by the lessee.", "Lease payments made at or before the commencement date.", "Estimated costs of dismantling and restoring the underlying asset.", "The principal portion of payments made after the commencement date."],
-      "answer": ["Initial direct costs incurred by the lessee.", "Lease payments made at or before the commencement date.", "Estimated costs of dismantling and restoring the underlying asset."],
-      "rationale": "The ROU asset cost includes the initial lease liability, initial payments, initial direct costs, and estimated dismantling/restoration costs. Payments after commencement reduce the liability but do not form part of the initial cost.",
+      "question": "According to SLFRS 15, which of the following accounting standards and interpretations were superseded by its implementation?",
+      "options": [
+        "LKAS 11 Construction Contracts",
+        "LKAS 18 Revenue",
+        "IFRIC 13 Customer Loyalty Programme",
+        "SLFRS 9 Financial Instruments"
+      ],
+      "answer": [
+        "LKAS 11 Construction Contracts",
+        "LKAS 18 Revenue",
+        "IFRIC 13 Customer Loyalty Programme"
+      ],
+      "rationale": "SLFRS 15 supersedes LKAS 11, LKAS 18, IFRIC 13, IFRIC 15, IFRIC 18, and SIC-31. SLFRS 9 remains in force for Financial Instruments.",
       "marks": 3
     },
     {
       "id": "q25",
       "type": "matching",
-      "question": "Match the key measurement concept with the required financial statement treatment for a lessee.",
+      "question": "Match each contract term to its appropriate presentation in the Statement of Financial Position.",
       "matchPairs": [
         {
           "id": "pair1",
-          "left": "Depreciation of ROU Asset",
-          "right": "Recognized in Profit or Loss (P&L) on a systematic basis"
+          "left": "Advance received for a future sale",
+          "right": "Contract Liability"
         },
         {
           "id": "pair2",
-          "left": "Interest on Lease Liability",
-          "right": "Recognized in P&L over the lease term using the effective interest method"
+          "left": "Unconditional right to receive payment upon transfer of goods",
+          "right": "Receivable (e.g., Trade Receivable)"
         },
         {
           "id": "pair3",
-          "left": "Lease Liability (Balance)",
-          "right": "Presented in the Statement of Financial Position (SFP) as a non-current/current liability"
+          "left": "Right to payment is conditional upon completion of a different contract obligation",
+          "right": "Contract Asset"
         }
       ],
-      "marks": 3
+      "marks": 4
     },
     {
       "id": "q26",
       "type": "matching",
-      "question": "Match the type of variable lease payment with the correct accounting treatment for the lessee.",
+      "question": "Match the revenue model step with its corresponding conceptual focus.",
       "matchPairs": [
         {
           "id": "pair1",
-          "left": "Payments based on a change in an index (e.g., CPI)",
-          "right": "Included in Lease Liability and remeasured when the index changes"
+          "left": "Step 2: Identify Performance Obligations",
+          "right": "Determining if promises are distinct or combined"
         },
         {
           "id": "pair2",
-          "left": "Payments based on future usage of the asset",
-          "right": "Recognized as an expense in P&L in the period incurred"
+          "left": "Step 3: Determine Transaction Price",
+          "right": "Estimating variable consideration or non-cash value"
         },
         {
           "id": "pair3",
-          "left": "Fixed payments not yet paid",
-          "right": "Included in the initial Lease Liability"
+          "left": "Step 5: Recognize Revenue",
+          "right": "Assessing transfer of control (point in time or over time)"
         }
       ],
-      "marks": 3
+      "marks": 4
     },
     {
       "id": "q27",
       "type": "matching",
-      "question": "Match the party (Lessee or Lessor) with the financial statement item that represents the primary recognition under SLFRS 16.",
+      "question": "Match each variable consideration component with its description.",
       "matchPairs": [
         {
           "id": "pair1",
-          "left": "Lessee",
-          "right": "Right-of-Use Asset"
+          "left": "Discounts",
+          "right": "A reduction in price for purchases"
         },
         {
           "id": "pair2",
-          "left": "Lessor (Finance Lease)",
-          "right": "Net Investment in the Lease"
+          "left": "Penalties",
+          "right": "A reduction in consideration for failure to meet a contract term"
         },
         {
           "id": "pair3",
-          "left": "Lessor (Operating Lease)",
-          "right": "Underlying Asset (retained)"
+          "left": "Incentives",
+          "right": "An additional amount payable if certain targets are met"
         }
       ],
-      "marks": 3
+      "marks": 4
     },
     {
       "id": "q28",
       "type": "essay",
-      "question": "Critically analyze the conceptual impact of SLFRS 16 on a lessee's Statement of Financial Position and Statement of Profit or Loss, particularly in comparison to the treatment of a former 'off-balance sheet' operating lease under the old standard (LKAS 17).",
-      "idealKeywords": ["capitalization", "right-of-use asset", "lease liability", "off-balance sheet financing", "front-loaded expense", "debt ratios", "EBITDA"],
-      "marks": 4
+      "question": "A consulting firm enters a contract to deliver a standard IT audit report (which is routinely performed by others) and provide 6 months of customized, specialized post-audit consulting that requires extensive, unique knowledge of the firm's systems. Apply the SLFRS 15 Step 2 criteria to analyze whether these two promises constitute a single or separate performance obligation(s) and justify your conclusion.",
+      "idealKeywords": [
+        "separate performance obligations",
+        "distinct",
+        "interdependent and interrelated",
+        "customary business practice",
+        "single performance obligation"
+      ],
+      "marks": 5
     },
     {
       "id": "q29",
       "type": "essay",
-      "question": "Explain the underlying principle that necessitates the separation and differential treatment of the sales revenue and finance income components by a manufacturer or dealer lessor in a finance lease.",
-      "idealKeywords": ["two separate transactions", "sales profit", "finance income", "timing of recognition", "implicit interest rate", "cost of sale"],
-      "marks": 4
+      "question": "Explain the qualitative and quantitative disclosure requirements that an entity must provide under SLFRS 15, specifically focusing on the information related to significant judgments made by management.",
+      "idealKeywords": [
+        "qualitative and quantitative information",
+        "significant judgments",
+        "transaction price determination",
+        "allocation of transaction price",
+        "timing of revenue recognition"
+      ],
+      "marks": 5
     },
     {
       "id": "q30",
       "type": "essay",
-      "question": "Discuss the rationale for why the Seller-Lessee is only permitted to recognize a partial gain on sale in a sale and leaseback transaction that qualifies as a sale under SLFRS 15. What is the accounting treatment for the portion of the gain that is not immediately recognized?",
-      "idealKeywords": ["rights retained", "rights transferred", "continuing involvement", "ROU asset proportion", "deferred gain", "carrying amount adjustment"],
-      "marks": 4
+      "question": "Describe the three criteria that must ALL be met for an entity to capitalize 'Costs to Fulfill a Contract' as an asset, and provide an example of such a cost that would meet these criteria, contrasting it with a cost that would not.",
+      "idealKeywords": [
+        "costs to fulfill a contract",
+        "relate directly to contract",
+        "generate or enhance resources",
+        "expected to be recovered",
+        "capitalize vs expense"
+      ],
+      "marks": 5
     }
   ]
 }
