@@ -255,22 +255,31 @@ const Home: React.FC<HomeProps> = ({ onStartQuiz }) => {
                     className="overflow-hidden mt-6 pl-4"
                   >
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mb-5 mr-5 mt-5">
-                    {subjectQuizzes.map((quiz) => (
-                      <QuizCard
-                        key={quiz.id}
-                        quiz={quiz}
-                        progress={getQuizProgress(quiz.id)}
-                        score={getQuizScore(quiz.id)}
-                        onStart={() => onStartQuiz(quiz.id)}
-                        hasPastAttempt={attempts.some(
-                          a =>
-                            a.quizId === quiz.id &&
-                            a.isCompleted &&
-                            a.answers &&
-                            Object.keys(a.answers).length > 0
-                        )}
-                      />
-                    ))}
+                    {[...subjectQuizzes]
+                      .sort((a, b) => {
+                        const extractNum = (title: string) => {
+                          const match = title.match(/(\d+)/);
+                          return match ? parseInt(match[1], 10) : Number.MAX_SAFE_INTEGER;
+                        };
+                        return extractNum(a.title) - extractNum(b.title);
+                      })
+                      .map((quiz) => (
+                        <QuizCard
+                          key={quiz.id}
+                          quiz={quiz}
+                          progress={getQuizProgress(quiz.id)}
+                          score={getQuizScore(quiz.id)}
+                          onStart={() => onStartQuiz(quiz.id)}
+                          hasPastAttempt={attempts.some(
+                            a =>
+                              a.quizId === quiz.id &&
+                              a.isCompleted &&
+                              a.answers &&
+                              Object.keys(a.answers).length > 0
+                          )}
+                        />
+                      ))}
+
                   </div>
                   </motion.div>
                 )}
