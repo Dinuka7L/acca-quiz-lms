@@ -1,0 +1,400 @@
+{
+  "id": "quiz-ACC1370-Ch3-Part2",
+  "title": "Chapter 3: Reporting Information through Financial Statements – Part 2",
+  "description": "This quiz assesses the application of LKAS 8 and LKAS 34 principles, covering accounting for changes in policies, estimates, errors, and interim financial reporting.",
+  "subject": "ACC1370 - Financial Accounting and Reporting",
+  "gradientColors": ["#800000", "#A52A2A", "#B22222", "#CC4444"],
+  "timeOptions": [10, 20, 30],
+  "totalMarks": 68,
+  "weight": 0,
+  "category": "lesson",
+  "questions": [
+    {
+      "id": "mc-1",
+      "type": "multipleChoice",
+      "question": "A change in an entity's depreciation method from reducing balance to straight-line is classified under LKAS 8 as:",
+      "options": [
+        "A change in accounting policy, requiring retrospective application.",
+        "A change in accounting estimate, requiring prospective application.",
+        "A prior period error, requiring retrospective restatement.",
+        "A change in presentation, requiring prospective application."
+      ],
+      "answer": "A change in accounting estimate, requiring prospective application.",
+      "rationale": "Changing the depreciation method is considered a change in the pattern of expected future economic benefits, which is an accounting estimate, and is applied prospectively.",
+      "marks": 2
+    },
+    {
+      "id": "mc-2",
+      "type": "multipleChoice",
+      "question": "An entity failed to accrue a material consulting fee in the prior year's financial statements. Discovery occurred in the current year. Which accounting treatment is correct?",
+      "options": [
+        "Correction should be recognized in the current period profit or loss as a change in estimate.",
+        "The error should be corrected retrospectively by adjusting the opening retained earnings of the earliest prior period presented and restating comparative figures.",
+        "The error should be corrected prospectively in the current period Statement of Financial Position.",
+        "The error is deemed immaterial and no correction is required under LKAS 8."
+      ],
+      "answer": "The error should be corrected retrospectively by adjusting the opening retained earnings of the earliest prior period presented and restating comparative figures.",
+      "rationale": "A failure to use reliable information that was available (not accruing a known liability) is a prior period error. Material prior period errors are corrected by retrospective restatement.",
+      "marks": 2
+    },
+    {
+      "id": "mc-3",
+      "type": "multipleChoice",
+      "question": "A company changes its inventory valuation method from FIFO to Weighted-Average Cost. According to LKAS 8, this change is permitted if:",
+      "options": [
+        "It leads to a lower tax liability.",
+        "It results in more prudent measurement of inventory.",
+        "It is required by a Sri Lanka Financial Reporting Standard (SLFRS).",
+        "It is simply approved by the Board of Directors."
+      ],
+      "answer": "It is required by a Sri Lanka Financial Reporting Standard (SLFRS).",
+      "rationale": "An entity can change an accounting policy only if it is required by an SLFRS or results in the financial statements providing more reliable and relevant information.",
+      "marks": 2
+    },
+    {
+      "id": "mc-4",
+      "type": "multipleChoice",
+      "question": "Interim financial reporting, as per LKAS 34, can be presented as:",
+      "options": [
+        "Only a complete set of financial statements.",
+        "Only a set of condensed financial statements.",
+        "Either a complete set of financial statements or a set of condensed financial statements.",
+        "Only a Statement of Profit or Loss and Other Comprehensive Income."
+      ],
+      "answer": "Either a complete set of financial statements or a set of condensed financial statements.",
+      "rationale": "LKAS 34 permits interim financial information to be presented as either a complete set or a condensed set of financial statements.",
+      "marks": 2
+    },
+    {
+      "id": "mc-5",
+      "type": "multipleChoice",
+      "question": "When an entity applies a change in accounting policy retrospectively, which additional statement must be included in the complete set of financial statements?",
+      "options": [
+        "A Statement of Cash Flows for the earliest comparative period.",
+        "A Statement of Financial Position at the end of the current period.",
+        "A Statement of Financial Position at the beginning of the earliest comparative period.",
+        "A Statement of Changes in Equity for the current period."
+      ],
+      "answer": "A Statement of Financial Position at the beginning of the earliest comparative period.",
+      "rationale": "LKAS 1 requires a third Statement of Financial Position at the beginning of the earliest comparative period when an entity applies an accounting policy retrospectively or makes a retrospective restatement of items in its financial statements.",
+      "marks": 2
+    },
+    {
+      "id": "mc-6",
+      "type": "multipleChoice",
+      "question": "If the effect of a change in accounting policy is deemed 'impracticable' to determine for all prior periods, what is the required accounting treatment?",
+      "options": [
+        "Apply the change retrospectively from the earliest date practicable.",
+        "Apply the change prospectively from the earliest possible date.",
+        "Treat the change as a change in accounting estimate.",
+        "Disclose the impracticability and make no adjustment."
+      ],
+      "answer": "Apply the change retrospectively from the earliest date practicable.",
+      "rationale": "If retrospective application is impracticable, LKAS 8 requires applying the new policy retrospectively from the earliest period for which it is practicable.",
+      "marks": 3
+    },
+    {
+      "id": "mc-7",
+      "type": "multipleChoice",
+      "question": "Which of the following would NOT be considered an 'Accounting Policy' under LKAS 8?",
+      "options": [
+        "The selection of the Cost Model for subsequent measurement of Property, Plant, and Equipment.",
+        "The decision to depreciate a motor vehicle over 8 years.",
+        "The application of First-In, First-Out (FIFO) for inventory valuation.",
+        "The basis for revenue recognition for contracts with customers."
+      ],
+      "answer": "The decision to depreciate a motor vehicle over 8 years.",
+      "rationale": "The useful life (8 years) is an accounting estimate, as it is a monetary amount subject to measurement uncertainty. The others are specific principles or bases (policies) applied in preparation of financial statements.",
+      "marks": 2
+    },
+    {
+      "id": "mc-8",
+      "type": "multipleChoice",
+      "question": "ABC PLC previously recognized revenue upon cash receipt, but changed its policy to comply with SLFRS 15, recognizing revenue upon transfer of control. How is this change in recognition treated?",
+      "options": [
+        "Applied prospectively, with the cumulative effect recognized in current profit or loss.",
+        "Applied retrospectively, adjusting opening retained earnings and comparatives.",
+        "Treated as an error correction, with restatement of all prior periods presented.",
+        "Disclosed in notes, with no adjustment to the financial statements."
+      ],
+      "answer": "Applied retrospectively, adjusting opening retained earnings and comparatives.",
+      "rationale": "This is a change in accounting policy (recognition) required by a new SLFRS, which must be applied retrospectively unless the standard specifies otherwise, adjusting the earliest prior period presented.",
+      "marks": 3
+    },
+    {
+      "id": "mc-9",
+      "type": "multipleChoice",
+      "question": "A condensed interim Statement of Financial Position, as per LKAS 34, must, at a minimum, include:",
+      "options": [
+        "Detailed subtotals for every line item presented in the most recent annual statements.",
+        "Every line item from the most recent annual Statement of Financial Position.",
+        "Each of the headings and subtotals included in the most recent annual financial statements.",
+        "Only the basic elements of assets, liabilities, and equity."
+      ],
+      "answer": "Each of the headings and subtotals included in the most recent annual financial statements.",
+      "rationale": "LKAS 34 (Para 16) requires condensed financial statements to include, at a minimum, each of the headings and sub-totals included in the most recent annual financial statements.",
+      "marks": 2
+    },
+    {
+      "id": "mc-10",
+      "type": "multipleChoice",
+      "question": "LKAS 8 defines 'prior period errors' as errors that arose from a failure to use, or misuse of, reliable information that:",
+      "options": [
+        "Was discovered after the current period's reporting date.",
+        "Was available and could reasonably be expected to have been obtained when the prior financial statements were authorised for issue.",
+        "Was available only to the internal audit department in the prior period.",
+        "Relates only to the previous financial year and no earlier years."
+      ],
+      "answer": "Was available and could reasonably be expected to have been obtained when the prior financial statements were authorised for issue.",
+      "rationale": "Prior period errors arise from the failure to use (or misuse of) reliable information that was available and could reasonably be expected to have been obtained when the prior financial statements were authorised for issue.",
+      "marks": 2
+    },
+    {
+      "id": "mc-11",
+      "type": "multipleChoice",
+      "question": "A company revised the estimated residual value of its machinery from Rs. 2 million to Rs. 1 million at the start of the current year. How should this change be accounted for?",
+      "options": [
+        "Retrospectively, adjusting the accumulated depreciation as at the beginning of the current period.",
+        "Prospectively, adjusting the depreciation expense in the current and future periods.",
+        "As a change in accounting policy, adjusting prior year comparatives.",
+        "As an error, adjusting the opening retained earnings."
+      ],
+      "answer": "Prospectively, adjusting the depreciation expense in the current and future periods.",
+      "rationale": "A change in residual value is a change in accounting estimate, which is recognized prospectively by including its effect in profit or loss in the period of the change and future periods.",
+      "marks": 3
+    },
+    {
+      "id": "mc-12",
+      "type": "multipleChoice",
+      "question": "When management develops an accounting policy in the absence of a directly applicable SLFRS, they must primarily refer to which source, in descending order?",
+      "options": [
+        "The requirements in other SLFRSs dealing with similar and related issues.",
+        "The most recent pronouncements of other standard-setting bodies.",
+        "Accepted industry practices and accounting literature.",
+        "The tax law requirements."
+      ],
+      "answer": "The requirements in other SLFRSs dealing with similar and related issues.",
+      "rationale": "In the absence of a specific SLFRS, management must first refer to the requirements in SLFRSs dealing with similar and related issues, and then the Conceptual Framework.",
+      "marks": 3
+    },
+    {
+      "id": "mc-13",
+      "type": "multipleChoice",
+      "question": "Which component of the complete set of financial statements is required when an entity makes a retrospective restatement of an error?",
+      "options": [
+        "Statement of Profit or Loss and Other Comprehensive Income for the current year only.",
+        "Notes to the financial statements disclosing the error.",
+        "A third Statement of Financial Position at the beginning of the earliest comparative period.",
+        "A Statement of Cash Flows for the current year."
+      ],
+      "answer": "A third Statement of Financial Position at the beginning of the earliest comparative period.",
+      "rationale": "A third Statement of Financial Position at the beginning of the earliest comparative period is required when an entity makes a retrospective restatement of items in its financial statements (e.g., to correct an error).",
+      "marks": 2
+    },
+    {
+      "id": "mc-14",
+      "type": "multipleChoice",
+      "question": "An adjustment of the carrying amount of an asset, resulting from the assessment of the expected future benefits associated with the asset, is the definition of:",
+      "options": [
+        "A change in accounting policy.",
+        "A prior period error.",
+        "A change in accounting estimate.",
+        "A retrospective restatement."
+      ],
+      "answer": "A change in accounting estimate.",
+      "rationale": "This aligns directly with the LKAS 8 definition of a change in accounting estimate, which involves adjusting carrying amounts based on a reassessment of present status and expected future benefits or obligations.",
+      "marks": 2
+    },
+    {
+      "id": "mc-15",
+      "type": "multipleChoice",
+      "question": "Under LKAS 34, if interim financial statements are condensed, additional line items or notes should be included if:",
+      "options": [
+        "They are explicitly required by the stock exchange listing rules.",
+        "Their omission would make the interim financial information misleading.",
+        "The items exceed a minimum monetary threshold set by the company.",
+        "They simplify the preparation process."
+      ],
+      "answer": "Their omission would make the interim financial information misleading.",
+      "rationale": "LKAS 34 requires additional line items or notes in condensed statements if their omission would make the interim financial information misleading.",
+      "marks": 3
+    },
+    {
+      "id": "dd-1",
+      "type": "dropdown",
+      "question": "A change from the Cost Model to the Revaluation Model for Property, Plant, and Equipment is a change in accounting [dropdown_1], and is applied [dropdown_2] according to LKAS 8.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["policy", "estimate", "error", "presentation"],
+          "correctAnswer": "policy"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["prospectively", "retrospectively", "only to future periods"],
+          "correctAnswer": "retrospectively"
+        }
+      ],
+      "rationale": "Changing the measurement basis is a change in accounting policy, which is generally applied retrospectively to maintain comparability.",
+      "marks": 4
+    },
+    {
+      "id": "dd-2",
+      "type": "dropdown",
+      "question": "Interim financial reporting is the preparation and presentation of financial statements for a period that is [dropdown_1] than a full financial year, in accordance with [dropdown_2].",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["more", "less", "exactly"],
+          "correctAnswer": "less"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["LKAS 34", "LKAS 1", "LKAS 8"],
+          "correctAnswer": "LKAS 34"
+        }
+      ],
+      "rationale": "Interim reporting covers a period less than a full financial year and is governed by LKAS 34.",
+      "marks": 4
+    },
+    {
+      "id": "dd-3",
+      "type": "dropdown",
+      "question": "Correcting a material prior period error requires [dropdown_1], which means correcting amounts as if the error had [dropdown_2].",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["prospective application", "retrospective restatement", "adjustment to the current period"],
+          "correctAnswer": "retrospective restatement"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["occurred in the current period", "never occurred", "been a change in estimate"],
+          "correctAnswer": "never occurred"
+        }
+      ],
+      "rationale": "Material errors are corrected by retrospective restatement, correcting the recognition, measurement, and disclosure as if the error had never occurred.",
+      "marks": 4
+    },
+    {
+      "id": "fib-1",
+      "type": "fillInBlank",
+      "question": "Accounting policies must be applied ________ for similar transactions, other events, and conditions.",
+      "answer": "consistently",
+      "rationale": "An entity must select and apply its accounting policies consistently for similar transactions to ensure comparability and reliability.",
+      "marks": 2
+    },
+    {
+      "id": "fib-2",
+      "type": "fillInBlank",
+      "question": "A change in accounting estimate should be recognized ________ by including it in profit or loss.",
+      "answer": "prospectively",
+      "rationale": "Changes in accounting estimates are recognized prospectively in the period of the change and future periods.",
+      "marks": 2
+    },
+    {
+      "id": "fib-3",
+      "type": "fillInBlank",
+      "question": "The primary objective of retrospective application of a change in accounting policy is to enhance the ________ of the financial statements.",
+      "answer": "comparability",
+      "rationale": "Retrospective application enhances comparability across periods by ensuring the same accounting policy is applied to the comparable prior period amounts.",
+      "marks": 2
+    },
+    {
+      "id": "ms-1",
+      "type": "multiSelect",
+      "question": "According to LKAS 8, which of the following are examples of **Accounting Estimates**?",
+      "options": [
+        "Changing from FIFO to WAC for inventory valuation.",
+        "Changing the estimated useful life of a tangible asset.",
+        "Recognizing a provision for expected warranty claims.",
+        "Changing expense classification from function-based to nature-based."
+      ],
+      "answer": ["Changing the estimated useful life of a tangible asset.", "Recognizing a provision for expected warranty claims."],
+      "rationale": "Useful life and warranty provisions are monetary amounts subject to measurement uncertainty. Changing the inventory method is a policy change; changing classification is a presentation change.",
+      "marks": 3
+    },
+    {
+      "id": "ms-2",
+      "type": "multiSelect",
+      "question": "Which of the following elements are required in a **complete set** of financial statements under LKAS 1?",
+      "options": [
+        "Statement of Profit or Loss and Other Comprehensive Income.",
+        "Statement of Changes in Equity.",
+        "Notes to the financial statements.",
+        "Statement of Operating Activities."
+      ],
+      "answer": ["Statement of Profit or Loss and Other Comprehensive Income.", "Statement of Changes in Equity.", "Notes to the financial statements."],
+      "rationale": "A complete set includes the Statement of Financial Position, Statement of Profit or Loss and Other Comprehensive Income, Statement of Changes in Equity, Statement of Cash Flows, and Notes. There is no 'Statement of Operating Activities' as a separate primary statement.",
+      "marks": 3
+    },
+    {
+      "id": "ms-3",
+      "type": "multiSelect",
+      "question": "Which of the following are examples of **Prior Period Errors** under LKAS 8?",
+      "options": [
+        "A mathematical mistake in calculating the depreciation expense for the prior year.",
+        "A mistake in applying the entity’s income recognition policy in the prior year.",
+        "A change in the provision for doubtful debts based on new information about customer solvency.",
+        "Capitalizing a routine repair expense that should have been expensed."
+      ],
+      "answer": ["A mathematical mistake in calculating the depreciation expense for the prior year.", "A mistake in applying the entity’s income recognition policy in the prior year.", "Capitalizing a routine repair expense that should have been expensed."],
+      "rationale": "Mathematical mistakes, mistakes in applying policies, and oversights (like incorrect capitalization) are examples of prior period errors. A change in the provision based on new information is a change in accounting estimate.",
+      "marks": 3
+    },
+    {
+      "id": "match-1",
+      "type": "matching",
+      "question": "Match the accounting change with its required treatment under LKAS 8.",
+      "matchPairs": [
+        { "id": "pair1", "left": "Change from FIFO to WAC.", "right": "Retrospective Application" },
+        { "id": "pair2", "left": "Change in a provision's estimated amount.", "right": "Prospective Application" },
+        { "id": "pair3", "left": "Failure to record a prior year sales invoice.", "right": "Retrospective Restatement" }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "match-2",
+      "type": "matching",
+      "question": "Match the LKAS 8 term with its correct description.",
+      "matchPairs": [
+        { "id": "pair1", "left": "Accounting Policy", "right": "Specific principles and practices applied in financial statements preparation." },
+        { "id": "pair2", "left": "Accounting Estimate", "right": "Monetary amounts subject to measurement uncertainty." },
+        { "id": "pair3", "left": "Prior Period Error", "right": "Omissions or misstatements from misuse of reliable information." }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "match-3",
+      "type": "matching",
+      "question": "Match the financial statement element with the standard governing its presentation.",
+      "matchPairs": [
+        { "id": "pair1", "left": "Complete Set of Financial Statements", "right": "LKAS 1" },
+        { "id": "pair2", "left": "Interim Financial Statements", "right": "LKAS 34" },
+        { "id": "pair3", "left": "Changes in Accounting Policies", "right": "LKAS 8" }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "essay-1",
+      "type": "essay",
+      "question": "Explain the fundamental difference between a 'change in accounting policy' and a 'change in accounting estimate' under LKAS 8, including how the application of each affects the current and comparative financial statements.",
+      "idealKeywords": ["retrospective", "prospective", "principles", "measurement uncertainty", "comparability", "adjustment"],
+      "marks": 5
+    },
+    {
+      "id": "essay-2",
+      "type": "essay",
+      "question": "A company is considering changing its presentation of expenses from a function-based to a nature-based approach. Discuss whether this change constitutes a change in accounting policy, estimate, or presentation, and outline the key financial statement impact and disclosure requirements according to the relevant standards, including IFRS 18 alignment if applicable.",
+      "idealKeywords": ["change in presentation", "reclassification", "IFRS 18", "Statement of Profit or Loss", "comparative information", "accounting policy"],
+      "marks": 5
+    },
+    {
+      "id": "essay-3",
+      "type": "essay",
+      "question": "Discuss the purpose and required minimum content of 'condensed financial statements' under LKAS 34. Analyze the necessity of including additional line items or notes beyond the minimum required headings and subtotals.",
+      "idealKeywords": ["LKAS 34", "purpose", "less than a full year", "headings and subtotals", "misleading", "complete set"],
+      "marks": 5
+    }
+  ]
+}
