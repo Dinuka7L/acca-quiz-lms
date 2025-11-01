@@ -1,0 +1,449 @@
+{
+  "id": "quiz-Chapter3-ReportingInformation",
+  "title": "Chapter 3 – Reporting Information through Financial Statements – Part 1",
+  "description": "Tests conceptual understanding and application of general-purpose financial statements, LKAS 1 requirements, IFRS 18 changes, and financial statement components.",
+  "subject": "ACC1370 - Financial Accounting and Reporting",
+  "gradientColors": ["#800000", "#5c0000", "#a30000", "#d40000"],
+  "timeOptions": [10, 20, 30],
+  "totalMarks": 68,
+  "weight": 0,
+  "category": "lesson",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multipleChoice",
+      "question": "An entity retrospectively applies a new accounting policy. Which component of the complete set of financial statements is *required* to be presented only due to this retrospective application?",
+      "options": [
+        "Statement of Profit or Loss and Other Comprehensive Income for the preceding period",
+        "A statement of financial position at the beginning of the earliest comparative period",
+        "Statement of Changes in Equity for the current and preceding periods",
+        "Notes, comprising a summary of significant accounting policies for the earliest period"
+      ],
+      "answer": "A statement of financial position at the beginning of the earliest comparative period",
+      "rationale": "LKAS 1 requires a third statement of financial position at the beginning of the earliest comparative period only when an entity applies an accounting policy retrospectively or makes a retrospective restatement of items.",
+      "marks": 2
+    },
+    {
+      "id": "q2",
+      "type": "multipleChoice",
+      "question": "The primary objective of general-purpose financial statements is best described as providing information useful for:",
+      "options": [
+        "Determining the exact market value of the entity's equity on the reporting date.",
+        "Internal management control and operational decision-making.",
+        "Assessing management’s stewardship and predicting future cash flows to inform economic decisions.",
+        "Fulfilling regulatory compliance regardless of investor needs."
+      ],
+      "answer": "Assessing management’s stewardship and predicting future cash flows to inform economic decisions.",
+      "rationale": "The objective is to provide information about financial position, performance, and cash flows useful to a wide range of users in making economic decisions, and to show the result of management's stewardship.",
+      "marks": 2
+    },
+    {
+      "id": "q3",
+      "type": "multipleChoice",
+      "question": "If an entity changes its annual reporting period from 12 months to 10 months, what is the *mandatory* disclosure requirement under LKAS 1?",
+      "options": [
+        "State that the financial statements were not prepared under the going concern assumption.",
+        "Provide a full restatement of the prior year's 12-month period to 10 months.",
+        "Disclose the reason for the change and state that amounts are not entirely comparable.",
+        "Present the financial statements using only a liquidity-based format, not a classified format."
+      ],
+      "answer": "Disclose the reason for the change and state that amounts are not entirely comparable.",
+      "rationale": "If the annual reporting period changes and financial statements are prepared for a different period, the entity must disclose the reason for the change and state that amounts are not entirely comparable.",
+      "marks": 3
+    },
+    {
+      "id": "q4",
+      "type": "multipleChoice",
+      "question": "A key change introduced by IFRS 18, effective from 1 January 2027, is primarily focused on improving:",
+      "options": [
+        "The measurement principles for all assets and liabilities.",
+        "The presentation and disclosure of information about financial performance.",
+        "The calculation of the total comprehensive income components.",
+        "The mandatory adoption of the functional classification of expenses."
+      ],
+      "answer": "The presentation and disclosure of information about financial performance.",
+      "rationale": "IFRS 18 aims to improve how companies communicate in their financial statements, focusing on presentation and disclosure of financial performance in the statement of profit or loss, and not the underlying measurement.",
+      "marks": 2
+    },
+    {
+      "id": "q5",
+      "type": "multipleChoice",
+      "question": "What is the fundamental difference between the Statement of Cash Flows and the other primary financial statements?",
+      "options": [
+        "It is the only statement that requires the presentation of comparative information.",
+        "It is the only financial statement prepared on a cash basis.",
+        "It focuses on income and expenses, rather than assets and liabilities.",
+        "It must be audited by an external auditor, unlike the others."
+      ],
+      "answer": "It is the only financial statement prepared on a cash basis.",
+      "rationale": "The Statement of Cash Flows shows the inflows and outflows of cash and cash equivalents and is the only financial statement prepared on a cash basis; all others are generally prepared on an accrual basis.",
+      "marks": 2
+    },
+    {
+      "id": "q6",
+      "type": "multipleChoice",
+      "question": "Which of the following is *not* a line item required to be presented within the Equity section of a typical Statement of Financial Position?",
+      "options": [
+        "Retained Earnings",
+        "Stated Capital",
+        "Non-controlling Interests",
+        "Trade and Other Payables"
+      ],
+      "answer": "Trade and Other Payables",
+      "rationale": "Trade and Other Payables is a Current Liability, not an Equity item. Stated Capital, Retained Earnings, and Non-controlling Interests are typical Equity line items.",
+      "marks": 2
+    },
+    {
+      "id": "q7",
+      "type": "multipleChoice",
+      "question": "According to the structure outlined for IFRS 18, where would 'Interest expense on borrowings and lease liabilities' primarily be categorized in the Statement of Profit or Loss?",
+      "options": [
+        "Operating activities",
+        "Investing activities",
+        "Financing activities",
+        "Income taxes"
+      ],
+      "answer": "Financing activities",
+      "rationale": "The IFRS 18 structure explicitly categorizes 'Interest expense on borrowings and lease liabilities' under the Financing section of the Income Statement.",
+      "marks": 3
+    },
+    {
+      "id": "q8",
+      "type": "multipleChoice",
+      "question": "Which of the following elements *does not* provide information assisting users in predicting the entity’s future cash flows?",
+      "options": [
+        "Liabilities and equity presented in the Statement of Financial Position.",
+        "Income and expenses presented in the Statement of Profit or Loss.",
+        "Cash flows from operating, investing, and financing activities.",
+        "The name of the entity and any change in name presented prominently."
+      ],
+      "answer": "The name of the entity and any change in name presented prominently.",
+      "rationale": "While the entity name is a mandatory identification requirement, it does not, in itself, assist users in predicting future cash flows. The financial elements (assets, liabilities, income, cash flows) are the ones that assist in this prediction.",
+      "marks": 3
+    },
+    {
+      "id": "q9",
+      "type": "multipleChoice",
+      "question": "An entity must classify its assets and liabilities as current and non-current. When is an alternative presentation, based on liquidity, permissible?",
+      "options": [
+        "Only when the entity has no current liabilities or current assets.",
+        "Only if the entity is a financial institution like Commercial Bank PLC.",
+        "When a liquidity-based presentation provides information that is reliable and more relevant.",
+        "When the entity is preparing its financial statements for a period shorter than a year."
+      ],
+      "answer": "When a liquidity-based presentation provides information that is reliable and more relevant.",
+      "rationale": "An entity must normally present a classified statement, unless presentation based on liquidity presents better (i.e., reliable and more relevant) information.",
+      "marks": 3
+    },
+    {
+      "id": "q10",
+      "type": "multipleChoice",
+      "question": "Total Comprehensive Income is defined as the change in equity during a period resulting from transactions and other events, excluding:",
+      "options": [
+        "Profit or Loss for the period.",
+        "Items of Other Comprehensive Income (OCI).",
+        "Transactions with owners in their capacity as owners.",
+        "Changes in revaluation surplus under LKAS 16."
+      ],
+      "answer": "Transactions with owners in their capacity as owners.",
+      "rationale": "Total Comprehensive Income excludes changes resulting from transactions with owners in their capacity as owners.",
+      "marks": 2
+    },
+    {
+      "id": "q11",
+      "type": "multipleChoice",
+      "question": "The accounting standard that sets out the overall requirements for the presentation of general-purpose financial statements, guidelines for their structure, and minimum content requirements, which will be replaced by SLFRS 18 in 2027, is:",
+      "options": [
+        "SLFRS 9: Financial Instruments",
+        "LKAS 7: Statement of Cash Flows",
+        "LKAS 1: Presentation of Financial Statements",
+        "LKAS 16: Property, Plant and Equipment"
+      ],
+      "answer": "LKAS 1: Presentation of Financial Statements",
+      "rationale": "LKAS 1: Presentation of Financial Statement standard prescribes the basis for presentation of general-purpose financial statements, and it will be replaced by SLFRS 18.",
+      "marks": 2
+    },
+    {
+      "id": "q12",
+      "type": "multipleChoice",
+      "question": "Which expense classification method presents a Gross Profit subtotal in the Statement of Profit or Loss and Other Comprehensive Income?",
+      "options": [
+        "Classification based on nature",
+        "Classification based on function",
+        "The IFRS 18 mandatory classification",
+        "Only the classification permitted for financial institutions"
+      ],
+      "answer": "Classification based on function",
+      "rationale": "The classification of expenses based on function (Cost of Sales, Distribution costs, Administrative expenses) provides a Gross Profit subtotal. The classification based on nature (e.g., Depreciation, Employee benefits expense) typically does not.",
+      "marks": 3
+    },
+    {
+      "id": "q13",
+      "type": "multipleChoice",
+      "question": "The purpose of presenting comparative information in financial statements is primarily to ensure:",
+      "options": [
+        "Compliance with international tax laws.",
+        "Absolute stability in the entity's financial position.",
+        "Comparability with the entity's financial statements of previous periods and those of other entities.",
+        "The accuracy of the current period's reported figures."
+      ],
+      "answer": "Comparability with the entity's financial statements of previous periods and those of other entities.",
+      "rationale": "LKAS 1 prescribes the basis for presentation of general-purpose financial statements, to ensure comparability both with the entity's financial statements of previous periods and with the financial statements of other entities. Comparative information is part of this requirement.",
+      "marks": 2
+    },
+    {
+      "id": "q14",
+      "type": "multipleChoice",
+      "question": "General-purpose financial statements are intended to meet the needs of users who:",
+      "options": [
+        "Are in a position to require management to prepare tailored reports.",
+        "Are primarily the entity's own management and board of directors.",
+        "Are not in a position to require an entity to prepare reports tailored to their particular information needs.",
+        "Only require information about the entity's compliance with local regulations."
+      ],
+      "answer": "Are not in a position to require an entity to prepare reports tailored to their particular information needs.",
+      "rationale": "General-Purpose Financial Statements are those intended to meet the needs of users who are not in a position to require an entity to prepare reports tailored to their particular information needs.",
+      "marks": 2
+    },
+    {
+      "id": "q15",
+      "type": "multipleChoice",
+      "question": "Which of the following is *least* likely to be categorized as Other Comprehensive Income (OCI)?",
+      "options": [
+        "Changes in revaluation surplus on Property, Plant and Equipment.",
+        "Gains and losses on remeasuring financial assets at fair value through OCI.",
+        "Exchange differences from translating functional currencies into the presentation currency.",
+        "Interest expense on borrowings."
+      ],
+      "answer": "Interest expense on borrowings.",
+      "rationale": "Interest expense on borrowings is a typical expense recognized in the Statement of Profit or Loss (or Income Statement), not an item of Other Comprehensive Income (OCI).",
+      "marks": 3
+    },
+    {
+      "id": "q16",
+      "type": "dropdown",
+      "question": "The Statement of Financial Position shows the entity’s financial position [dropdown_1], while the Statement of Profit or Loss and Other Comprehensive Income shows financial performance [dropdown_2].",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["for a period of time", "as of the reporting date", "averaged over the period", "at the beginning of the period"],
+          "correctAnswer": "as of the reporting date"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["as of the reporting date", "at a specific point in time", "for a period of time", "averaged over the period"],
+          "correctAnswer": "for a period of time"
+        }
+      ],
+      "rationale": "The SOFP is a snapshot 'as of' a date, showing resources and claims (assets, liabilities, equity). The SOPLOCI is a summary 'for a period', showing income and expenses.",
+      "marks": 4
+    },
+    {
+      "id": "q17",
+      "type": "dropdown",
+      "question": "A complete set of financial statements includes the [dropdown_1] and comparative information in respect of the [dropdown_2].",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["Independent Auditors’ Report", "Statement of Directors’ Responsibility", "Statement of Cash Flows", "Statement of Shareholders’ Activities"],
+          "correctAnswer": "Statement of Cash Flows"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["current year", "preceding period", "last five years", "earliest comparative period"],
+          "correctAnswer": "preceding period"
+        }
+      ],
+      "rationale": "The Statement of Cash Flows is one of the mandatory primary financial statements. Comparative information is required for the preceding period.",
+      "marks": 4
+    },
+    {
+      "id": "q18",
+      "type": "dropdown",
+      "question": "IFRS 18 will not affect how companies [dropdown_1] financial performance, but it will affect how companies [dropdown_2] and disclose financial performance.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["report", "measure", "present", "disclose"],
+          "correctAnswer": "measure"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["audit", "measure", "present", "budget"],
+          "correctAnswer": "present"
+        }
+      ],
+      "rationale": "IFRS 18 will not affect the measurement of financial performance, but will affect the presentation and disclosure of it, including requiring additional defined subtotals.",
+      "marks": 4
+    },
+    {
+      "id": "q19",
+      "type": "fillInBlank",
+      "question": "The notes to the financial statements must disclose any information required by SLFRSs that is not presented elsewhere, and provide additional information relevant to an understanding of the statements, including the basis of preparation and the specific ________ used.",
+      "answer": "accounting policies",
+      "rationale": "The notes must present information about the basis of preparation of the financial statements and the specific accounting policies used.",
+      "marks": 2
+    },
+    {
+      "id": "q20",
+      "type": "fillInBlank",
+      "question": "To ensure comparability with its financial statements of previous periods and with the financial statements of other entities, the basis for presentation of general-purpose financial statements is prescribed by ________.",
+      "answer": "LKAS 1",
+      "rationale": "LKAS 1: Presentation of Financial Statement standard prescribes the basis for presentation of general-purpose financial statements, to ensure comparability.",
+      "marks": 2
+    },
+    {
+      "id": "q21",
+      "type": "fillInBlank",
+      "question": "General-purpose financial statements are prepared to fulfil the information requirements of a ________ range of users who require information about the entity's financial position, performance, and cash flows.",
+      "answer": "wide",
+      "rationale": "A wide range of users of accounting information requires information about the financial position, financial performance, and cash flows of an entity.",
+      "marks": 2
+    },
+    {
+      "id": "q22",
+      "type": "multiSelect",
+      "question": "Which of the following pieces of information are *mandatory* to be displayed prominently on financial statements, and repeated as necessary?",
+      "options": [
+        "The name of the reporting entity",
+        "The market value per share at the reporting date",
+        "The presentation currency",
+        "The level of rounding used (e.g., thousands, millions)",
+        "The Chief Executive Officer's annual compensation"
+      ],
+      "answer": [
+        "The name of the reporting entity",
+        "The presentation currency",
+        "The level of rounding used (e.g., thousands, millions)"
+      ],
+      "rationale": "LKAS 1 mandates the prominent display of the entity's name, presentation currency, and the level of rounding used. Market value and CEO compensation are not part of the standard's minimum presentation requirements on the face of the statements.",
+      "marks": 3
+    },
+    {
+      "id": "q23",
+      "type": "multiSelect",
+      "question": "Which of the following items are considered components of the **Complete Set of Financial Statements** under LKAS 1?",
+      "options": [
+        "Independent Auditors’ Report",
+        "Statement of Changes in Equity",
+        "Statement of Directors’ Responsibility",
+        "Notes, comprising a summary of significant accounting policies",
+        "Statement of Profit or Loss and Other Comprehensive Income"
+      ],
+      "answer": [
+        "Statement of Changes in Equity",
+        "Notes, comprising a summary of significant accounting policies",
+        "Statement of Profit or Loss and Other Comprehensive Income"
+      ],
+      "rationale": "The Statement of Changes in Equity, the Notes, and the Statement of Profit or Loss and Other Comprehensive Income are all core components of the complete set. The Independent Auditors’ Report and the Statement of Directors’ Responsibility are other reports presented together with the financial statements, but not *components* of the financial statements themselves.",
+      "marks": 3
+    },
+    {
+      "id": "q24",
+      "type": "multiSelect",
+      "question": "A Statement of Financial Position classified on a liquidity basis, rather than current/non-current, would be most appropriate for entities that typically have which characteristics?",
+      "options": [
+        "A manufacturing entity with a clear operating cycle longer than one year.",
+        "A financial institution whose assets and liabilities are largely short-term and highly liquid.",
+        "An entity that rarely engages in transactions with owners in their capacity as owners.",
+        "Entities where presentation based on liquidity provides reliable and more relevant information."
+      ],
+      "answer": [
+        "A financial institution whose assets and liabilities are largely short-term and highly liquid.",
+        "Entities where presentation based on liquidity provides reliable and more relevant information."
+      ],
+      "rationale": "A liquidity-based presentation is allowed if it presents better (reliable and more relevant) information, which is often the case for financial institutions like Commercial Bank PLC. It is an exception to the normal requirement for classified presentation.",
+      "marks": 3
+    },
+    {
+      "id": "q25",
+      "type": "matching",
+      "question": "Match the typical Statement of Financial Position line item to its classification.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Retained Earnings",
+          "right": "Equity"
+        },
+        {
+          "id": "pair2",
+          "left": "Investment Property",
+          "right": "Non-current Asset"
+        },
+        {
+          "id": "pair3",
+          "left": "Trade & Other Payables",
+          "right": "Current Liability"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q26",
+      "type": "matching",
+      "question": "Match the core financial statement to its primary purpose.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Statement of Financial Position",
+          "right": "Financial Position (Resources and Claims)"
+        },
+        {
+          "id": "pair2",
+          "left": "Statement of Profit or Loss and OCI",
+          "right": "Financial Performance (Income and Expenses)"
+        },
+        {
+          "id": "pair3",
+          "left": "Statement of Cash Flows",
+          "right": "Cash Movements (Operating, Investing, Financing)"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q27",
+      "type": "matching",
+      "question": "Match the General Requirement of LKAS 1 to its concept.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Fair presentation and compliance",
+          "right": "Compliance with SLFRSs is presumed to result in fair presentation"
+        },
+        {
+          "id": "pair2",
+          "left": "Going Concern",
+          "right": "Financial statements are prepared assuming the entity will continue operations for the foreseeable future"
+        },
+        {
+          "id": "pair3",
+          "left": "Accrual Basis of Accounting",
+          "right": "Except for the Statement of Cash Flows, elements are recognized when they occur, not when cash is exchanged"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q28",
+      "type": "essay",
+      "question": "A key learning outcome of this chapter is to explain the purpose of interim financial reporting. Based on your understanding of the user needs presented in the introduction, construct an argument detailing *why* interim financial reports are necessary and how they address the limitations of annual general-purpose financial statements.",
+      "idealKeywords": ["timeliness", "economic decisions", "predictive value", "future cash flows", "annual reporting limitation", "wide range of users"],
+      "marks": 5
+    },
+    {
+      "id": "q29",
+      "type": "essay",
+      "question": "Compare and contrast the Classification of Expenses based on **Nature** versus Classification based on **Function** in the Statement of Profit or Loss. Discuss the primary benefit and a potential limitation of using the functional classification for external financial statement users.",
+      "idealKeywords": ["cost of sales", "depreciation", "administrative expenses", "predictive value", "gross profit", "disaggregation", "arbitrary allocation"],
+      "marks": 6
+    },
+    {
+      "id": "q30",
+      "type": "essay",
+      "question": "An entity must decide whether to classify its balance sheet using the standard current/non-current approach or the liquidity-based approach. Analyze the conceptual basis for the mandatory current/non-current classification and explain the criteria that must be met to justify overriding this default and adopting a liquidity-based presentation instead.",
+      "idealKeywords": ["operating cycle", "classified statement", "liquidity presentation", "reliable information", "relevant information", "default requirement", "LKAS 1"],
+      "marks": 6
+    }
+  ]
+}
