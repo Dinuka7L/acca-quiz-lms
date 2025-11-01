@@ -30,7 +30,23 @@ export async function loadAllQuizzes(): Promise<Quiz[]> {
           return null;
         }
         
-        const quiz: Quiz = await response.json();
+        // Get response text first to check if it's empty
+        const responseText = await response.text();
+        
+        // Check if response is empty or contains only whitespace
+        if (!responseText || responseText.trim() === '') {
+          console.warn(`Quiz file ${publicPath} is empty`);
+          return null;
+        }
+        
+        // Parse JSON safely
+        let quiz: Quiz;
+        try {
+          quiz = JSON.parse(responseText);
+        } catch (parseError) {
+          console.warn(`Invalid JSON in quiz file ${publicPath}:`, parseError);
+          return null;
+        }
         
         // Validate required fields
         if (!quiz.id || !quiz.title || !Array.isArray(quiz.questions)) {
