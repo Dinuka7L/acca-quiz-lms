@@ -10,7 +10,7 @@ interface ThemeState {
 export const useThemeStore = create<ThemeState>()(
   persist(
     (set, get) => ({
-      isDarkMode: false,
+      isDarkMode: true,
 
       toggleDarkMode: () => {
         const newMode = !get().isDarkMode;
