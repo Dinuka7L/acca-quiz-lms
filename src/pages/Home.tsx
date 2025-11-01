@@ -161,12 +161,19 @@ const Home: React.FC<HomeProps> = ({ onStartQuiz }) => {
             USJ - FMSC First Year Quizzes by 2023/2024 Batch
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto transition-colors duration-300">
-            Explore our comprehensive collection of quizzes organized by subject. Practice with lesson quizzes or test your knowledge with mock final exams. Note to users: the questions and answers are not fact checked and generated via AI models. Therefore, please verify all information independently.
+            Explore a comprehensive collection of quizzes organized by subjects. Practice with lesson quizzes and test your knowledge.
+          </p>
+          <p className="text-sm text-gray-600 dark:text-gray-300 max-w-2xl mx-auto transition-colors duration-300">
+           <i>Note to users: the questions and answers are generated via AI models and not fact checked. Therefore, please verify all information independently.</i>
           </p>
         </div>
 
         {/* Stats Summary */}
-        <div className="mt-12 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-xl p-6 shadow-lg border border-gray-200/50 dark:border-gray-600/50 transition-colors duration-300">
+        <div className="mt-12 relative rounded-2xl p-6 bg-white/10 dark:bg-gray-900/20 
+                backdrop-blur-xl backdrop-saturate-150 
+                shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] 
+                border border-white/20 dark:border-gray-700/20 overflow-hidden">
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
             <div>
               <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 transition-colors duration-300">{quizzes.length}</div>
@@ -271,7 +278,7 @@ const Home: React.FC<HomeProps> = ({ onStartQuiz }) => {
                     transition={{ duration: 0.2, ease: "easeInOut" }}
                     className="overflow-hidden mt-6 pl-4"
                   >
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mb-5 mr-5 mt-5">
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mb-5 mr-5 mt-5 items-stretch">
                     {[...subjectQuizzes]
                       .sort((a, b) => {
                         const extractNum = (title: string) => {
@@ -281,6 +288,7 @@ const Home: React.FC<HomeProps> = ({ onStartQuiz }) => {
                         return extractNum(a.title) - extractNum(b.title);
                       })
                       .map((quiz) => (
+                        <div key={quiz.id} className="h-full min-h-[150px]">
                         <QuizCard
                           key={quiz.id}
                           quiz={quiz}
@@ -295,6 +303,7 @@ const Home: React.FC<HomeProps> = ({ onStartQuiz }) => {
                               Object.keys(a.answers).length > 0
                           )}
                         />
+                        </div>
                       ))}
 
                   </div>
