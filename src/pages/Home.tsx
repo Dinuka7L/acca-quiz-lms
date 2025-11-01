@@ -7,6 +7,9 @@ import { Quiz } from '../types/quiz';
 import { getQuizzesBySubject, generateGradientClasses, getDefaultGradientColors } from '../utils/quizLoader';
 import { useQuizStore } from '../store/quizStore';
 import { motion, AnimatePresence } from "framer-motion";
+import { ShootingStars } from '../components/ui/shooting-stars';
+import { StarsBackground } from '../components/ui/stars-background';
+
 
 
 
@@ -139,6 +142,20 @@ const Home: React.FC<HomeProps> = ({ onStartQuiz }) => {
       
       
       <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {/* Stars Container */}
+          <div className="absolute top-0 left-0 w-full h-96 overflow-hidden pointer-events-none">
+            <StarsBackground starDensity={0.0004} className="h-full w-full" />
+            <ShootingStars 
+              minSpeed={5} 
+              maxSpeed={10}   
+              starColor="#9E00FF" 
+              trailColor="#2EB9DF"
+              starWidth={10}
+              starHeight={2}
+            />
+          </div>
+
+        {/* Header Container */}
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4 transition-colors duration-300">
             USJ - FMSC First Year Quizzes by 2023/2024 Batch
