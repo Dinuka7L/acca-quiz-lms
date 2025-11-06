@@ -1,0 +1,507 @@
+{
+  "id": "quiz-LKAS40-InvestmentProperty",
+  "title": "Chapter 9 - Accounting for Investment Property (Part I) - LKAS 40",
+  "description": "A challenging quiz covering the definition, recognition, measurement, and differentiation of Investment Property (IP) according to LKAS 40.",
+  "subject": "ACC1370 - Financial Accounting and Reporting",
+  "gradientColors": [
+    "#8B4513",
+    "#A0522D",
+    "#D2B48C",
+    "#F5DEB3"
+  ],
+  "timeOptions": [
+    10,
+    20,
+    30
+  ],
+  "totalMarks": 65,
+  "weight": 0,
+  "category": "lesson",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multipleChoice",
+      "question": "An entity owns a building and provides insignificant ancillary services, such as simple security and maintenance, to its tenants who occupy the building under operating leases. How should the entity classify this property?",
+      "options": [
+        "As Property, Plant and Equipment (PPE) under LKAS 16.",
+        "As Owner-Occupied Property.",
+        "As Investment Property (IP) under LKAS 40.",
+        "As Inventory under LKAS 2."
+      ],
+      "answer": "As Investment Property (IP) under LKAS 40.",
+      "rationale": "If the ancillary services provided are relatively insignificant, the property is classified as Investment Property. Only when ancillary services are more significant does the property become owner-occupied.",
+      "marks": 2
+    },
+    {
+      "id": "q2",
+      "type": "multipleChoice",
+      "question": "A holding company owns a building and leases it out under an operating lease to its wholly-owned subsidiary, which uses the building for its administrative offices. How should the holding company classify this property in its *consolidated* financial statements?",
+      "options": [
+        "As Investment Property (IP) since it is leased out.",
+        "As Property, Plant and Equipment (PPE) of the Group.",
+        "As Owner-Occupied Property of the Group.",
+        "As an intercompany transaction not reported on the balance sheet."
+      ],
+      "answer": "As Owner-Occupied Property of the Group.",
+      "rationale": "In consolidated financial statements, property rented to a parent, subsidiary, or fellow subsidiary is classified as owner-occupied property from the group's perspective, even if it could be classified as IP in the separate financial statements of the entity that owns it.",
+      "marks": 3
+    },
+    {
+      "id": "q3",
+      "type": "multipleChoice",
+      "question": "Under the Fair Value Model for Investment Property, where are changes in the fair value of the property recognized?",
+      "options": [
+        "Directly in Other Comprehensive Income (OCI) and accumulated in the Revaluation Reserve.",
+        "Directly in Profit or Loss for the period.",
+        "Capitalized as part of the cost of the Investment Property.",
+        "Deferred and recognized in Profit or Loss only upon disposal."
+      ],
+      "answer": "Directly in Profit or Loss for the period.",
+      "rationale": "A key difference between the IP Fair Value Model and the PPE Revaluation Model is that all changes in the fair value of IP (gains or losses) are recognized directly in Profit or Loss.",
+      "marks": 2
+    },
+    {
+      "id": "q4",
+      "type": "multipleChoice",
+      "question": "Which of the following properties would *not* be classified as Investment Property under LKAS 40?",
+      "options": [
+        "A building leased out to a third party under an operating lease.",
+        "Land held for long-term capital appreciation.",
+        "Property being constructed for future use as an owner-occupied property.",
+        "Land held for a currently undetermined future use."
+      ],
+      "answer": "Property being constructed for future use as an owner-occupied property.",
+      "rationale": "Property held for future use as owner-occupied property is classified as owner-occupied property (PPE) under LKAS 16, not Investment Property.",
+      "marks": 2
+    },
+    {
+      "id": "q5",
+      "type": "multipleChoice",
+      "question": "When an entity uses part of a building for its own use and leases out the remainder under an operating lease, and the two parts *cannot* be sold or leased out separately, how is the property classified?",
+      "options": [
+        "It is always classified as Investment Property if the rental portion is significant.",
+        "It is always classified as Property, Plant and Equipment (PPE).",
+        "It is classified as Investment Property if the portion held to earn rentals is significant.",
+        "It is classified as PPE if the portion held for own use is significant."
+      ],
+      "answer": "It is classified as Investment Property if the portion held to earn rentals is significant.",
+      "rationale": "If the parts cannot be separated, the entire property is classified as IP if the portion held to earn rentals is significant, or as PPE if the portion held for own use is significant.",
+      "marks": 3
+    },
+    {
+      "id": "q6",
+      "type": "multipleChoice",
+      "question": "Company A acquires a non-monetary asset in exchange for an Investment Property. The exchange is determined to lack commercial substance. What value should Company A use to initially measure the acquired asset?",
+      "options": [
+        "The fair value of the asset received.",
+        "The fair value of the Investment Property given up.",
+        "The carrying amount of the Investment Property given up.",
+        "The market value on the date the transaction was agreed."
+      ],
+      "answer": "The carrying amount of the Investment Property given up.",
+      "rationale": "If the exchange lacks commercial substance or the fair value cannot be reliably measured, the cost of the acquired asset is determined by the carrying amount of the asset given up.",
+      "marks": 3
+    },
+    {
+      "id": "q7",
+      "type": "multipleChoice",
+      "question": "Which criterion must be satisfied for an Investment Property to be initially recognized?",
+      "options": [
+        "The property must be financed entirely by equity.",
+        "The fair value must be reliably measurable at the date of acquisition.",
+        "It must be probable that future economic benefits associated with the property will flow to the entity.",
+        "The entity must adopt the Fair Value Model for subsequent measurement."
+      ],
+      "answer": "It must be probable that future economic benefits associated with the property will flow to the entity.",
+      "rationale": "The two recognition criteria for Investment Property are: 1) It must be probable that the future economic benefits will flow to the entity, AND 2) The cost can be measured reliably.",
+      "marks": 2
+    },
+    {
+      "id": "q8",
+      "type": "multipleChoice",
+      "question": "An entity uses the Cost Model for subsequent measurement of its Investment Property. How is the property treated after initial recognition?",
+      "options": [
+        "It is remeasured to fair value annually with changes in OCI.",
+        "It is measured in accordance with LKAS 16 (PPE).",
+        "It is not depreciated but tested for impairment annually.",
+        "It is carried at cost less only impairment losses."
+      ],
+      "answer": "It is measured in accordance with LKAS 16 (PPE).",
+      "rationale": "If the Cost Model is used, Investment Property is measured in accordance with LKAS 16, which includes charging depreciation and testing for impairment.",
+      "marks": 2
+    },
+    {
+      "id": "q9",
+      "type": "multipleChoice",
+      "question": "A land development company purchases land, subdivides it into small plots, and holds them with the express view to selling them in the ordinary course of its land selling business. How should this land be classified?",
+      "options": [
+        "As Investment Property (IP) under LKAS 40 for capital appreciation.",
+        "As Property, Plant and Equipment (PPE) under LKAS 16.",
+        "As Inventory under LKAS 2.",
+        "As an Intangible Asset."
+      ],
+      "answer": "As Inventory under LKAS 2.",
+      "rationale": "Property held for sale in the ordinary course of business is classified as Inventory under LKAS 2, not Investment Property.",
+      "marks": 3
+    },
+    {
+      "id": "q10",
+      "type": "multipleChoice",
+      "question": "Which cost would be included in the initial cost of an Investment Property?",
+      "options": [
+        "Operating losses incurred before the IP achieves planned occupancy.",
+        "Professional fees for legal services related to the acquisition.",
+        "Abnormal amounts of wasted material incurred during construction.",
+        "Start-up costs not necessary to bring the property to operating condition."
+      ],
+      "answer": "Professional fees for legal services related to the acquisition.",
+      "rationale": "The initial cost of IP includes the purchase price plus any directly attributable expenditure, such as professional fees, property transfer taxes, and other transaction costs.",
+      "marks": 2
+    },
+    {
+      "id": "q11",
+      "type": "multipleChoice",
+      "question": "A key distinction between Property, Plant and Equipment (PPE) and Investment Property (IP) concerning cash flows is that IP typically:",
+      "options": [
+        "Generates minimal cash flow.",
+        "Generates cash flows primarily from operating activities.",
+        "Generates independent and direct cash flows.",
+        "Generates cash flows only in combination with other assets."
+      ],
+      "answer": "Generates independent and direct cash flows.",
+      "rationale": "IP usually generates independent and direct cash flows from rentals or capital appreciation, whereas PPE generally generates cash flows in combination with other assets in the production or supply process.",
+      "marks": 3
+    },
+    {
+      "id": "q12",
+      "type": "multipleChoice",
+      "question": "A property is being constructed for the sole purpose of renting it out to third parties under operating leases in the future. How should this property be classified during the construction period?",
+      "options": [
+        "Property, Plant and Equipment (PPE) under LKAS 16.",
+        "Inventory under LKAS 2.",
+        "Investment Property (IP) under LKAS 40.",
+        "Non-Current Asset Held for Sale."
+      ],
+      "answer": "Investment Property (IP) under LKAS 40.",
+      "rationale": "Property that is being constructed or developed for future use as an investment property is classified as Investment Property.",
+      "marks": 2
+    },
+    {
+      "id": "q13",
+      "type": "multipleChoice",
+      "question": "What is the primary difference in the frequency of fair value measurement between the PPE Revaluation Model and the IP Fair Value Model?",
+      "options": [
+        "PPE is remeasured annually, while IP is remeasured every three to five years.",
+        "PPE is remeasured periodically, while IP must be remeasured at the end of every reporting period.",
+        "PPE is only remeasured upon disposal, while IP is remeasured annually.",
+        "PPE is measured at historical cost, while IP is measured at fair value only if the cost is unreliable."
+      ],
+      "answer": "PPE is remeasured periodically, while IP must be remeasured at the end of every reporting period.",
+      "rationale": "Under the PPE Revaluation Model, revaluation is done periodically (not necessarily every year), but under the IP Fair Value Model, the property must be remeasured at fair value at the end of every reporting period.",
+      "marks": 3
+    },
+    {
+      "id": "q14",
+      "type": "multipleChoice",
+      "question": "A company incurred 3 million in labor costs due to a temporary strike by site workers during the construction of a building intended for rental. How should this cost be treated in the initial measurement of the Investment Property?",
+      "options": [
+        "Capitalized as part of the IP cost because it is necessary for construction.",
+        "Recognized as an expense in the Profit or Loss for the period.",
+        "Deferred and amortized over the property's useful life.",
+        "Treated as an impairment loss."
+      ],
+      "answer": "Recognized as an expense in the Profit or Loss for the period.",
+      "rationale": "Costs do not include abnormal amounts of wasted material, labor, or other resources incurred in constructing or developing the property. Labor costs due to an abnormal event like a strike should be expensed.",
+      "marks": 3
+    },
+    {
+      "id": "q15",
+      "type": "multipleChoice",
+      "question": "Entity B is measuring its Investment Property using the Fair Value Model. When should the entity stop charging depreciation on the property?",
+      "options": [
+        "Depreciation is never charged under the Fair Value Model.",
+        "Depreciation stops when the property is fully occupied.",
+        "Depreciation stops when the accumulated depreciation equals the original cost.",
+        "Depreciation is charged until the property is transferred to PPE."
+      ],
+      "answer": "Depreciation is never charged under the Fair Value Model.",
+      "rationale": "Under the Fair Value Model for Investment Property, no depreciation is charged because the assets are remeasured to fair value at the end of each reporting period.",
+      "marks": 2
+    },
+    {
+      "id": "q16",
+      "type": "dropdown",
+      "question": "Investment Property (IP) is property held to earn rentals or for capital appreciation, rather than for use in the production or supply of goods/services (classified as [dropdown_1]) or for sale in the ordinary course of business (classified as [dropdown_2]).",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "Inventory",
+            "Property, Plant and Equipment (PPE)",
+            "Intangible Assets"
+          ],
+          "correctAnswer": "Property, Plant and Equipment (PPE)"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "PPE",
+            "Inventory",
+            "Owner-Occupied Property"
+          ],
+          "correctAnswer": "Inventory"
+        }
+      ],
+      "rationale": "Property used in production or for administrative purposes is PPE, while property held for short-term sale is Inventory.",
+      "marks": 4
+    },
+    {
+      "id": "q17",
+      "type": "dropdown",
+      "question": "For subsequent measurement, an entity must choose between the [dropdown_1] Model, where fair value changes go to Profit or Loss, or the [dropdown_2] Model, which measures IP according to LKAS 16.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "Cost",
+            "Revaluation",
+            "Fair Value"
+          ],
+          "correctAnswer": "Fair Value"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "Cost",
+            "Revaluation",
+            "Fair Value"
+          ],
+          "correctAnswer": "Cost"
+        }
+      ],
+      "rationale": "The two subsequent measurement models are the Fair Value Model and the Cost Model. The Fair Value Model recognizes changes in P/L, and the Cost Model uses the LKAS 16 basis (cost less depreciation and impairment).",
+      "marks": 4
+    },
+    {
+      "id": "q18",
+      "type": "dropdown",
+      "question": "A property leased to a subsidiary is classified as owner-occupied in the [dropdown_1] financial statements, but may be classified as Investment Property in the [dropdown_2] financial statements if the definition is met.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "Separate",
+            "Consolidated",
+            "Interim"
+          ],
+          "correctAnswer": "Consolidated"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "Consolidated",
+            "Separate",
+            "Group"
+          ],
+          "correctAnswer": "Separate"
+        }
+      ],
+      "rationale": "Intracompany rentals are owner-occupied from the group's perspective (Consolidated FS) but may be IP in the entity's Separate FS.",
+      "marks": 4
+    },
+    {
+      "id": "q19",
+      "type": "fillInBlank",
+      "question": "Property held by the owner or by the lessee as a right-of-use asset for administrative purposes is categorized as ________ property.",
+      "answer": "Owner-occupied",
+      "rationale": "Owner-occupied property is held for use in the production, supply, or for administrative purposes, and is accounted for under LKAS 16.",
+      "marks": 2
+    },
+    {
+      "id": "q20",
+      "type": "fillInBlank",
+      "question": "When an Investment Property is acquired through exchange, and the fair value cannot be reliably measured, the cost of the acquired IP is the ________ of the asset given up.",
+      "answer": "carrying amount",
+      "rationale": "If fair value cannot be reliably measured, the carrying amount of the asset given up is used as the cost of the IP acquired.",
+      "marks": 2
+    },
+    {
+      "id": "q21",
+      "type": "fillInBlank",
+      "question": "The accounting standard governing Investment Property is ________.",
+      "answer": "LKAS 40",
+      "rationale": "LKAS 40 (or IAS 40) is the specific standard for Accounting for Investment Property.",
+      "marks": 2
+    },
+    {
+      "id": "q22",
+      "type": "multiSelect",
+      "question": "Select all items that must be included in the initial cost of a newly acquired Investment Property.",
+      "options": [
+        "Purchase price of the property.",
+        "Property transfer taxes.",
+        "Operating losses before the property achieves planned occupancy.",
+        "Professional fees for legal consultation related to the purchase."
+      ],
+      "answer": [
+        "Purchase price of the property.",
+        "Property transfer taxes.",
+        "Professional fees for legal consultation related to the purchase."
+      ],
+      "rationale": "Initial cost includes the purchase price plus any directly attributable expenditure, such as professional fees and property transfer taxes. Operating losses are specifically excluded.",
+      "marks": 3
+    },
+    {
+      "id": "q23",
+      "type": "multiSelect",
+      "question": "Which of the following are characteristics of Property, Plant and Equipment (PPE) but *not* Investment Property (IP)?",
+      "options": [
+        "Accounted for under LKAS 16.",
+        "Held to earn rentals or for capital appreciation.",
+        "Usually generates cash flows in combination with other assets.",
+        "Purpose is for use in the production or supply of goods/services."
+      ],
+      "answer": [
+        "Usually generates cash flows in combination with other assets.",
+        "Purpose is for use in the production or supply of goods/services."
+      ],
+      "rationale": "PPE is held for production/services and generates cash flows with other assets. IP is held for rentals/appreciation and generates independent cash flows.",
+      "marks": 3
+    },
+    {
+      "id": "q24",
+      "type": "multiSelect",
+      "question": "A building owned by an entity is currently vacant. It is being held with the explicit objective of leasing it out under one or more operating leases. Which of the following statements are true regarding its classification?",
+      "options": [
+        "It is classified as Investment Property.",
+        "It is classified as Owner-Occupied Property.",
+        "It is accounted for under LKAS 40.",
+        "It is accounted for under LKAS 16."
+      ],
+      "answer": [
+        "It is classified as Investment Property.",
+        "It is accounted for under LKAS 40."
+      ],
+      "rationale": "A building that is vacant but is held to be leased out under one or more operating leases is an explicit example of Investment Property, which is governed by LKAS 40.",
+      "marks": 3
+    },
+    {
+      "id": "q25",
+      "type": "matching",
+      "question": "Match the type of property holding with the correct accounting standard.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Property held for administrative use",
+          "right": "LKAS 16"
+        },
+        {
+          "id": "pair2",
+          "left": "Property held for long-term rental income",
+          "right": "LKAS 40"
+        },
+        {
+          "id": "pair3",
+          "left": "Property held for short-term sale in ordinary course of business",
+          "right": "LKAS 2"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q26",
+      "type": "matching",
+      "question": "Match the accounting treatment with the correct measurement model.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Changes in fair value recognized in Profit or Loss",
+          "right": "IP Fair Value Model"
+        },
+        {
+          "id": "pair2",
+          "left": "Revaluation increase recognized in OCI",
+          "right": "PPE Revaluation Model"
+        },
+        {
+          "id": "pair3",
+          "left": "Depreciation is charged",
+          "right": "IP Cost Model"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q27",
+      "type": "matching",
+      "question": "Classify the following costs related to the construction of an Investment Property.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Directly attributable cost of refurbishment",
+          "right": "Included in Initial Cost"
+        },
+        {
+          "id": "pair2",
+          "left": "Maintenance costs incurred prior to full occupancy",
+          "right": "Excluded from Initial Cost"
+        },
+        {
+          "id": "pair3",
+          "left": "Property transfer taxes",
+          "right": "Included in Initial Cost"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q28",
+      "type": "essay",
+      "question": "A hotel group owns and operates a luxury hotel, providing significant services like catering, housekeeping, and guest relations. Justify, using the concept of 'ancillary services', why this property should be classified as owner-occupied property rather than Investment Property.",
+      "idealKeywords": [
+        "ancillary services",
+        "significant",
+        "insignificant",
+        "owner-occupied",
+        "LKAS 16",
+        "hotel management"
+      ],
+      "marks": 5
+    },
+    {
+      "id": "q29",
+      "type": "essay",
+      "question": "Jasmin (Pvt) Ltd acquired land and a building for 52 million cash and 60 million payable in 5 years (PV 48 million) to redevelop into apartments for rental. Additional costs incurred were: Refurbishment (50 million), Interest on borrowed money during construction (5 million), and Maintenance costs prior to full occupancy (2 million). Calculate the total initial cost of the Investment Property and justify the inclusion or exclusion of the interest and maintenance costs.",
+      "idealKeywords": [
+        "initial cost",
+        "purchase price",
+        "directly attributable expenditure",
+        "present value",
+        "interest capitalization",
+        "maintenance costs",
+        "52 million",
+        "48 million",
+        "50 million",
+        "5 million",
+        "2 million"
+      ],
+      "marks": 6
+    },
+    {
+      "id": "q30",
+      "type": "essay",
+      "question": "Compare and contrast the accounting treatment of the revaluation surplus/deficit under the PPE Revaluation Model (LKAS 16) and the fair value changes under the Investment Property Fair Value Model (LKAS 40), focusing specifically on their recognition in the financial statements and the impact on depreciation.",
+      "idealKeywords": [
+        "OCI",
+        "Profit or Loss",
+        "Revaluation Reserve",
+        "depreciation",
+        "revaluation surplus",
+        "fair value gain/loss",
+        "periodically",
+        "every reporting period"
+      ],
+      "marks": 6
+    }
+  ]
+}

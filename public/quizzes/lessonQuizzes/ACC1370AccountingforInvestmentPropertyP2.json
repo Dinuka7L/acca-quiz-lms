@@ -1,0 +1,310 @@
+{
+  "id": "quiz-LKAS40-Part2",
+  "title": "Chapter 9 – Accounting for Investment Property (Part II) - LKAS 40",
+  "description": "Examines the advanced accounting treatments for Investment Property, including transfers, derecognition, and detailed disclosure requirements under LKAS 40.",
+  "subject": "ACC1370 - Financial Accounting and Reporting",
+  "gradientColors": ["#4a00e0", "#8e2de2", "#4a00e0", "#9b59b6"],
+  "timeOptions": [10, 20, 30],
+  "totalMarks": 68,
+  "weight": 0,
+  "category": "lesson",
+  "questions": [
+    {
+      "id": "mc1",
+      "type": "multipleChoice",
+      "question": "An entity using the Fair Value Model for its Investment Property (IP) transfers an item of IP to Owner-Occupied Property. Which LKAS is used to determine the property's deemed cost for subsequent accounting?",
+      "options": ["LKAS 16", "LKAS 40", "LKAS 2", "LKAS 36"],
+      "answer": "LKAS 16",
+      "rationale": "When IP is transferred to owner-occupied property, the property's fair value at the date of change in use becomes its deemed cost for subsequent accounting under LKAS 16 (Property, Plant and Equipment).",
+      "marks": 2
+    },
+    {
+      "id": "mc2",
+      "type": "multipleChoice",
+      "question": "A transfer of property from Inventory to Investment Property (IP) occurs. The inventory had a carrying amount of Rs. 10 million. At the date of change in use, the property's Fair Value (FV) is Rs. 12 million. Where is the Rs. 2 million difference recognized?",
+      "options": ["Other Comprehensive Income (OCI) – Revaluation Surplus", "Profit or Loss", "Directly in Equity – Retained Earnings", "It is not recognized, the IP is measured at cost."],
+      "answer": "Profit or Loss",
+      "rationale": "If inventory is transferred to IP, any difference between the property's FV at the date of transfer and its previous carrying amount is recognized in profit or loss.",
+      "marks": 3
+    },
+    {
+      "id": "mc3",
+      "type": "multipleChoice",
+      "question": "Which of the following, in isolation, does NOT provide sufficient evidence of a change in use to justify a transfer to or from Investment Property (IP)?",
+      "options": ["Commencement of owner-occupation (transfer from IP to owner-occupied property)", "Commencement of development with a view to sale (transfer from IP to inventories)", "A change in management's intention regarding the property's use", "Commencement of an operating lease to another party (transfer to IP)"],
+      "answer": "A change in management's intention regarding the property's use",
+      "rationale": "A change in management intention for the use of a property, in isolation, does not provide evidence of a change in use for transfer purposes under LKAS 40.",
+      "marks": 2
+    },
+    {
+      "id": "mc4",
+      "type": "multipleChoice",
+      "question": "When an owner-occupied property is transferred to Investment Property (IP) that is measured using the Fair Value Model, what is the accounting treatment for any difference between the property's carrying amount under LKAS 16 and its Fair Value at the date of transfer?",
+      "options": ["Recognized entirely in Profit or Loss", "Recognized entirely in Other Comprehensive Income (OCI)", "Recorded in the same way as a revaluation of Property, Plant and Equipment (PPE)", "Added directly to the cost of the Investment Property"],
+      "answer": "Recorded in the same way as a revaluation of Property, Plant and Equipment (PPE)",
+      "rationale": "When Owner-Occupied Property is transferred to IP, the difference between the carrying amount per LKAS 16 and the FV is recorded in the same way as revaluation of PPE (i.e., revaluation surplus in OCI up to reversal of previous losses, then P/L; loss to P/L up to reversal of previous surplus in OCI, then P/L).",
+      "marks": 3
+    },
+    {
+      "id": "mc5",
+      "type": "multipleChoice",
+      "question": "A property is permanently withdrawn from use, and the entity expects no future economic benefits from its disposal. How should the resulting gain or loss be recognized?",
+      "options": ["Recognized in Other Comprehensive Income", "Recognized in Profit or Loss as part of the derecognition process", "Credited or debited directly to Retained Earnings", "Added to the revaluation surplus"],
+      "answer": "Recognized in Profit or Loss as part of the derecognition process",
+      "rationale": "Gain or loss on derecognition (disposal or permanent withdrawal) of Investment Property is recognized in Profit or Loss, calculated as Net disposal proceeds minus Carrying Amount.",
+      "marks": 2
+    },
+    {
+      "id": "mc6",
+      "type": "multipleChoice",
+      "question": "Under the Fair Value Model, which of the following is required to be included in the reconciliation of the carrying amounts of Investment Property (IP) at the beginning and end of the period?",
+      "options": ["Depreciation expense for the period", "Impairment losses recognized", "Transfers to and from inventories and owner-occupied property", "Revaluation surplus arising during the period"],
+      "answer": "Transfers to and from inventories and owner-occupied property",
+      "rationale": "The reconciliation for the Fair Value Model requires showing transfers to and from inventories and owner-occupied property, along with additions, disposals, and fair value adjustments. Depreciation and impairment are additional disclosures for the Cost Model.",
+      "marks": 3
+    },
+    {
+      "id": "mc7",
+      "type": "multipleChoice",
+      "question": "An entity uses the Cost Model for its Investment Property (IP). Upon transferring an item of IP to Owner-Occupied Property, what value is used as the property's deemed cost for subsequent accounting under LKAS 16?",
+      "options": ["The property's Fair Value at the date of change in use", "The property's Carrying Amount before the transfer", "The property's Original Cost", "The property's Recoverable Amount"],
+      "answer": "The property's Carrying Amount before the transfer",
+      "rationale": "For a transfer from IP (under the Cost Model) to Owner-Occupied Property, the carrying amount of the asset before the transfer is used as the deemed cost for subsequent accounting.",
+      "marks": 2
+    },
+    {
+      "id": "mc8",
+      "type": "multipleChoice",
+      "question": "What is the primary indicator that a composite property (one portion for rent, one for owner-occupation) must be split and accounted for separately under LKAS 40 and LKAS 16?",
+      "options": ["If the portions can be sold separately or leased out separately under a finance lease", "If the owner-occupied portion is 10% or less of the total area", "If the rental income exceeds the owner-occupied cost savings", "If the entity uses the Fair Value Model for its Investment Property"],
+      "answer": "If the portions can be sold separately or leased out separately under a finance lease",
+      "rationale": "If portions of a property can be sold or leased out separately under a finance lease, the entity accounts for the portions separately.",
+      "marks": 3
+    },
+    {
+      "id": "mc9",
+      "type": "multipleChoice",
+      "question": "Which of the following is a specific disclosure required under the Cost Model but NOT under the general disclosures or the Fair Value Model disclosures for Investment Property?",
+      "options": ["Whether the Fair Value or Cost model is used", "The depreciation methods used", "The fair value of the Investment Property", "A reconciliation of the carrying amount"],
+      "answer": "The depreciation methods used",
+      "rationale": "The depreciation methods used and the useful lives/rates are specific additional disclosures for the Cost Model, as depreciation is not relevant for the Fair Value Model.",
+      "marks": 2
+    },
+    {
+      "id": "mc10",
+      "type": "multipleChoice",
+      "question": "If an entity, which generally uses the Fair Value Model, measures one item of Investment Property using the Cost Model because Fair Value cannot be reliably determined on a continuing basis, what must it disclose in addition to the general and fair value model disclosures?",
+      "options": ["Only the reason for using the Cost Model", "Additional disclosures required by the Cost Model, including depreciation details and carrying amounts", "Only the fact that no such reliable valuation was possible", "The Cost Model item is excluded entirely from the disclosures"],
+      "answer": "Additional disclosures required by the Cost Model, including depreciation details and carrying amounts",
+      "rationale": "If an entity that otherwise uses the Fair Value Model measures an item of IP using the Cost Model, certain additional disclosures are required, similar to those for the Cost Model (depreciation, carrying amounts, etc.).",
+      "marks": 3
+    },
+    {
+      "id": "mc11",
+      "type": "multipleChoice",
+      "question": "For a property where ancillary services are provided by the owner, when is the property accounted for as Investment Property?",
+      "options": ["When the ancillary services are substantial in relation to the property as a whole.", "When the property generates cash flows largely independently of other assets.", "When the property is held for capital appreciation and is not used in production or supply.", "When the ancillary services are determined to be insignificant."],
+      "answer": "When the ancillary services are determined to be insignificant.",
+      "rationale": "Judgment is applied to determine if ancillary services are so significant that the property does not qualify as an Investment Property. It qualifies if the services are insignificant, meaning the cash flows are largely independent of the services.",
+      "marks": 2
+    },
+    {
+      "id": "mc12",
+      "type": "multipleChoice",
+      "question": "Which valuation technique was used by Overseas Reality (Ceylon) PLC for its Havelock City Commercial Building Investment Property in 2024, as disclosed in the notes?",
+      "options": ["Open Market Value (OMV)", "Cost Model (less depreciation)", "Discounted Cash Flow (DCF)", "Revalued Amounts (referencing similar transactions)"],
+      "answer": "Discounted Cash Flow (DCF)",
+      "rationale": "The notes indicate that the Havelock City Commercial Building (Group property) was valued using the Discounted Cash Flow (DCF) technique.",
+      "marks": 2
+    },
+    {
+      "id": "mc13",
+      "type": "multipleChoice",
+      "question": "When an Investment Property (IP) measured under the Fair Value Model is transferred to Inventory, what value is used as the property’s deemed cost for subsequent accounting under LKAS 2?",
+      "options": ["The lower of cost and net realizable value", "The carrying amount of the asset before the transfer", "The property’s Fair Value at the date of change in use", "The original acquisition cost"],
+      "answer": "The property’s Fair Value at the date of change in use",
+      "rationale": "When IP is transferred to inventories, the property's fair value at the date of change in use becomes its deemed cost for subsequent accounting in accordance with LKAS 2 (Inventories).",
+      "marks": 3
+    },
+    {
+      "id": "mc14",
+      "type": "multipleChoice",
+      "question": "If a transfer of property from an Owner-Occupied Property to Investment Property (IP) results in a revaluation deficit (loss), and no previous revaluation surplus exists for that property, where is this deficit recognized?",
+      "options": ["Other Comprehensive Income (OCI) – Revaluation Surplus", "Profit or Loss", "Directly in Equity – Retained Earnings", "It is offset against the IP's fair value adjustment gain in P/L"],
+      "answer": "Profit or Loss",
+      "rationale": "The difference is recorded like a PPE revaluation. A revaluation deficit is recognized in Profit or Loss, unless it reverses a previous surplus for the same asset recorded in OCI.",
+      "marks": 3
+    },
+    {
+      "id": "mc15",
+      "type": "multipleChoice",
+      "question": "Which of the following conditions must be met to justify a transfer of property to OR from Investment Property (IP)?",
+      "options": ["The property's Fair Value must be reliably measurable", "The transfer is made only when there is a change in management's strategic planning", "The entity must have evidence of a change in use", "The transfer must occur only at the entity's financial year end"],
+      "answer": "The entity must have evidence of a change in use",
+      "rationale": "Transfers to and from IP should only be made when, and only when, there is a change in use, and there should be evidence of this change.",
+      "marks": 2
+    },
+    {
+      "id": "dd1",
+      "type": "dropdown",
+      "question": "The gain or loss on derecognition of an Investment Property is calculated as the difference between the net disposal proceeds and the property's [dropdown_1], and is recognized in [dropdown_2].",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["fair value", "original cost", "carrying amount", "recoverable amount"],
+          "correctAnswer": "carrying amount"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["Other Comprehensive Income", "retained earnings", "Profit or Loss", "Revaluation Surplus"],
+          "correctAnswer": "Profit or Loss"
+        }
+      ],
+      "rationale": "Gain or Loss on Disposal = Net disposal proceeds – Carrying Amount, and this is recognized in Profit or Loss.",
+      "marks": 4
+    },
+    {
+      "id": "dd2",
+      "type": "dropdown",
+      "question": "Under the Fair Value Model, the reconciliation of Investment Property carrying amounts must show [dropdown_1] adjustments, while the reconciliation under the Cost Model must show [dropdown_2].",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["depreciation", "fair value", "revaluation surplus", "impairment loss"],
+          "correctAnswer": "fair value"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["fair value adjustments", "depreciation", "revaluation surplus", "transfers to cash"],
+          "correctAnswer": "depreciation"
+        }
+      ],
+      "rationale": "The Fair Value Model reconciliation includes fair value adjustments, while the Cost Model reconciliation includes depreciation.",
+      "marks": 4
+    },
+    {
+      "id": "dd3",
+      "type": "dropdown",
+      "question": "When Investment Property is transferred to Inventory, if the IP was measured using the [dropdown_1] model, the carrying amount before the transfer is used as the deemed cost, but if the IP was measured using the [dropdown_2] model, the fair value at the date of change in use is used as the deemed cost.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["Fair Value", "Cost", "Revaluation", "Historical Cost"],
+          "correctAnswer": "Cost"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["Cost", "Revaluation", "Fair Value", "Historical Cost"],
+          "correctAnswer": "Fair Value"
+        }
+      ],
+      "rationale": "Transfer from IP (Cost Model) uses carrying amount; transfer from IP (FV Model) uses Fair Value at date of change in use as the deemed cost for the new category.",
+      "marks": 4
+    },
+    {
+      "id": "fb1",
+      "type": "fillInBlank",
+      "question": "When a property is transferred from Owner-Occupied Property to Investment Property measured under the Fair Value Model, the difference between the carrying amount under LKAS 16 and its Fair Value is recognized in the same way as a property revaluation under standard ________.",
+      "answer": "LKAS 16",
+      "rationale": "The accounting treatment mirrors a revaluation of Property, Plant and Equipment (PPE) under LKAS 16.",
+      "marks": 2
+    },
+    {
+      "id": "fb2",
+      "type": "fillInBlank",
+      "question": "A transfer from Investment Property to Inventory only occurs when the entity has evidence of a change in use, such as the commencement of ________ with a view to sale.",
+      "answer": "development",
+      "rationale": "The commencement of development with a view to sale is cited as evidence of a change in use from IP to inventories.",
+      "marks": 2
+    },
+    {
+      "id": "fb3",
+      "type": "fillInBlank",
+      "question": "One of the required general disclosures for Investment Property, regardless of the model used, is the extent to which the fair value of IP is based on a valuation by a qualified ________ valuer.",
+      "answer": "independent",
+      "rationale": "The extent to which the fair value is based on a valuation by a qualified independent valuer is a mandatory general disclosure.",
+      "marks": 2
+    },
+    {
+      "id": "ms1",
+      "type": "multiSelect",
+      "question": "Which of the following types of transfers constitute a 'change in use' to or from Investment Property as described in LKAS 40?",
+      "options": ["Transfer from Investment Property (IP) to owner-occupied property", "Transfer from owner-occupied property to IP", "Transfer from IP to Property, Plant and Equipment (PPE) held for administrative use", "Transfer from inventories to IP"],
+      "answer": ["Transfer from Investment Property (IP) to owner-occupied property", "Transfer from owner-occupied property to IP", "Transfer from inventories to IP"],
+      "rationale": "The slides explicitly list transfers between IP, owner-occupied property, and inventories as 'Change in Use' scenarios. PPE held for administrative use is equivalent to owner-occupied property.",
+      "marks": 3
+    },
+    {
+      "id": "ms2",
+      "type": "multiSelect",
+      "question": "According to the presentation, what are two criteria used by Overseas Reality (Ceylon) PLC to determine if a property qualifies as Investment Property?",
+      "options": ["The property must be land and buildings which are not occupied substantially by the Group.", "The property is held primarily to earn rental income and capital appreciation.", "The property must be located in an economic zone as determined by the UDA.", "The property generates cash flows largely independently of the other assets held by the entity."],
+      "answer": ["The property must be land and buildings which are not occupied substantially by the Group.", "The property generates cash flows largely independently of the other assets held by the entity."],
+      "rationale": "The policy states IP comprises land and buildings not occupied substantially by the Group, held primarily for rent and capital appreciation, AND that the Group determines qualification by considering whether the property generates cash flows largely independently of other assets.",
+      "marks": 3
+    },
+    {
+      "id": "ms3",
+      "type": "multiSelect",
+      "question": "If an entity adopts the Cost Model for its Investment Property, which of the following additional disclosures are required in the financial statements?",
+      "options": ["A reconciliation of the carrying amount showing depreciation and impairment.", "The methods and significant assumptions used in determining the property's fair value.", "The gross carrying amount and the accumulated depreciation at the beginning and end of the period.", "Net foreign exchange differences recognized during the period."],
+      "answer": ["A reconciliation of the carrying amount showing depreciation and impairment.", "The gross carrying amount and the accumulated depreciation at the beginning and end of the period."],
+      "rationale": "Additional disclosures for the Cost Model include a reconciliation showing depreciation/impairment, and the gross carrying amount/accumulated depreciation. Methods and assumptions for fair value are general disclosures, and net foreign exchange differences are part of the Fair Value Model reconciliation.",
+      "marks": 3
+    },
+    {
+      "id": "m1",
+      "type": "matching",
+      "question": "Match the type of transfer with the value used as the property's deemed cost for subsequent accounting, assuming the Fair Value Model was used for the Investment Property (IP).",
+      "matchPairs": [
+        { "id": "pair1", "left": "Transfer from IP to Owner-Occupied Property (LKAS 16)", "right": "IP's Fair Value at the date of change in use" },
+        { "id": "pair2", "left": "Transfer from IP to Inventories (LKAS 2)", "right": "IP's Fair Value at the date of change in use" },
+        { "id": "pair3", "left": "Transfer from Owner-Occupied Property to IP", "right": "Owner-Occupied Property's Fair Value at the date of change in use" }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "m2",
+      "type": "matching",
+      "question": "Match the financial statement element with its treatment in the context of Investment Property measured under the Fair Value Model.",
+      "matchPairs": [
+        { "id": "pair1", "left": "Gain or loss on disposal", "right": "Recognized in Profit or Loss" },
+        { "id": "pair2", "left": "Change in Fair Value", "right": "Recognized in Profit or Loss" },
+        { "id": "pair3", "left": "Fair Value increase from Owner-Occupied to IP (reversing prior P/L loss)", "right": "Recognized in Other Comprehensive Income (OCI)" }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "m3",
+      "type": "matching",
+      "question": "Match the transfer scenario with the recognition of the difference between the carrying amount and Fair Value (FV) at the date of change in use.",
+      "matchPairs": [
+        { "id": "pair1", "left": "Inventory transferred to IP (FV Model)", "right": "Difference recognized in Profit or Loss" },
+        { "id": "pair2", "left": "Owner-Occupied Property transferred to IP (FV Model) - Deficit", "right": "Difference recognized in Profit or Loss" },
+        { "id": "pair3", "left": "Owner-Occupied Property transferred to IP (FV Model) - Surplus", "right": "Difference recorded in OCI (Revaluation Surplus)" }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "e1",
+      "type": "essay",
+      "question": "A company transfers a property from its Inventory to Investment Property (IP) that uses the Fair Value Model. Analyze and explain the two key accounting implications of this transfer, focusing on the measurement basis for the IP and the treatment of any resulting gain or loss.",
+      "idealKeywords": ["Inventory to IP", "Fair Value Model", "deemed cost", "Fair Value at transfer date", "Profit or Loss", "carrying amount difference"],
+      "marks": 5
+    },
+    {
+      "id": "e2",
+      "type": "essay",
+      "question": "Discuss the rationale behind the distinct disclosure requirements under the Fair Value Model versus the Cost Model for Investment Property. Why is a reconciliation of the carrying amount under the Cost Model required to show depreciation, while the reconciliation under the Fair Value Model must show fair value adjustments?",
+      "idealKeywords": ["measurement difference", "depreciation", "fair value adjustments", "reconciliation purpose", "Cost Model disclosures", "Fair Value Model disclosures"],
+      "marks": 5
+    },
+    {
+      "id": "e3",
+      "type": "essay",
+      "question": "Analyze the conceptual difficulty an entity faces when classifying a composite property (with both owner-occupied and rental portions) and the 'insignificant portion' rule. Explain how the independent cash flow criterion helps resolve this classification dilemma.",
+      "idealKeywords": ["composite property", "insignificant portion", "sold separately", "leased out separately", "independent cash flows", "ancillary services"],
+      "marks": 5
+    }
+  ]
+}
