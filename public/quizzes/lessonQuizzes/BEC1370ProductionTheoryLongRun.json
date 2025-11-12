@@ -1,0 +1,436 @@
+{
+  "id": "quiz-TheoryOfProductionLongRun",
+  "title": "Chapter 2.2 - Theory of Production: Long-Run",
+  "description": "Examines advanced long-run production concepts including Isoquants, Marginal Rate of Technical Substitution, and different input substitutability scenarios.",
+  "subject": "BEC1370 - Microeconomics",
+  "gradientColors": ["#06b6d4", "#0891b2", "#0e7490", "#155e75"],
+  "timeOptions": [10, 20, 30],
+  "totalMarks": 68,
+  "weight": 0,
+  "category": "lesson",
+  "questions": [
+    {
+      "id": "mc1",
+      "type": "multipleChoice",
+      "question": "If a production function is Q = f(K, L), the long-run characteristic is best captured by which of the following statements?",
+      "options": [
+        "Only the Labour (L) input is variable, while Capital (K) is fixed.",
+        "Both Capital (K) and Labour (L) are treated as variable inputs.",
+        "The Marginal Product of Capital (MPK) must equal the Marginal Product of Labour (MPL).",
+        "Output (Q) is only a function of variable Capital (K)."
+      ],
+      "answer": "Both Capital (K) and Labour (L) are treated as variable inputs.",
+      "rationale": "In the long-run, the definition of the production period is that all inputs, including Capital (K) and Labour (L), are variable.",
+      "marks": 2
+    },
+    {
+      "id": "mc2",
+      "type": "multipleChoice",
+      "question": "A firm observes that its Marginal Rate of Technical Substitution (MRTS) between labour (L) and capital (K) is 3 (i.e., MRTS L K = 3). This implies that:",
+      "options": [
+        "Three units of labour can be substituted for one unit of capital while keeping cost constant.",
+        "One unit of capital can be replaced by three units of labour while keeping output constant.",
+        "The Marginal Product of Labour (MPL) is three times the Marginal Product of Capital (MPK).",
+        "The firm is operating at an inefficient input combination."
+      ],
+      "answer": "The Marginal Product of Labour (MPL) is three times the Marginal Product of Capital (MPK).",
+      "rationale": "The MRTS L K is defined as the ratio of the marginal product of the input on the horizontal axis (L) to the marginal product of the input on the vertical axis (K), so MRTS L K = MPL / MPK. If MRTS L K = 3, then MPL / MPK = 3, meaning MPL = 3 * MPK.",
+      "marks": 3
+    },
+    {
+      "id": "mc3",
+      "type": "multipleChoice",
+      "question": "Which of the following scenarios is inconsistent with the requirement that a firm always produces efficiently, and therefore explains why isoquants cannot intersect?",
+      "options": [
+        "Two input combinations on intersecting isoquants produce two different levels of output.",
+        "The point of intersection represents a single input combination producing two different levels of output simultaneously.",
+        "The Marginal Rate of Technical Substitution must be diminishing along a single isoquant.",
+        "The intersection would imply that output can be maintained by decreasing both inputs, which violates the negative slope rule."
+      ],
+      "answer": "The point of intersection represents a single input combination producing two different levels of output simultaneously.",
+      "rationale": "If two isoquants (Q1 and Q2) intersect, the point of intersection represents a single combination of Capital and Labour that simultaneously yields both Q1 and Q2, which is logically impossible if Q1 is not equal to Q2. It is also inconsistent with the concept that a firm produces efficiently, as it implies a single efficient input combination could produce two different output levels.",
+      "marks": 3
+    },
+    {
+      "id": "mc4",
+      "type": "multipleChoice",
+      "question": "If an isoquant is a perfectly right-angled shape (L-shaped), what is the primary implication for the relationship between the two inputs, Capital (K) and Labour (L)?",
+      "options": [
+        "They are perfect substitutes, allowing for a constant rate of substitution.",
+        "They are perfect complements, requiring a specific fixed ratio for efficient production.",
+        "The Law of Diminishing MRTS is strongly evident.",
+        "Only the corner of the L-shape represents a point of inefficient production."
+      ],
+      "answer": "They are perfect complements, requiring a specific fixed ratio for efficient production.",
+      "rationale": "A right-angled isoquant signifies perfect complementary inputs, where efficient production requires a specific fixed ratio of the two inputs, meaning one cannot be substituted for the other beyond that ratio.",
+      "marks": 2
+    },
+    {
+      "id": "mc5",
+      "type": "multipleChoice",
+      "question": "The downward slope of a standard isoquant curve is a direct consequence of which principle?",
+      "options": [
+        "The Law of Diminishing Marginal Returns in the short run.",
+        "The firm's ability to maintain output by replacing a decreased amount of one input with an increased amount of the other.",
+        "The Law of Diminishing Marginal Rate of Technical Substitution.",
+        "The firm's profit maximization condition in competitive markets."
+      ],
+      "answer": "The firm's ability to maintain output by replacing a decreased amount of one input with an increased amount of the other.",
+      "rationale": "The negative slope means that to keep output constant (stay on the same isoquant), if the firm uses more of one input (e.g., Labour), it must use less of the other input (Capital). An upward slope would imply the same output could be produced with fewer or more inputs, which is inefficient and contradictory to the definition of the curve.",
+      "marks": 3
+    },
+    {
+      "id": "mc6",
+      "type": "multipleChoice",
+      "question": "Consider a standard convex isoquant map. A movement from a point A on Q1 to a point B on Q2, where Q2 > Q1, necessitates:",
+      "options": [
+        "An increase in only one input, while keeping the other fixed.",
+        "A reduction in the Marginal Rate of Technical Substitution.",
+        "An increase in the usage of at least one input, or both, to achieve a higher output level.",
+        "A higher input usage for the same output level."
+      ],
+      "answer": "An increase in the usage of at least one input, or both, to achieve a higher output level.",
+      "rationale": "Isoquants farther from the origin (like Q2) represent a greater level of output, which requires higher input usage. Therefore, moving to a higher isoquant requires increasing the quantity of at least one input, or both.",
+      "marks": 2
+    },
+    {
+      "id": "mc7",
+      "type": "multipleChoice",
+      "question": "If an isoquant is a straight, downward-sloping line, what is true regarding the Marginal Rate of Technical Substitution (MRTS) and the nature of the inputs?",
+      "options": [
+        "The MRTS is diminishing, and the inputs are imperfect substitutes.",
+        "The MRTS is constant, and the inputs are perfectly substitutable.",
+        "The MRTS is increasing, and the inputs are perfectly complementary.",
+        "The MRTS must be zero, as the isoquant has a constant slope."
+      ],
+      "answer": "The MRTS is constant, and the inputs are perfectly substitutable.",
+      "rationale": "A straight-line isoquant has a constant absolute slope, meaning the MRTS is constant. This indicates that the inputs can be substituted for one another at a fixed rate while maintaining output, defining them as perfectly substitutable inputs.",
+      "marks": 3
+    },
+    {
+      "id": "mc8",
+      "type": "multipleChoice",
+      "question": "Which mathematical operation is used to derive the Marginal Product of Labour (MPL) from the long-run production function Q = f(K, L)?",
+      "options": [
+        "Integration of the production function with respect to L.",
+        "The total differential of the production function.",
+        "The partial derivative of Q with respect to L.",
+        "The ordinary derivative of Q with respect to L."
+      ],
+      "answer": "The partial derivative of Q with respect to L.",
+      "rationale": "MPL is the change in Q resulting from a small change in L, holding K constant. This is mathematically defined as the partial derivative of Q with respect to L (∂Q/∂L).",
+      "marks": 2
+    },
+    {
+      "id": "mc9",
+      "type": "multipleChoice",
+      "question": "The Law of Diminishing Marginal Rate of Technical Substitution (MRTS) is directly responsible for which visual property of the typical isoquant curve?",
+      "options": [
+        "Its negative slope.",
+        "Its non-intersection property.",
+        "Its convexity to the origin.",
+        "Its position relative to other isoquants."
+      ],
+      "answer": "Its convexity to the origin.",
+      "rationale": "The diminishing MRTS means that as a firm moves down the isoquant (using more L and less K), it is willing to give up less and less Capital (K) to gain an extra unit of Labour (L). This curvature, where the slope becomes flatter, is the definition of convexity to the origin.",
+      "marks": 3
+    },
+    {
+      "id": "mc10",
+      "type": "multipleChoice",
+      "question": "The application of isoquants in production theory is analogous to the use of which concept in consumer theory?",
+      "options": [
+        "Budget lines.",
+        "Demand curves.",
+        "Indifference curves.",
+        "Production possibility frontiers."
+      ],
+      "answer": "Indifference curves.",
+      "rationale": "Isoquants show combinations of inputs that yield the same level of output, similar to how indifference curves show combinations of goods that yield the same level of utility.",
+      "marks": 2
+    },
+    {
+      "id": "mc11",
+      "type": "multipleChoice",
+      "question": "If a firm is at a point on a convex isoquant where the MRTS L K is high, it suggests the firm has a relative abundance of which input, and therefore a high Marginal Product (MP) for the other input?",
+      "options": [
+        "Abundance of Labour (L); high MPK.",
+        "Abundance of Capital (K); high MPL.",
+        "Abundance of Capital (K); high MPK.",
+        "Abundance of Labour (L); high MPL."
+      ],
+      "answer": "Abundance of Capital (K); high MPL.",
+      "rationale": "A high MRTS L K (MPL / MPK) means the firm is willing to give up a large amount of K to get a small amount of L. This occurs when the firm has an abundance of K and therefore the marginal benefit of another unit of K (MPK) is low, while the marginal benefit of another unit of L (MPL) is high.",
+      "marks": 3
+    },
+    {
+      "id": "mc12",
+      "type": "multipleChoice",
+      "question": "Consider two convex isoquants, Q1 and Q2, where Q2 is further from the origin than Q1. If a firm moves from a point on Q1 to a point on Q2, which statement is definitively true?",
+      "options": [
+        "The firm's input costs have increased.",
+        "The firm's total output has increased (Q2 > Q1).",
+        "The firm has experienced a technological improvement.",
+        "The firm's Marginal Rate of Technical Substitution has decreased."
+      ],
+      "answer": "The firm's total output has increased (Q2 > Q1).",
+      "rationale": "A property of isoquants is that curves farther from the origin represent a greater level of output, because higher input usage leads to higher output.",
+      "marks": 2
+    },
+    {
+      "id": "mc13",
+      "type": "multipleChoice",
+      "question": "The absolute value of the slope of a convex isoquant is equal to the ratio of the inputs' marginal products. As the firm moves down the isoquant (increasing Labour), the absolute slope decreases. This is mathematically expressed as:",
+      "options": [
+        "Change in Capital / Change in Labour = Constant",
+        "MPL / MPK decreases",
+        "MPK / MPL increases",
+        "Marginal Cost of Labour / Marginal Cost of Capital decreases"
+      ],
+      "answer": "MPL / MPK decreases",
+      "rationale": "The absolute slope is MRTS L K = MPL / MPK. As the firm moves down the isoquant, the MRTS L K is diminishing (Law of Diminishing MRTS), meaning the ratio MPL / MPK is decreasing.",
+      "marks": 3
+    },
+    {
+      "id": "mc14",
+      "type": "multipleChoice",
+      "question": "If a firm's isoquant exhibits convexity to the origin, this is primarily because the two inputs are considered:",
+      "options": [
+        "Perfect substitutes.",
+        "Perfect complements.",
+        "Imperfection substitutes.",
+        "Non-substitutable."
+      ],
+      "answer": "Imperfection substitutes.",
+      "rationale": "The convex shape, and the resulting diminishing MRTS, occurs when the two inputs are imperfect substitutes, meaning they are not perfectly interchangeable, and their relative marginal product changes as the input mix changes.",
+      "marks": 2
+    },
+    {
+      "id": "mc15",
+      "type": "multipleChoice",
+      "question": "The long-run production decision for a firm inherently involves which of the following characteristics that is absent in the short run?",
+      "options": [
+        "The requirement of diminishing returns to the variable factor.",
+        "The ability to vary the scale of the operation by changing all inputs.",
+        "A fixed ratio of Capital to Labour at all output levels.",
+        "The sole focus on output maximization regardless of cost."
+      ],
+      "answer": "The ability to vary the scale of the operation by changing all inputs.",
+      "rationale": "The defining feature of the long run is that all inputs are variable, allowing the firm to change its overall scale of production, which is not possible in the short run where at least one input is fixed.",
+      "marks": 3
+    },
+    {
+      "id": "dd1",
+      "type": "dropdown",
+      "question": "The Long-run production function is typically given by Q = f([dropdown_1], L), where [dropdown_2] represents capital and is a variable input.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["C", "T", "R", "K"],
+          "correctAnswer": "K"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["L", "Q", "K", "C"],
+          "correctAnswer": "K"
+        }
+      ],
+      "rationale": "The long-run production function is Q = f(K, L), where K is capital and L is labour, and both are variable.",
+      "marks": 4
+    },
+    {
+      "id": "dd2",
+      "type": "dropdown",
+      "question": "For perfect complementary inputs, the isoquant is [dropdown_1] shaped, and efficient production can only occur at a [dropdown_2] ratio of inputs.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["downward sloping", "straight line", "right angled", "concave"],
+          "correctAnswer": "right angled"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["variable", "fixed", "increasing", "decreasing"],
+          "correctAnswer": "fixed"
+        }
+      ],
+      "rationale": "Perfect complements have right-angled isoquants, meaning production is only efficient at a specific, fixed input ratio.",
+      "marks": 4
+    },
+    {
+      "id": "dd3",
+      "type": "dropdown",
+      "question": "If the Marginal Rate of Technical Substitution of Labour for Capital (MRTS L K) is defined as the absolute slope of the isoquant, it can be mathematically expressed as the ratio of the change in [dropdown_1] divided by the change in [dropdown_2].",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["Output (Q)", "Capital (K)", "Labour (L)", "Cost"],
+          "correctAnswer": "Capital (K)"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["Output (Q)", "Capital (K)", "Labour (L)", "Cost"],
+          "correctAnswer": "Labour (L)"
+        }
+      ],
+      "rationale": "MRTS L K is the rate at which K can be substituted for L while keeping output constant, calculated as the absolute value of Delta K / Delta L.",
+      "marks": 4
+    },
+    {
+      "id": "fb1",
+      "type": "fillInBlank",
+      "question": "An Isoquant shows all efficient combinations of labour and capital that can produce a single level of ________.",
+      "answer": "output",
+      "rationale": "An isoquant by definition represents a single, constant level of output, hence the term 'iso' (equal) and 'quant' (quantity/output).",
+      "marks": 2
+    },
+    {
+      "id": "fb2",
+      "type": "fillInBlank",
+      "question": "In the long-run, the production function Q = f(K, L) shows that both capital and labour inputs are ________.",
+      "answer": "variable",
+      "rationale": "The long-run is defined as the period in which all factors of production, K and L, are variable.",
+      "marks": 2
+    },
+    {
+      "id": "fb3",
+      "type": "fillInBlank",
+      "question": "Isoquant curves that are further from the origin represent a ________ level of output.",
+      "answer": "greater",
+      "rationale": "Higher input usage, represented by curves further out, results in a greater level of output.",
+      "marks": 2
+    },
+    {
+      "id": "ms1",
+      "type": "multiSelect",
+      "question": "Which of the following are essential properties of a standard isoquant curve?",
+      "options": [
+        "Must be concave to the origin.",
+        "Slope downward.",
+        "Do not intersect each other.",
+        "Curves farther from the origin represent lower output."
+      ],
+      "answer": ["Slope downward.", "Do not intersect each other."],
+      "rationale": "Isoquants must slope downward and cannot intersect. They are typically convex, not concave, and curves farther out represent *higher* output.",
+      "marks": 3
+    },
+    {
+      "id": "ms2",
+      "type": "multiSelect",
+      "question": "If two inputs are perfectly substitutable, which of the following geometric and technical conditions are true for the isoquant?",
+      "options": [
+        "The isoquant is a straight, downward-sloping line.",
+        "The Marginal Rate of Technical Substitution (MRTS) is diminishing.",
+        "The MRTS is constant.",
+        "The isoquant is L-shaped (right-angled)."
+      ],
+      "answer": ["The isoquant is a straight, downward-sloping line.", "The MRTS is constant."],
+      "rationale": "Perfect substitutability is represented by a straight-line isoquant, which means the absolute slope, or MRTS, is constant.",
+      "marks": 3
+    },
+    {
+      "id": "ms3",
+      "type": "multiSelect",
+      "question": "Based on the formula MRTS L K = MPL / MPK, which of the following statements must be true for the Law of Diminishing MRTS to hold as Labour (L) increases along an isoquant?",
+      "options": [
+        "MPL must increase.",
+        "MPK must decrease.",
+        "The relative rate of MPL decreasing must be greater than MPK increasing.",
+        "The ratio MPL / MPK must decrease."
+      ],
+      "answer": ["The ratio MPL / MPK must decrease."],
+      "rationale": "The Law of Diminishing MRTS means the MRTS L K (the ratio MPL / MPK) must decrease as L increases and K decreases along the curve, reflecting the decreasing willingness to trade K for L.",
+      "marks": 3
+    },
+    {
+      "id": "match1",
+      "type": "matching",
+      "question": "Match the isoquant shape with the characteristic of its inputs.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Straight line, downward sloping",
+          "right": "Perfectly substitutable inputs"
+        },
+        {
+          "id": "pair2",
+          "left": "Convex to the origin",
+          "right": "Imperfectly substitutable inputs"
+        },
+        {
+          "id": "pair3",
+          "left": "Right-angled (L-shaped)",
+          "right": "Perfect complementary inputs"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "match2",
+      "type": "matching",
+      "question": "Match the mathematical expression with its economic definition.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "MPL",
+          "right": "Partial derivative of Q with respect to L"
+        },
+        {
+          "id": "pair2",
+          "left": "MRTS L K",
+          "right": "Ratio of MPL to MPK"
+        },
+        {
+          "id": "pair3",
+          "left": "Q = f(K, L)",
+          "right": "Long-run production function"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "match3",
+      "type": "matching",
+      "question": "Match the economic concept with its consumer theory analogy.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Isoquant",
+          "right": "Indifference curve"
+        },
+        {
+          "id": "pair2",
+          "left": "Inputs (K, L)",
+          "right": "Goods consumed (X, Y)"
+        },
+        {
+          "id": "pair3",
+          "left": "Level of Output (Q)",
+          "right": "Level of Utility (U)"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "essay1",
+      "type": "essay",
+      "question": "A manager notices that moving from point A to point B along an isoquant requires giving up 3 units of capital for 1 unit of labour (MRTS = 3), but moving from point B to point C requires giving up only 1 unit of capital for 2 units of labour (MRTS = 0.5). Explain how this observation supports the concept of the Law of Diminishing Marginal Rate of Technical Substitution and the typical convex shape of the isoquant.",
+      "idealKeywords": ["diminishing MRTS", "convexity", "relative abundance", "MPL/MPK ratio", "slope decreasing"],
+      "marks": 5
+    },
+    {
+      "id": "essay2",
+      "type": "essay",
+      "question": "Discuss the implication of a firm's long-run production function being represented by Q = f(K, L) where both inputs are variable. How does this 'all inputs are variable' characteristic fundamentally change the firm's strategic production decisions compared to the short run?",
+      "idealKeywords": ["scale of operation", "factor substitution flexibility", "cost minimization", "all inputs variable", "no fixed factors"],
+      "marks": 5
+    },
+    {
+      "id": "essay3",
+      "type": "essay",
+      "question": "Explain the underlying logic for the rule that isoquant curves cannot intersect. Use a logical inconsistency argument involving two hypothetical intersecting isoquants, Q1 and Q2, to demonstrate why this property must hold for efficient production theory.",
+      "idealKeywords": ["efficient production", "single input combination", "two output levels", "logical inconsistency", "definition of isoquant"],
+      "marks": 5
+    }
+  ]
+}

@@ -1,0 +1,446 @@
+{
+  "id": "quiz-oligopoly-ii",
+  "title": "Chapter 3.4 – Oligopoly (Part II): Price Leadership and Cartel",
+  "description": "Examines the complex dynamics of implicit collusion (Price Leadership) and explicit collusion (Cartels) within oligopoly markets, testing conceptual and applied understanding.",
+  "subject": "BEC1370 - Microeconomics",
+  "gradientColors": ["#0582e9", "#004d9c", "#002b55", "#001a33"],
+  "timeOptions": [10, 20, 30],
+  "totalMarks": 65,
+  "weight": 0,
+  "category": "lesson",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multipleChoice",
+      "question": "In the Price Leadership by a Dominant Firm model, the dominant firm's demand curve (DL) is derived by subtracting which quantity from the total market demand (DM)?",
+      "options": [
+        "The quantity supplied by a monopoly firm at the market price.",
+        "The quantity supplied by all follower firms (SF) at the prevailing market price.",
+        "The quantity demanded by all consumers at the price set by the followers.",
+        "The marginal revenue of the dominant firm."
+      ],
+      "answer": "The quantity supplied by all follower firms (SF) at the prevailing market price.",
+      "rationale": "The dominant firm's demand is the residual demand: Market Demand minus the supply provided by the competitive follower firms.",
+      "marks": 2
+    },
+    {
+      "id": "q2",
+      "type": "multipleChoice",
+      "question": "The primary advantage for a follower firm in an oligopoly industry that adopts the price set by a leader firm is:",
+      "options": [
+        "Guaranteed monopolistic profits.",
+        "The avoidance of uncertainty regarding competitor price reactions.",
+        "The ability to set its own output level regardless of market demand.",
+        "Automatic government protection from competitive entry."
+      ],
+      "answer": "The avoidance of uncertainty regarding competitor price reactions.",
+      "rationale": "Following a set price is a form of implicit collusion that reduces the uncertainty inherent in oligopoly about how rivals will react to a price change.",
+      "marks": 2
+    },
+    {
+      "id": "q3",
+      "type": "multipleChoice",
+      "question": "Which of the following scenarios best represents the behavior of follower firms in the Price Leadership by a Dominant Firm model?",
+      "options": [
+        "They set their price based on their own Marginal Revenue and Marginal Cost.",
+        "They engage in vigorous price competition with the dominant firm.",
+        "They take the market price set by the leader as given and behave as perfect competitors.",
+        "They explicitly agree with the leader on output quotas."
+      ],
+      "answer": "They take the market price set by the leader as given and behave as perfect competitors.",
+      "rationale": "Follower firms accept the leader's price and act as price takers, expanding output until price equals their marginal cost, similar to perfect competition.",
+      "marks": 2
+    },
+    {
+      "id": "q4",
+      "type": "multipleChoice",
+      "question": "A key difference between Price Leadership and a Cartel is that Price Leadership involves:",
+      "options": [
+        "An explicit, formal agreement on output quotas.",
+        "Implicit collusion to reduce vigorous price competition.",
+        "Less profit for the industry as a whole.",
+        "A market structure closer to perfect competition."
+      ],
+      "answer": "Implicit collusion to reduce vigorous price competition.",
+      "rationale": "Price leadership is a form of implicit collusion, where firms follow a leader's price without formal agreement. A cartel, conversely, involves explicit agreement and coordination.",
+      "marks": 2
+    },
+    {
+      "id": "q5",
+      "type": "multipleChoice",
+      "question": "If a cartel successfully restricts output and raises prices, the cartel members collectively earn the maximum possible profit, which is equivalent to the profit of a:",
+      "options": ["Perfectly competitive industry.", "Monopsonist.", "Monopoly.", "Monopolistically competitive industry."],
+      "answer": "Monopoly.",
+      "rationale": "By cooperating and coordinating like a single entity, a cartel aims to behave as a monopoly to maximize collective profit.",
+      "marks": 2
+    },
+    {
+      "id": "q6",
+      "type": "multipleChoice",
+      "question": "The primary incentive for an individual firm to cheat on a cartel agreement is the potential to:",
+      "options": [
+        "Lower the price for all members and maintain market share.",
+        "Increase its own individual profit by exceeding its output quota.",
+        "Force the non-cartel members out of the market.",
+        "Avoid detection and punishment from the government."
+      ],
+      "answer": "Increase its own individual profit by exceeding its output quota.",
+      "rationale": "Each member has an incentive to produce more than their quota. If the firm produces slightly more while others adhere, the market price remains high, and the cheater earns greater individual profit.",
+      "marks": 2
+    },
+    {
+      "id": "q7",
+      "type": "multipleChoice",
+      "question": "Which form of Price Leadership is most likely to be used by firms in an industry with relatively similar cost structures and market shares?",
+      "options": [
+        "Price Leadership by a Dominant Firm.",
+        "Price Leadership by a Low-Cost Firm.",
+        "Barometric Price Leadership.",
+        "Explicit Collusion Price Leadership."
+      ],
+      "answer": "Barometric Price Leadership.",
+      "rationale": "Barometric price leadership often occurs when a firm, not necessarily the largest or lowest-cost, acts as a barometer by being the first to announce price changes, which others then follow, often in industries where costs are similar or market uncertainty is high.",
+      "marks": 2
+    },
+    {
+      "id": "q8",
+      "type": "multipleChoice",
+      "question": "Consider a Dominant Firm Price Leadership model. If the dominant firm’s marginal cost (MCL) curve shifts down (decreases), what is the most likely long-term outcome for the equilibrium price (P*) and the quantity supplied by the followers (QF)?",
+      "options": [
+        "P* increases; QF decreases.",
+        "P* decreases; QF increases.",
+        "P* increases; QF increases.",
+        "P* decreases; QF decreases."
+      ],
+      "answer": "P* decreases; QF decreases.",
+      "rationale": "A lower MCL for the leader will lead the leader to set a lower equilibrium price (P*). Since follower firms take P* as given (P=MC), the lower price will cause them to reduce their individual output (QF).",
+      "marks": 3
+    },
+    {
+      "id": "q9",
+      "type": "multipleChoice",
+      "question": "According to Adam Smith, the fundamental economic incentive for firms to form a cartel is that each firm will:",
+      "options": [
+        "Be guaranteed immunity from legal prosecution.",
+        "Increase its output to gain economies of scale.",
+        "Reduce its output, leading to higher prices and higher profits collectively.",
+        "Gain a cost advantage over non-member firms."
+      ],
+      "answer": "Reduce its output, leading to higher prices and higher profits collectively.",
+      "rationale": "Smith noted that when people of the same trade meet, the conversation often 'ends in a conspiracy against the public, or some contrivance to raise prices.' This is achieved through output restriction.",
+      "marks": 3
+    },
+    {
+      "id": "q10",
+      "type": "multipleChoice",
+      "question": "A significant factor contributing to the failure of cartels, even when all members initially agree, is the presence of:",
+      "options": [
+        "Government support and enforcement of the cartel agreement.",
+        "High barriers to entry preventing new firms from joining.",
+        "The incentive for each member to cheat by overproducing.",
+        "A lack of market demand for the cartel's product."
+      ],
+      "answer": "The incentive for each member to cheat by overproducing.",
+      "rationale": "The inherent instability of cartels stems from the strong individual incentive for each member to violate the agreement by increasing output to capture higher individual profits while the collective price remains high.",
+      "marks": 2
+    },
+    {
+      "id": "q11",
+      "type": "multipleChoice",
+      "question": "For a cartel to be effectively maintained over a long period, which of the following mechanisms is essential?",
+      "options": [
+        "A constant reduction in the market price.",
+        "The ability to detect and punish firms that violate the agreement.",
+        "An open-door policy allowing any firm to join at any time.",
+        "A shift from explicit to implicit collusion."
+      ],
+      "answer": "The ability to detect and punish firms that violate the agreement.",
+      "rationale": "Due to the incentive to cheat, maintaining a cartel requires robust mechanisms for detection of cheating and enforcement (punishment) of violators.",
+      "marks": 2
+    },
+    {
+      "id": "q12",
+      "type": "multipleChoice",
+      "question": "If non-cartel members (firms outside the agreement) significantly increase their supply to consumers, this development will most directly contribute to:",
+      "options": [
+        "Strengthening the cartel’s ability to set monopoly prices.",
+        "The failure of the cartel due to increased competition.",
+        "Increased profitability for all cartel members.",
+        "A shift from price leadership to a cartel structure."
+      ],
+      "answer": "The failure of the cartel due to increased competition.",
+      "rationale": "When non-cartel members supply large quantities, the market price drops, undermining the cartel's collective profit-maximizing strategy, thus contributing to its failure.",
+      "marks": 2
+    },
+    {
+      "id": "q13",
+      "type": "multipleChoice",
+      "question": "Which curve does the dominant firm in a Price Leadership model use, in conjunction with its Marginal Cost (MCL) curve, to determine the profit-maximizing output and price (P*)?",
+      "options": [
+        "Market Demand Curve (DM).",
+        "Supply Curve of the Followers (SF).",
+        "Marginal Revenue Curve of the Leader (MRL).",
+        "Average Total Cost Curve of the Leader (ATL)."
+      ],
+      "answer": "Marginal Revenue Curve of the Leader (MRL).",
+      "rationale": "The dominant firm maximizes profit where its Marginal Revenue (MRL, derived from DL) equals its Marginal Cost (MCL).",
+      "marks": 3
+    },
+    {
+      "id": "q14",
+      "type": "multipleChoice",
+      "question": "A key condition that helps maintain the stability and success of a cartel is:",
+      "options": [
+        "The constant entry of new, small firms.",
+        "High barriers to entry for non-cartel firms.",
+        "A perfectly elastic demand curve for the product.",
+        "Decentralized decision-making among all members."
+      ],
+      "answer": "High barriers to entry for non-cartel firms.",
+      "rationale": "High barriers to entry reduce the threat from non-cartel members supplying goods and undermining the agreed-upon price.",
+      "marks": 2
+    },
+    {
+      "id": "q15",
+      "type": "multipleChoice",
+      "question": "Which of the following forms of price leadership is characterized by one firm acting as a market indicator, announcing price changes that others follow, regardless of its size or cost structure?",
+      "options": [
+        "Price Leadership by a Dominant Firm.",
+        "Price Leadership by a Low-Cost Firm.",
+        "Barometric Price Leadership.",
+        "Collusive Price Leadership."
+      ],
+      "answer": "Barometric Price Leadership.",
+      "rationale": "Barometric price leadership involves a firm acting as a 'barometer' of market conditions, and its leadership is not necessarily based on its size or cost advantage.",
+      "marks": 2
+    },
+    {
+      "id": "q16",
+      "type": "dropdown",
+      "question": "The primary goal of a cartel is for its members to collectively earn the [dropdown_1] profit by agreeing to coordinate their output and set a common [dropdown_2], effectively behaving like a single [dropdown_3].",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["minimum possible", "long-run competitive", "maximum possible", "zero economic"],
+          "correctAnswer": "maximum possible"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["variable cost", "marginal cost", "price", "revenue"],
+          "correctAnswer": "price"
+        },
+        {
+          "id": "dropdown_3",
+          "options": ["perfect competitor", "monopolist", "duopolist", "oligopolist"],
+          "correctAnswer": "monopolist"
+        }
+      ],
+      "rationale": "Cartels aim for maximum possible profit (monopoly profit) by agreeing on output and price, acting as a single monopoly.",
+      "marks": 4
+    },
+    {
+      "id": "q17",
+      "type": "dropdown",
+      "question": "Price leadership is an example of [dropdown_1] collusion, which is [dropdown_2] common than [dropdown_3] agreements like cartels.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["explicit", "formal", "implicit", "illegal"],
+          "correctAnswer": "implicit"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["less", "equally", "more", "rarely"],
+          "correctAnswer": "more"
+        },
+        {
+          "id": "dropdown_3",
+          "options": ["implicit", "tacit", "explicit", "competitive"],
+          "correctAnswer": "explicit"
+        }
+      ],
+      "rationale": "Price leadership is implicit collusion, which is more common than explicit collusion like cartels.",
+      "marks": 4
+    },
+    {
+      "id": "q18",
+      "type": "dropdown",
+      "question": "In the Price Leadership by a Dominant Firm model, the dominant firm determines its optimal output where its Marginal Revenue is equal to its [dropdown_1]. This output is sold at the market price, which is then taken by the follower firms as their given [dropdown_2], leading them to behave as [dropdown_3].",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["Average Cost", "Marginal Cost", "Total Revenue", "Price"],
+          "correctAnswer": "Marginal Cost"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["Marginal Revenue", "Variable Cost", "Price", "Demand"],
+          "correctAnswer": "Price"
+        },
+        {
+          "id": "dropdown_3",
+          "options": ["monopolists", "oligopolists", "perfect competitors", "monopsonists"],
+          "correctAnswer": "perfect competitors"
+        }
+      ],
+      "rationale": "The leader sets MR=MC. The followers take the resulting price as given and behave like perfect competitors (P=MC).",
+      "marks": 4
+    },
+    {
+      "id": "q19",
+      "type": "fillInBlank",
+      "question": "Follower firms in the Price Leadership by a Dominant Firm model must know the market [answer] curve and the supply curve of the dominant firm to determine their residual demand.",
+      "answer": "demand",
+      "rationale": "The leader's demand is market demand minus the followers' supply; the follower's behavior is determined by the leader's price and the residual market demand.",
+      "marks": 2
+    },
+    {
+      "id": "q20",
+      "type": "fillInBlank",
+      "question": "A group of firms that explicitly agree to coordinate their activities on selling quantities or a common price is known as a [answer].",
+      "answer": "cartel",
+      "rationale": "A cartel is defined as a group of firms that explicitly collude to coordinate activities.",
+      "marks": 2
+    },
+    {
+      "id": "q21",
+      "type": "fillInBlank",
+      "question": "One of the major external reasons for the failure of a cartel is when [answer] members supply large quantities of goods to consumers, driving down the market price.",
+      "answer": "non-cartel",
+      "rationale": "Non-cartel members undermine the cartel's power by supplying goods and lowering the price.",
+      "marks": 2
+    },
+    {
+      "id": "q22",
+      "type": "multiSelect",
+      "question": "Select all factors that are necessary for the successful maintenance and stability of a cartel agreement over time.",
+      "options": [
+        "Low barriers to entry for new competitors.",
+        "Mechanisms for the detection of cheating among members.",
+        "The ability to enforce (punish) violators of the agreement.",
+        "Substantial government support for the collusive effort."
+      ],
+      "answer": ["Mechanisms for the detection of cheating among members.", "The ability to enforce (punish) violators of the agreement.", "Substantial government support for the collusive effort."],
+      "rationale": "Maintaining a cartel requires detection, enforcement, government support, and barriers to entry (low barriers to entry would destabilize it).",
+      "marks": 3
+    },
+    {
+      "id": "q23",
+      "type": "multiSelect",
+      "question": "Which of the following are recognized forms of price leadership in an oligopoly market?",
+      "options": [
+        "Price leadership by a Low-Cost Firm.",
+        "Price leadership by a Dominant Firm.",
+        "Price leadership by Government Regulation.",
+        "Barometric Price Leadership."
+      ],
+      "answer": ["Price leadership by a Low-Cost Firm.", "Price leadership by a Dominant Firm.", "Barometric Price Leadership."],
+      "rationale": "The three standard forms are Price leadership by a Dominant Firm, by a Low-Cost Firm, and Barometric Price Leadership.",
+      "marks": 3
+    },
+    {
+      "id": "q24",
+      "type": "multiSelect",
+      "question": "What are the two primary reasons that contribute to the inevitable failure of many cartels?",
+      "options": [
+        "The presence of high barriers to entry.",
+        "Each member's incentive to cheat on the agreement.",
+        "Non-cartel members supplying large quantities of goods.",
+        "The market's product being a public good."
+      ],
+      "answer": ["Each member's incentive to cheat on the agreement.", "Non-cartel members supplying large quantities of goods."],
+      "rationale": "The two cited reasons for failure are cheating by members and supply from non-cartel members.",
+      "marks": 3
+    },
+    {
+      "id": "q25",
+      "type": "matching",
+      "question": "Match the market structure characteristic with the appropriate oligopoly model.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Implicit collusion to reduce price competition.",
+          "right": "Price Leadership"
+        },
+        {
+          "id": "pair2",
+          "left": "Explicit agreement to coordinate activities.",
+          "right": "Cartel"
+        },
+        {
+          "id": "pair3",
+          "left": "Follower firms behave as perfect competitors.",
+          "right": "Dominant Firm Price Leadership"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q26",
+      "type": "matching",
+      "question": "Match the mechanism for cartel maintenance with its corresponding function.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Detection",
+          "right": "Identifying members who exceed their output quota."
+        },
+        {
+          "id": "pair2",
+          "left": "Enforcement",
+          "right": "Punishing violators of the cartel agreement."
+        },
+        {
+          "id": "pair3",
+          "left": "Barriers to Entry",
+          "right": "Limiting the supply from non-cartel members."
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q27",
+      "type": "matching",
+      "question": "Match the firm's behavior to its role in the Dominant Firm Price Leadership model.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Dominant Firm (Leader)",
+          "right": "Sets price where MRL = MCL."
+        },
+        {
+          "id": "pair2",
+          "left": "Other Firms (Followers)",
+          "right": "Takes the market price as given."
+        },
+        {
+          "id": "pair3",
+          "left": "Dominant Firm's Demand (DL)",
+          "right": "Market Demand minus Follower Supply."
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q28",
+      "type": "essay",
+      "question": "Analyze and explain the fundamental conflict that makes a cartel inherently unstable, even though its members collectively benefit. What is the individual firm's economic rationale for violating the explicit agreement?",
+      "idealKeywords": ["incentive to cheat", "individual profit", "collective profit", "output quota", "market price", "prisoner's dilemma"],
+      "marks": 5
+    },
+    {
+      "id": "q29",
+      "type": "essay",
+      "question": "Compare and contrast the behavior and market power of the follower firms in the Dominant Firm Price Leadership model with firms operating in a perfectly competitive market. Use the P=MC principle in your explanation.",
+      "idealKeywords": ["price taker", "residual demand", "perfect competition", "P=MC", "price setting power", "market price given"],
+      "marks": 6
+    },
+    {
+      "id": "q30",
+      "type": "essay",
+      "question": "Discuss two distinct factors or conditions that can undermine the viability of a Price Leadership structure in an oligopoly over time, considering both internal and external market dynamics.",
+      "idealKeywords": ["cost structure changes", "barometric firm credibility", "non-compliance", "uncertainty reduction failure", "follower entry"],
+      "marks": 5
+    }
+  ]
+}

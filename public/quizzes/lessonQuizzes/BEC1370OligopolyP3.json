@@ -1,0 +1,505 @@
+{
+  "id": "quiz-CournotsDuopolyModel",
+  "title": "Chapter 3.5 – OLIGOPOLY (Part III): Cournot's Duopoly Model",
+  "description": "Tests conceptual understanding and application of Cournot's Duopoly Model, including equilibrium, reaction curves, and algebraic derivation.",
+  "subject": "BEC1370 - Microeconomics",
+  "gradientColors": [
+    "#004d40",
+    "#00796b",
+    "#33aba0",
+    "#66d8cf"
+  ],
+  "timeOptions": [
+    10,
+    20,
+    30
+  ],
+  "totalMarks": 68,
+  "weight": 0,
+  "category": "lesson",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multipleChoice",
+      "question": "In the original Cournot Duopoly Model, what is the core assumption regarding how each firm sets its quantity?",
+      "options": [
+        "Each firm assumes its rival will simultaneously reduce output to increase the market price.",
+        "Each firm assumes its rival will maintain its current quantity, and then sets its own profit-maximizing quantity.",
+        "Each firm colludes to set a total industry quantity that mimics a monopoly outcome.",
+        "Each firm anticipates its rival's exact reaction function and uses it to set a Stackelberg leader output."
+      ],
+      "answer": "Each firm assumes its rival will maintain its current quantity, and then sets its own profit-maximizing quantity.",
+      "rationale": "The foundational assumption of Cournot is that firms set their quantity independently and simultaneously, assuming the competitor's output is fixed, which drives the reaction and counter-reaction process.",
+      "marks": 2
+    },
+    {
+      "id": "q2",
+      "type": "multipleChoice",
+      "question": "The Cournot equilibrium is achieved when a stable state is reached after 'several actions and reactions'. This equilibrium is formally defined by which economic concept?",
+      "options": [
+        "Perfect Competition Outcome",
+        "Bertrand Paradox",
+        "Nash Equilibrium",
+        "Monopoly Outcome"
+      ],
+      "answer": "Nash Equilibrium",
+      "rationale": "The stable state where neither firm can unilaterally increase its profit by changing its quantity, given the other's quantity, is the Nash-Cournot Equilibrium.",
+      "marks": 2
+    },
+    {
+      "id": "q3",
+      "type": "multipleChoice",
+      "question": "If the original Cournot assumptions are relaxed to allow for non-identical costs, which analytical tool becomes more powerful for determining the equilibrium?",
+      "options": [
+        "The assumption of identical products is enforced.",
+        "The reaction curve approach.",
+        "The total market demand curve is used exclusively.",
+        "The constant marginal cost assumption is strictly maintained."
+      ],
+      "answer": "The reaction curve approach.",
+      "rationale": "The reaction curve approach is noted as a more powerful method of analysis because it allows the relaxation of assumptions like identical costs and identical demands.",
+      "marks": 2
+    },
+    {
+      "id": "q4",
+      "type": "multipleChoice",
+      "question": "In the Cournot Duopoly model, the residual demand curve for Firm A is found by subtracting:",
+      "options": [
+        "Firm A's supply from the total market demand.",
+        "Firm B's believed supply from the total market demand.",
+        "The industry marginal cost from the market price.",
+        "Firm A's marginal revenue from its marginal cost."
+      ],
+      "answer": "Firm B's believed supply from the total market demand.",
+      "rationale": "The residual demand curve for a firm represents the total market demand minus the quantity the rival firm is expected to supply (qLitro = 339 - P - qLaugh).",
+      "marks": 2
+    },
+    {
+      "id": "q5",
+      "type": "multipleChoice",
+      "question": "Which of the following conditions is necessary to derive a firm's 'best response curve' in the Cournot Duopoly Model?",
+      "options": [
+        "Setting Price equal to Marginal Cost (P = MC).",
+        "Setting Marginal Revenue of the residual demand equal to Marginal Cost (MRr = MC).",
+        "Setting Price equal to Average Cost (P = AC).",
+        "Setting Total Revenue equal to Total Cost (TR = TC)."
+      ],
+      "answer": "Setting Marginal Revenue of the residual demand equal to Marginal Cost (MRr = MC).",
+      "rationale": "A firm maximizes its profit by setting the marginal revenue derived from its residual demand curve (MRr) equal to its marginal cost (MC). This condition is used to derive the best response curve.",
+      "marks": 2
+    },
+    {
+      "id": "q6",
+      "type": "multipleChoice",
+      "question": "Referring to the algebraic example (Q=339-P and MC=147), what does the Q Litro = 96 – 1/2 q Laugh equation represent?",
+      "options": [
+        "Litro's marginal cost function.",
+        "Laugh's total demand curve.",
+        "Litro's best response curve.",
+        "The total Nash-Cournot equilibrium quantity."
+      ],
+      "answer": "Litro's best response curve.",
+      "rationale": "The equation q Litro = 96 – 1/2 q Laugh is derived from setting MRr = MC and rearranging, making it Litro's profit-maximizing output conditional on Laugh's output. This is Litro's best response curve.",
+      "marks": 2
+    },
+    {
+      "id": "q7",
+      "type": "multipleChoice",
+      "question": "If Litro's best response curve is Q Litro = 96 – 1/2 Q Laugh and Laugh's is Q Laugh = 96 – 1/2 Q Litro, what is the significance of the point where Q Laugh equals 0?",
+      "options": [
+        "It represents the total market quantity.",
+        "It represents the monopoly quantity (QM) Litro would produce.",
+        "It represents the minimum efficient scale of production.",
+        "It represents the quantity Litro would produce in a perfectly competitive market."
+      ],
+      "answer": "It represents the monopoly quantity (QM) Litro would produce.",
+      "rationale": "If Q Laugh = 0, then Q Litro = 96 – 1/2 (0) = 96. This is the quantity Litro would supply if they were a monopoly in the market, as Q Laugh is defined as the monopoly quantity on the graph.",
+      "marks": 3
+    },
+    {
+      "id": "q8",
+      "type": "multipleChoice",
+      "question": "In the graphical representation of the Cournot Model, what is true about the slope of a firm's best response curve?",
+      "options": [
+        "It is always positive, indicating collusion.",
+        "It is always steeper than the market demand curve, indicating inefficiency.",
+        "It is negative, indicating a strategic substitute relationship.",
+        "It is horizontal, indicating output is independent of the rival's quantity."
+      ],
+      "answer": "It is negative, indicating a strategic substitute relationship.",
+      "rationale": "The negative slope (e.g., -1/2) in the best response function (q Litro = 96 – 1/2 q Laugh) means that as the rival's output increases, the firm's profit-maximizing output decreases. This is a strategic substitute relationship.",
+      "marks": 3
+    },
+    {
+      "id": "q9",
+      "type": "multipleChoice",
+      "question": "Based on the calculation of q Litro = 64 at equilibrium, what would the market price P be, given the total demand Q = 339 - P and identical equilibrium outputs for both firms?",
+      "options": [
+        "P = 147",
+        "P = 211",
+        "P = 250",
+        "P = 275"
+      ],
+      "answer": "P = 211",
+      "rationale": "Total market quantity Q = q Litro + q Laugh = 64 + 64 = 128. Market demand is Q = 339 - P, so P = 339 - Q. P = 339 - 128 = 211.",
+      "marks": 3
+    },
+    {
+      "id": "q10",
+      "type": "multipleChoice",
+      "question": "If Company A produces its Cournot equilibrium quantity, and Company B unilaterally decides to produce the monopoly quantity (QM), what would be the immediate outcome for Company A, assuming Company A adheres to its best response function?",
+      "options": [
+        "Company A would increase its output.",
+        "Company A would reduce its output.",
+        "Company A's profit would increase.",
+        "The market would instantly reach a new Cournot equilibrium."
+      ],
+      "answer": "Company A would reduce its output.",
+      "rationale": "Since Company B's output is now higher (QM > qLaugh equilibrium), Company A, following its best response curve (Q Litro = 96 – 1/2 Q Laugh), would react by reducing its own output.",
+      "marks": 3
+    },
+    {
+      "id": "q11",
+      "type": "multipleChoice",
+      "question": "What is the primary difference in the firms' strategic variables between the Cournot Model and the Bertrand Model (a related oligopoly model)?",
+      "options": [
+        "Cournot firms choose Price; Bertrand firms choose Quantity.",
+        "Cournot firms choose Quantity; Bertrand firms choose Price.",
+        "Cournot firms collude; Bertrand firms compete independently.",
+        "Cournot firms have identical costs; Bertrand firms have different costs."
+      ],
+      "answer": "Cournot firms choose Quantity; Bertrand firms choose Price.",
+      "rationale": "Cournot is a quantity-setting model where firms simultaneously choose quantities, while Bertrand is a price-setting model.",
+      "marks": 2
+    },
+    {
+      "id": "q12",
+      "type": "multipleChoice",
+      "question": "The assumption that firms in the Cournot model 'are assumed never to learn from past experience' directly supports the logic for which critical element of the model?",
+      "options": [
+        "The requirement for identical products.",
+        "The use of the reaction curve approach.",
+        "The simultaneous and independent quantity choices.",
+        "The non-entry assumption for other firms."
+      ],
+      "answer": "The simultaneous and independent quantity choices.",
+      "rationale": "The lack of learning reinforces the assumption that in each period, a firm makes its quantity decision based only on the belief that the rival's output will remain unchanged, rather than anticipating their future reaction.",
+      "marks": 2
+    },
+    {
+      "id": "q13",
+      "type": "multipleChoice",
+      "question": "What is represented by the intersection of the two best-response curves in the graphical approach of the Cournot Model?",
+      "options": [
+        "The point of maximum joint profit (collusion).",
+        "The perfectly competitive equilibrium.",
+        "The Nash-Cournot equilibrium.",
+        "The quantity supplied if marginal cost was zero."
+      ],
+      "answer": "The Nash-Cournot equilibrium.",
+      "rationale": "The Nash-Cournot equilibrium occurs at the intersection of the best-response curves, where each firm is producing its best response given the other firm's output.",
+      "marks": 2
+    },
+    {
+      "id": "q14",
+      "type": "multipleChoice",
+      "question": "If the marginal cost (MC) in the algebraic example were lower than 147, how would the equilibrium output (q Litro = 64) change?",
+      "options": [
+        "The equilibrium output would remain 64.",
+        "The equilibrium output would increase.",
+        "The equilibrium output would decrease.",
+        "The best response curve would become steeper."
+      ],
+      "answer": "The equilibrium output would increase.",
+      "rationale": "A lower marginal cost would shift the best response curve outward (to the right). Since the intersection point would move further from the origin along a lower-cost reaction curve, the equilibrium quantity for both firms would increase.",
+      "marks": 3
+    },
+    {
+      "id": "q15",
+      "type": "multipleChoice",
+      "question": "A key characteristic of an oligopoly market, as illustrated by the Cournot model, is that:",
+      "options": [
+        "Each firm ignores the strategic actions of its competitors.",
+        "Firms are price takers, not price makers.",
+        "Each firm's profit-maximizing decision depends on the actions of its rival.",
+        "Entry and exit are perfectly free and costless."
+      ],
+      "answer": "Each firm's profit-maximizing decision depends on the actions of its rival.",
+      "rationale": "Oligopoly is characterized by interdependence. In Cournot, Firm A's profit-maximizing quantity is a function of Firm B's quantity (the reaction curve), demonstrating this interdependence.",
+      "marks": 2
+    },
+    {
+      "id": "q16",
+      "type": "dropdown",
+      "question": "The reaction curve is also known as the [dropdown_1] because it shows the optimal output for a firm assuming the [dropdown_2] output is given.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "Total Demand Curve",
+            "Conditional Marginal Profit Function",
+            "Market Supply Function",
+            "Monopoly Profit Curve"
+          ],
+          "correctAnswer": "Conditional Marginal Profit Function"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "industry's",
+            "rival's",
+            "monopolist's",
+            "competitive"
+          ],
+          "correctAnswer": "rival's"
+        }
+      ],
+      "rationale": "The reaction curve is defined as the Conditional Marginal Profit Function of one firm, assuming that the other firm's output is given.",
+      "marks": 4
+    },
+    {
+      "id": "q17",
+      "type": "dropdown",
+      "question": "The Cournot Duopoly Model was first introduced in [dropdown_1] by the economist [dropdown_2].",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "1938",
+            "1838",
+            "1776",
+            "1950"
+          ],
+          "correctAnswer": "1838"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "John Nash",
+            "Augustin Cournot",
+            "Adam Smith",
+            "Joseph Bertrand"
+          ],
+          "correctAnswer": "Augustin Cournot"
+        }
+      ],
+      "rationale": "The model was introduced by the French economist Augustin Cournot in 1838.",
+      "marks": 4
+    },
+    {
+      "id": "q18",
+      "type": "dropdown",
+      "question": "To solve for the Nash Equilibrium quantities in the algebraic approach, one must [dropdown_1] the two firms' best response functions and then [dropdown_2] the resulting value into one of the functions.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "subtract",
+            "set equal to each other (substitute)",
+            "multiply",
+            "graph"
+          ],
+          "correctAnswer": "set equal to each other (substitute)"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "ignore",
+            "substitute",
+            "re-calculate",
+            "divide"
+          ],
+          "correctAnswer": "substitute"
+        }
+      ],
+      "rationale": "The Nash Equilibrium is found algebraically by substituting one reaction curve into the other (which is the same as setting them equal to solve the system of equations), then substituting the first calculated quantity back into one of the functions to find the second.",
+      "marks": 4
+    },
+    {
+      "id": "q19",
+      "type": "fillInBlank",
+      "question": "The first step in the formal algebraic approach of the Cournot Model is to determine the total market demand and the ________ demand of a firm given the rival's expected sales.",
+      "answer": "residual",
+      "rationale": "Step 01 is to determine the total demand and the residual demand of a firm given the firm's belief about how much its rival will sell.",
+      "marks": 2
+    },
+    {
+      "id": "q20",
+      "type": "fillInBlank",
+      "question": "The quantity a firm would supply if it were operating as a single firm in the market is labeled as ________ on the Cournot graphical model.",
+      "answer": "QM",
+      "rationale": "QM is defined as the 'Quantity a firm would supply if they were a monopoly' on the graph.",
+      "marks": 2
+    },
+    {
+      "id": "q21",
+      "type": "fillInBlank",
+      "question": "The Cournot equilibrium is a set of quantities such that, holding the quantities of all other firms constant, no firm can obtain a higher profit by choosing a ________ quantity.",
+      "answer": "different",
+      "rationale": "The Nash-Cournot Equilibrium is a set of quantities chosen by firms such that, holding the quantities of all other firms constant, no firm can obtain a higher profit by choosing a different quantity.",
+      "marks": 2
+    },
+    {
+      "id": "q22",
+      "type": "multiSelect",
+      "question": "Which of the following are explicit assumptions of the *original* Cournot Duopoly Model?",
+      "options": [
+        "Firms sell identical products.",
+        "Firms have identical costs.",
+        "Firms choose price independently and simultaneously.",
+        "There are two firms and no other firm can enter."
+      ],
+      "answer": [
+        "Firms sell identical products.",
+        "Firms have identical costs.",
+        "There are two firms and no other firm can enter."
+      ],
+      "rationale": "The assumptions include two firms with no entry, identical products, identical costs, and independent, simultaneous quantity choice.",
+      "marks": 3
+    },
+    {
+      "id": "q23",
+      "type": "multiSelect",
+      "question": "Which steps are required in the overall process of determining the Nash-Cournot equilibrium quantities using the algebraic approach?",
+      "options": [
+        "Determine the total demand and the residual demand curve.",
+        "Determine the firm's best response functions.",
+        "Find the point where the residual demand equals the marginal cost.",
+        "Use each best response function to determine the Nash-Cournot equilibrium quantities."
+      ],
+      "answer": [
+        "Determine the total demand and the residual demand curve.",
+        "Determine the firm's best response functions.",
+        "Use each best response function to determine the Nash-Cournot equilibrium quantities."
+      ],
+      "rationale": "The steps are: 1) Determine demand/residual demand, 2) Determine best response functions (by setting MRr = MC), and 3) Use best response functions to find the Nash-Cournot equilibrium quantities.",
+      "marks": 3
+    },
+    {
+      "id": "q24",
+      "type": "multiSelect",
+      "question": "Based on the algebraic example (Q=339-P and MC=147, equilibrium output = 64), which statements are TRUE about the market price and profit in Cournot Duopoly compared to a perfect monopoly outcome?",
+      "options": [
+        "The Cournot equilibrium price is higher than the monopoly price.",
+        "The Cournot equilibrium price is lower than the monopoly price.",
+        "The total quantity produced in Cournot is higher than the total quantity produced in a monopoly.",
+        "Each firm's individual profit is lower than the profit if they colluded (monopoly profit)."
+      ],
+      "answer": [
+        "The Cournot equilibrium price is lower than the monopoly price.",
+        "The total quantity produced in Cournot is higher than the total quantity produced in a monopoly.",
+        "Each firm's individual profit is lower than the profit if they colluded (monopoly profit)."
+      ],
+      "rationale": "Monopoly output QM = 96. Cournot total output is 128. Since quantity is higher in Cournot, the price (which is 211) must be lower than the monopoly price (which would be 243). A duopoly outcome is generally less profitable for each firm than collusion (monopoly).",
+      "marks": 3
+    },
+    {
+      "id": "q25",
+      "type": "matching",
+      "question": "Match the term from the Cournot model with its corresponding definition.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Reaction Curve",
+          "right": "Conditional Marginal Profit Function of one firm"
+        },
+        {
+          "id": "pair2",
+          "left": "Residual Demand",
+          "right": "Total market demand minus the rival's output"
+        },
+        {
+          "id": "pair3",
+          "left": "Cournot Equilibrium",
+          "right": "Intersection of the best-response curves"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q26",
+      "type": "matching",
+      "question": "Match the key assumption of the Cournot model with its role in the market structure.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Two Firms, No Entry",
+          "right": "Ensures the market remains a Duopoly"
+        },
+        {
+          "id": "pair2",
+          "left": "Identical Products",
+          "right": "Ensures consumers only care about price (not differentiation)"
+        },
+        {
+          "id": "pair3",
+          "left": "Independent Quantity Choice",
+          "right": "Drives the action-reaction process toward equilibrium"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q27",
+      "type": "matching",
+      "question": "Match the Cournot concepts with the related step in the algebraic solution (using the provided gas cylinder example).",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "MRr = MC",
+          "right": "Derives the best response curve"
+        },
+        {
+          "id": "pair2",
+          "left": "Q = 339 - P",
+          "right": "Represents the Total Market Demand"
+        },
+        {
+          "id": "pair3",
+          "left": "q Litro = 64",
+          "right": "Represents the Nash Equilibrium output"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q28",
+      "type": "essay",
+      "question": "Explain the step-by-step process of how the Cournot Duopoly reaches a stable equilibrium starting from a non-equilibrium output (e.g., both firms producing less than the equilibrium quantity). Why does this process eventually stop at the Nash-Cournot point?",
+      "idealKeywords": [
+        "action-reaction",
+        "best response curve",
+        "profit-maximizing",
+        "stable state",
+        "no incentive to deviate"
+      ],
+      "marks": 5
+    },
+    {
+      "id": "q29",
+      "type": "essay",
+      "question": "Analyze the significance of the reaction curve approach over the original pure assumption-based Cournot model. Specifically, how does the reaction curve's mathematical function (e.g., Q Litro = 96 – 1/2 Q Laugh) capture the strategic interdependence between the two firms?",
+      "idealKeywords": [
+        "interdependence",
+        "relaxation of assumptions",
+        "conditional profit",
+        "slope",
+        "strategic substitutes"
+      ],
+      "marks": 6
+    },
+    {
+      "id": "q30",
+      "type": "essay",
+      "question": "Assume the industry demand is P = 100 - Q and Marginal Cost is constant at MC = 10. Firm A believes Firm B will produce 30 units. Calculate Firm A's profit-maximizing output (its best response). Explain why this output is A's best choice *only* if B actually produces 30 units.",
+      "idealKeywords": [
+        "residual demand",
+        "MRr = MC",
+        "Q = QA + QB",
+        "profit maximization",
+        "conditional choice"
+      ],
+      "marks": 6
+    }
+  ]
+}

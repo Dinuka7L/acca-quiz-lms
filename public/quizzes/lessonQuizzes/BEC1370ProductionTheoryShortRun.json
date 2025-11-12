@@ -1,0 +1,541 @@
+{
+  "id": "quiz-theory-of-production-short-run",
+  "title": "Chapter 2.1 – Theory of Production: Short-Run",
+  "description": "Examines the conceptual and applied aspects of short-run production, including product curves, the law of diminishing returns, and the optimal use of a variable input.",
+  "subject": "BEC1370 - Microeconomics",
+  "gradientColors": [
+    "#059669",
+    "#10b981",
+    "#34d399",
+    "#6ee7b7"
+  ],
+  "timeOptions": [
+    10,
+    20,
+    30
+  ],
+  "totalMarks": 68,
+  "weight": 0,
+  "category": "lesson",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multipleChoice",
+      "question": "A firm operating in the short-run is currently in Stage I of production. What is the logical managerial decision to increase efficiency and output, assuming the price of labor is constant?",
+      "options": [
+        "Decrease the usage of the variable input (Labor) because MP > AP.",
+        "Maintain the current level of variable input usage because AP is rising.",
+        "Increase the usage of the variable input (Labor) because MP is greater than AP and is likely positive.",
+        "Shift to the long-run by making the fixed input variable."
+      ],
+      "answer": "Increase the usage of the variable input (Labor) because MP is greater than AP and is likely positive.",
+      "rationale": "In Stage 01, the Marginal Product (MP) is greater than the Average Product (AP), and AP is rising. This implies that adding more labor is highly beneficial, as each additional unit adds more to total output than the average, warranting an increase in variable input use.",
+      "marks": 2
+    },
+    {
+      "id": "q2",
+      "type": "multipleChoice",
+      "question": "In the context of the Law of Diminishing Marginal Returns, what ultimately causes the marginal product of the variable input to decline?",
+      "options": [
+        "The increasing cost of the variable input over time.",
+        "The inability to substitute the variable input for the fixed input.",
+        "The constant level of the fixed input relative to the increasing proportion of the variable input.",
+        "The finite demand for the firm's output in the market."
+      ],
+      "answer": "The constant level of the fixed input relative to the increasing proportion of the variable input.",
+      "rationale": "The law states that MP declines as the proportion of the variable input is increased while the fixed input is held constant. This crowding or overuse of the fixed input leads to less additional output per unit of the variable input.",
+      "marks": 2
+    },
+    {
+      "id": "q3",
+      "type": "multipleChoice",
+      "question": "If a firm’s Marginal Revenue Product of Labor (MRPL) is greater than its Marginal Resource Cost of Labor (MRCL) in a competitive market, which action should the firm take and why?",
+      "options": [
+        "Decrease labor usage, because the cost of the last worker exceeds their revenue contribution.",
+        "Increase output price, to achieve the optimal condition MRPL = MRCL.",
+        "Increase labor usage, because the last worker added more to total revenue than to total cost.",
+        "Maintain current labor usage, as the firm is already making positive profits."
+      ],
+      "answer": "Increase labor usage, because the last worker added more to total revenue than to total cost.",
+      "rationale": "When MRPL > MRCL, the marginal benefit (revenue) of hiring one more unit of labor outweighs the marginal cost, meaning the firm can increase profit by increasing labor usage (production).",
+      "marks": 2
+    },
+    {
+      "id": "q4",
+      "type": "multipleChoice",
+      "question": "Consider a short-run production scenario where Total Product (TP) is maximized. What must be true about the Marginal Product (MP) of the variable input at this point?",
+      "options": [
+        "MP is also at its maximum.",
+        "MP is equal to the Average Product (AP).",
+        "MP is equal to zero.",
+        "MP is negative and decreasing."
+      ],
+      "answer": "MP is equal to zero.",
+      "rationale": "Total Product is maximized at the boundary between Stage II and Stage III, which is the point where adding an extra unit of variable input yields no additional output, meaning Marginal Product is zero.",
+      "marks": 2
+    },
+    {
+      "id": "q5",
+      "type": "multipleChoice",
+      "question": "Which of the following changes would immediately convert a fixed input into a variable input in a firm's production planning horizon?",
+      "options": [
+        "A change in the scale of production.",
+        "A shift from the short-run to the long-run time period.",
+        "A decrease in the market price of the input.",
+        "An increase in the total product output."
+      ],
+      "answer": "A shift from the short-run to the long-run time period.",
+      "rationale": "The long-run is defined as the time period during which all inputs are variable, contrasting with the short-run where at least one input is fixed.",
+      "marks": 2
+    },
+    {
+      "id": "q6",
+      "type": "multipleChoice",
+      "question": "A producer observes that their Average Product of Labor (APL) is declining, but their Marginal Product of Labor (MPL) is still positive. In which stage of short-run production is the firm operating?",
+      "options": [
+        "Stage 01, because APL is rising.",
+        "Stage 02, because MP is positive but less than AP.",
+        "Stage 03, because APL is declining.",
+        "The firm is at the boundary between Stage 01 and Stage 02."
+      ],
+      "answer": "Stage 02, because MP is positive but less than AP.",
+      "rationale": "Stage 02 is defined as the region where MP is positive but less than AP (0 < MP < AP). When MP is less than AP, AP must be declining, even though TP is still increasing.",
+      "marks": 2
+    },
+    {
+      "id": "q7",
+      "type": "multipleChoice",
+      "question": "What is the primary implication of the production function Q = f(L, K) when analyzing short-run production where K is fixed?",
+      "options": [
+        "The firm can only increase output by increasing the ratio of K to L.",
+        "Output can only be increased by increasing the use of the fixed input, K.",
+        "The firm can only increase output by increasing the amount of the variable input, L.",
+        "The firm must wait for the long-run to change its production level."
+      ],
+      "answer": "The firm can only increase output by increasing the amount of the variable input, L.",
+      "rationale": "Since capital (K) is fixed in the short-run, the only way to increase output (Q) is by increasing the usage of the variable input, labor (L).",
+      "marks": 2
+    },
+    {
+      "id": "q8",
+      "type": "multipleChoice",
+      "question": "A production process is characterized by complementarity between inputs, but also allows for substitution. What does the possibility of input substitution imply for the firm?",
+      "options": [
+        "That the inputs are perfect substitutes, making the fixed input concept irrelevant.",
+        "That the firm can alter the input mix to maintain output if the price of one input changes.",
+        "That both inputs must always be increased simultaneously to increase production.",
+        "That the production function is subject to constant returns to scale."
+      ],
+      "answer": "That the firm can alter the input mix to maintain output if the price of one input changes.",
+      "rationale": "If it is possible to substitute one input for another without reducing production, the firm has flexibility to adjust the input mix in response to changing input prices, a key characteristic noted for a production function.",
+      "marks": 2
+    },
+    {
+      "id": "q9",
+      "type": "multipleChoice",
+      "question": "If the marginal product of the 5th unit of labor is 4 units and the average product of 5 units is 8 units, what must be true about the average product when the 6th unit of labor is added, assuming the MP of the 6th unit is 2 units?",
+      "options": [
+        "The Average Product must be rising.",
+        "The Marginal Product is increasing.",
+        "The Average Product must be falling.",
+        "The Total Product is maximized."
+      ],
+      "answer": "The Average Product must be falling.",
+      "rationale": "For the 5th unit, APL=8 and MPL=4. Since MPL (4) < APL (8), the addition of the 5th unit pulls the average down. The APL falls whenever the MPL is less than the current APL.",
+      "marks": 3
+    },
+    {
+      "id": "q10",
+      "type": "multipleChoice",
+      "question": "The optimal level of a variable input (labor) in a perfectly competitive market occurs when Marginal Revenue of Product (MRPL) equals the wage rate (PL). What is the underlying condition for MRPL to equal PL in this specific market structure?",
+      "options": [
+        "MRPL = Marginal Product of Labor (MPL) * Price of Output (P).",
+        "MRPL = Marginal Resource Cost of Labor (MRCL).",
+        "MRPL = Total Revenue / Total Labor.",
+        "MRPL = Price of Output (P) + Marginal Product of Labor (MPL)."
+      ],
+      "answer": "MRPL = Marginal Resource Cost of Labor (MRCL).",
+      "rationale": "In a perfectly competitive labor market, the Marginal Resource Cost of Labor (MRCL) is constant and equal to the wage rate (PL). Therefore, the optimal condition MRPL = PL is equivalent to MRPL = MRCL.",
+      "marks": 3
+    },
+    {
+      "id": "q11",
+      "type": "multipleChoice",
+      "question": "Stage 03 of short-run production is characterized by a negative Marginal Product (MP < 0). Why would a rational firm never choose to operate in this stage?",
+      "options": [
+        "Because it violates the Law of Diminishing Marginal Returns.",
+        "Because Total Product (TP) is increasing at a decreasing rate.",
+        "Because Average Product (AP) is maximized in this stage.",
+        "Because total output would decrease by employing more of the variable input."
+      ],
+      "answer": "Because total output would decrease by employing more of the variable input.",
+      "rationale": "When MP < 0, employing an additional unit of the variable input causes the Total Product (TP) to fall. This is clearly inefficient, as fewer workers would produce more output.",
+      "marks": 2
+    },
+    {
+      "id": "q12",
+      "type": "multipleChoice",
+      "question": "A firm has a production function Q = f(L, K). If the firm decides to increase output, what must be the *only* method available in the short-run?",
+      "options": [
+        "Decrease the use of capital (K).",
+        "Change the technology used.",
+        "Increase the use of labor (L).",
+        "Increase both labor and capital proportionally."
+      ],
+      "answer": "Increase the use of labor (L).",
+      "rationale": "In the short-run, at least one input (Capital, K) is fixed. Therefore, the firm can only increase output by increasing the usage of the variable input, which is assumed to be Labor (L).",
+      "marks": 2
+    },
+    {
+      "id": "q13",
+      "type": "multipleChoice",
+      "question": "In a competitive market where the output price is 10 and the wage rate is 50, a firm finds that at its current labor usage, the Marginal Product of Labor (MPL) is 6 units. Is the firm at its optimal labor level, and if not, what should it do?",
+      "options": [
+        "Yes, because 6 units of MP is high.",
+        "No, because MRPL (60) > MRCL (50); the firm should increase labor.",
+        "No, because MRPL (60) > MRCL (50); the firm should decrease labor.",
+        "No, because MRPL (60) < MRCL (50); the firm should decrease labor."
+      ],
+      "answer": "No, because MRPL (60) > MRCL (50); the firm should increase labor.",
+      "rationale": "MRPL = MPL * Price = 6 * 10 = 60. MRCL = Wage = 50. Since MRPL (60) > MRCL (50), the firm is receiving more marginal revenue than it is incurring marginal cost from the last worker, so it should increase labor usage.",
+      "marks": 3
+    },
+    {
+      "id": "q14",
+      "type": "multipleChoice",
+      "question": "Which statement accurately describes the relationship between Marginal Product (MP) and Average Product (AP)?",
+      "options": [
+        "AP is rising when MP is negative.",
+        "MP intersects AP at the point where AP is minimized.",
+        "AP is maximized when MP equals AP.",
+        "MP is always less than AP throughout Stage I."
+      ],
+      "answer": "AP is maximized when MP equals AP.",
+      "rationale": "The AP curve rises as long as the MP curve is above it, and begins to fall once the MP curve drops below it. Therefore, MP must intersect AP at the maximum point of the AP curve.",
+      "marks": 2
+    },
+    {
+      "id": "q15",
+      "type": "multipleChoice",
+      "question": "The concept of a 'Fixed Input' fundamentally defines the short-run time period in production theory. What allows an input to be considered 'fixed'?",
+      "options": [
+        "The input's cost is negligible in the production process.",
+        "The input is a factor of production whose quantity cannot be practically varied in the relevant time period.",
+        "The input is highly specialized and has no substitutes.",
+        "The input is less important than the variable input in generating output."
+      ],
+      "answer": "The input is a factor of production whose quantity cannot be practically varied in the relevant time period.",
+      "rationale": "A fixed input is defined as a factor of production (input) that cannot be varied practically in the short run, which is why the short-run exists as a distinct time period.",
+      "marks": 2
+    },
+    {
+      "id": "q16",
+      "type": "dropdown",
+      "question": "The Average Product of Labor (APL) is calculated as the ratio of [dropdown_1] to the quantity of [dropdown_2] used, while the Marginal Product of Labor (MPL) is the change in Total Product divided by the change in [dropdown_3].",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "Total Revenue",
+            "Total Product",
+            "Marginal Product",
+            "Total Cost"
+          ],
+          "correctAnswer": "Total Product"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "Capital (K)",
+            "Fixed Input",
+            "Variable Input (L)",
+            "Materials (M)"
+          ],
+          "correctAnswer": "Variable Input (L)"
+        },
+        {
+          "id": "dropdown_3",
+          "options": [
+            "Total Cost",
+            "Fixed Input",
+            "Variable Input (L)",
+            "Price of Labor"
+          ],
+          "correctAnswer": "Variable Input (L)"
+        }
+      ],
+      "rationale": "APL = TPL / L; MPL = Delta TPL / Delta L. Both measures use Total Product and the variable input, L.",
+      "marks": 4
+    },
+    {
+      "id": "q17",
+      "type": "dropdown",
+      "question": "When a firm moves from Stage I to Stage II of production, the Marginal Product of Labor (MPL) is [dropdown_1] to the Average Product of Labor (APL). A rational producer will operate only in Stage [dropdown_2] because in Stage III, the Marginal Product is [dropdown_3].",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "less than",
+            "equal to",
+            "greater than",
+            "not related to"
+          ],
+          "correctAnswer": "equal to"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "I",
+            "II",
+            "III",
+            "I or II"
+          ],
+          "correctAnswer": "II"
+        },
+        {
+          "id": "dropdown_3",
+          "options": [
+            "rising",
+            "falling but positive",
+            "negative",
+            "zero"
+          ],
+          "correctAnswer": "negative"
+        }
+      ],
+      "rationale": "The boundary between Stage I and Stage II is where AP is maximized, meaning MP = AP. Rational producers operate in Stage II, where MP is positive but decreasing. Stage III is non-operational because MP is negative.",
+      "marks": 4
+    },
+    {
+      "id": "q18",
+      "type": "dropdown",
+      "question": "The production function for a firm using only labor (L) and capital (K) is represented as [dropdown_1]. In the short-run, if Capital is the fixed input, the production function simplifies to [dropdown_2]. This short-run restriction is the core principle that gives rise to the Law of [dropdown_3] Marginal Returns.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "Q = L + K",
+            "Q = f(L, K)",
+            "Q = (L*K)^0.5",
+            "Q = f(L)"
+          ],
+          "correctAnswer": "Q = f(L, K)"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "Q = f(K)",
+            "Q = f(L)",
+            "Q = L - K",
+            "Q = K / L"
+          ],
+          "correctAnswer": "Q = f(L)"
+        },
+        {
+          "id": "dropdown_3",
+          "options": [
+            "Increasing",
+            "Constant",
+            "Diminishing",
+            "Optimizing"
+          ],
+          "correctAnswer": "Diminishing"
+        }
+      ],
+      "rationale": "The general production function is Q = f(L, K). In the short-run with fixed K, it simplifies to Q = f(L). The fixed input is the reason for the Law of Diminishing Marginal Returns.",
+      "marks": 4
+    },
+    {
+      "id": "q19",
+      "type": "fillInBlank",
+      "question": "The transformation of inputs or resources into outputs of goods and services is defined as ________.",
+      "answer": "Production",
+      "rationale": "Production refers to the transformation of inputs or resources into outputs of goods and services.",
+      "marks": 2
+    },
+    {
+      "id": "q20",
+      "type": "fillInBlank",
+      "question": "The Law of Diminishing Marginal Returns states that the Marginal Product of the variable input will decline as the proportion of the variable input is increased with the constant level of ________ input.",
+      "answer": "fixed",
+      "rationale": "The Law of Diminishing Marginal Returns is a short-run concept that relies on the existence of a fixed input being overused by a proportionally increasing variable input.",
+      "marks": 2
+    },
+    {
+      "id": "q21",
+      "type": "fillInBlank",
+      "question": "In a perfectly competitive market, the firm's Marginal Resource Cost of Labor (MRCL) is equal to the market's prevailing ________.",
+      "answer": "wage rate",
+      "rationale": "In a perfectly competitive labor market, the firm is a wage taker, and the cost of an additional unit of labor (MRCL) is simply the constant wage rate (PL).",
+      "marks": 2
+    },
+    {
+      "id": "q22",
+      "type": "multiSelect",
+      "question": "Which of the following conditions characterize a firm operating optimally in a perfectly competitive labor and goods market?",
+      "options": [
+        "Marginal Revenue of Product (MRPL) is maximized.",
+        "Marginal Revenue of Product (MRPL) equals the Wage rate (PL).",
+        "Marginal Revenue of Product (MRPL) is greater than Marginal Resource Cost (MRCL).",
+        "Marginal Resource Cost (MRCL) equals the Wage rate (PL).",
+        "Marginal Product (MP) is maximized."
+      ],
+      "answer": [
+        "Marginal Revenue of Product (MRPL) equals the Wage rate (PL).",
+        "Marginal Resource Cost (MRCL) equals the Wage rate (PL)."
+      ],
+      "rationale": "Optimal use of labor occurs when MRPL = MRCL. In a perfectly competitive labor market, MRCL is equal to the constant wage rate (PL).",
+      "marks": 3
+    },
+    {
+      "id": "q23",
+      "type": "multiSelect",
+      "question": "Identify the factors of production that are typically grouped as inputs a firm converts into outputs.",
+      "options": [
+        "Capital (K)",
+        "Technology",
+        "Labor (L)",
+        "Materials (M)",
+        "Profit"
+      ],
+      "answer": [
+        "Capital (K)",
+        "Labor (L)",
+        "Materials (M)"
+      ],
+      "rationale": "The inputs are broadly grouped into Capital (K), Labor (L), and Materials (M).",
+      "marks": 3
+    },
+    {
+      "id": "q24",
+      "type": "multiSelect",
+      "question": "A firm is operating in Stage 02 of the short-run production. Select all statements that must be true regarding the variable input's productivity (Labor, L) in this stage.",
+      "options": [
+        "The Average Product of Labor (APL) is positive.",
+        "The Marginal Product of Labor (MPL) is negative.",
+        "The Marginal Product of Labor (MPL) is less than the Average Product of Labor (APL).",
+        "The Total Product of Labor (TPL) is decreasing.",
+        "The Law of Diminishing Marginal Returns is in effect."
+      ],
+      "answer": [
+        "The Average Product of Labor (APL) is positive.",
+        "The Marginal Product of Labor (MPL) is less than the Average Product of Labor (APL).",
+        "The Law of Diminishing Marginal Returns is in effect."
+      ],
+      "rationale": "Stage 02 is defined by 0 < MP < AP. This means AP must be positive and declining (since MP < AP). Total Product is still increasing (since MP > 0). The Law of Diminishing Marginal Returns is in effect throughout Stage II and III.",
+      "marks": 3
+    },
+    {
+      "id": "q25",
+      "type": "matching",
+      "question": "Match the production concept with its correct time period definition.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Short-run",
+          "right": "At least one input is fixed"
+        },
+        {
+          "id": "pair2",
+          "left": "Long-run",
+          "right": "All inputs are variable"
+        },
+        {
+          "id": "pair3",
+          "left": "Fixed Input",
+          "right": "Quantity cannot be varied practically in the relevant time period"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q26",
+      "type": "matching",
+      "question": "Match the given product measure with its corresponding formula or definition, where L is the variable input.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Total Product (TP)",
+          "right": "Output produced for a given amount of variable input and fixed inputs"
+        },
+        {
+          "id": "pair2",
+          "left": "Average Product (APL)",
+          "right": "TPL / L"
+        },
+        {
+          "id": "pair3",
+          "left": "Marginal Product (MPL)",
+          "right": "Change in total output resulting from an extra unit of L"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q27",
+      "type": "matching",
+      "question": "Match the range of the Marginal Product of Labor (MPL) to its corresponding short-run production stage.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "MPL > APL",
+          "right": "Stage 01"
+        },
+        {
+          "id": "pair2",
+          "left": "0 < MPL < APL",
+          "right": "Stage 02"
+        },
+        {
+          "id": "pair3",
+          "left": "MPL < 0",
+          "right": "Stage 03"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q28",
+      "type": "essay",
+      "question": "A producer is currently operating at a point where MRPL < MRCL. Provide a detailed explanation of why this position is suboptimal for profit maximization and prescribe the precise course of action the producer must take, justifying your recommendation.",
+      "idealKeywords": [
+        "marginal resource cost",
+        "marginal revenue product",
+        "suboptimal",
+        "decrease labor",
+        "profit maximization",
+        "cost exceeds revenue"
+      ],
+      "marks": 5
+    },
+    {
+      "id": "q29",
+      "type": "essay",
+      "question": "The Law of Diminishing Marginal Returns is a short-run concept. Explain how the existence of fixed inputs is essential for this law to take effect, and why this law would generally not apply in the long-run.",
+      "idealKeywords": [
+        "fixed input",
+        "variable input",
+        "proportion",
+        "crowding effect",
+        "long-run",
+        "all inputs variable"
+      ],
+      "marks": 5
+    },
+    {
+      "id": "q30",
+      "type": "essay",
+      "question": "Compare and contrast the characteristics of Stage 01 and Stage 02 of short-run production. Specifically, explain why a rational producer will operate in Stage 02 but will not stop production at the boundary between Stage 01 and Stage 02.",
+      "idealKeywords": [
+        "Stage 01",
+        "Stage 02",
+        "MP greater than AP",
+        "AP rising",
+        "MP less than AP",
+        "TP increasing",
+        "rational producer"
+      ],
+      "marks": 5
+    }
+  ]
+}

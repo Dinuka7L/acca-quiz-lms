@@ -1,0 +1,507 @@
+{
+  "id": "quiz-Monopoly-BEC1370",
+  "title": "Chapter 3.1- Monopoly",
+  "description": "A challenging quiz assessing conceptual and applied understanding of monopoly market structure, demand, revenue, and short-run/long-run equilibrium.",
+  "subject": "BEC1370 - Microeconomics",
+  "gradientColors": [
+    "#8B5CF6",
+    "#7C3AED",
+    "#6D28D9",
+    "#5B21B6"
+  ],
+  "timeOptions": [
+    10,
+    20,
+    30
+  ],
+  "totalMarks": 65,
+  "weight": 0,
+  "category": "lesson",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multipleChoice",
+      "question": "If a monopolist's Marginal Revenue (MR) is positive, it implies that the price elasticity of demand (Ep) for the product is:",
+      "options": [
+        "Ep = -1",
+        "Elastic (absolute value > 1)",
+        "Inelastic (absolute value < 1)",
+        "Perfectly inelastic (Ep = 0)"
+      ],
+      "answer": "Elastic (absolute value > 1)",
+      "rationale": "The relationship MR = P (1 - 1/Ep) shows that MR is positive only when the absolute value of Ep is greater than 1 (elastic demand).",
+      "marks": 2
+    },
+    {
+      "id": "q2",
+      "type": "multipleChoice",
+      "question": "Which statement correctly describes the relationship between the demand curve (Average Revenue) and the Marginal Revenue curve for a linear demand function in a monopoly?",
+      "options": [
+        "They have the same slope and different intercepts.",
+        "MR is steeper than the demand curve, but shares the same quantity intercept.",
+        "MR is twice as steep as the demand curve and shares the same price intercept.",
+        "MR is flatter than the demand curve and has a higher quantity intercept."
+      ],
+      "answer": "MR is twice as steep as the demand curve and shares the same price intercept.",
+      "rationale": "For a linear demand curve P = b0 - b1Q, the MR curve is MR = b0 - 2b1Q. Both have the same intercept (b0), but the MR slope (-2b1) is twice as steep as the demand curve slope (-b1).",
+      "marks": 2
+    },
+    {
+      "id": "q3",
+      "type": "multipleChoice",
+      "question": "A monopolist maximizes short-run profit by producing the output level where:",
+      "options": [
+        "Price equals Marginal Cost (MC)",
+        "Marginal Cost (MC) equals Marginal Revenue (MR), and MC is falling.",
+        "Average Total Cost (ATC) is minimized.",
+        "Marginal Cost (MC) equals Marginal Revenue (MR), and MC's slope is greater than MR's slope."
+      ],
+      "answer": "Marginal Cost (MC) equals Marginal Revenue (MR), and MC's slope is greater than MR's slope.",
+      "rationale": "The profit maximization conditions are MC = MR and the second-order condition requires the slope of MC to be greater than the slope of MR at the intersection point.",
+      "marks": 2
+    },
+    {
+      "id": "q4",
+      "type": "multipleChoice",
+      "question": "In a natural monopoly, the main cause of the single seller is:",
+      "options": [
+        "Government patent rights on a key production process.",
+        "Ownership of a strategic raw material.",
+        "Economies of scale operating over a sufficiently large range of output to supply the entire market.",
+        "The firm adopting a limit-pricing policy to block new competition."
+      ],
+      "answer": "Economies of scale operating over a sufficiently large range of output to supply the entire market.",
+      "rationale": "Natural monopoly is characterized by economies of scale that are so significant they allow a single firm to supply the entire market at a lower cost than multiple firms could.",
+      "marks": 2
+    },
+    {
+      "id": "q5",
+      "type": "multipleChoice",
+      "question": "The long-run equilibrium for a monopolist, unlike perfect competition, does NOT necessarily require the firm to produce at:",
+      "options": [
+        "The level where Long-run Marginal Cost (LMC) equals Marginal Revenue (MR).",
+        "A positive level of output (Q > 0).",
+        "The minimum point of the Long-run Average Cost (LAC) curve.",
+        "A price greater than the Long-run Average Cost (LAC)."
+      ],
+      "answer": "The minimum point of the Long-run Average Cost (LAC) curve.",
+      "rationale": "Due to barriers to entry, a monopolist is not forced to reach the optimal scale (minimum point of LAC) to survive or maximize profit, although they must cover losses.",
+      "marks": 2
+    },
+    {
+      "id": "q6",
+      "type": "multipleChoice",
+      "question": "The concept of a 'unique supply curve' for the monopolist is invalid because:",
+      "options": [
+        "The monopolist's marginal cost curve is U-shaped.",
+        "The price is determined by average revenue, not marginal cost.",
+        "The same quantity may be offered at different prices depending on the demand elasticity.",
+        "A monopolist is a price setter, not a price taker."
+      ],
+      "answer": "The same quantity may be offered at different prices depending on the demand elasticity.",
+      "rationale": "Since price setting is based on MR=MC and the demand curve, a shift in demand (and thus MR) can lead to the same quantity being supplied at different prices, or different quantities at the same price, showing no unique price-quantity relationship derived from MC alone.",
+      "marks": 2
+    },
+    {
+      "id": "q7",
+      "type": "multipleChoice",
+      "question": "A monopolist's Average Revenue (AR) curve is always identical to which other curve?",
+      "options": [
+        "The Marginal Revenue (MR) curve.",
+        "The demand curve facing the industry.",
+        "The Short-run Average Total Cost (SAC) curve.",
+        "The Long-run Marginal Cost (LMC) curve."
+      ],
+      "answer": "The demand curve facing the industry.",
+      "rationale": "Average Revenue (AR) is TR/Q = (P*Q)/Q = P. Since the monopolist is the only firm, its demand curve is the industry demand curve, and AR equals the price (P).",
+      "marks": 2
+    },
+    {
+      "id": "q8",
+      "type": "multipleChoice",
+      "question": "In the short run, it is possible for a monopolist to experience:",
+      "options": [
+        "Only economic profits, due to the absence of competition.",
+        "Economic losses, provided the price is less than Average Fixed Cost (AFC).",
+        "Economic losses, provided the price is greater than Average Variable Cost (AVC).",
+        "Zero economic profit, since new firms will enter to compete it away."
+      ],
+      "answer": "Economic losses, provided the price is greater than Average Variable Cost (AVC).",
+      "rationale": "Like any firm, a monopolist can incur short-run losses if P < ATC, but will continue operating if P > AVC to cover some fixed costs.",
+      "marks": 2
+    },
+    {
+      "id": "q9",
+      "type": "multipleChoice",
+      "question": "Which of the following is NOT a fundamental characteristic of a monopoly market structure?",
+      "options": [
+        "The firm is a price setter.",
+        "There are no close substitutes for the commodity produced.",
+        "The firm's demand curve is perfectly elastic.",
+        "There are significant barriers to entry for new firms."
+      ],
+      "answer": "The firm's demand curve is perfectly elastic.",
+      "rationale": "The monopolist's demand curve is the industry demand curve, which is downward-sloping (not perfectly elastic). A perfectly elastic demand curve is a feature of perfect competition.",
+      "marks": 2
+    },
+    {
+      "id": "q10",
+      "type": "multipleChoice",
+      "question": "If the demand equation facing a monopolist is P = 100 - 2Q, the Total Revenue (TR) equation is:",
+      "options": [
+        "TR = 100Q - 4Q^2",
+        "TR = 100Q - 2Q^2",
+        "TR = 100 - 2Q",
+        "TR = 100 - 4Q"
+      ],
+      "answer": "TR = 100Q - 2Q^2",
+      "rationale": "Total Revenue (TR) is P * Q. Substituting the demand equation for P: TR = (100 - 2Q) * Q = 100Q - 2Q^2.",
+      "marks": 2
+    },
+    {
+      "id": "q11",
+      "type": "multipleChoice",
+      "question": "What is the primary implication of a monopolist not being required to reach the minimum point of its Long-run Average Cost (LAC) curve?",
+      "options": [
+        "The monopolist must still utilize its existing plant at optimum capacity.",
+        "The monopolist cannot earn economic profits in the long run.",
+        "The firm may operate with suboptimal plant size and excess capacity.",
+        "Marginal Revenue will be equal to Long-run Average Cost (LAC)."
+      ],
+      "answer": "The firm may operate with suboptimal plant size and excess capacity.",
+      "rationale": "Since entry is blocked, the monopolist is not forced by competition to achieve maximum efficiency (the minimum LAC point), leading to the possibility of a suboptimal plant size and excess capacity in long-run equilibrium.",
+      "marks": 2
+    },
+    {
+      "id": "q12",
+      "type": "multipleChoice",
+      "question": "Exclusive ownership of a strategic raw material, such as Alcoa's control of bauxite, primarily creates a monopoly through:",
+      "options": [
+        "Natural monopoly via economies of scale.",
+        "Government licensing or franchise.",
+        "Patent rights protection.",
+        "An insurmountable barrier to entry."
+      ],
+      "answer": "An insurmountable barrier to entry.",
+      "rationale": "Control over essential inputs like raw materials is a direct barrier to entry, preventing potential rivals from competing.",
+      "marks": 2
+    },
+    {
+      "id": "q13",
+      "type": "multipleChoice",
+      "question": "If a monopolist is producing an output where MR is greater than MC, the firm can increase its profit by:",
+      "options": [
+        "Decreasing output and increasing price.",
+        "Increasing output and decreasing price.",
+        "Decreasing both output and price.",
+        "Increasing both output and price."
+      ],
+      "answer": "Increasing output and decreasing price.",
+      "rationale": "If MR > MC, the last unit produced adds more to revenue than to cost, so increasing output (and thus lowering the price along the demand curve) will increase total profit until MR = MC.",
+      "marks": 2
+    },
+    {
+      "id": "q14",
+      "type": "multipleChoice",
+      "question": "Which of the following is true about the Monopolist's demand curve?",
+      "options": [
+        "It is the industry's demand curve and is perfectly elastic.",
+        "It is the industry's demand curve and is downward sloping.",
+        "It is more elastic than the industry's demand curve.",
+        "It is always tangential to the Average Total Cost (ATC) curve in the long run."
+      ],
+      "answer": "It is the industry's demand curve and is downward sloping.",
+      "rationale": "Since the monopolist is the sole seller, the firm's demand curve is the market (industry) demand curve, which is typically downward sloping.",
+      "marks": 2
+    },
+    {
+      "id": "q15",
+      "type": "multipleChoice",
+      "question": "At the output level where Total Revenue (TR) is maximized for a monopolist, the price elasticity of demand (Ep) is:",
+      "options": [
+        "Elastic (Ep < -1).",
+        "Unit elastic (Ep = -1).",
+        "Inelastic (Ep > -1).",
+        "Zero."
+      ],
+      "answer": "Unit elastic (Ep = -1).",
+      "rationale": "Total Revenue is maximized where Marginal Revenue (MR) is zero. The relationship MR = P (1 + 1/Ep) implies that MR = 0 when 1 + 1/Ep = 0, which means Ep = -1 (unit elastic demand).",
+      "marks": 2
+    },
+    {
+      "id": "q16",
+      "type": "dropdown",
+      "question": "A monopolist's long-run profitability is guaranteed by the presence of [dropdown_1], whereas in the short-run, the firm may [dropdown_2] but must still have a price greater than Average Variable Cost to continue operating.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "limit-pricing strategies",
+            "perfectly elastic demand",
+            "barriers to entry",
+            "minimum long-run average cost"
+          ],
+          "correctAnswer": "barriers to entry"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "maximize total revenue",
+            "experience economic losses",
+            "produce at optimal scale",
+            "face new competition"
+          ],
+          "correctAnswer": "experience economic losses"
+        }
+      ],
+      "rationale": "Barriers to entry prevent new competition, allowing for long-run profits. The firm can still incur economic losses in the short run but will only shut down if price falls below AVC.",
+      "marks": 4
+    },
+    {
+      "id": "q17",
+      "type": "dropdown",
+      "question": "If a monopolist's demand curve is given by Q = 50 - 0.5P, the slope of its demand curve is [dropdown_1], and the slope of its Marginal Revenue curve is [dropdown_2].",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "-0.5",
+            "-2",
+            "-1",
+            "2"
+          ],
+          "correctAnswer": "-0.5"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "-2",
+            "-4",
+            "-0.5",
+            "4"
+          ],
+          "correctAnswer": "-4"
+        }
+      ],
+      "rationale": "For Q = 50 - 0.5P, the demand slope (dQ/dP) is -0.5. To find the MR slope, we first invert the demand: P = 100 - 2Q. The slope of the demand in the P,Q space is -2. The MR slope is twice as steep, -4.",
+      "marks": 4
+    },
+    {
+      "id": "q18",
+      "type": "dropdown",
+      "question": "The total revenue of a monopolist will increase when output is expanded into the region where demand is [dropdown_1] and will decrease when expanded into the region where demand is [dropdown_2].",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "unit elastic",
+            "inelastic",
+            "elastic",
+            "perfectly inelastic"
+          ],
+          "correctAnswer": "elastic"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "unit elastic",
+            "inelastic",
+            "elastic",
+            "perfectly elastic"
+          ],
+          "correctAnswer": "inelastic"
+        }
+      ],
+      "rationale": "Total Revenue increases when MR > 0, which corresponds to the elastic portion of the demand curve. Total Revenue decreases when MR < 0, which corresponds to the inelastic portion of the demand curve.",
+      "marks": 4
+    },
+    {
+      "id": "q19",
+      "type": "fillInBlank",
+      "question": "A limit-pricing policy is a cause of monopoly that works by creating deliberate ________ to new competition.",
+      "answer": "barriers to entry",
+      "rationale": "A limit-pricing policy is a strategy by an existing firm to discourage new entrants by setting a price low enough to appear unprofitable for potential competitors, thus acting as a barrier.",
+      "marks": 2
+    },
+    {
+      "id": "q20",
+      "type": "fillInBlank",
+      "question": "The condition for profit maximization that is unique to the monopoly market (when compared to perfect competition) is that the price is set along the demand curve, always at a point where Marginal Revenue is equal to ________.",
+      "answer": "Marginal Cost",
+      "rationale": "All firms maximize profit where MC = MR. For the monopolist, this output is then sold at the price determined by the demand (Average Revenue) curve.",
+      "marks": 2
+    },
+    {
+      "id": "q21",
+      "type": "fillInBlank",
+      "question": "The Average Revenue curve of the monopolist is always ________ sloping because it is identical to the market demand curve.",
+      "answer": "downward",
+      "rationale": "The demand curve for the industry, which is the monopolist's AR curve, must be downward sloping, reflecting the inverse relationship between price and quantity demanded in the market.",
+      "marks": 2
+    },
+    {
+      "id": "q22",
+      "type": "multiSelect",
+      "question": "Select the correct cost assumptions for a monopolist according to the traditional theory.",
+      "options": [
+        "The Average Variable Cost (AVC) curve is U-shaped.",
+        "The Average Fixed Cost (AFC) curve is a rectangular hyperbola.",
+        "The Marginal Cost (MC) curve is perfectly inelastic.",
+        "The cost curves are generally the same shape as in the theory of pure competition."
+      ],
+      "answer": [
+        "The Average Variable Cost (AVC) curve is U-shaped.",
+        "The Average Fixed Cost (AFC) curve is a rectangular hyperbola.",
+        "The cost curves are generally the same shape as in the theory of pure competition."
+      ],
+      "rationale": "The traditional theory assumes that the shapes of the cost curves (U-shaped AVC, MC, and ATC, and rectangular hyperbola AFC) are the same as in pure competition.",
+      "marks": 3
+    },
+    {
+      "id": "q23",
+      "type": "multiSelect",
+      "question": "What two conditions define short-run profit maximization for a monopolist?",
+      "options": [
+        "Marginal Revenue (MR) must be less than Price (P).",
+        "Marginal Cost (MC) must equal Marginal Revenue (MR).",
+        "The slope of Marginal Cost (MC) must be greater than the slope of Marginal Revenue (MR).",
+        "Price must equal Average Total Cost (ATC)."
+      ],
+      "answer": [
+        "Marginal Cost (MC) must equal Marginal Revenue (MR).",
+        "The slope of Marginal Cost (MC) must be greater than the slope of Marginal Revenue (MR)."
+      ],
+      "rationale": "Profit is maximized when the first-order condition (MR=MC) and the second-order condition (MC curve cuts MR curve from below, meaning MC slope > MR slope) are met.",
+      "marks": 3
+    },
+    {
+      "id": "q24",
+      "type": "multiSelect",
+      "question": "Which of the following are recognized main causes that lead to the establishment of a monopoly?",
+      "options": [
+        "Patent rights for a product or process.",
+        "Government licensing or franchise.",
+        "The existing firm's adoption of a limit-pricing policy.",
+        "The market demand curve being perfectly elastic."
+      ],
+      "answer": [
+        "Patent rights for a product or process.",
+        "Government licensing or franchise.",
+        "The existing firm's adoption of a limit-pricing policy."
+      ],
+      "rationale": "Patent rights, government actions (licensing/franchise), and strategic behavior like limit-pricing are all listed as causes of monopoly. A perfectly elastic demand curve is inconsistent with a monopoly.",
+      "marks": 3
+    },
+    {
+      "id": "q25",
+      "type": "matching",
+      "question": "Match the formula to the revenue concept for a monopolist.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Average Revenue (AR)",
+          "right": "Price (P)"
+        },
+        {
+          "id": "pair2",
+          "left": "Total Revenue (TR)",
+          "right": "P * Q"
+        },
+        {
+          "id": "pair3",
+          "left": "Marginal Revenue (MR)",
+          "right": "Change in TR / Change in Q"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q26",
+      "type": "matching",
+      "question": "Match the cause of monopoly with its primary mechanism.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Natural Monopoly",
+          "right": "Extensive economies of scale"
+        },
+        {
+          "id": "pair2",
+          "left": "Patent Rights",
+          "right": "Temporary legal protection"
+        },
+        {
+          "id": "pair3",
+          "left": "Limit-Pricing",
+          "right": "Strategic deterrence of entrants"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q27",
+      "type": "matching",
+      "question": "Match the market feature to the market structure it belongs to.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Downward-sloping AR curve",
+          "right": "Monopoly"
+        },
+        {
+          "id": "pair2",
+          "left": "AR = MR = P",
+          "right": "Perfect Competition"
+        },
+        {
+          "id": "pair3",
+          "left": "Barriers to Entry exist",
+          "right": "Monopoly"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q28",
+      "type": "essay",
+      "question": "Analyze the consequences of blocked entry on a monopolist's long-run equilibrium. Specifically, discuss whether the monopolist is required to reach optimal scale and what the implications of its long-run cost structure are for efficiency.",
+      "idealKeywords": [
+        "blocked entry",
+        "long-run equilibrium",
+        "optimal scale",
+        "minimum LAC",
+        "suboptimal plant size",
+        "excess capacity"
+      ],
+      "marks": 5
+    },
+    {
+      "id": "q29",
+      "type": "essay",
+      "question": "Using the relationship MR = P(1 + 1/Ep), explain why a rational monopolist would never choose to operate on the inelastic portion of its demand curve for profit maximization, assuming Marginal Cost is positive.",
+      "idealKeywords": [
+        "inelastic demand",
+        "Ep > -1",
+        "MR is negative",
+        "MC is positive",
+        "profit maximization",
+        "MR = MC"
+      ],
+      "marks": 5
+    },
+    {
+      "id": "q30",
+      "type": "essay",
+      "question": "Critically evaluate the statement: 'The monopolist, as a price setter, faces a supply curve derived from its marginal cost curve, just like a firm in perfect competition.' Justify your answer by explaining the unique relationship (or lack thereof) between price and quantity supplied in a monopoly.",
+      "idealKeywords": [
+        "no unique supply curve",
+        "price setter",
+        "demand elasticity",
+        "same quantity at different prices",
+        "MR curve shift",
+        "unique price-quantity relationship"
+      ],
+      "marks": 5
+    }
+  ]
+}

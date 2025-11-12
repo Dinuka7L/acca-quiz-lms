@@ -1,0 +1,436 @@
+{
+  "id": "quiz-Monopolistic Competition",
+  "title": "Chapter 3.2 - Monopolistic Competition",
+  "description": "Examines the market structure of monopolistic competition, focusing on product differentiation, firm behavior in the short and long run, and comparative evaluation.",
+  "subject": "BEC1370 - Microeconomics",
+  "gradientColors": ["#4a90e2", "#50e3c2", "#00aaff", "#1e90ff"],
+  "timeOptions": [10, 20, 30],
+  "totalMarks": 68,
+  "weight": 0,
+  "category": "lesson",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multipleChoice",
+      "question": "A firm in monopolistic competition operates with excess capacity in the long run because its long-run equilibrium output occurs at a point where:",
+      "options": [
+        "Price equals Long-run Average Total Cost (LATC) and LATC is at its minimum.",
+        "Marginal Cost (LMC) equals Long-run Average Total Cost (LATC).",
+        "Price equals Long-run Average Total Cost (LATC) and LATC is still decreasing.",
+        "Marginal Revenue (MR) is greater than Long-run Marginal Cost (LMC)."
+      ],
+      "answer": "Price equals Long-run Average Total Cost (LATC) and LATC is still decreasing.",
+      "rationale": "In long-run equilibrium, P = LATC, but since the demand curve is tangent to the LATC curve on its negatively sloped portion, output is less than the productively efficient level (minimum LATC), resulting in excess capacity.",
+      "marks": 2
+    },
+    {
+      "id": "q2",
+      "type": "multipleChoice",
+      "question": "Which statement accurately describes the demand curve for a monopolistically competitive firm compared to a perfectly competitive firm and a monopoly?",
+      "options": [
+        "It is perfectly elastic, like perfect competition, due to many sellers.",
+        "It is negatively sloped and highly price elastic due to many close substitutes.",
+        "It is negatively sloped and price inelastic, like a monopoly, due to product differentiation.",
+        "It is perfectly inelastic because the firm is a price maker."
+      ],
+      "answer": "It is negatively sloped and highly price elastic due to many close substitutes.",
+      "rationale": "The demand curve is negatively sloped because the product is differentiated (monopoly element), but it is highly price elastic because there are many close substitutes (competitive element).",
+      "marks": 2
+    },
+    {
+      "id": "q3",
+      "type": "multipleChoice",
+      "question": "If a monopolistically competitive firm is producing at an output level where Price (P) is less than Average Total Cost (AC) but greater than Average Variable Cost (AVC) in the short run, what action should the firm take to maximize profits or minimize losses?",
+      "options": [
+        "Shut down immediately because it is incurring a loss.",
+        "Increase production to try and lower the Average Total Cost.",
+        "Continue to produce the current rate of output as it covers all variable costs and some fixed costs.",
+        "Raise its price to eliminate the loss."
+      ],
+      "answer": "Continue to produce the current rate of output as it covers all variable costs and some fixed costs.",
+      "rationale": "In the short run, if P is less than AC but greater than AVC, the firm is incurring a loss, but it is covering all variable costs and minimizing the loss by continuing to produce.",
+      "marks": 3
+    },
+    {
+      "id": "q4",
+      "type": "multipleChoice",
+      "question": "The long-run adjustment in a monopolistically competitive industry involving entry of new firms primarily affects existing firms by:",
+      "options": [
+        "Shifting the demand curve faced by each existing firm to the right.",
+        "Making the demand curve faced by each existing firm less elastic.",
+        "Shifting the demand curve faced by each existing firm to the left.",
+        "Increasing the marginal revenue of each existing firm."
+      ],
+      "answer": "Shifting the demand curve faced by each existing firm to the left.",
+      "rationale": "Entry of new firms provides more close substitutes for existing products, causing the demand curve for each existing firm to shift to the left until zero economic profit (P=AC) is achieved in the long run.",
+      "marks": 2
+    },
+    {
+      "id": "q5",
+      "type": "multipleChoice",
+      "question": "Which characteristic is the primary source of the 'monopoly element' in monopolistic competition?",
+      "options": [
+        "The large number of sellers.",
+        "The ease of entry and exit in the long run.",
+        "Product differentiation.",
+        "The goal to maximize profits."
+      ],
+      "answer": "Product differentiation.",
+      "rationale": "Product differentiation gives the firm a degree of control over its price, resulting in a downward sloping demand curve, which is the 'monopoly element'.",
+      "marks": 2
+    },
+    {
+      "id": "q6",
+      "type": "multipleChoice",
+      "question": "Consider a market where many firms sell non-identical products, and entry/exit is easy. Which market structure diagram best illustrates the long-run outcome of this market?",
+      "options": [
+        "A diagram showing Price = Marginal Cost and Price = Average Total Cost at the minimum point of the Average Total Cost curve.",
+        "A diagram showing Price > Marginal Cost and Price > Average Total Cost, resulting in supernormal profit.",
+        "A diagram showing Price = Average Total Cost at a point where Average Total Cost is decreasing.",
+        "A diagram showing a horizontal demand curve tangent to the Average Total Cost curve."
+      ],
+      "answer": "A diagram showing Price = Average Total Cost at a point where Average Total Cost is decreasing.",
+      "rationale": "The long-run equilibrium in monopolistic competition is characterized by P=AC, with the demand curve tangent to the Average Total Cost curve on its downward-sloping portion, indicating excess capacity.",
+      "marks": 3
+    },
+    {
+      "id": "q7",
+      "type": "multipleChoice",
+      "question": "If the degree of product differentiation in a monopolistically competitive industry were to significantly decrease, how would the demand curve faced by each firm change?",
+      "options": [
+        "It would become more price inelastic.",
+        "It would shift to the left, but its elasticity would be unchanged.",
+        "It would become more price elastic.",
+        "It would become perfectly inelastic."
+      ],
+      "answer": "It would become more price elastic.",
+      "rationale": "Smaller product differentiation means products are closer substitutes, making consumers more sensitive to price changes, thus increasing the price elasticity of demand.",
+      "marks": 2
+    },
+    {
+      "id": "q8",
+      "type": "multipleChoice",
+      "question": "Which of the following is NOT typically considered a strategic variable for a monopolistically competitive firm, in addition to output rate and price?",
+      "options": [
+        "Product attributes (R&D and design)",
+        "Advertising expenditure",
+        "Setting the market-clearing interest rate",
+        "Service Differentiation"
+      ],
+      "answer": "Setting the market-clearing interest rate",
+      "rationale": "Monopolistically competitive firms control output rate, product attributes, price, and advertising expenditure, but they do not set the market-clearing interest rate.",
+      "marks": 2
+    },
+    {
+      "id": "q9",
+      "type": "multipleChoice",
+      "question": "In the short-run equilibrium of a monopolistically competitive firm, the profit-maximizing condition is:",
+      "options": [
+        "Price equals Marginal Cost (MC) and MC is increasing.",
+        "Marginal Revenue (MR) equals Marginal Cost (MC) and MC is increasing.",
+        "Price equals Average Total Cost (AC).",
+        "Marginal Revenue (MR) equals Average Total Cost (AC)."
+      ],
+      "answer": "Marginal Revenue (MR) equals Marginal Cost (MC) and MC is increasing.",
+      "rationale": "The profit-maximizing rule for all market structures is to produce where Marginal Revenue (MR) equals Marginal Cost (MC), provided MC is increasing.",
+      "marks": 2
+    },
+    {
+      "id": "q10",
+      "type": "multipleChoice",
+      "question": "If a monopolistically competitive firm is earning a positive economic profit in the short run, what is the most likely long-run outcome for that firm, assuming no external shocks?",
+      "options": [
+        "It will continue to earn supernormal profit indefinitely due to product differentiation.",
+        "New firms will enter, shifting the firm's demand curve to the right.",
+        "New firms will enter, shifting the firm's demand curve to the left until its price equals its Average Total Cost.",
+        "The firm will leave the industry due to competitive pressures."
+      ],
+      "answer": "New firms will enter, shifting the firm's demand curve to the left until its price equals its Average Total Cost.",
+      "rationale": "The ease of entry means short-run profits attract new firms, which increases the number of substitutes, reduces the demand for the existing firm's product, and drives economic profit to zero (P=AC) in the long run.",
+      "marks": 3
+    },
+    {
+      "id": "q11",
+      "type": "multipleChoice",
+      "question": "Which statement correctly identifies the relationship between the demand curve (D) and the marginal revenue curve (MR) for a monopolistically competitive firm?",
+      "options": [
+        "The D curve and MR curve are the same, as in perfect competition.",
+        "The MR curve is always above the D curve.",
+        "The MR curve is below the D curve, with the same price intercept and twice the absolute slope.",
+        "The D curve is horizontal, and the MR curve is below it."
+      ],
+      "answer": "The MR curve is below the D curve, with the same price intercept and twice the absolute slope.",
+      "rationale": "Since the demand curve is negatively sloped, the marginal revenue curve lies below it and is twice as steep, similar to a monopoly.",
+      "marks": 2
+    },
+    {
+      "id": "q12",
+      "type": "multipleChoice",
+      "question": "A key difference between product differentiation and service differentiation is that:",
+      "options": [
+        "Product differentiation is always real, while service differentiation is always imaginary.",
+        "Service differentiation involves tailoring distribution channels, while product differentiation is about reputation.",
+        "Product differentiation relates to the tangible or perceived attributes of the good itself, while service differentiation relates to the support or delivery experience.",
+        "Product differentiation applies only to manufactured goods, and service differentiation applies only to services."
+      ],
+      "answer": "Product differentiation relates to the tangible or perceived attributes of the good itself, while service differentiation relates to the support or delivery experience.",
+      "rationale": "Product differentiation focuses on the good's features (real or imaginary), whereas service differentiation focuses on the associated services or support.",
+      "marks": 3
+    },
+    {
+      "id": "q13",
+      "type": "multipleChoice",
+      "question": "The assumption that there are 'many buyers but they are attached to certain sellers' directly implies:",
+      "options": [
+        "Firms are price takers.",
+        "Products are identical.",
+        "The demand curve for each firm is perfectly inelastic.",
+        "Firms face a downward-sloping demand curve."
+      ],
+      "answer": "Firms face a downward-sloping demand curve.",
+      "rationale": "The attachment of buyers to specific sellers, enabled by product differentiation, means a firm can raise its price without losing all customers, resulting in a downward-sloping demand curve.",
+      "marks": 3
+    },
+    {
+      "id": "q14",
+      "type": "multipleChoice",
+      "question": "Compared to a monopoly in the long run, a monopolistically competitive firm will have a price that is:",
+      "options": [
+        "Equal to its marginal cost.",
+        "Higher, and it will earn supernormal profit.",
+        "Lower, and it will only break even (zero economic profit).",
+        "Higher, but it will only break even (zero economic profit)."
+      ],
+      "answer": "Lower, and it will only break even (zero economic profit).",
+      "rationale": "A monopolistically competitive firm breaks even (P=AC) in the long run due to easy entry, whereas a monopoly can earn supernormal profit (P>AC). The lack of entry barriers forces the monopolistic competitor's price down to the average cost.",
+      "marks": 3
+    },
+    {
+      "id": "q15",
+      "type": "multipleChoice",
+      "question": "The key distinction between monopolistic competition and perfect competition rests on the nature of the product. In monopolistic competition, products are:",
+      "options": [
+        "Identical or homogeneous.",
+        "Unique with no close substitutes.",
+        "Differentiated or heterogeneous.",
+        "Highly restricted by barriers to entry."
+      ],
+      "answer": "Differentiated or heterogeneous.",
+      "rationale": "In perfect competition, products are identical; in monopolistic competition, they are differentiated, which is the factor separating the two structures when there are many firms.",
+      "marks": 2
+    },
+    {
+      "id": "q16",
+      "type": "dropdown",
+      "question": "The competitive element in monopolistic competition is derived from the assumption of [dropdown_1], while the degree of price elasticity of demand is higher when the degree of product differentiation is [dropdown_2].",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["one firm", "product differentiation", "many small sellers", "few firms"],
+          "correctAnswer": "many small sellers"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["greater", "smaller", "unchanged", "maximal"],
+          "correctAnswer": "smaller"
+        }
+      ],
+      "rationale": "The large number of sellers provides the competitive element. The smaller the product differentiation, the closer the substitutes are, leading to higher price elasticity.",
+      "marks": 4
+    },
+    {
+      "id": "q17",
+      "type": "dropdown",
+      "question": "In the short run, a monopolistically competitive firm earns profits when Price is [dropdown_1] Average Total Cost (AC); in the long run, entry ensures Price is [dropdown_2] Long-run Average Total Cost (LAC).",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["less than", "greater than", "equal to", "independent of"],
+          "correctAnswer": "greater than"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["less than", "greater than", "equal to", "twice"],
+          "correctAnswer": "equal to"
+        }
+      ],
+      "rationale": "Short-run profits occur when P > AC. Long-run equilibrium requires P = LAC due to the ease of entry and exit, leading to zero economic profit.",
+      "marks": 4
+    },
+    {
+      "id": "q18",
+      "type": "dropdown",
+      "question": "Channel Differentiation involves tailoring the [dropdown_1] to specific market segments, while Reputation Differentiation focuses on the perceived [dropdown_2] of the firm or product.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["advertising campaigns", "distribution channels", "manufacturing processes", "pricing strategies"],
+          "correctAnswer": "distribution channels"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["cost of production", "market share", "quality or brand image", "government subsidies"],
+          "correctAnswer": "quality or brand image"
+        }
+      ],
+      "rationale": "Channel Differentiation relates to customizing distribution channels. Reputation Differentiation is based on the perceived quality or image of the product/firm.",
+      "marks": 4
+    },
+    {
+      "id": "q19",
+      "type": "fillInBlank",
+      "question": "Monopolistic competition is distinguished from oligopoly by the assumption of ________ into and exit from the industry in the long run.",
+      "answer": "easy entry",
+      "rationale": "The ease of entry and exit in the long run is a key assumption of monopolistic competition that differs from oligopoly and monopoly.",
+      "marks": 2
+    },
+    {
+      "id": "q20",
+      "type": "fillInBlank",
+      "question": "In long-run equilibrium for a monopolistically competitive firm, the price will be equal to the Long-run Average Total Cost (LATC) but will be greater than the Long-run ________.",
+      "answer": "Marginal Cost",
+      "rationale": "Profit maximization requires MR = LMC. Since P > MR for a downward-sloping demand curve, it follows that P > LMC in the long run. Also P = LATC, but LATC is still decreasing, meaning LATC > LMC.",
+      "marks": 3
+    },
+    {
+      "id": "q21",
+      "type": "fillInBlank",
+      "question": "The existence of ________ is the factor that differentiates monopolistic competition from perfect competition when both have many small firms and easy entry/exit.",
+      "answer": "differentiated products",
+      "rationale": "Monopolistic competition features differentiated products, while perfect competition features identical products.",
+      "marks": 2
+    },
+    {
+      "id": "q22",
+      "type": "multiSelect",
+      "question": "Select all elements that contribute to the 'monopoly element' in monopolistic competition.",
+      "options": [
+        "Product differentiation",
+        "A large number of sellers",
+        "A negatively sloped demand curve",
+        "Ease of entry into the industry"
+      ],
+      "answer": ["Product differentiation", "A negatively sloped demand curve"],
+      "rationale": "Product differentiation directly leads to a negatively sloped demand curve, which grants the firm some price-setting power—the monopoly element.",
+      "marks": 3
+    },
+    {
+      "id": "q23",
+      "type": "multiSelect",
+      "question": "Which of the following are modes of product differentiation mentioned in the lecture material?",
+      "options": [
+        "Reputation Differentiation",
+        "Market Share Differentiation",
+        "Service Differentiation",
+        "Price Differentiation"
+      ],
+      "answer": ["Reputation Differentiation", "Service Differentiation", "Price Differentiation"],
+      "rationale": "Reputation, Service, Channel, Product, Relationship, and Price Differentiation are all listed modes of product differentiation.",
+      "marks": 4
+    },
+    {
+      "id": "q24",
+      "type": "multiSelect",
+      "question": "In the short-run equilibrium, a monopolistically competitive firm will continue production (P > AVC) and earn supernormal profits if:",
+      "options": [
+        "Price is less than Average Total Cost.",
+        "Price is greater than Marginal Cost.",
+        "Price is equal to Average Total Cost.",
+        "Price is greater than Average Total Cost."
+      ],
+      "answer": ["Price is greater than Marginal Cost.", "Price is greater than Average Total Cost."],
+      "rationale": "A firm earns profit when P > AC, and P > MC is always true in the profit-maximizing equilibrium since P > MR = MC for a downward-sloping demand curve.",
+      "marks": 3
+    },
+    {
+      "id": "q25",
+      "type": "matching",
+      "question": "Match the market structure with its defining characteristic regarding product.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Perfect Competition",
+          "right": "Identical Products"
+        },
+        {
+          "id": "pair2",
+          "left": "Monopoly",
+          "right": "Unique Product (no close substitutes)"
+        },
+        {
+          "id": "pair3",
+          "left": "Monopolistic Competition",
+          "right": "Differentiated Products"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q26",
+      "type": "matching",
+      "question": "Match the short-run financial outcome with the relationship between Price (P) and Average Cost (AC) at the profit-maximizing output.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Profit",
+          "right": "P > AC"
+        },
+        {
+          "id": "pair2",
+          "left": "Break-even",
+          "right": "P = AC"
+        },
+        {
+          "id": "pair3",
+          "left": "Incur losses (and minimize them)",
+          "right": "P < AC but P > AVC"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q27",
+      "type": "matching",
+      "question": "Match the differentiation type with its focus.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Product Differentiation",
+          "right": "Attributes of the good (real or imaginary)"
+        },
+        {
+          "id": "pair2",
+          "left": "Channel Differentiation",
+          "right": "Delivery and distribution methods"
+        },
+        {
+          "id": "pair3",
+          "left": "Service Differentiation",
+          "right": "Support and service quality"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q28",
+      "type": "essay",
+      "question": "Analyze the concept of 'excess capacity' in monopolistic competition. Explain why it exists in the long-run equilibrium and discuss whether it represents an inefficiency compared to perfect competition.",
+      "idealKeywords": ["excess capacity", "long-run equilibrium", "P = LAC", "minimum LATC", "productively efficient", "differentiated product"],
+      "marks": 5
+    },
+    {
+      "id": "q29",
+      "type": "essay",
+      "question": "Compare and contrast the long-run equilibrium of a monopolistically competitive firm with that of a monopoly, focusing on the price level, profit earned, and the fundamental market characteristic that drives the difference.",
+      "idealKeywords": ["P=LAC", "P>LAC", "zero economic profit", "supernormal profit", "entry barriers", "easy entry", "demand curve"],
+      "marks": 6
+    },
+    {
+      "id": "q30",
+      "type": "essay",
+      "question": "Discuss how a firm in monopolistic competition can strategically use its variables (output rate, price, product attributes, and advertising) to attempt to maintain or increase its short-run profit, and explain the mechanism that undermines this profit in the long run.",
+      "idealKeywords": ["strategic variables", "product differentiation", "advertising", "demand curve shift", "entry and exit", "zero economic profit"],
+      "marks": 6
+    }
+  ]
+}
