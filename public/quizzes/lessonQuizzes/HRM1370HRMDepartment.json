@@ -1,407 +1,509 @@
 {
-  "id": "quiz-Chapter 02-HRM Department",
-  "title": "Chapter 2 - Human Resource Department",
-  "description": "A challenging quiz on the Human Resource Department, covering its purpose, structure, staffing, and departmentalization, designed to test a deep understanding of the concepts.",
-  "subject": "HRM 1370 - Human Resource Management",
+  "id": "quiz-HRM-Department",
+  "title": "Chapter 02 – Human Resource Department",
+  "description": "An advanced quiz covering the establishment, structure, departmentalization bases, and staffing of the Human Resource Department.",
+  "subject": "HRM1370 - Human Resource Management",
   "gradientColors": [
     "#059669",
-    "#047857",
-    "#065f46",
-    "#064e3b"
+    "#10b981",
+    "#34d399",
+    "#6ee7b7"
   ],
   "timeOptions": [
-    30,
-    45,
-    60,
-    90
+    10,
+    20,
+    30
   ],
-  "totalMarks": 60,
+  "totalMarks": 69,
   "weight": 0,
   "category": "lesson",
   "questions": [
     {
       "id": "q1",
       "type": "multipleChoice",
-      "question": "According to the provided material, which of the following is the most precise reason for establishing a separate Human Resource Department?",
+      "question": "Which organizational scenario is LEAST likely to necessitate the establishment of a separate Human Resource Department (HRD), assuming all other factors are constant?",
       "options": [
-        "To centralize all employee-related tasks and reduce redundancy.",
-        "To ensure compliance with labor laws and regulations.",
-        "To provide a dedicated division led by an HR manager for the coordination of all HRM functions within the organization.",
-        "To manage administrative employee tasks such as payroll and benefits."
+        "A highly complex, multi-site operation with diverse regulatory requirements.",
+        "A medium-scale firm experiencing a high degree of line manager turnover due to overwhelming administrative duties.",
+        "A small business where the owner can manage all HRM functions with minimal time consumption.",
+        "A large organization that requires maximum consistency and expertise in its labor relations decisions."
       ],
-      "answer": "To provide a dedicated division led by an HR manager for the coordination of all HRM functions within the organization.",
-      "rationale": "The document defines the HRD as 'a separate division under the leadership of HR manager that facilitates proper functioning of the HRM functions throughout the organisation'[cite: 189]. While other options might be secondary benefits, the primary, stated purpose is for the coordination and proper functioning of HRM across the organization.",
+      "answer": "A small business where the owner can manage all HRM functions with minimal time consumption.",
+      "rationale": "One of the reasons to establish a separate HRD is when HRM functions become too time consuming or complex for line managers; a small business with minimal time consumption would have less need.",
       "marks": 2
     },
     {
       "id": "q2",
       "type": "multipleChoice",
-      "question": "A small company with only 15 employees decides not to establish a separate Human Resource Department. Based on the provided content, what is the most accurate implication of this decision?",
+      "question": "In a large-scale organization, the head of the HR Department is typically titled AGM (HRM). What does the 'Top' level status of this role primarily imply regarding its organizational function?",
       "options": [
-        "HRM functions cease to exist within the organization.",
-        "The organization violates a fundamental principle of modern management.",
-        "HRM functions will still be performed, but by other managers or staff.",
-        "The company will inevitably fail due to a lack of proper human resource management."
+        "The role is responsible only for transactional support jobs like typing and reception.",
+        "The role possesses Line Authority to directly give orders to non-HR department employees.",
+        "The role is an HR Executive position that links top management with HR specialists and generalists.",
+        "The role operates as an HR Generalist handling all functions within a specific plant or unit."
       ],
-      "answer": "HRM functions will still be performed, but by other managers or staff.",
-      "rationale": "The document explicitly states that it is 'not indispensable for an organisation to establish a separate department for HRM' [cite: 189] and that 'even though there may be organisations without HRD it does not mean that HRM does not exist'[cite: 189]. HRM is an integral part of management and must be performed regardless of a dedicated department.",
+      "answer": "The role is an HR Executive position that links top management with HR specialists and generalists.",
+      "rationale": "HR Executive positions, like AGM (HRM), are at the top level and serve as the link between top management and the HR specialists and generalists.",
       "marks": 2
     },
     {
       "id": "q3",
       "type": "multipleChoice",
-      "question": "Which of the following job titles represents the period from 1960 to 1980 in the evolution of the HR manager role?",
+      "question": "The 'Field Base' of departmentalization within the HRD organizes sub-departments based on which principle?",
       "options": [
-        "Welfare officer",
-        "Labor manager",
-        "Personnel Manager",
-        "Talent Manager"
+        "The type of employee group served (e.g., managers, clerical staff).",
+        "The specific HRM function or field (e.g., Rewards Management, Employee Resourcing).",
+        "The distinct business units or product lines of the organization.",
+        "The geographical location of the organization's factories."
       ],
-      "answer": "Personnel Manager",
-      "rationale": "The timeline provided in the document clearly lists 'Personnel Manager' for the period '1960-1980'[cite: 7]. 'Welfare officers' were from 1900-1917, and 'Labor manager' from 1918-1939. 'Talent Manager' is a recent title from 2020 onwards[cite: 7].",
+      "answer": "The specific HRM function or field (e.g., Rewards Management, Employee Resourcing).",
+      "rationale": "Field Base departmentalization establishes sub-departments within HR according to fields of HRM, such as Rewards Management, Employee Resourcing, HR Development, and Labour Relations.",
       "marks": 2
     },
     {
       "id": "q4",
       "type": "multipleChoice",
-      "question": "An HR department organizes its functions based on the specific services it provides to various business units, such as a separate section for the marketing team and another for the finance team. What is the most likely basis for this departmentalization?",
+      "question": "A line manager decides to dismiss an employee but must first secure approval from the HR Manager before the decision can be implemented. Which type of authority has been delegated to the HR Manager in this situation?",
       "options": [
-        "By function",
-        "By product",
-        "By customer",
-        "By geography"
+        "Staff Authority",
+        "Compulsory Staff Consultation",
+        "Functional Authority",
+        "Concurrent Authority"
       ],
-      "answer": "By customer",
-      "rationale": "Departmentalization by 'customer' is organized 'by the clients or customers served by the department'[cite: 195]. In this scenario, the 'clients' of the HR department are the different business units (e.g., Marketing, Finance). This is distinct from 'by function' which organizes by specialized activities like recruitment or training[cite: 194].",
+      "answer": "Concurrent Authority",
+      "rationale": "Concurrent Authority means the manager cannot take an HR decision without getting the approval of the HR manager.",
       "marks": 2
     },
     {
       "id": "q5",
       "type": "multipleChoice",
-      "question": "What is the primary difference between an HR Generalist and an HR Specialist?",
+      "question": "An HR Manager who is a HR Generalist in a small organization or a plant of a larger firm, handling most or all HRM functions, is classified under which job category according to Stone & Meltz (1993)?",
       "options": [
-        "Generalists are found only in small organizations, while Specialists are in large ones.",
-        "Generalists manage a wide range of HR activities, while Specialists have deep expertise in a limited area.",
-        "Generalists require a master's degree, while Specialists only need a bachelor's degree.",
-        "Generalists are entry-level positions, while Specialists are senior-level roles."
+        "Support job",
+        "Technical and professional job",
+        "Operating HR manager",
+        "HR Executive position"
       ],
-      "answer": "Generalists manage a wide range of HR activities, while Specialists have deep expertise in a limited area.",
-      "rationale": "The document defines an HR Generalist as 'a person who has responsibility for performing variety of HR activities' and an HR Specialist as a 'Person with in-depth knowledge and expertise in a limited area of HR'[cite: 10]. The other options are either not mentioned or misrepresent the facts presented in the document.",
+      "answer": "Operating HR manager",
+      "rationale": "Operating HR managers are HR generalists who handle most or all HRM functions in a small organization or a plant of a larger firm.",
       "marks": 2
     },
     {
       "id": "q6",
       "type": "multipleChoice",
-      "question": "A multinational corporation structures its HR department with separate units for its European, Asian, and North American operations. This organizational choice is best described as departmentalization by:",
+      "question": "A multinational corporation structures its HR department with separate HR Managers for its North American Business Unit, European Business Unit, and Asian Business Unit. This is an application of which departmentalization base?",
       "options": [
-        "Function",
-        "Territory",
-        "Customer",
-        "Process"
+        "Field Base",
+        "Functional Base",
+        "Employee Base",
+        "Business Base"
       ],
-      "answer": "Territory",
-      "rationale": "The document defines departmentalization by 'territory' as structuring the department 'by the geographical area served by the department'[cite: 197]. This aligns with organizing by continent or region.",
+      "answer": "Business Base",
+      "rationale": "The Business Base departmentalization organizes HR managers by distinct business units (e.g., Business A, B, C, D).",
       "marks": 2
     },
     {
       "id": "q7",
       "type": "multipleChoice",
-      "question": "A Human Resource Department is described as an 'integral part of management.' What is the most significant consequence of this statement?",
+      "question": "Which title for an HR head is historically associated with the earliest period (Around 1900-1917) of the evolution of the HR Manager role?",
       "options": [
-        "It means every organization, regardless of size, must have a dedicated HRD.",
-        "It implies that HR functions are essential for an organization's success, even if there is no separate department.",
-        "It suggests that HR managers hold a higher position than other functional managers.",
-        "It indicates that HR policies are subordinate to marketing and finance policies."
+        "Labor manager",
+        "Welfare officer",
+        "Personnel Manager",
+        "HR Manager"
       ],
-      "answer": "It implies that HR functions are essential for an organization's success, even if there is no separate department.",
-      "rationale": "The document states that 'HRM is an integral part of management of any organisation' and clarifies that even if an organization lacks an HRD, 'it does not mean that HRM does not exist'[cite: 189]. Therefore, the functions are integral, but a separate department is not indispensable.",
+      "answer": "Welfare officer",
+      "rationale": "According to the timeline, 'Welfare officers' were the job title for the period Around 1900-1917.",
       "marks": 2
     },
     {
       "id": "q8",
       "type": "multipleChoice",
-      "question": "A new company is created to sell a single, revolutionary new product. Its HR department is structured around the product's development, marketing, and sales phases. What is the most appropriate basis for this departmentalization?",
+      "question": "If the Head of HR in an organization is titled 'Personnel Administrator,' what is the most likely size and corresponding organizational status of the HR head, according to the provided structures?",
       "options": [
-        "By function",
-        "By process",
-        "By product",
-        "By customer"
+        "Large; Top level",
+        "Medium; Middle level",
+        "Small; Lower level",
+        "Large; Middle level"
       ],
-      "answer": "By process",
-      "rationale": "Departmentalization by 'process' is based on the 'activities involved in the work'[cite: 196]. Structuring the HR department around the sequential phases of the product life cycle (development, marketing, sales) is an example of a process-based structure.",
+      "answer": "Small; Lower level",
+      "rationale": "The summary table indicates that a 'Personnel Administrator' is the title for the HR head in a small organization, corresponding to a lower-level status.",
       "marks": 2
     },
     {
       "id": "q9",
       "type": "multipleChoice",
-      "question": "Which of the following is NOT an example of a specialization area for an HR specialist mentioned in the documents?",
+      "question": "Which of the following is a key characteristic that distinguishes an HR Specialist from an HR Generalist?",
       "options": [
-        "Job Analyst",
-        "Reward Specialist",
-        "Industrial Relations Manager",
-        "General Manager"
+        "An HR Specialist handles most or all HRM functions in a small organization.",
+        "An HR Specialist is employed only in small and medium organizations.",
+        "An HR Specialist is competent in several functions across the HR domain.",
+        "An HR Specialist has in-depth knowledge and expertise in a limited area of HR."
       ],
-      "answer": "General Manager",
-      "rationale": "The documents list several examples of HR Specialists, including 'Reward Specialist, Job Analyst, Labour Relations Specialist'[cite: 203]. A 'General Manager' is not listed as a specialization, but rather a role that would likely be a generalist.",
+      "answer": "An HR Specialist has in-depth knowledge and expertise in a limited area of HR.",
+      "rationale": "An HR Specialist is defined as a person with in-depth knowledge and expertise in a limited area of HR, contrasting with the Generalist's competence in several functions.",
       "marks": 2
     },
     {
       "id": "q10",
       "type": "multipleChoice",
-      "question": "Which of the following best describes the 'linking-pin' role of HR Executive Positions?",
+      "question": "The fundamental justification for establishing a separate Human Resource Department is realized when:",
       "options": [
-        "Connecting the CEO to the marketing and finance departments.",
-        "Linking the top management to the HR generalists and HR specialists within the department.",
-        "Acting as a bridge between the company and external labor unions.",
-        "Connecting the HR department to the customers."
+        "The department operates at a lower cost than the financial benefits it generates.",
+        "The organization reaches a minimum employee threshold of 50 people.",
+        "The HR manager is granted Functional Authority over all line managers.",
+        "The complexity of line managers' jobs is reduced, even if costs exceed benefits."
       ],
-      "answer": "Linking the top management to the HR generalists and HR specialists within the department.",
-      "rationale": "The document explicitly states that HR Executive Positions provide 'The link between top management, HR generalist and HR specialist in the Dept. of HR'[cite: 9].",
+      "answer": "The department operates at a lower cost than the financial benefits it generates.",
+      "rationale": "A separate department should be established when its benefits exceed the cost of establishing it.",
       "marks": 2
     },
     {
       "id": "q11",
       "type": "multipleChoice",
-      "question": "A key characteristic of an HR Generalist, as per the material, is that they are competent in:",
+      "question": "In a large-scale organization structure, the HR functions are typically divided into main managerial sections such as Planning & Staffing, HR Development, Rewards, and Labour Relations. Which base of departmentalization does this structure most closely represent at the managerial level?",
       "options": [
-        "one particular HR function.",
-        "all HR functions equally.",
-        "several HR functions.",
-        "only administrative HR tasks."
+        "Factory Base",
+        "Functional Base",
+        "Field Base",
+        "Employee Base"
       ],
-      "answer": "several HR functions.",
-      "rationale": "The document states an HR Generalist is 'Competent in several functions'[cite: 10]. This distinguishes them from specialists who are competent in 'one particular area'[cite: 10]. They are not necessarily competent in 'all' functions, but a variety.",
+      "answer": "Field Base",
+      "rationale": "The Field Base departmentalization organizes sub-departments based on fields of HRM, and the structure of a large-scale HRD uses major HRM fields (like Planning & Staffing, HR Development, Rewards, Labour Relations) as its primary sub-department divisions.",
       "marks": 2
     },
     {
       "id": "q12",
       "type": "multipleChoice",
-      "question": "What is the key difference in educational requirements for a 'good' HR Generalist and a 'good' HR Specialist, according to the document?",
+      "question": "Which factor influencing the organization of the HR Department is fundamentally dependent on the organization's financial success and operational efficiency?",
       "options": [
-        "Generalists require an HRM degree; Specialists require a degree in Business Administration.",
-        "Generalists must have a postgraduate qualification, while Specialists can have a bachelor's.",
-        "Specialists need education and experience in a particular field, while Generalists need education and experience in all HR functions.",
-        "Both require the same education, but the experience is different."
+        "Geographical location",
+        "Nature of the organization",
+        "Top management philosophy",
+        "Profitability"
       ],
-      "answer": "Specialists need education and experience in a particular field, while Generalists need education and experience in all HR functions.",
-      "rationale": "The document states that a Specialist needs 'education and experience in a particular field' while a Generalist needs 'education and experience in all HR functions'[cite: 10]. It also mentions that a generalist needs a degree, but better if postgraduate, while a specialist needs a degree in HRM or a related field, with a preference for a Master's degree[cite: 204].",
+      "answer": "Profitability",
+      "rationale": "Profitability directly relates to financial success and efficiency, making it the most appropriate choice compared to the other factors listed.",
       "marks": 2
     },
     {
       "id": "q13",
       "type": "multipleChoice",
-      "question": "What is the primary function of the HR department in an organization?",
+      "question": "An HR Manager who is a 'Staff Manager' primarily contributes to the organization by:",
       "options": [
-        "To manage and maintain employee payroll records.",
-        "To act as the sole authority in making recruitment decisions.",
-        "To provide a central point for coordinating HRM activities.",
-        "To ensure the organization has a positive public image."
+        "Giving direct orders to employees in other functional areas (e.g., Marketing, Finance).",
+        "Providing HR services, advice, and recommendations to line managers.",
+        "Replacing the CEO in making strategic business decisions.",
+        "Taking responsibility for the profit and loss of a specific business unit."
       ],
-      "answer": "To provide a central point for coordinating HRM activities.",
-      "rationale": "The text states the HR department is established 'for the coordination of HRM functions within the organization'[cite: 58]. While the other options may be part of HR's role, the overarching function is coordination.",
+      "answer": "Providing HR services, advice, and recommendations to line managers.",
+      "rationale": "An HR manager is a staff manager who does not have Line Authority (give orders) but has staff authority (give advice, recommendations, suggestions) and provides HR services to line and other staff managers.",
       "marks": 2
     },
     {
       "id": "q14",
       "type": "multipleChoice",
-      "question": "Which of the following is a common example of an HR Generalist role listed in the provided material?",
+      "question": "In the 'Mixed Base' departmentalization structure, which of the following is NOT necessarily included, but instead represents a single, narrow specialization within the Field Base component?",
       "options": [
-        "Recruiter",
-        "Job Analyst",
-        "Group HR Manager",
-        "T&D (Training and Development) Manager"
+        "Division by Business Units (Business Base)",
+        "Division by Employee Groups (Employee Base)",
+        "Division by HR Functional Fields (Field Base)",
+        "Division by Top/Middle Management (Employee Base)"
       ],
-      "answer": "Group HR Manager",
-      "rationale": "The document lists 'Group HR Manager' as an example of an HR Generalist[cite: 10]. Recruiter, Job Analyst, and T&D Manager are listed as HR Specialist examples[cite: 10].",
+      "answer": "Division by Top/Middle Management (Employee Base)",
+      "rationale": "The Mixed Base is a combination of Field, Functional, Employee, Business, and Factory Bases. While the 'Employee Base' as a whole is an option, 'Division by Top/Middle Management' is a specific sub-division within the Employee Base, making it the more specific component rather than a primary basis of the mixed model itself. The structure shown for Mixed Base combines Business Base with Field Base and then sub-divides the Field Base by Employee type, indicating all are primary components of the mixture.",
       "marks": 2
     },
     {
       "id": "q15",
       "type": "multipleChoice",
-      "question": "What is the most accurate description of the staffing process for an HR Department?",
+      "question": "Which type of authority represents the most powerful delegation to an HR manager, allowing them to issue binding orders instead of just advice in certain areas?",
       "options": [
-        "It involves only hiring new HR professionals from outside the organization.",
-        "It involves promoting internal employees from other departments to fill HR roles.",
-        "It involves organizing the work of the HRD and hiring the right people to fill those roles.",
-        "It is solely concerned with the educational qualifications of the HR staff."
+        "Staff Authority",
+        "Compulsory Staff Consultation",
+        "Functional Authority",
+        "Concurrent Authority"
       ],
-      "answer": "It involves organizing the work of the HRD and hiring the right people to fill those roles.",
-      "rationale": "The document states, 'It is very important to organise the works of the HRD properly and staff rightfully the HRD for efficient and effective HRM'[cite: 189]. This implies a combination of structuring the department and then bringing in the right people, not just one or the other.",
+      "answer": "Functional Authority",
+      "rationale": "Functional Authority is the most powerful authority, allowing the HR manager to give orders instead of advice, representing expanded HR manager authority.",
       "marks": 2
     },
     {
       "id": "q16",
-      "type": "multipleChoice",
-      "question": "A large manufacturing company's HR department is divided into sections for each of its major product lines: home appliances, industrial machinery, and consumer electronics. This is an example of departmentalization by:",
-      "options": [
-        "Process",
-        "Function",
-        "Product",
-        "Geography"
+      "type": "dropdown",
+      "question": "A key reason for establishing a separate HRD is the need for [dropdown_1] in HRM decisions, while an influential factor in determining its organization is the organization's [dropdown_2].",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "flexibility",
+            "consistency",
+            "speed",
+            "autonomy"
+          ],
+          "correctAnswer": "consistency"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "political affiliation",
+            "financial strength",
+            "daily production quota",
+            "nearest competitor"
+          ],
+          "correctAnswer": "financial strength"
+        }
       ],
-      "answer": "Product",
-      "rationale": "Departmentalization by 'product' or 'service' is when the department is organized 'by the output of the organisation'[cite: 195]. Organizing the HR function around different product lines is a direct example of this basis.",
-      "marks": 2
+      "rationale": "Need for consistency in HRM decisions is a reason for a separate department. Financial strength is a factor influencing the organization of the HR department.",
+      "marks": 3
     },
     {
       "id": "q17",
-      "type": "multipleChoice",
-      "question": "Which of the following historical periods saw the evolution of the HR manager's title to 'Human Capital/People Manager'?",
-      "options": [
-        "Around 1900-1917",
-        "1960-1980",
-        "1980-2020",
-        "2020 up to date"
+      "type": "dropdown",
+      "question": "The 'Personnel Manager' title was prevalent during the period of [dropdown_1], reflecting a historical shift from the earlier 'Labor manager' title, which was in use from [dropdown_2] onwards.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "Around 1900 - 1917",
+            "1918-1939",
+            "1960-1980",
+            "1980-2020"
+          ],
+          "correctAnswer": "1960-1980"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "1918-1939",
+            "1960-1980",
+            "1980-2020",
+            "2020 up to date"
+          ],
+          "correctAnswer": "1918-1939"
+        }
       ],
-      "answer": "2020 up to date",
-      "rationale": "The provided timeline specifies 'Human Capital/ People Manager' and 'Talent Manager' as job titles for the period '2020 up to date'[cite: 7].",
-      "marks": 2
+      "rationale": "The Personnel Manager title was used from 1960-1980. The Labor Manager title was used from 1918-1939.",
+      "marks": 3
     },
     {
       "id": "q18",
-      "type": "multipleChoice",
-      "question": "What is the most accurate description of a 'staff' function within an organization, as opposed to a 'line' function?",
-      "options": [
-        "Staff functions directly create the company's products, while line functions support them.",
-        "Staff functions directly support the line managers, while line functions are at the top of the hierarchy.",
-        "Staff functions support the organization through specialized expertise and advice, while line functions are directly involved in the company's core operations.",
-        "Staff functions have direct authority over line managers."
+      "type": "dropdown",
+      "question": "An HR Manager focused exclusively on 'Recruitment and Selection' is an example of an HR [dropdown_1], while an HR Manager responsible for all functions at 'Factory A' is categorized as an HR [dropdown_2].",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": [
+            "Generalist",
+            "Specialist",
+            "Executive",
+            "Consultant"
+          ],
+          "correctAnswer": "Specialist"
+        },
+        {
+          "id": "dropdown_2",
+          "options": [
+            "Executive",
+            "Specialist",
+            "Generalist",
+            "Technician"
+          ],
+          "correctAnswer": "Generalist"
+        }
       ],
-      "answer": "Staff functions support the organization through specialized expertise and advice, while line functions are directly involved in the company's core operations.",
-      "rationale": "The document mentions the HR department can be considered a staff function, providing a specialized service to line managers[cite: 191]. Staff functions provide expert advice and support, while line functions (like production or sales) are directly involved in the primary business activities.",
-      "marks": 2
+      "rationale": "A focus on a limited area (Recruitment and Selection) indicates an HR Specialist. An HR Manager handling all functions in a plant (Factory HR Manager) is an example of an HR Generalist.",
+      "marks": 3
     },
     {
       "id": "q19",
-      "type": "multipleChoice",
-      "question": "Which of the following is a key characteristic of an HR specialist, as described in the documents?",
-      "options": [
-        "They are responsible for a wide variety of HR activities.",
-        "They are often employed in small to medium organizations.",
-        "They have in-depth knowledge and expertise in a limited area of HR.",
-        "They typically serve as a link between top management and other departments."
-      ],
-      "answer": "They have in-depth knowledge and expertise in a limited area of HR.",
-      "rationale": "The document defines an HR Specialist as a 'Person with in-depth knowledge and expertise in a limited area of HR'[cite: 10]. This is the key distinguishing factor from a Generalist.",
+      "type": "fillInBlank",
+      "question": "Departmentalization in the HRD based on distinct organizational product lines or services is known as the __________ Base.",
+      "answer": "Business",
+      "rationale": "The Business Base of departmentalization establishes HR managers for specific business units or product lines (Business A, B, C, etc.).",
       "marks": 2
     },
     {
       "id": "q20",
-      "type": "multipleChoice",
-      "question": "The concept of an HR department providing services to different business units is most aligned with which of the following 'natures of HRD'?",
-      "options": [
-        "Administrative",
-        "Staff",
-        "Line",
-        "Functional"
-      ],
-      "answer": "Staff",
-      "rationale": "The document explains that the 'Staff' nature of HRD means it provides 'advice, support, specialized services and consultation to line managers in the organisation'[cite: 191]. This model directly involves providing services to business units.",
+      "type": "fillInBlank",
+      "question": "The type of authority that makes it compulsory for a line manager to consult the HR manager before making any HRM decisions about their subordinates is called __________.",
+      "answer": "Compulsory Staff Consultation",
+      "rationale": "Compulsory Staff Consultation requires the line manager to consult with the HR manager before making relevant HRM decisions.",
       "marks": 2
     },
     {
       "id": "q21",
-      "type": "multipleChoice",
-      "question": "A manager who primarily handles tasks like compensation, training, and employee relations for a specific factory is most accurately identified as a(n):",
-      "options": [
-        "HR specialist",
-        "Labor manager",
-        "HR Generalist",
-        "HR Executive"
-      ],
-      "answer": "HR Generalist",
-      "rationale": "The document gives 'Factory HR Manager' as an example of an HR Generalist[cite: 10]. The role involves managing a 'variety of HR activities' for a specific unit, which is the definition of a generalist[cite: 10].",
+      "type": "fillInBlank",
+      "question": "According to Stone and Meltz (1993), jobs like Typist, Receptionist, and Clerk within the HRD are classified as __________ jobs.",
+      "answer": "Support",
+      "rationale": "Support jobs are classified as Typist, Receptionist, and Clerk roles within the HRD.",
       "marks": 2
     },
     {
       "id": "q22",
-      "type": "multipleChoice",
-      "question": "What is the key purpose of organizing the works of the HR department and staffing it 'rightfully'?",
+      "type": "multiSelect",
+      "question": "Select all reasons for an organization to establish a separate Human Resource Department.",
       "options": [
-        "To satisfy the CEO's requirements.",
-        "To ensure compliance with legal regulations.",
-        "To achieve efficient and effective HRM.",
-        "To reduce operational costs."
+        "Need for expertise in HR fields.",
+        "Complexity of line managers' job.",
+        "Reduction of external influences to zero.",
+        "Need for consistency in HRM decisions."
       ],
-      "answer": "To achieve efficient and effective HRM.",
-      "rationale": "The document states that it is 'very important to organise the works of the HRD properly and staff rightfully the HRD for efficient and effective HRM'[cite: 189]. The primary goal is the efficiency and effectiveness of the human resource management process itself.",
-      "marks": 2
+      "answer": [
+        "Need for expertise in HR fields.",
+        "Complexity of line managers' job.",
+        "Need for consistency in HRM decisions."
+      ],
+      "rationale": "Reasons for a separate HRD include: Need for expertise, Complexity of line managers' job, Coordination of HRM functions, Need for consistency in HRM decisions, External influences, and Time consuming. Reduction of external influences to zero is an unrealistic outcome, not a stated reason.",
+      "marks": 3
     },
     {
       "id": "q23",
-      "type": "multipleChoice",
-      "question": "Which of the following is a defining characteristic of an organization that would typically NOT have a separate HR department?",
+      "type": "multiSelect",
+      "question": "Which of the following organizational characteristics are typically considered factors when determining the structure and organization of the HR Department?",
       "options": [
-        "It is a large-scale multinational corporation.",
-        "It is a company with a high number of employees.",
-        "It is a small to medium-sized enterprise (SME).",
-        "It is a public-sector organization."
+        "Size of the organization.",
+        "Nature of the organization.",
+        "Competitor's market share.",
+        "Top management philosophy."
       ],
-      "answer": "It is a small to medium-sized enterprise (SME).",
-      "rationale": "The document states that a separate HRD is 'not indispensable' and implies that organizations may not have one. This is most common in smaller organizations where HR functions are handled by other managers[cite: 189]. Large organizations are more likely to have a dedicated HRD[cite: 10].",
-      "marks": 2
+      "answer": [
+        "Size of the organization.",
+        "Nature of the organization.",
+        "Top management philosophy."
+      ],
+      "rationale": "Factors to consider when organizing the HR Department include Nature of the organization, Size, Top management philosophy, Financial strength, Profitability, and Geographical location. Competitor's market share is not listed as a factor.",
+      "marks": 3
     },
     {
       "id": "q24",
-      "type": "multipleChoice",
-      "question": "In the organizational chart presented, the HR department reports directly to the CEO/Chairman. This structure indicates that the HR department's role is considered:",
+      "type": "multiSelect",
+      "question": "Which of the following HR Manager roles would be classified as a 'Technical and professional job' (Functional specialist in specific areas) according to Stone & Meltz's classification?",
       "options": [
-        "Secondary to other functions.",
-        "A line function.",
-        "A staff function that advises top management.",
-        "Subordinate to marketing and finance."
+        "Labour Relation Manager.",
+        "Typist.",
+        "Training Manager.",
+        "Reward Manager."
       ],
-      "answer": "A staff function that advises top management.",
-      "rationale": "The diagram shows the HR department reporting directly to the CEO[cite: 63, 64]. This direct reporting line, combined with the 'staff' nature of HR, indicates its role is to advise and support top management[cite: 191]. It is not subordinate to other departments in this structure.",
-      "marks": 2
+      "answer": [
+        "Labour Relation Manager.",
+        "Training Manager.",
+        "Reward Manager."
+      ],
+      "rationale": "Technical and professional jobs are functional specialists in specific areas, such as Labour Relation, Reward, or Training Managers. Typist is a Support job.",
+      "marks": 3
     },
     {
       "id": "q25",
-      "type": "fillInBlank",
-      "question": "According to the evolution of the HR manager title, the period from 1918 to 1939 was represented by the job title of ______ manager.",
-      "answer": "Labor",
-      "rationale": "The provided timeline specifies the job title 'Labor manager' for the period '1918-1939'[cite: 7].",
-      "marks": 2
+      "type": "matching",
+      "question": "Match the size of the organization with the corresponding status (level of the head) of its HR department.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Small Organization",
+          "right": "Lower"
+        },
+        {
+          "id": "pair2",
+          "left": "Medium Organization",
+          "right": "Middle"
+        },
+        {
+          "id": "pair3",
+          "left": "Large Organization",
+          "right": "Top"
+        }
+      ],
+      "marks": 3
     },
     {
       "id": "q26",
-      "type": "fillInBlank",
-      "question": "The five bases for departmentalization mentioned in the text are function, process, product, territory, and ______.",
-      "answer": "customer",
-      "rationale": "The document lists five bases for departmentalization: 'by function', 'by process', 'by product/service', 'by territory', and 'by customer'[cite: 194, 195, 196, 197].",
-      "marks": 2
+      "type": "matching",
+      "question": "Match the departmentalization base with the primary characteristic used for sub-dividing the HR department.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "Employee Base",
+          "right": "Type of employee group (e.g., Clerical, Technical)"
+        },
+        {
+          "id": "pair2",
+          "left": "Functional Base",
+          "right": "Specific HR function (e.g., Pay, T&D, Performance Evaluation)"
+        },
+        {
+          "id": "pair3",
+          "left": "Factory Base",
+          "right": "Geographical or operational production unit (e.g., Factory A, B)"
+        }
+      ],
+      "marks": 3
     },
     {
       "id": "q27",
-      "type": "fillInBlank",
-      "question": "A person with in-depth knowledge and expertise in a limited area of HR is known as a(n) HR ______.",
-      "answer": "Specialist",
-      "rationale": "The document defines an HR Specialist as a 'Person with in-depth knowledge and expertise in a limited area of HR'[cite: 10].",
-      "marks": 2
+      "type": "matching",
+      "question": "Match the historical period with the dominant job title used for the HR role.",
+      "matchPairs": [
+        {
+          "id": "pair1",
+          "left": "1918-1939",
+          "right": "Labor manager"
+        },
+        {
+          "id": "pair2",
+          "left": "1960-1980",
+          "right": "Personnel Manager"
+        },
+        {
+          "id": "pair3",
+          "left": "2020 up to date",
+          "right": "Human Capital Manager"
+        }
+      ],
+      "marks": 3
     },
     {
       "id": "q28",
-      "type": "fillInBlank",
-      "question": "The department established for the coordination of HRM functions in an organization is referred to as the ______ Department.",
-      "answer": "Human Resource",
-      "rationale": "The document defines the 'HRD' as 'the department established for coordination of HRM functions in an organisation'[cite: 189].",
+      "type": "multipleChoice",
+      "question": "If an HR department is structured where an AGM - HRM oversees HR Managers for Employee Resourcing, HR Development, Rewards Management, and Labour Relations, this organizational design is a pure example of which departmentalization base?",
+      "options": [
+        "Functional Base, emphasizing specialized expertise.",
+        "Mixed Base, combining various organizational criteria.",
+        "Field Base, dividing by major HRM fields.",
+        "Business Base, focusing on distinct profit centers."
+      ],
+      "answer": "Field Base, dividing by major HRM fields.",
+      "rationale": "This structure exactly matches the description of the Field Base departmentalization, which establishes sub-departments based on the major fields of HRM.",
       "marks": 2
     },
     {
       "id": "q29",
-      "type": "fillInBlank",
-      "question": "The historical job title 'Welfare officers' was in use during the period from around ______ to 1917.",
-      "answer": "1900",
-      "rationale": "The provided timeline lists 'Welfare officers' for the period 'Around 1900 - 1917'[cite: 7].",
+      "type": "multipleChoice",
+      "question": "What is the primary role difference between an HR Generalist and an HR Specialist, in terms of expertise?",
+      "options": [
+        "Generalists work only in large firms; Specialists work only in small firms.",
+        "Generalists need education in one field; Specialists need it in all HR functions.",
+        "Generalists are competent in several HR functions; Specialists are competent in one particular area.",
+        "Generalists are staff managers; Specialists have line authority."
+      ],
+      "answer": "Generalists are competent in several HR functions; Specialists are competent in one particular area.",
+      "rationale": "An HR Generalist is competent in several functions, having responsibility for a variety of HR activities. An HR Specialist is competent in one particular area and has in-depth knowledge in a limited area.",
       "marks": 2
     },
     {
       "id": "q30",
-      "type": "fillInBlank",
-      "question": "A person who has responsibility for performing a variety of HR activities, such as a Factory HR Manager, is considered a(n) HR ______.",
-      "answer": "Generalist",
-      "rationale": "The document defines an HR Generalist as 'A person who has responsibility for performing variety of HR activities' and lists 'Factory HR Manager' as an example[cite: 10].",
+      "type": "multipleChoice",
+      "question": "The evolution of the HR Manager's title from 'Welfare officers' (Around 1900-1917) to 'Human Capital/People Manager/Talent Manager' (2020 up to date) primarily reflects a shift towards:",
+      "options": [
+        "A focus on purely administrative and transactional tasks.",
+        "A decline in the authority delegated to the HR function.",
+        "A more strategic, comprehensive, and value-focused role within the organization.",
+        "A limitation of HR responsibilities solely to labor union negotiations."
+      ],
+      "answer": "A more strategic, comprehensive, and value-focused role within the organization.",
+      "rationale": "The progression of titles (Welfare, Labor, Personnel, HR, Human Capital/Talent) reflects an increasing scope and strategic importance of the role, moving from basic welfare/transactional tasks to managing human resources as critical capital/talent.",
       "marks": 2
     }
   ]
 }
+
