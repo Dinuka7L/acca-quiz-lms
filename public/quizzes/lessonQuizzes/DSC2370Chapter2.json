@@ -2,7 +2,7 @@
 "id": "quiz-Operations-Strategy-Competitiveness",
 "title": "Operations Strategy and Competitiveness",
 "description": "Assesses strategic alignment, operations decision making, competitive priorities, order winners and qualifiers, and productivity analysis.",
-"subject": "DSC2370 Operations Management",
+"subject": "DSC2370 - Operations Management",
 "gradientColors": ["#0f172a", "#1e293b", "#334155", "#475569"],
 "timeOptions": [10, 20, 30],
 "totalMarks": 66,
