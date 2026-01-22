@@ -2,7 +2,7 @@
 "id": "quiz-JobDesign",
 "title": "Chapter 03 - Job Design (JD)",
 "description": "Examines the concepts, techniques, elements, and trade-offs involved in effective Job Design within Human Resource Management.",
-"subject": "HRM 1370 - Human Resource Management",
+"subject": "HRM1370 - Human Resource Management",
 "gradientColors": ["#00796B", "#004D40", "#4DB6AC", "#80CBC4"],
 "timeOptions": [10, 20, 30],
 "totalMarks": 65,

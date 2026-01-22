@@ -1,0 +1,360 @@
+{
+"id": "quiz-MAR2370-Marketing-Environment",
+"title": "Session 02 – Decoding Market Dynamics: The Marketing Environment",
+"description": "An advanced assessment on the internal, micro, and macro environmental forces that shape marketing strategy and business sustainability.",
+"subject": "MAR2370 - Marketing Management",
+"gradientColors": ["#1e3a8a", "#1e40af", "#1d4ed8", "#2563eb"],
+"timeOptions": [10, 20, 30],
+"totalMarks": 70,
+"weight": 0,
+"category": "lesson",
+"questions": [
+{
+"id": "q1",
+"type": "multipleChoice",
+"question": "A multinational firm notices a sudden but brief surge in demand for a specific style of digital avatar clothing that disappears within three weeks. According to the environmental analysis framework, how should this be categorized?",
+"options": ["Megatrend", "Trend", "Fad", "Market Intelligence"],
+"answer": "Fad",
+"rationale": "A fad is defined as unpredictable, short lived, and without significant social, economic, or political impact, fitting the description of a three week surge.",
+"marks": 2
+},
+{
+"id": "q2",
+"type": "multipleChoice",
+"question": "When a company evaluates its internal environment using Porter's Value Chain, which activity specifically involves the acquisition of raw materials and other external resources to facilitate production?",
+"options": ["Inbound Logistics", "Procurement", "Operations", "Firm Infrastructure"],
+"answer": "Procurement",
+"rationale": "Procurement is a support activity that includes the acquisition of raw materials, goods, services, and other external resources.",
+"marks": 2
+},
+{
+"id": "q3",
+"type": "multipleChoice",
+"question": "Which component of the internal environment includes systematic functions such as accounting, finance, legal, and public relations?",
+"options": ["Human Resource Management", "Firm Infrastructure", "Technology Development", "Support Services"],
+"answer": "Firm Infrastructure",
+"rationale": "Firm Infrastructure consists of systematic components like accounting, finance, legal, and public relations that support the entire value chain.",
+"marks": 2
+},
+{
+"id": "q4",
+"type": "multipleChoice",
+"question": "A retail chain is optimizing its warehouse receiving processes and inventory management. Within Porter's Value Chain, which primary activity is being addressed?",
+"options": ["Outbound Logistics", "Operations", "Inbound Logistics", "Procurement"],
+"answer": "Inbound Logistics",
+"rationale": "Inbound Logistics covers processes for inbound movement such as receiving, warehousing, and managing materials and inventory.",
+"marks": 2
+},
+{
+"id": "q5",
+"type": "multipleChoice",
+"question": "Which of the following best describes a Megatrend as opposed to a regular Trend?",
+"options": ["It lasts for approximately one to two years", "It is unpredictable and lacks social significance", "It is a large change that influences society for seven to ten years or longer", "It is primarily driven by short term marketing promotions"],
+"answer": "It is a large change that influences society for seven to ten years or longer",
+"rationale": "A megatrend is a slow to form, large scale change that stays in place for a decade or more.",
+"marks": 2
+},
+{
+"id": "q6",
+"type": "multipleChoice",
+"question": "If a marketer is analyzing the Rise of the Asian Market, they are most likely evaluating which type of environmental force?",
+"options": ["Microenvironment", "Internal Environment", "Macro Environment", "Technological Force"],
+"answer": "Macro Environment",
+"rationale": "Large scale shifts like the rise of a regional market are part of the macro environment, often classified under economic or demographic forces.",
+"marks": 2
+},
+{
+"id": "q7",
+"type": "multipleChoice",
+"question": "Which tool is specifically recommended for environmental analysis to assess a company's internal strengths and weaknesses alongside external opportunities and threats?",
+"options": ["PESTEL Framework", "Value Chain Analysis", "SWOT Framework", "Market Intelligence Reports"],
+"answer": "SWOT Framework",
+"rationale": "SWOT is used for marketing planning by looking at both internal and external factors.",
+"marks": 2
+},
+{
+"id": "q8",
+"type": "multipleChoice",
+"question": "In the context of the Marketing Environment definition, who are the 'actors' that affect a management's ability to maintain customer relationships?",
+"options": ["Macro forces only", "Internal and external stakeholders", "Legal and political bodies only", "Competitors and suppliers only"],
+"answer": "Internal and external stakeholders",
+"rationale": "The marketing environment consists of the actors (stakeholders) and forces that affect marketing relationships.",
+"marks": 2
+},
+{
+"id": "q9",
+"type": "multipleChoice",
+"question": "A company invests in new software and hardware upgrades to improve its production efficiency. This falls under which support activity in the Value Chain?",
+"options": ["Firm Infrastructure", "Procurement", "Operations", "Technology"],
+"answer": "Technology",
+"rationale": "Technology includes R and D, software and hardware upgrades, and technical know how.",
+"marks": 2
+},
+{
+"id": "q10",
+"type": "multipleChoice",
+"question": "What is the primary difference between a Trend and a Fad?",
+"options": ["Trends are shorter lived than fads", "Trends have more momentum and provide strategic direction", "Fads are more predictable than trends", "Fads are slow to form while trends are instant"],
+"answer": "Trends have more momentum and provide strategic direction",
+"rationale": "Trends have momentum and durability, revealing the shape of the future, whereas fads are short lived and lack strategic significance.",
+"marks": 2
+},
+{
+"id": "q11",
+"type": "multipleChoice",
+"question": "Which activity in the Value Chain ensures that a product is maintained or repaired after it has been delivered to the customer?",
+"options": ["Marketing and Sales", "Outbound Logistics", "Customer Service", "Operations"],
+"answer": "Customer Service",
+"rationale": "Customer Service includes processes offered after the sale, such as maintenance, repairs, and support.",
+"marks": 2
+},
+{
+"id": "q12",
+"type": "multipleChoice",
+"question": "The PESTEL framework is primarily used to analyze which part of the marketing environment?",
+"options": ["Internal Environment", "Microenvironment", "Macro Environment", "Value Chain"],
+"answer": "Macro Environment",
+"rationale": "PESTEL is a tool designed to analyze the broad macro environmental forces (Political, Economic, Social, Technological, Environmental, Legal).",
+"marks": 2
+},
+{
+"id": "q13",
+"type": "multipleChoice",
+"question": "Which of the following is an example of an emerging technological trend mentioned in the lecture that could redefine the marketing landscape?",
+"options": ["Street Art Murals", "Aging Population", "The Metaverse", "Urbanization"],
+"answer": "The Metaverse",
+"rationale": "The Metaverse is described as a virtual shared space and an emerging trend/megatrend with significant future marketing implications.",
+"marks": 2
+},
+{
+"id": "q14",
+"type": "multipleChoice",
+"question": "If a bank analyzes the influence of the 2022 Sri Lankan economic crisis on its operations, it is performing an analysis of a:",
+"options": ["Microenvironmental force", "Macroenvironmental force", "Internal stakeholder force", "Fad"],
+"answer": "Macroenvironmental force",
+"rationale": "Economic crises are part of the Economic force within the macro environment.",
+"marks": 2
+},
+{
+"id": "q15",
+"type": "multipleChoice",
+"question": "Under Porter's Value Chain, 'advertising, promotions, and pricing' belong to which primary activity?",
+"options": ["Firm Infrastructure", "Outbound Logistics", "Marketing and Sales", "Customer Service"],
+"answer": "Marketing and Sales",
+"rationale": "Marketing and Sales include advertising, promotions, and pricing to optimize ROI.",
+"marks": 2
+},
+{
+"id": "q16",
+"type": "multipleChoice",
+"question": "Which of the following activities is NOT a Primary Activity in Porter's Value Chain?",
+"options": ["Inbound Logistics", "Operations", "Human Resource Management", "Outbound Logistics"],
+"answer": "Human Resource Management",
+"rationale": "HR Management is categorized as a Support Activity, not a Primary Activity.",
+"marks": 2
+},
+{
+"id": "q17",
+"type": "multipleChoice",
+"question": "Why is 'Informed Decision Making' considered a reason for why the environment matters?",
+"options": ["It reduces the need for marketing spend", "It allows managers to ignore competitors", "It helps management understand stakeholders and forces before acting", "It ensures that the firm infrastructure is always profitable"],
+"answer": "It helps management understand stakeholders and forces before acting",
+"rationale": "Analyzing the environment provides the necessary data for making informed strategic decisions.",
+"marks": 2
+},
+{
+"id": "q18",
+"type": "multipleChoice",
+"question": "A trend toward a 'Healthy Lifestyle' is most likely classified under which macroenvironmental force?",
+"options": ["Economic", "Technological", "Social", "Political"],
+"answer": "Social",
+"rationale": "Lifestyle changes and health trends are typically social forces in a PESTEL analysis.",
+"marks": 2
+},
+{
+"id": "q19",
+"type": "multipleChoice",
+"question": "What does the term 'Margin' represent in Porter's Value Chain diagram?",
+"options": ["Total production costs", "The difference between total value created and the cost of activities", "The percentage of market share", "The cost of procurement"],
+"answer": "The difference between total value created and the cost of activities",
+"rationale": "Margin represents the profit gained after subtracting the costs of primary and support activities from the total value.",
+"marks": 2
+},
+{
+"id": "q20",
+"type": "multipleChoice",
+"question": "Which method involves tracking what is being said about a brand or industry on digital platforms?",
+"options": ["PESTEL Framework", "Social Media Listening", "Value Chain Analysis", "Porter's Primary Activities"],
+"answer": "Social Media Listening",
+"rationale": "Social Media Listening is a tool for environmental analysis mentioned for capturing market sentiments.",
+"marks": 2
+},
+{
+"id": "q21",
+"type": "multipleChoice",
+"question": "The 'Rise of Generative AI' is described in the lecture as having the potential to:",
+"options": ["Become a short lived fad", "Change the business world in the future", "Only affect internal stakeholders", "Reduce the need for environmental analysis"],
+"answer": "Change the business world in the future",
+"rationale": "The lecture prompts students to imagine how Generative AI would change the business world, implying a significant trend or megatrend.",
+"marks": 2
+},
+{
+"id": "q22",
+"type": "multiSelect",
+"question": "Identify the elements that constitute the Internal Environment according to the lecture materials.",
+"options": ["Firm Infrastructure", "Competitors", "Human Resource Management", "Technological Forces", "Procurement"],
+"answer": ["Firm Infrastructure", "Human Resource Management", "Procurement"],
+"rationale": "Internal environment includes support activities like Infrastructure, HR, and Procurement. Competitors are microenvironment, and Tech forces are macroenvironment.",
+"marks": 3
+},
+{
+"id": "q23",
+"type": "multiSelect",
+"question": "Which of the following are categorized as Primary Activities in the Value Chain?",
+"options": ["Inbound Logistics", "Technology", "Outbound Logistics", "Customer Service", "Firm Infrastructure"],
+"answer": ["Inbound Logistics", "Outbound Logistics", "Customer Service"],
+"rationale": "Primary activities include Inbound/Outbound Logistics, Operations, Marketing/Sales, and Customer Service.",
+"marks": 3
+},
+{
+"id": "q24",
+"type": "multiSelect",
+"question": "Which of the following are reasons mentioned for why analyzing the marketing environment is significant?",
+"options": ["Staying Relevant", "Competitive Advantage", "Reducing Tax Liability", "Understanding Customers", "Eliminating all Business Risks"],
+"answer": ["Staying Relevant", "Competitive Advantage", "Understanding Customers"],
+"rationale": "The lecture lists Staying Relevant, Informed Decision Making, Understanding Customers, and Competitive Advantage as key reasons.",
+"marks": 3
+},
+{
+"id": "q25",
+"type": "fillInBlank",
+"question": "The ________ is a virtual shared space that merges physical reality with persistent virtual environments, allowing users to socialize and work.",
+"answer": "Metaverse",
+"rationale": "The lecture defines the Metaverse as a virtual shared space merging physical reality with virtual environments.",
+"marks": 2
+},
+{
+"id": "q26",
+"type": "fillInBlank",
+"question": "A ________ is an unpredictable, short-lived event without social, economic, and political significance.",
+"answer": "fad",
+"rationale": "This is the verbatim definition of a fad provided in the lecture notes.",
+"marks": 2
+},
+{
+"id": "q27",
+"type": "fillInBlank",
+"question": "The framework used to analyze external factors consisting of Political, Economic, Social, Technological, Environmental, and Legal forces is known as ________.",
+"answer": "PESTEL",
+"rationale": "PESTEL is the standard acronym for analyzing these macro environmental forces.",
+"marks": 2
+},
+{
+"id": "q28",
+"type": "dropdown",
+"question": "In Porter's Value Chain, [dropdown_1] represents activities like accounting and legal, whereas [dropdown_2] refers to the actual manufacturing or conversion of raw materials.",
+"dropdownBlanks": [
+{
+"id": "dropdown_1",
+"options": ["Firm Infrastructure", "Procurement", "Human Resource Management", "Operations"],
+"correctAnswer": "Firm Infrastructure"
+},
+{
+"id": "dropdown_2",
+"options": ["Inbound Logistics", "Operations", "Outbound Logistics", "Procurement"],
+"correctAnswer": "Operations"
+}
+],
+"rationale": "Infrastructure includes legal and accounting; Operations involves converting raw materials into finished goods.",
+"marks": 4
+},
+{
+"id": "q29",
+"type": "dropdown",
+"question": "A [dropdown_1] provides strategic direction because it has momentum, while a [dropdown_2] is a much larger shift that lasts for at least a decade.",
+"dropdownBlanks": [
+{
+"id": "dropdown_1",
+"options": ["Trend", "Fad", "Megatrend", "Micro Force"],
+"correctAnswer": "Trend"
+},
+{
+"id": "dropdown_2",
+"options": ["Trend", "Fad", "Megatrend", "Macro Force"],
+"correctAnswer": "Megatrend"
+}
+],
+"rationale": "Trends offer strategic direction; Megatrends are larger and longer lasting (7 to 10 years or more).",
+"marks": 4
+},
+{
+"id": "q30",
+"type": "dropdown",
+"question": "Analyzing internal strengths belongs to [dropdown_1] analysis, whereas analyzing the impact of global inflation belongs to [dropdown_2] analysis.",
+"dropdownBlanks": [
+{
+"id": "dropdown_1",
+"options": ["SWOT", "PESTEL", "Market Intelligence", "External"],
+"correctAnswer": "SWOT"
+},
+{
+"id": "dropdown_2",
+"options": ["Microenvironment", "Macro Environment", "Internal", "Fad"],
+"correctAnswer": "Macro Environment"
+}
+],
+"rationale": "SWOT covers internal strengths; inflation is a macro economic force.",
+"marks": 4
+},
+{
+"id": "q31",
+"type": "matching",
+"question": "Match the following activities with their correct category in Porter's Value Chain.",
+"matchPairs": [
+{ "id": "p1", "left": "Receiving and Warehousing", "right": "Inbound Logistics" },
+{ "id": "p2", "left": "Building and Developing Workforce", "right": "Human Resource Management" },
+{ "id": "p3", "left": "Storage and Movement of Finished Goods", "right": "Outbound Logistics" },
+{ "id": "p4", "left": "Research and Development", "right": "Technology" }
+],
+"marks": 4
+},
+{
+"id": "q32",
+"type": "matching",
+"question": "Match the environmental concept with its duration or nature.",
+"matchPairs": [
+{ "id": "p1", "left": "Fad", "right": "Unpredictable and short lived" },
+{ "id": "p2", "left": "Trend", "right": "Predictable with momentum" },
+{ "id": "p3", "left": "Megatrend", "right": "Lasts 7 to 10 years or longer" },
+{ "id": "p4", "left": "Microenvironment", "right": "Immediate actors like stakeholders" }
+],
+"marks": 4
+},
+{
+"id": "q33",
+"type": "matching",
+"question": "Match the Tool/Resource with its primary purpose in environmental analysis.",
+"matchPairs": [
+{ "id": "p1", "left": "PESTEL", "right": "Macroenvironmental forces analysis" },
+{ "id": "p2", "left": "Value Chain", "right": "Internal environment analysis" },
+{ "id": "p3", "left": "SWOT", "right": "Marketing planning synthesis" },
+{ "id": "p4", "left": "Mintel Reports", "right": "Market Intelligence" }
+],
+"marks": 4
+},
+{
+"id": "q34",
+"type": "essay",
+"question": "Compare and contrast a 'Trend' and a 'Megatrend'. Discuss why it is critical for a company like Keells or Commercial Bank to distinguish between them when planning long term strategy.",
+"idealKeywords": ["momentum", "durability", "strategic direction", "seven to ten years", "slow to form", "long term planning", "macro forces"],
+"marks": 5
+},
+{
+"id": "q35",
+"type": "essay",
+"question": "Explain how Porter's Value Chain helps a marketing manager identify sources of competitive advantage. Use the relationship between primary and support activities to justify your answer.",
+"idealKeywords": ["primary activities", "support activities", "value creation", "margin", "optimization", "internal analysis", "competitive advantage"],
+"marks": 5
+}
+]
+}

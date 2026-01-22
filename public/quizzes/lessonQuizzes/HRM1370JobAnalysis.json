@@ -2,7 +2,7 @@
   "id": "quiz-hrm-job-analysis-1",
   "title": "Chapter 4 - HRM Job Analysis",
   "description": "Practice quiz covering the intricacies of Job Analysis.",
-  "subject": "HRM 1370 - Human Resource Management",
+  "subject": "HRM1370 - Human Resource Management",
   "gradientColors": ["#0d9488", "#0f766e", "#134e4a", "#0d433b"],
   "timeOptions": [30, 45, 60, 90, 120],
   "totalMarks": 100,
