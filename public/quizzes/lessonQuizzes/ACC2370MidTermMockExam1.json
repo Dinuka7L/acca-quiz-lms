@@ -1,0 +1,477 @@
+{
+  "id": "quiz-Management-Accounting-Mid",
+  "title": "Management Accounting Mock Mid Exam 1 – Costing and Cost Systems",
+  "description": "Assesses analytical and applied understanding of management accounting concepts, cost behavior, cost assignment, and job and process costing.",
+  "subject": "ACC2370 – Management Accounting",
+  "gradientColors": ["#0f766e", "#0d9488", "#14b8a6", "#5eead4"],
+  "timeOptions": [10, 20, 30],
+  "totalMarks": 66,
+  "weight": 0,
+  "category": "lesson",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multipleChoice",
+      "question": "Which situation best justifies the use of activity based costing instead of a single plant wide rate?",
+      "options": [
+        "Overheads form a small proportion of total cost and products are homogeneous",
+        "Direct labour hours strongly correlate with all overhead activities",
+        "Products consume support activities in significantly different proportions",
+        "Production volume is the only significant cost driver"
+      ],
+      "answer": "Products consume support activities in significantly different proportions",
+      "rationale": "ABC is most beneficial when overheads are driven by diverse activities and products consume those activities unevenly. Using a single volume based rate would distort costs.",
+      "marks": 2
+    },
+    {
+      "id": "q2",
+      "type": "multipleChoice",
+      "question": "In an activity based costing system, which of the following best describes an activity cost driver?",
+      "options": [
+        "A measure that directly traces materials to finished goods",
+        "A factor that causes a change in the cost of an activity",
+        "A budgeted overhead absorption rate per unit",
+        "A financial account used to record indirect costs"
+      ],
+      "answer": "A factor that causes a change in the cost of an activity",
+      "rationale": "Cost drivers explain why activity costs are incurred. Confusing them with allocation rates or accounts leads to incorrect cost assignment.",
+      "marks": 2
+    },
+    {
+      "id": "q3",
+      "type": "multipleChoice",
+      "question": "A company absorbs overheads using a rate based on machine hours. Which implicit assumption is being made?",
+      "options": [
+        "Machine hours vary directly with all overhead costs",
+        "Machine hours are fixed regardless of output level",
+        "Labour time is insignificant in production",
+        "Overheads are entirely variable with units produced"
+      ],
+      "answer": "Machine hours vary directly with all overhead costs",
+      "rationale": "Volume based absorption assumes a strong cause and effect relationship between the chosen base and overheads. Ignoring this assumption leads to miscosting.",
+      "marks": 2
+    },
+    {
+      "id": "q4",
+      "type": "multipleChoice",
+      "question": "Which cost is most likely to be treated as a step fixed cost?",
+      "options": [
+        "Direct material cost per unit",
+        "Power cost of running machines",
+        "Salary of a production supervisor hired per shift",
+        "Sales commission based on revenue"
+      ],
+      "answer": "Salary of a production supervisor hired per shift",
+      "rationale": "Step fixed costs remain constant over a range but increase when capacity thresholds are crossed. Treating them as variable is a common error.",
+      "marks": 2
+    },
+    {
+      "id": "q5",
+      "type": "multipleChoice",
+      "question": "Which of the following costs would be classified as a period cost?",
+      "options": [
+        "Indirect materials used in production",
+        "Depreciation of factory machinery",
+        "Administrative office rent",
+        "Direct labour of assembly workers"
+      ],
+      "answer": "Administrative office rent",
+      "rationale": "Period costs are expensed in the period incurred and are not attached to inventory. Mixing them with product costs overstates inventory values.",
+      "marks": 2
+    },
+    {
+      "id": "q6",
+      "type": "multipleChoice",
+      "question": "In job costing, which document primarily accumulates costs for a specific job?",
+      "options": [
+        "Materials requisition note",
+        "Job cost sheet",
+        "Production budget",
+        "Overhead ledger account"
+      ],
+      "answer": "Job cost sheet",
+      "rationale": "The job cost sheet summarizes all direct and absorbed costs for a job. Confusing source documents with summary records is a common pitfall.",
+      "marks": 2
+    },
+    {
+      "id": "q7",
+      "type": "multipleChoice",
+      "question": "If overheads are absorbed as a percentage of prime cost, which cost will directly affect the overhead absorbed?",
+      "options": [
+        "Indirect labour",
+        "Direct material",
+        "Factory rent",
+        "Administrative salaries"
+      ],
+      "answer": "Direct material",
+      "rationale": "Prime cost consists of direct material and direct labour. Overhead linked to prime cost fluctuates with these components, not indirect items.",
+      "marks": 2
+    },
+    {
+      "id": "q8",
+      "type": "multipleChoice",
+      "question": "Which statement correctly distinguishes process costing from job costing?",
+      "options": [
+        "Process costing accumulates costs by job while job costing accumulates by department",
+        "Process costing is suitable for homogeneous continuous production",
+        "Job costing ignores work in progress valuation",
+        "Process costing does not require cost allocation"
+      ],
+      "answer": "Process costing is suitable for homogeneous continuous production",
+      "rationale": "Process costing applies where identical units pass through continuous processes. Misapplying job costing here leads to unnecessary complexity.",
+      "marks": 2
+    },
+    {
+      "id": "q9",
+      "type": "multipleChoice",
+      "question": "Which factor would most likely reduce the accuracy of a plant wide overhead rate?",
+      "options": [
+        "High automation with few products",
+        "Uniform consumption of resources",
+        "Multiple products with diverse support requirements",
+        "Stable production volume"
+      ],
+      "answer": "Multiple products with diverse support requirements",
+      "rationale": "Diverse products require different activities. A single rate masks this diversity and causes cross subsidization.",
+      "marks": 2
+    },
+    {
+      "id": "q10",
+      "type": "multipleChoice",
+      "question": "A cost that has already been incurred and cannot be changed by future decisions is known as:",
+      "options": [
+        "Opportunity cost",
+        "Relevant cost",
+        "Sunk cost",
+        "Marginal cost"
+      ],
+      "answer": "Sunk cost",
+      "rationale": "Sunk costs are irrelevant for decision making. Including them leads to biased and irrational decisions.",
+      "marks": 2
+    },
+    {
+      "id": "q11",
+      "type": "multipleChoice",
+      "question": "Which of the following best explains why returned direct materials are deducted from job cost?",
+      "options": [
+        "They reduce total factory overhead",
+        "They are no longer consumed by the job",
+        "They convert direct costs into indirect costs",
+        "They affect only inventory valuation"
+      ],
+      "answer": "They are no longer consumed by the job",
+      "rationale": "Only materials actually used should be charged to a job. Ignoring returns overstates job costs.",
+      "marks": 2
+    },
+    {
+      "id": "q12",
+      "type": "multipleChoice",
+      "question": "In process costing, equivalent units are primarily used to:",
+      "options": [
+        "Allocate period costs between departments",
+        "Measure partially completed production in terms of full units",
+        "Eliminate normal losses from cost",
+        "Determine selling price per unit"
+      ],
+      "answer": "Measure partially completed production in terms of full units",
+      "rationale": "Equivalent units convert incomplete work into comparable complete units. Confusing them with pricing or loss treatment is incorrect.",
+      "marks": 2
+    },
+    {
+      "id": "q13",
+      "type": "multipleChoice",
+      "question": "Which overhead allocation base is least appropriate for allocating setup costs?",
+      "options": [
+        "Number of setups",
+        "Production runs",
+        "Machine hours",
+        "Batch count"
+      ],
+      "answer": "Machine hours",
+      "rationale": "Setup costs are batch related, not volume related. Using machine hours spreads setup costs inaccurately across units.",
+      "marks": 2
+    },
+    {
+      "id": "q14",
+      "type": "multipleChoice",
+      "question": "A company experiences under absorption of overheads. Which situation is most likely?",
+      "options": [
+        "Actual activity exceeded budgeted activity",
+        "Actual overhead incurred was higher than absorbed",
+        "Absorption rate was revised upwards",
+        "Production volume was higher than planned"
+      ],
+      "answer": "Actual overhead incurred was higher than absorbed",
+      "rationale": "Under absorption arises when absorbed overhead is less than actual overhead. Confusing volume effects with cost effects is common.",
+      "marks": 2
+    },
+    {
+      "id": "q15",
+      "type": "multipleChoice",
+      "question": "Which cost classification is most useful for short term decision making?",
+      "options": [
+        "Historical costs",
+        "Sunk costs",
+        "Relevant costs",
+        "Absorbed costs"
+      ],
+      "answer": "Relevant costs",
+      "rationale": "Relevant costs differ between alternatives and affect decisions. Including sunk or historical costs clouds judgment.",
+      "marks": 2
+    },
+    {
+      "id": "q16",
+      "type": "multipleChoice",
+      "question": "If total setup cost is Rs 250000 and there are 100 production runs, what is the setup cost per run?",
+      "options": [
+        "Rs 250",
+        "Rs 2500",
+        "Rs 900",
+        "Rs 100"
+      ],
+      "answer": "Rs 2500",
+      "rationale": "Dividing total cost by total cost driver units gives the rate. Errors often arise from confusing units and batches.",
+      "marks": 2
+    },
+    {
+      "id": "q17",
+      "type": "multipleChoice",
+      "question": "Which statement about cost estimation using high low method is correct?",
+      "options": [
+        "It uses all available data points",
+        "It separates fixed and variable elements using extreme activity levels",
+        "It provides the most statistically accurate estimate",
+        "It ignores cost behavior patterns"
+      ],
+      "answer": "It separates fixed and variable elements using extreme activity levels",
+      "rationale": "High low relies only on highest and lowest points. Overreliance without checking outliers can mislead.",
+      "marks": 2
+    },
+    {
+      "id": "q18",
+      "type": "multipleChoice",
+      "question": "Which cost would normally be excluded from prime cost?",
+      "options": [
+        "Direct labour",
+        "Direct material",
+        "Indirect labour",
+        "Both direct labour and material"
+      ],
+      "answer": "Indirect labour",
+      "rationale": "Prime cost includes only direct material and direct labour. Including indirect labour inflates prime cost incorrectly.",
+      "marks": 2
+    },
+    {
+      "id": "q19",
+      "type": "multipleChoice",
+      "question": "In an ABC system, what is the primary reason for allocating resource costs to activity cost pools?",
+      "options": [
+        "To eliminate overheads completely",
+        "To improve tracing of overheads to products",
+        "To reduce total production cost",
+        "To simplify financial reporting"
+      ],
+      "answer": "To improve tracing of overheads to products",
+      "rationale": "Activities act as an intermediate stage to create a clearer cause and effect link. Cost reduction is not automatic.",
+      "marks": 2
+    },
+    {
+      "id": "q20",
+      "type": "multipleChoice",
+      "question": "Which of the following is a key weakness of job costing?",
+      "options": [
+        "Inability to handle customized products",
+        "High record keeping and administrative effort",
+        "Unsuitability for batch production",
+        "Failure to allocate overheads"
+      ],
+      "answer": "High record keeping and administrative effort",
+      "rationale": "Tracking costs job by job increases accuracy but also complexity. Ignoring this trade off is risky.",
+      "marks": 2
+    },
+    {
+      "id": "q21",
+      "type": "multipleChoice",
+      "question": "Which scenario most likely results in cost distortion under traditional costing?",
+      "options": [
+        "Single product environment",
+        "Low overhead proportion",
+        "High automation with multiple products",
+        "Stable cost structure"
+      ],
+      "answer": "High automation with multiple products",
+      "rationale": "Automation increases overhead significance and diversity, making traditional volume based costing misleading.",
+      "marks": 2
+    },
+    {
+      "id": "q22",
+      "type": "dropdown",
+      "question": "In job costing, [dropdown_1] is used to record labour time, while [dropdown_2] summarizes total job costs.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["Time sheet", "Job cost sheet", "Materials ledger", "Production report"],
+          "correctAnswer": "Time sheet"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["Overhead account", "Job cost sheet", "Cost ledger", "Process account"],
+          "correctAnswer": "Job cost sheet"
+        }
+      ],
+      "rationale": "Time sheets capture labour input and job cost sheets accumulate all job related costs.",
+      "marks": 4
+    },
+    {
+      "id": "q23",
+      "type": "dropdown",
+      "question": "A [dropdown_1] cost changes in total with activity, while a [dropdown_2] cost remains constant within a relevant range.",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["Fixed", "Variable", "Step fixed", "Committed"],
+          "correctAnswer": "Variable"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["Variable", "Mixed", "Fixed", "Discretionary"],
+          "correctAnswer": "Fixed"
+        }
+      ],
+      "rationale": "Understanding cost behavior is essential for budgeting and forecasting.",
+      "marks": 4
+    },
+    {
+      "id": "q24",
+      "type": "dropdown",
+      "question": "Process costing is most appropriate when products are [dropdown_1] and production is [dropdown_2].",
+      "dropdownBlanks": [
+        {
+          "id": "dropdown_1",
+          "options": ["Unique", "Heterogeneous", "Homogeneous", "Customized"],
+          "correctAnswer": "Homogeneous"
+        },
+        {
+          "id": "dropdown_2",
+          "options": ["Intermittent", "Continuous", "Job based", "Order driven"],
+          "correctAnswer": "Continuous"
+        }
+      ],
+      "rationale": "Process costing suits continuous flows of identical units.",
+      "marks": 4
+    },
+    {
+      "id": "q25",
+      "type": "fillInBlank",
+      "question": "The cost that represents the benefit foregone by choosing one alternative over another is called ________ cost.",
+      "answer": "opportunity",
+      "rationale": "Opportunity cost reflects sacrificed benefits and is crucial in decision making.",
+      "marks": 2
+    },
+    {
+      "id": "q26",
+      "type": "fillInBlank",
+      "question": "Costs that can be directly traced to a cost object without allocation are known as ________ costs.",
+      "answer": "direct",
+      "rationale": "Direct costs have a clear traceable relationship to the cost object.",
+      "marks": 2
+    },
+    {
+      "id": "q27",
+      "type": "fillInBlank",
+      "question": "In process costing, partially completed units are converted into ________ units for costing purposes.",
+      "answer": "equivalent",
+      "rationale": "Equivalent units allow comparison between complete and incomplete output.",
+      "marks": 2
+    },
+    {
+      "id": "q28",
+      "type": "multiSelect",
+      "question": "Which of the following are characteristics of activity based costing?",
+      "options": [
+        "Multiple cost pools",
+        "Single volume based driver",
+        "Focus on cause and effect",
+        "Improved overhead accuracy"
+      ],
+      "answer": ["Multiple cost pools", "Focus on cause and effect", "Improved overhead accuracy"],
+      "rationale": "ABC uses several pools and drivers to better reflect resource consumption. A single driver contradicts ABC logic.",
+      "marks": 3
+    },
+    {
+      "id": "q29",
+      "type": "multiSelect",
+      "question": "Which costs are included in prime cost?",
+      "options": [
+        "Direct material",
+        "Direct labour",
+        "Factory rent",
+        "Indirect labour"
+      ],
+      "answer": ["Direct material", "Direct labour"],
+      "rationale": "Prime cost includes only direct material and direct labour.",
+      "marks": 3
+    },
+    {
+      "id": "q30",
+      "type": "multiSelect",
+      "question": "Which situations make job costing more appropriate than process costing?",
+      "options": [
+        "Customized products",
+        "Continuous mass production",
+        "Distinct customer orders",
+        "Identical units"
+      ],
+      "answer": ["Customized products", "Distinct customer orders"],
+      "rationale": "Job costing suits unique, order specific production rather than continuous identical output.",
+      "marks": 3
+    },
+    {
+      "id": "q31",
+      "type": "matching",
+      "question": "Match each cost type with its correct description.",
+      "matchPairs": [
+        { "id": "pair1", "left": "Sunk cost", "right": "Already incurred and not relevant for decisions" },
+        { "id": "pair2", "left": "Opportunity cost", "right": "Benefit foregone from the next best alternative" },
+        { "id": "pair3", "left": "Variable cost", "right": "Changes in total with activity level" }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q32",
+      "type": "matching",
+      "question": "Match the document to its primary purpose in job costing.",
+      "matchPairs": [
+        { "id": "pair1", "left": "Materials requisition note", "right": "Authorizes issue of materials to a job" },
+        { "id": "pair2", "left": "Time sheet", "right": "Records labour hours spent on jobs" },
+        { "id": "pair3", "left": "Job cost sheet", "right": "Summarizes total cost of a job" }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q33",
+      "type": "matching",
+      "question": "Match each costing method with the most suitable production environment.",
+      "matchPairs": [
+        { "id": "pair1", "left": "Job costing", "right": "Custom furniture manufacturing" },
+        { "id": "pair2", "left": "Process costing", "right": "Chemical production plant" },
+        { "id": "pair3", "left": "Batch costing", "right": "Bakery producing bread in batches" }
+      ],
+      "marks": 4
+    },
+    {
+      "id": "q34",
+      "type": "essay",
+      "question": "Explain why traditional volume based overhead absorption can lead to product cost distortion in modern manufacturing environments.",
+      "idealKeywords": ["overhead growth", "automation", "single cost driver", "cross subsidization", "activity diversity"],
+      "marks": 5
+    },
+    {
+      "id": "q35",
+      "type": "essay",
+      "question": "Discuss how job costing information can support managerial planning and control decisions.",
+      "idealKeywords": ["cost control", "pricing decisions", "budget comparison", "profitability analysis"],
+      "marks": 5
+    }
+  ]
+}
