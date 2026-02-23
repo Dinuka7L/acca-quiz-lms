@@ -158,7 +158,7 @@ const Home: React.FC<HomeProps> = ({ onStartQuiz }) => {
         {/* Header Container */}
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4 transition-colors duration-300">
-            USJ - FMSC First Year Quizzes by 2023/2024 Batch
+            USJ - FMSC Quizzes by 2023/2024 Batch
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto transition-colors duration-300">
             Explore a comprehensive collection of quizzes organized by subjects. Practice with lesson quizzes and test your knowledge.
