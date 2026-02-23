@@ -1,0 +1,463 @@
+{
+"id": "quiz-Cost-Concepts-Classifications-Estimation",
+"title": "Tutorial 02 – Cost Concepts, Classifications, and Estimation",
+"description": "Evaluates deep understanding of cost behavior, classifications, relevance for decisions, and application to product costing and profit analysis.",
+"subject": "ACC2370 - Management Accounting",
+"gradientColors": ["#020617", "#1e293b", "#334155", "#64748b"],
+"timeOptions": [10, 20, 30],
+"totalMarks": 65,
+"weight": 0,
+"category": "lesson",
+"questions": [
+{
+"id": "q1",
+"type": "multipleChoice",
+"question": "Which cost classification is most relevant when deciding whether to continue or discontinue a product line?",
+"options": [
+"Historical cost",
+"Sunk cost",
+"Relevant cost",
+"Absorbed cost"
+],
+"answer": "Relevant cost",
+"rationale": "Only costs that change as a result of the decision should influence it.",
+"marks": 2
+},
+{
+"id": "q2",
+"type": "multipleChoice",
+"question": "Lubricants used for sewing machines in a factory are best classified as:",
+"options": [
+"Direct materials",
+"Manufacturing overhead",
+"Selling and distribution cost",
+"Direct expenses"
+],
+"answer": "Manufacturing overhead",
+"rationale": "They support production but are not directly traceable to a single unit.",
+"marks": 2
+},
+{
+"id": "q3",
+"type": "multipleChoice",
+"question": "Which cost remains unchanged in total within a relevant range despite changes in output?",
+"options": [
+"Variable cost",
+"Step fixed cost",
+"Fixed cost",
+"Incremental cost"
+],
+"answer": "Fixed cost",
+"rationale": "Fixed costs remain constant in total within the relevant range.",
+"marks": 2
+},
+{
+"id": "q4",
+"type": "multipleChoice",
+"question": "Royalty payable per unit produced is best classified as:",
+"options": [
+"Direct material cost",
+"Fixed manufacturing overhead",
+"Direct expense",
+"Selling cost"
+],
+"answer": "Direct expense",
+"rationale": "Royalties per unit are directly attributable to production but are not materials or labor.",
+"marks": 2
+},
+{
+"id": "q5",
+"type": "multipleChoice",
+"question": "Which cost is incurred even if production is temporarily stopped?",
+"options": [
+"Variable cost",
+"Incremental cost",
+"Fixed cost",
+"Opportunity cost"
+],
+"answer": "Fixed cost",
+"rationale": "Fixed costs are time based rather than volume based.",
+"marks": 2
+},
+{
+"id": "q6",
+"type": "multipleChoice",
+"question": "The book value of an old machine when deciding whether to sell it is classified as:",
+"options": [
+"Opportunity cost",
+"Sunk cost",
+"Incremental cost",
+"Controllable cost"
+],
+"answer": "Sunk cost",
+"rationale": "Book value is a past cost that cannot be altered by future decisions.",
+"marks": 2
+},
+{
+"id": "q7",
+"type": "multipleChoice",
+"question": "The foregone resale value of a machine retained for use is an example of:",
+"options": [
+"Sunk cost",
+"Incremental cost",
+"Opportunity cost",
+"Fixed cost"
+],
+"answer": "Opportunity cost",
+"rationale": "It represents the benefit sacrificed by choosing one alternative over another.",
+"marks": 2
+},
+{
+"id": "q8",
+"type": "multipleChoice",
+"question": "Wages paid per unit produced plus a fixed monthly allowance represent which cost behavior?",
+"options": [
+"Variable cost",
+"Step fixed cost",
+"Semi variable cost",
+"Sunk cost"
+],
+"answer": "Semi variable cost",
+"rationale": "The cost has both fixed and variable components.",
+"marks": 2
+},
+{
+"id": "q9",
+"type": "multipleChoice",
+"question": "Which cost is most likely to be classified as a period cost?",
+"options": [
+"Direct labor",
+"Raw material",
+"Factory supervision",
+"Advertising expense"
+],
+"answer": "Advertising expense",
+"rationale": "Selling and administrative costs are expensed in the period incurred.",
+"marks": 2
+},
+{
+"id": "q10",
+"type": "multipleChoice",
+"question": "Which cost would normally be included in product cost under absorption costing?",
+"options": [
+"Sales commission",
+"Factory rent",
+"Office stationery",
+"Audit fees"
+],
+"answer": "Factory rent",
+"rationale": "All manufacturing costs are absorbed into product cost.",
+"marks": 2
+},
+{
+"id": "q11",
+"type": "multipleChoice",
+"question": "A cost that can be influenced by a specific manager is known as:",
+"options": [
+"Uncontrollable cost",
+"Fixed cost",
+"Controllable cost",
+"Sunk cost"
+],
+"answer": "Controllable cost",
+"rationale": "Managers should be evaluated only on costs they can control.",
+"marks": 2
+},
+{
+"id": "q12",
+"type": "multipleChoice",
+"question": "Which cost classification is most useful for break even analysis?",
+"options": [
+"Product and period costs",
+"Controllable and uncontrollable costs",
+"Fixed and variable costs",
+"Direct and indirect costs"
+],
+"answer": "Fixed and variable costs",
+"rationale": "Break even analysis depends on cost behavior.",
+"marks": 2
+},
+{
+"id": "q13",
+"type": "multipleChoice",
+"question": "Distribution costs are generally classified as:",
+"options": [
+"Manufacturing overhead",
+"Product cost",
+"Period cost",
+"Direct expense"
+],
+"answer": "Period cost",
+"rationale": "They relate to selling rather than production.",
+"marks": 2
+},
+{
+"id": "q14",
+"type": "multipleChoice",
+"question": "Which cost changes only when activity passes a certain threshold?",
+"options": [
+"Variable cost",
+"Step fixed cost",
+"Semi variable cost",
+"Opportunity cost"
+],
+"answer": "Step fixed cost",
+"rationale": "Step costs remain fixed over ranges then jump to a higher level.",
+"marks": 2
+},
+{
+"id": "q15",
+"type": "multipleChoice",
+"question": "Which cost is irrelevant when choosing between two mutually exclusive alternatives?",
+"options": [
+"Opportunity cost",
+"Incremental cost",
+"Sunk cost",
+"Differential cost"
+],
+"answer": "Sunk cost",
+"rationale": "Sunk costs do not change regardless of the decision.",
+"marks": 2
+},
+{
+"id": "q16",
+"type": "multipleChoice",
+"question": "Which of the following best describes incremental cost?",
+"options": [
+"Total cost after a decision",
+"Cost that differs between alternatives",
+"Past cost already incurred",
+"Cost that remains fixed per unit"
+],
+"answer": "Cost that differs between alternatives",
+"rationale": "Incremental cost captures the change in cost due to a decision.",
+"marks": 2
+},
+{
+"id": "q17",
+"type": "multipleChoice",
+"question": "Factory security guard salaries are best classified as:",
+"options": [
+"Direct labor",
+"Manufacturing overhead",
+"Administration cost",
+"Selling cost"
+],
+"answer": "Manufacturing overhead",
+"rationale": "They support production but are indirect.",
+"marks": 2
+},
+{
+"id": "q18",
+"type": "multipleChoice",
+"question": "Which cost is most likely non controllable by a department manager?",
+"options": [
+"Overtime wages",
+"Departmental supplies",
+"Allocated head office rent",
+"Minor maintenance costs"
+],
+"answer": "Allocated head office rent",
+"rationale": "Allocated costs are imposed and cannot be influenced locally.",
+"marks": 2
+},
+{
+"id": "q19",
+"type": "multipleChoice",
+"question": "The cost of damaged raw materials due to fire should be classified as:",
+"options": [
+"Manufacturing overhead",
+"Direct material",
+"Other expense in profit or loss",
+"Selling cost"
+],
+"answer": "Other expense in profit or loss",
+"rationale": "Abnormal losses are excluded from product cost.",
+"marks": 2
+},
+{
+"id": "q20",
+"type": "multipleChoice",
+"question": "Which cost behavior assumption underlies linear cost estimation models?",
+"options": [
+"Costs change exponentially",
+"Relevant range remains stable",
+"Fixed costs vary continuously",
+"All costs are step based"
+],
+"answer": "Relevant range remains stable",
+"rationale": "Linear models assume constant behavior within the relevant range.",
+"marks": 2
+},
+{
+"id": "q21",
+"type": "multipleChoice",
+"question": "When selling price is determined as a markup on unit production cost, which costing approach is implied?",
+"options": [
+"Marginal costing",
+"Absorption costing",
+"Activity based costing",
+"Standard costing"
+],
+"answer": "Absorption costing",
+"rationale": "Markup pricing uses full production cost per unit.",
+"marks": 2
+},
+{
+"id": "q22",
+"type": "dropdown",
+"question": "Costs that vary in total with output are [dropdown_1], while costs that remain constant in total are [dropdown_2].",
+"dropdownBlanks": [
+{
+"id": "dropdown_1",
+"options": ["Fixed costs", "Variable costs", "Sunk costs", "Opportunity costs"],
+"correctAnswer": "Variable costs"
+},
+{
+"id": "dropdown_2",
+"options": ["Incremental costs", "Variable costs", "Fixed costs", "Step costs"],
+"correctAnswer": "Fixed costs"
+}
+],
+"rationale": "Cost behavior distinguishes variable and fixed costs.",
+"marks": 3
+},
+{
+"id": "q23",
+"type": "dropdown",
+"question": "Selling and administrative costs are treated as [dropdown_1] costs and expensed in the [dropdown_2].",
+"dropdownBlanks": [
+{
+"id": "dropdown_1",
+"options": ["Product", "Period", "Direct", "Manufacturing"],
+"correctAnswer": "Period"
+},
+{
+"id": "dropdown_2",
+"options": ["Future period", "Period incurred", "Production stage", "Inventory valuation"],
+"correctAnswer": "Period incurred"
+}
+],
+"rationale": "Period costs are expensed when incurred.",
+"marks": 3
+},
+{
+"id": "q24",
+"type": "dropdown",
+"question": "A cost already incurred that cannot be changed is [dropdown_1], while the benefit forgone by rejecting an alternative is [dropdown_2].",
+"dropdownBlanks": [
+{
+"id": "dropdown_1",
+"options": ["Incremental cost", "Sunk cost", "Variable cost", "Step cost"],
+"correctAnswer": "Sunk cost"
+},
+{
+"id": "dropdown_2",
+"options": ["Opportunity cost", "Fixed cost", "Relevant cost", "Avoidable cost"],
+"correctAnswer": "Opportunity cost"
+}
+],
+"rationale": "These concepts guide rational decision making.",
+"marks": 3
+},
+{
+"id": "q25",
+"type": "fillInBlank",
+"question": "Costs that differ between alternative courses of action are known as ________ costs.",
+"answer": "differential",
+"rationale": "Differential costs are key to comparing alternatives.",
+"marks": 2
+},
+{
+"id": "q26",
+"type": "fillInBlank",
+"question": "Costs that can be directly traced to a product in an economically feasible way are called ________ costs.",
+"answer": "direct",
+"rationale": "Direct costs are traceable to cost objects.",
+"marks": 2
+},
+{
+"id": "q27",
+"type": "fillInBlank",
+"question": "A cost that includes both fixed and variable components is described as a ________ cost.",
+"answer": "semi variable",
+"rationale": "Such costs combine fixed and variable behavior.",
+"marks": 2
+},
+{
+"id": "q28",
+"type": "multiSelect",
+"question": "Which of the following are examples of product costs?",
+"options": [
+"Direct materials",
+"Direct labor",
+"Factory overhead",
+"Advertising expense"
+],
+"answer": ["Direct materials", "Direct labor", "Factory overhead"],
+"rationale": "Product costs relate directly to manufacturing.",
+"marks": 3
+},
+{
+"id": "q29",
+"type": "multiSelect",
+"question": "Which costs are relevant for a short term special order decision?",
+"options": [
+"Incremental material cost",
+"Sunk cost",
+"Incremental labor cost",
+"Opportunity cost"
+],
+"answer": ["Incremental material cost", "Incremental labor cost", "Opportunity cost"],
+"rationale": "Only costs that change due to the decision matter.",
+"marks": 3
+},
+{
+"id": "q30",
+"type": "multiSelect",
+"question": "Which costs are typically classified as period costs?",
+"options": [
+"Selling costs",
+"Distribution costs",
+"Administration costs",
+"Direct labor"
+],
+"answer": ["Selling costs", "Distribution costs", "Administration costs"],
+"rationale": "Period costs are expensed in the period incurred.",
+"marks": 3
+},
+{
+"id": "q31",
+"type": "matching",
+"question": "Match the cost term with its description.",
+"matchPairs": [
+{ "id": "pair1", "left": "Sunk cost", "right": "Past cost not affected by decisions" },
+{ "id": "pair2", "left": "Opportunity cost", "right": "Benefit forgone from next best alternative" },
+{ "id": "pair3", "left": "Incremental cost", "right": "Additional cost from a decision" }
+],
+"marks": 4
+},
+{
+"id": "q32",
+"type": "matching",
+"question": "Match the cost with its behavior pattern.",
+"matchPairs": [
+{ "id": "pair1", "left": "Fixed cost", "right": "Constant in total within range" },
+{ "id": "pair2", "left": "Variable cost", "right": "Changes in total with volume" },
+{ "id": "pair3", "left": "Step fixed cost", "right": "Jumps after activity threshold" }
+],
+"marks": 4
+},
+{
+"id": "q33",
+"type": "matching",
+"question": "Match the cost category with an example.",
+"matchPairs": [
+{ "id": "pair1", "left": "Direct material", "right": "Plastic used in production" },
+{ "id": "pair2", "left": "Direct labor", "right": "Wages of machine operators" },
+{ "id": "pair3", "left": "Manufacturing overhead", "right": "Machine maintenance expense" }
+],
+"marks": 4
+}
+]
+}

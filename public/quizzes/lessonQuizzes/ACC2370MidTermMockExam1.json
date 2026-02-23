@@ -2,7 +2,7 @@
   "id": "quiz-Management-Accounting-Mid",
   "title": "Management Accounting Mock Mid Exam 1 – Costing and Cost Systems",
   "description": "Assesses analytical and applied understanding of management accounting concepts, cost behavior, cost assignment, and job and process costing.",
-  "subject": "ACC2370 – Management Accounting",
+  "subject": "ACC2370 - Management Accounting",
   "gradientColors": ["#0f766e", "#0d9488", "#14b8a6", "#5eead4"],
   "timeOptions": [10, 20, 30],
   "totalMarks": 66,

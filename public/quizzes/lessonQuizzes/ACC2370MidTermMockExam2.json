@@ -2,7 +2,7 @@
   "id": "quiz-Management-Accounting-Calculations-Only",
   "title": "Management Accounting Mock Mid Exam 2 – Advanced Costing Calculations",
   "description": "A calculation intensive quiz covering cost behavior, overhead absorption, activity based costing, job costing, and process costing.",
-  "subject": "ACC2370 – Management Accounting",
+  "subject": "ACC2370 - Management Accounting",
   "gradientColors": ["#1e293b", "#334155", "#475569", "#64748b"],
   "timeOptions": [10, 20, 30],
   "totalMarks": 62,
