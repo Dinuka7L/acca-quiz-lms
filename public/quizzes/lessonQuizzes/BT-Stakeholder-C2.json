@@ -1,0 +1,485 @@
+{
+"id": "stakeholders-in-business-organizations",
+"title": "Lesson 2 – Stakeholders in Business Organizations",
+"description": "Understanding stakeholder groups, their expectations, conflicts, and stakeholder prioritization using Mendelow's matrix.",
+"subject": "Business and Technology",
+"gradientColors": ["#3b82f6", "#2563eb", "#1d4ed8", "#1e40af"],
+"timeOptions": [10,20,30],
+"totalMarks": 65,
+"weight": 0,
+"category": "lesson",
+"questions": [
+{
+"id": "q1",
+"type": "multipleChoice",
+"question": "A group of individuals is affected by a company's decisions about building a new factory near their homes. Which stakeholder group do they represent?",
+"options": [
+"Internal stakeholders",
+"Community stakeholders",
+"Connected stakeholders",
+"Finance providers"
+],
+"answer": "Community stakeholders",
+"rationale": "Local communities are external stakeholders affected by business activities.",
+"marks": 2
+},
+{
+"id": "q2",
+"type": "multipleChoice",
+"question": "Which stakeholder group typically expects improved working conditions and job security?",
+"options": [
+"Suppliers",
+"Employees",
+"Shareholders",
+"Customers"
+],
+"answer": "Employees",
+"rationale": "Employees are concerned with pay, job security, and working conditions.",
+"marks": 2
+},
+{
+"id": "q3",
+"type": "multipleChoice",
+"question": "Managers decide to delay payments to suppliers to improve short-term cash flow. Which stakeholder group is most directly affected?",
+"options": [
+"Customers",
+"Suppliers",
+"Government",
+"Community"
+],
+"answer": "Suppliers",
+"rationale": "Suppliers expect prompt payment and may stop supplying goods if payments are delayed.",
+"marks": 2
+},
+{
+"id": "q4",
+"type": "multipleChoice",
+"question": "Which stakeholder group primarily expects dividends and capital growth from the company?",
+"options": [
+"Customers",
+"Shareholders",
+"Employees",
+"Trade unions"
+],
+"answer": "Shareholders",
+"rationale": "Shareholders invest in the business and expect income through dividends and capital growth.",
+"marks": 2
+},
+{
+"id": "q5",
+"type": "multipleChoice",
+"question": "A government introduces stricter environmental regulations affecting production processes. Which stakeholder role is being demonstrated?",
+"options": [
+"Providing finance to the organization",
+"Monitoring legal compliance",
+"Improving employee wages",
+"Managing supplier relationships"
+],
+"answer": "Monitoring legal compliance",
+"rationale": "Governments regulate companies and enforce laws such as environmental or safety legislation.",
+"marks": 2
+},
+{
+"id": "q6",
+"type": "multipleChoice",
+"question": "Which stakeholder group is most concerned with the company's ability to repay loans and interest?",
+"options": [
+"Customers",
+"Finance providers",
+"Employees",
+"Pressure groups"
+],
+"answer": "Finance providers",
+"rationale": "Finance providers focus on repayment ability and security of their investment.",
+"marks": 2
+},
+{
+"id": "q7",
+"type": "multipleChoice",
+"question": "Which of the following best describes a stakeholder?",
+"options": [
+"An individual or group that manages the organization",
+"An individual or group that has an interest in or is affected by the organization",
+"A person responsible for making financial decisions",
+"A group responsible for auditing company accounts"
+],
+"answer": "An individual or group that has an interest in or is affected by the organization",
+"rationale": "Stakeholders include anyone who affects or is affected by organizational activities.",
+"marks": 2
+},
+{
+"id": "q8",
+"type": "multipleChoice",
+"question": "Which stakeholder conflict is most likely if managers pursue rapid business expansion?",
+"options": [
+"Managers vs shareholders",
+"Employees vs customers",
+"Suppliers vs community",
+"Customers vs government"
+],
+"answer": "Managers vs shareholders",
+"rationale": "Managers may prefer expansion while shareholders may prefer profits or independence.",
+"marks": 2
+},
+{
+"id": "q9",
+"type": "multipleChoice",
+"question": "Customers may conflict with shareholders when deciding whether to increase product quality and price. Why?",
+"options": [
+"Customers want lower wages",
+"Customers want lower taxes",
+"Customers prefer better value while shareholders want higher profits",
+"Customers want more employees"
+],
+"answer": "Customers prefer better value while shareholders want higher profits",
+"rationale": "Higher quality may increase costs, reducing shareholder profits.",
+"marks": 2
+},
+{
+"id": "q10",
+"type": "multipleChoice",
+"question": "Which stakeholder group represents individuals working within the organization?",
+"options": [
+"Internal stakeholders",
+"External stakeholders",
+"Connected stakeholders",
+"Secondary stakeholders"
+],
+"answer": "Internal stakeholders",
+"rationale": "Internal stakeholders operate within the organization such as employees and managers.",
+"marks": 2
+},
+{
+"id": "q11",
+"type": "multipleChoice",
+"question": "Shareholders, customers, and suppliers are best described as which type of stakeholders?",
+"options": [
+"Internal stakeholders",
+"Connected stakeholders",
+"Government stakeholders",
+"Pressure stakeholders"
+],
+"answer": "Connected stakeholders",
+"rationale": "Connected stakeholders have direct dealings or financial relationships with the organization.",
+"marks": 2
+},
+{
+"id": "q12",
+"type": "multipleChoice",
+"question": "Which stakeholder group may protest if a new airport runway harms the environment?",
+"options": [
+"Finance providers",
+"Environmental pressure groups",
+"Shareholders",
+"Managers"
+],
+"answer": "Environmental pressure groups",
+"rationale": "Environmental groups aim to prevent damage to the environment.",
+"marks": 2
+},
+{
+"id": "q13",
+"type": "multipleChoice",
+"question": "Which of the following stakeholders is most likely to demand higher bonuses when company profits increase?",
+"options": [
+"Managers",
+"Customers",
+"Suppliers",
+"Community"
+],
+"answer": "Managers",
+"rationale": "Managers often expect bonuses linked to company performance.",
+"marks": 2
+},
+{
+"id": "q14",
+"type": "multipleChoice",
+"question": "Stakeholders with a contractual relationship with the organization are categorized as:",
+"options": [
+"Secondary stakeholders",
+"Primary stakeholders",
+"Environmental stakeholders",
+"Indirect stakeholders"
+],
+"answer": "Primary stakeholders",
+"rationale": "Primary stakeholders have a contractual relationship such as employees or suppliers.",
+"marks": 2
+},
+{
+"id": "q15",
+"type": "multipleChoice",
+"question": "Which group would most likely demand consultation before job cuts occur?",
+"options": [
+"Trade unions",
+"Suppliers",
+"Customers",
+"Shareholders"
+],
+"answer": "Trade unions",
+"rationale": "Trade unions represent employees and advocate for job protection.",
+"marks": 2
+},
+{
+"id": "q16",
+"type": "multipleChoice",
+"question": "An organization cannot satisfy every stakeholder equally because:",
+"options": [
+"Managers ignore stakeholder demands",
+"Stakeholders rarely communicate",
+"Organizations have limited resources",
+"Government regulations prohibit it"
+],
+"answer": "Organizations have limited resources",
+"rationale": "Limited resources require prioritizing stakeholder needs.",
+"marks": 2
+},
+{
+"id": "q17",
+"type": "multipleChoice",
+"question": "Which factor does NOT determine a stakeholder's position in Mendelow's matrix?",
+"options": [
+"Power to influence the organization",
+"Level of interest in the organization",
+"Length of relationship with the company",
+"Ability to affect decisions"
+],
+"answer": "Length of relationship with the company",
+"rationale": "Mendelow's matrix is based on power and interest.",
+"marks": 2
+},
+{
+"id": "q18",
+"type": "multipleChoice",
+"question": "Stakeholders with high power and high interest are classified as:",
+"options": [
+"Minimal effort stakeholders",
+"Key players",
+"Keep satisfied stakeholders",
+"Keep informed stakeholders"
+],
+"answer": "Key players",
+"rationale": "These stakeholders require close management and attention.",
+"marks": 2
+},
+{
+"id": "q19",
+"type": "multipleChoice",
+"question": "Stakeholders with high power but low interest should be:",
+"options": [
+"Kept informed",
+"Kept satisfied",
+"Given minimal attention",
+"Removed from decisions"
+],
+"answer": "Kept satisfied",
+"rationale": "They could become key players if dissatisfied.",
+"marks": 2
+},
+{
+"id": "q20",
+"type": "multipleChoice",
+"question": "Stakeholders with low power but high interest should be:",
+"options": [
+"Kept informed",
+"Closely controlled",
+"Ignored",
+"Given authority"
+],
+"answer": "Kept informed",
+"rationale": "They may influence powerful stakeholders.",
+"marks": 2
+},
+{
+"id": "q21",
+"type": "multipleChoice",
+"question": "Which stakeholders typically fall under minimal effort in Mendelow's matrix?",
+"options": [
+"Small shareholders and the general public",
+"Senior managers",
+"Government regulators",
+"Strategic suppliers"
+],
+"answer": "Small shareholders and the general public",
+"rationale": "They have low power and low interest in most cases.",
+"marks": 2
+},
+{
+"id": "q22",
+"type": "dropdown",
+"question": "In Mendelow's matrix, stakeholders with [dropdown_1] power and [dropdown_2] interest are considered key players.",
+"dropdownBlanks": [
+{
+"id": "dropdown_1",
+"options": ["high","low","moderate","minimal"],
+"correctAnswer": "high"
+},
+{
+"id": "dropdown_2",
+"options": ["high","low","limited","moderate"],
+"correctAnswer": "high"
+}
+],
+"rationale": "Key players have both high power and high interest.",
+"marks": 3
+},
+{
+"id": "q23",
+"type": "dropdown",
+"question": "Stakeholders with [dropdown_1] interest but [dropdown_2] power should be kept informed.",
+"dropdownBlanks": [
+{
+"id": "dropdown_1",
+"options": ["high","low","moderate","minimal"],
+"correctAnswer": "high"
+},
+{
+"id": "dropdown_2",
+"options": ["low","high","equal","significant"],
+"correctAnswer": "low"
+}
+],
+"rationale": "These stakeholders care about the organization but lack power.",
+"marks": 3
+},
+{
+"id": "q24",
+"type": "dropdown",
+"question": "Stakeholders with [dropdown_1] power and [dropdown_2] interest require minimal effort.",
+"dropdownBlanks": [
+{
+"id": "dropdown_1",
+"options": ["low","high","moderate","extreme"],
+"correctAnswer": "low"
+},
+{
+"id": "dropdown_2",
+"options": ["low","high","medium","major"],
+"correctAnswer": "low"
+}
+],
+"rationale": "Minimal effort stakeholders have both low power and low interest.",
+"marks": 3
+},
+{
+"id": "q25",
+"type": "fillInBlank",
+"question": "A stakeholder is an individual or group who has an ______ in what the organization does.",
+"answer": "interest",
+"rationale": "Stakeholders are defined as individuals or groups with an interest in organizational activities.",
+"marks": 2
+},
+{
+"id": "q26",
+"type": "fillInBlank",
+"question": "Stakeholders who work within the organization are called ______ stakeholders.",
+"answer": "internal",
+"rationale": "Employees and managers within the company are internal stakeholders.",
+"marks": 2
+},
+{
+"id": "q27",
+"type": "fillInBlank",
+"question": "The ______ matrix is used to analyze stakeholders based on power and interest.",
+"answer": "Mendelow",
+"rationale": "Mendelow's matrix evaluates stakeholders based on power and interest.",
+"marks": 2
+},
+{
+"id": "q28",
+"type": "multiSelect",
+"question": "Which of the following are internal stakeholders?",
+"options": [
+"Employees",
+"Managers",
+"Customers",
+"Directors"
+],
+"answer": ["Employees","Managers","Directors"],
+"rationale": "Internal stakeholders operate within the organization.",
+"marks": 3
+},
+{
+"id": "q29",
+"type": "multiSelect",
+"question": "Which stakeholders are connected stakeholders?",
+"options": [
+"Shareholders",
+"Customers",
+"Suppliers",
+"Community"
+],
+"answer": ["Shareholders","Customers","Suppliers"],
+"rationale": "Connected stakeholders have direct dealings with the company.",
+"marks": 3
+},
+{
+"id": "q30",
+"type": "multiSelect",
+"question": "Which of the following are examples of external stakeholders?",
+"options": [
+"Government",
+"Environmental groups",
+"Community",
+"Managers"
+],
+"answer": ["Government","Environmental groups","Community"],
+"rationale": "External stakeholders exist outside the organization.",
+"marks": 3
+},
+{
+"id": "q31",
+"type": "matching",
+"question": "Match each stakeholder with their main interest.",
+"matchPairs": [
+{"id":"pair1","left":"Employees","right":"Job security and working conditions"},
+{"id":"pair2","left":"Shareholders","right":"Dividends and capital growth"},
+{"id":"pair3","left":"Suppliers","right":"Prompt payment for goods"}
+],
+"marks": 4
+},
+{
+"id": "q32",
+"type": "matching",
+"question": "Match the stakeholder category with its description.",
+"matchPairs": [
+{"id":"pair1","left":"Internal stakeholders","right":"Within the organization"},
+{"id":"pair2","left":"Connected stakeholders","right":"Have business dealings with the organization"},
+{"id":"pair3","left":"External stakeholders","right":"Affected by the organization's activities"}
+],
+"marks": 4
+},
+{
+"id": "q33",
+"type": "matching",
+"question": "Match each Mendelow matrix category with its description.",
+"matchPairs": [
+{"id":"pair1","left":"Key players","right":"High power and high interest"},
+{"id":"pair2","left":"Keep satisfied","right":"High power but low interest"},
+{"id":"pair3","left":"Keep informed","right":"Low power but high interest"}
+],
+"marks": 4
+},
+{
+"id": "q34",
+"type": "matching",
+"question": "Match the stakeholder conflict with the correct groups.",
+"matchPairs": [
+{"id":"pair1","left":"Jobs versus cost efficiency","right":"Employees vs managers"},
+{"id":"pair2","left":"Product quality versus profits","right":"Customers vs shareholders"},
+{"id":"pair3","left":"Environmental impact versus dividends","right":"Public vs shareholders"}
+],
+"marks": 4
+},
+{
+"id": "q35",
+"type": "matching",
+"question": "Match the Mendelow matrix category with the appropriate management strategy.",
+"matchPairs": [
+{"id":"pair1","left":"Minimal effort","right":"Low power and low interest"},
+{"id":"pair2","left":"Keep satisfied","right":"Prevent them becoming key players"},
+{"id":"pair3","left":"Keep informed","right":"Provide information and updates"}
+],
+"marks": 4
+}
+]
+}

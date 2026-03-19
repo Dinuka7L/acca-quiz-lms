@@ -1,9 +1,10 @@
 import React from 'react';
-import { CheckCircle, XCircle, Award, RotateCcw, Home, ChevronLeft } from 'lucide-react';
+import { CheckCircle, XCircle, Award, RotateCcw, Home, ChevronLeft, ChevronUp  } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import QuestionRenderer from '../components/QuestionRenderer';
 import { useQuizStore } from '../store/quizStore';
+import { useEffect, useState } from 'react';
 
 interface QuizResultsProps {
   onGoHome: () => void;
@@ -12,6 +13,26 @@ interface QuizResultsProps {
 
 const QuizResults: React.FC<QuizResultsProps> = ({ onGoHome, onRetakeQuiz }) => {
   const { currentQuiz, currentAttempt } = useQuizStore();
+
+  const [showScrollTop, setShowScrollTop] = useState(false);
+
+useEffect(() => {
+  const handleScroll = () => {
+    setShowScrollTop(window.scrollY > 400);
+  };
+
+  window.addEventListener("scroll", handleScroll);
+  return () => window.removeEventListener("scroll", handleScroll);
+}, []);
+
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+};
+
+
 
   if (!currentQuiz || !currentAttempt || !currentAttempt.isCompleted) {
   return (
@@ -158,8 +179,21 @@ const QuizResults: React.FC<QuizResultsProps> = ({ onGoHome, onRetakeQuiz }) => 
               </button>
         </div>
 
+
+        {/* Scroll To Top Button */}
+        {showScrollTop && (
+          <button
+            onClick={scrollToTop}
+            className="fixed bottom-6 right-6 z-50 p-3 rounded-full bg-primary-600 hover:bg-primary-700 text-white shadow-lg transition-all duration-300 hover:scale-110"
+            aria-label="Scroll to top"
+          >
+            <ChevronUp className="w-5 h-5" />
+          </button>
+        )}
+
       </main>
       
+
       <Footer />
     </div>
   );
