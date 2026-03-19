@@ -11,8 +11,6 @@ import { ShootingStars } from '../components/ui/shooting-stars';
 import { StarsBackground } from '../components/ui/stars-background';
 
 
-
-
 interface HomeProps {
   onStartQuiz: (quizId: string) => void;
 }
@@ -144,14 +142,14 @@ const Home: React.FC<HomeProps> = ({ onStartQuiz }) => {
       <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Stars Container */}
           <div className="absolute top-0 left-0 w-full h-96 overflow-hidden pointer-events-none">
-            <StarsBackground starDensity={0.0004} className="h-full w-full" />
+            <StarsBackground starDensity={0.0010} className="h-full w-full" />
             <ShootingStars 
-              minSpeed={5} 
+              minSpeed={3} 
               maxSpeed={10}   
               starColor="#9E00FF" 
               trailColor="#2EB9DF"
               starWidth={10}
-              starHeight={2}
+              starHeight={3}
             />
           </div>
 

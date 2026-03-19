@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
         {/* Contact Section */}
         <div className="text-sm text-white dark:text-gray-200 space-y-2 md:text-right">
           <h3 className="font-semibold text-red-400 dark:text-red-300">Contact Developer</h3>
-          <p className="transition-colors duration-300">2025 Academia.</p>
+          <p className="transition-colors duration-300">2026 Academia.</p>
           <a
             href="https://www.linkedin.com/in/dinuka-liyanage/"
             target="_blank"

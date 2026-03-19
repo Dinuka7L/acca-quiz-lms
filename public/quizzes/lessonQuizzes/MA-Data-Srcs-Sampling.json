@@ -1,0 +1,365 @@
+{
+"id": "ma-data-sampling-and-sources",
+"title": "Lesson 1 & 2 – Data Sources and Sampling Techniques",
+"description": "Application of sampling methods and data sources used in management information and business analysis",
+"subject": "Management Accounting",
+"gradientColors": ["#a84232", "#a87b32", "#2d4ed8", "#9da832"],
+"timeOptions": [10,20,30],
+"totalMarks": 65,
+"weight": 0,
+"category": "lesson",
+"questions": [
+{
+"id": "q1",
+"type": "multipleChoice",
+"question": "A company wants to test the quality of 20000 invoices generated during the year. It selects 400 invoices for inspection. What is the group of 20000 invoices called?",
+"options": ["Sample","Population","Subset","Cluster"],
+"answer": "Population",
+"rationale": "Population refers to all items under investigation while the sample is a subset drawn from it.",
+"marks": 2
+},
+{
+"id": "q2",
+"type": "multipleChoice",
+"question": "A researcher randomly selects 100 customers from a list of 5000 customers using a random number generator. Which sampling technique is used?",
+"options": ["Stratified sampling","Systematic sampling","Simple random sampling","Quota sampling"],
+"answer": "Simple random sampling",
+"rationale": "Simple random sampling gives each population member an equal chance of selection.",
+"marks": 2
+},
+{
+"id": "q3",
+"type": "multipleChoice",
+"question": "A supermarket reviews every 10th customer receipt during a selected day to evaluate pricing errors. Which sampling method is being applied?",
+"options": ["Cluster sampling","Systematic sampling","Quota sampling","Simple random sampling"],
+"answer": "Systematic sampling",
+"rationale": "Systematic sampling selects every nth item from the population.",
+"marks": 2
+},
+{
+"id": "q4",
+"type": "multipleChoice",
+"question": "A bank wants to analyse loan behaviour across income groups. Customers are divided into low income, middle income and high income groups before sampling from each group. Which method is used?",
+"options": ["Cluster sampling","Stratified sampling","Quota sampling","Systematic sampling"],
+"answer": "Stratified sampling",
+"rationale": "Stratified sampling divides the population into subgroups and samples from each.",
+"marks": 2
+},
+{
+"id": "q5",
+"type": "multipleChoice",
+"question": "Researchers studying shopping behaviour select several cities, then select supermarkets within those cities, and finally survey customers inside those supermarkets. Which method is illustrated?",
+"options": ["Multistage sampling","Quota sampling","Simple random sampling","Systematic sampling"],
+"answer": "Multistage sampling",
+"rationale": "Multistage sampling involves selecting samples in stages from progressively smaller subpopulations.",
+"marks": 2
+},
+{
+"id": "q6",
+"type": "multipleChoice",
+"question": "Which of the following is the main advantage of sampling instead of conducting a full census?",
+"options": ["Guarantees zero error","Less time and lower cost","Ensures larger populations","Eliminates the need for analysis"],
+"answer": "Less time and lower cost",
+"rationale": "Sampling is typically faster and more cost effective than examining the entire population.",
+"marks": 2
+},
+{
+"id": "q7",
+"type": "multipleChoice",
+"question": "A researcher divides a city into districts and randomly selects several districts. All households in those districts are surveyed. Which technique is used?",
+"options": ["Cluster sampling","Systematic sampling","Simple random sampling","Quota sampling"],
+"answer": "Cluster sampling",
+"rationale": "Cluster sampling selects groups or clusters and studies all elements within them.",
+"marks": 2
+},
+{
+"id": "q8",
+"type": "multipleChoice",
+"question": "Which limitation is most associated with systematic sampling?",
+"options": ["Requires no population list","May be biased if patterns exist","Cannot be used for large populations","Only suitable for qualitative data"],
+"answer": "May be biased if patterns exist",
+"rationale": "Systematic sampling may produce bias if the sampling interval coincides with a pattern in the data.",
+"marks": 2
+},
+{
+"id": "q9",
+"type": "multipleChoice",
+"question": "Which statement best describes quota sampling?",
+"options": ["Participants are chosen randomly from each group","Participants are selected until predetermined quotas are reached","Every nth observation is selected","Entire clusters are randomly surveyed"],
+"answer": "Participants are selected until predetermined quotas are reached",
+"rationale": "Quota sampling selects individuals based on predefined quotas or characteristics.",
+"marks": 2
+},
+{
+"id": "q10",
+"type": "multipleChoice",
+"question": "A company records customer satisfaction ratings such as poor, average, good and excellent. What type of data is this?",
+"options": ["Continuous data","Ordinal data","Nominal data","Discrete data"],
+"answer": "Ordinal data",
+"rationale": "Ordinal data represents categories with a meaningful order or ranking.",
+"marks": 2
+},
+{
+"id": "q11",
+"type": "multipleChoice",
+"question": "Which of the following best represents nominal data?",
+"options": ["Customer satisfaction ranking","Employee identification number","Height of employees","Monthly revenue"],
+"answer": "Employee identification number",
+"rationale": "Nominal data labels categories without ranking or measurement.",
+"marks": 2
+},
+{
+"id": "q12",
+"type": "multipleChoice",
+"question": "A company records the number of laptops sold each day. What type of data is this?",
+"options": ["Continuous data","Ordinal data","Discrete data","Nominal data"],
+"answer": "Discrete data",
+"rationale": "Discrete data represents counted values such as number of items sold.",
+"marks": 2
+},
+{
+"id": "q13",
+"type": "multipleChoice",
+"question": "Which of the following best describes continuous data?",
+"options": ["Data that is counted","Data that represents categories","Data measured without gaps","Data representing ranks"],
+"answer": "Data measured without gaps",
+"rationale": "Continuous data is measured and can take any value within a range.",
+"marks": 2
+},
+{
+"id": "q14",
+"type": "multipleChoice",
+"question": "A company collects employees' attendance data to calculate salaries. For that purpose the data is considered:",
+"options": ["Secondary data","External data","Primary data","Derived data"],
+"answer": "Primary data",
+"rationale": "Primary data is collected directly for the specific purpose it is intended to serve.",
+"marks": 2
+},
+{
+"id": "q15",
+"type": "multipleChoice",
+"question": "A business uses previously published government statistics to analyse market trends. What type of data source is this?",
+"options": ["Primary internal data","Secondary data","Sensor data","Transactional data"],
+"answer": "Secondary data",
+"rationale": "Secondary data refers to data already collected for another purpose.",
+"marks": 2
+},
+{
+"id": "q16",
+"type": "multipleChoice",
+"question": "Which of the following is an example of transactional data?",
+"options": ["Customer purchase records","Weather sensor readings","Customer opinions on social media","Employee satisfaction surveys"],
+"answer": "Customer purchase records",
+"rationale": "Transactional data records business transactions such as purchases.",
+"marks": 2
+},
+{
+"id": "q17",
+"type": "multipleChoice",
+"question": "Temperature readings from a factory machine are an example of which data source?",
+"options": ["Human social data","Machine or sensor data","Transactional data","Secondary market data"],
+"answer": "Machine or sensor data",
+"rationale": "Sensor data is generated by devices detecting physical environmental inputs.",
+"marks": 2
+},
+{
+"id": "q18",
+"type": "multipleChoice",
+"question": "Which internal system is most likely to provide employee wage data?",
+"options": ["CRM system","Payroll system","Strategic planning system","Marketing information system"],
+"answer": "Payroll system",
+"rationale": "Payroll systems store and process employee salary and wage data.",
+"marks": 2
+},
+{
+"id": "q19",
+"type": "multipleChoice",
+"question": "Which of the following is an external source of information for businesses?",
+"options": ["Accounting system","CRM database","Government statistics","Payroll reports"],
+"answer": "Government statistics",
+"rationale": "Government data is an external information source outside the organisation.",
+"marks": 2
+},
+{
+"id": "q20",
+"type": "multipleChoice",
+"question": "Which advantage is associated with internal sources of information?",
+"options": ["Always globally representative","Completely unbiased","Readily available and under organisational control","Always free from processing"],
+"answer": "Readily available and under organisational control",
+"rationale": "Internal data is easily accessible and controlled by the organisation.",
+"marks": 2
+},
+{
+"id": "q21",
+"type": "multipleChoice",
+"question": "Which issue is commonly associated with using external information sources?",
+"options": ["Too much organisational control","Data may not be accurate","Impossible to access","Cannot be analysed"],
+"answer": "Data may not be accurate",
+"rationale": "External data may be unreliable or inaccurate because it is outside the organisation’s control.",
+"marks": 2
+},
+{
+"id": "q22",
+"type": "multiSelect",
+"question": "Which of the following are examples of internal sources of information?",
+"options": ["Accounting system","Government statistics","Payroll system","Trade journals"],
+"answer": ["Accounting system","Payroll system"],
+"rationale": "Internal systems such as accounting and payroll are organisational data sources.",
+"marks": 3
+},
+{
+"id": "q23",
+"type": "multiSelect",
+"question": "Which of the following are advantages of sampling?",
+"options": ["Lower cost","Reduced time","Guaranteed zero bias","Easier data collection"],
+"answer": ["Lower cost","Reduced time","Easier data collection"],
+"rationale": "Sampling saves time and cost and simplifies data collection but does not eliminate bias.",
+"marks": 3
+},
+{
+"id": "q24",
+"type": "multiSelect",
+"question": "Which of the following are examples of external sources of information?",
+"options": ["Trade associations","Internet","CRM database","Financial press"],
+"answer": ["Trade associations","Internet","Financial press"],
+"rationale": "External information includes industry associations, internet sources and financial media.",
+"marks": 3
+},
+{
+"id": "q25",
+"type": "fillInBlank",
+"question": "A ________ is a group of items drawn from a larger population for analysis.",
+"answer": "sample",
+"rationale": "A sample represents a subset of the population used for study.",
+"marks": 2
+},
+{
+"id": "q26",
+"type": "fillInBlank",
+"question": "Selecting every 8th item from a population list is known as ________ sampling.",
+"answer": "systematic",
+"rationale": "Systematic sampling selects items at regular intervals.",
+"marks": 2
+},
+{
+"id": "q27",
+"type": "fillInBlank",
+"question": "Data that can be measured such as time or weight is called ________ data.",
+"answer": "continuous",
+"rationale": "Continuous data is measured and has no gaps in possible values.",
+"marks": 2
+},
+{
+"id": "q28",
+"type": "dropdown",
+"question": "The [dropdown_1] sampling method gives every member of the population an equal chance of selection, while [dropdown_2] sampling divides the population into subgroups before selecting samples.",
+"dropdownBlanks": [
+{
+"id": "dropdown_1",
+"options": ["simple random","quota","cluster","systematic"],
+"correctAnswer": "simple random"
+},
+{
+"id": "dropdown_2",
+"options": ["systematic","stratified","quota","multistage"],
+"correctAnswer": "stratified"
+}
+],
+"rationale": "Simple random sampling ensures equal probability while stratified sampling divides populations into strata.",
+"marks": 3
+},
+{
+"id": "q29",
+"type": "dropdown",
+"question": "Customer purchase records are an example of [dropdown_1] data, while temperature readings from sensors represent [dropdown_2] data.",
+"dropdownBlanks": [
+{
+"id": "dropdown_1",
+"options": ["transactional","ordinal","nominal","continuous"],
+"correctAnswer": "transactional"
+},
+{
+"id": "dropdown_2",
+"options": ["sensor","secondary","quota","cluster"],
+"correctAnswer": "sensor"
+}
+],
+"rationale": "Transactional data records business transactions while sensors generate machine data.",
+"marks": 3
+},
+{
+"id": "q30",
+"type": "dropdown",
+"question": "Government statistics are considered [dropdown_1] sources of information, while payroll records are considered [dropdown_2] sources.",
+"dropdownBlanks": [
+{
+"id": "dropdown_1",
+"options": ["external","internal","primary","private"],
+"correctAnswer": "external"
+},
+{
+"id": "dropdown_2",
+"options": ["external","internal","secondary","public"],
+"correctAnswer": "internal"
+}
+],
+"rationale": "Government data is external while payroll data originates within the organisation.",
+"marks": 3
+},
+{
+"id": "q31",
+"type": "matching",
+"question": "Match each sampling technique with its description.",
+"matchPairs": [
+{"id":"pair1","left":"Simple random sampling","right":"Every population member has equal chance of selection"},
+{"id":"pair2","left":"Systematic sampling","right":"Selecting every nth item from a population"},
+{"id":"pair3","left":"Stratified sampling","right":"Dividing population into subgroups before sampling"}
+],
+"marks": 4
+},
+{
+"id": "q32",
+"type": "matching",
+"question": "Match the data type with its example.",
+"matchPairs": [
+{"id":"pair1","left":"Nominal data","right":"Car brand category"},
+{"id":"pair2","left":"Ordinal data","right":"Customer satisfaction ranking"},
+{"id":"pair3","left":"Continuous data","right":"Temperature measurement"}
+],
+"marks": 4
+},
+{
+"id": "q33",
+"type": "matching",
+"question": "Match the data source with its example.",
+"matchPairs": [
+{"id":"pair1","left":"Transactional data","right":"Supermarket purchase records"},
+{"id":"pair2","left":"Sensor data","right":"Temperature monitoring device"},
+{"id":"pair3","left":"Human social data","right":"Customer online reviews"}
+],
+"marks": 4
+},
+{
+"id": "q34",
+"type": "matching",
+"question": "Match the internal system with the information it provides.",
+"matchPairs": [
+{"id":"pair1","left":"Accounting system","right":"Financial transaction records"},
+{"id":"pair2","left":"Payroll system","right":"Employee wage details"},
+{"id":"pair3","left":"CRM system","right":"Customer relationship information"}
+],
+"marks": 4
+},
+{
+"id": "q35",
+"type": "matching",
+"question": "Match each external source with the type of information provided.",
+"matchPairs": [
+{"id":"pair1","left":"Government statistics","right":"National economic data"},
+{"id":"pair2","left":"Trade associations","right":"Industry news and reports"},
+{"id":"pair3","left":"Financial press","right":"Business and economic commentary"}
+],
+"marks": 4
+}
+]
+}

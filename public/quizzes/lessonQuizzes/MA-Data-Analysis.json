@@ -1,0 +1,485 @@
+{
+"id": "ma-analysing-data-big-data-and-statistics",
+"title": "Lesson 3 – Analysing Data and Big Data",
+"description": "Application of big data concepts, statistical measures, expected values and normal distribution in management decision making",
+"subject": "Management Accounting",
+"gradientColors": ["#a84232", "#a87b32", "#2d4ed8", "#9da832"],
+"timeOptions": [10,20,30],
+"totalMarks": 65,
+"weight": 0,
+"category": "lesson",
+"questions": [
+{
+"id": "q1",
+"type": "multipleChoice",
+"question": "A retail company collects billions of customer transactions, website clicks and social media interactions daily. The finance team states that traditional spreadsheet tools cannot efficiently process this data. Which term best describes this situation?",
+"options": [
+"Big data",
+"Secondary data",
+"Internal data",
+"Discrete data"
+],
+"answer": "Big data",
+"rationale": "Big data refers to extremely large and complex datasets that cannot be effectively processed using traditional tools.",
+"marks": 2
+},
+{
+"id": "q2",
+"type": "multipleChoice",
+"question": "A logistics company collects real time GPS data from thousands of delivery vehicles to optimize routes instantly. Which characteristic of big data does this mainly illustrate?",
+"options": [
+"Velocity",
+"Volume",
+"Variety",
+"Veracity"
+],
+"answer": "Velocity",
+"rationale": "Velocity refers to the speed at which data is generated and processed.",
+"marks": 2
+},
+{
+"id": "q3",
+"type": "multipleChoice",
+"question": "A retailer analyses purchase transactions, product images, customer reviews and audio feedback to understand customer behaviour. Which big data characteristic is illustrated?",
+"options": [
+"Veracity",
+"Volume",
+"Variety",
+"Value"
+],
+"answer": "Variety",
+"rationale": "Variety refers to the different types and formats of data used in big data analysis.",
+"marks": 2
+},
+{
+"id": "q4",
+"type": "multipleChoice",
+"question": "A bank relies heavily on large customer datasets but discovers that some records contain errors and outdated information. Which big data characteristic is being questioned?",
+"options": [
+"Veracity",
+"Velocity",
+"Volume",
+"Value"
+],
+"answer": "Veracity",
+"rationale": "Veracity relates to the accuracy and reliability of the data being used.",
+"marks": 2
+},
+{
+"id": "q5",
+"type": "multipleChoice",
+"question": "A retailer analyses customer purchasing patterns to predict future demand and optimise stock levels. What is the primary benefit gained from this big data application?",
+"options": [
+"Improved operational efficiency",
+"Reduced data storage",
+"Elimination of forecasting",
+"Removal of risk"
+],
+"answer": "Improved operational efficiency",
+"rationale": "Big data analysis helps organisations optimise operations and improve efficiency.",
+"marks": 2
+},
+{
+"id": "q6",
+"type": "multipleChoice",
+"question": "A streaming service analyses user viewing history to recommend movies and personalise content suggestions. Which advantage of big data is demonstrated?",
+"options": [
+"Enhanced customer experience",
+"Lower labour costs",
+"Increased regulatory control",
+"Reduced data variety"
+],
+"answer": "Enhanced customer experience",
+"rationale": "Big data enables organisations to personalise services based on customer behaviour.",
+"marks": 2
+},
+{
+"id": "q7",
+"type": "multipleChoice",
+"question": "A company invests heavily in big data infrastructure but finds it difficult to recruit skilled analysts to interpret the data. Which risk of big data is illustrated?",
+"options": [
+"Shortage of skilled personnel",
+"Low data volume",
+"Limited data sources",
+"Reduced processing speed"
+],
+"answer": "Shortage of skilled personnel",
+"rationale": "A lack of skilled professionals capable of analysing big data is a key risk associated with big data systems.",
+"marks": 2
+},
+{
+"id": "q8",
+"type": "multipleChoice",
+"question": "A manufacturing firm analyses equipment sensor data to predict machine failures before they occur. Which big data benefit is primarily being used?",
+"options": [
+"Risk management",
+"Inventory reduction",
+"Marketing segmentation",
+"Product design elimination"
+],
+"answer": "Risk management",
+"rationale": "Big data helps identify risks and patterns that enable preventative action.",
+"marks": 2
+},
+{
+"id": "q9",
+"type": "multipleChoice",
+"question": "A company calculates the mean daily sales of a product over 10 days by dividing the total sales by 10. Which statistical measure is being used?",
+"options": [
+"Arithmetic mean",
+"Mode",
+"Median",
+"Variance"
+],
+"answer": "Arithmetic mean",
+"rationale": "The arithmetic mean is calculated by dividing the total of observations by the number of observations.",
+"marks": 2
+},
+{
+"id": "q10",
+"type": "multipleChoice",
+"question": "The weekly sales figures for a product are arranged in ascending order. The manager selects the middle value to represent the typical sales level. Which measure is used?",
+"options": [
+"Mean",
+"Median",
+"Mode",
+"Variance"
+],
+"answer": "Median",
+"rationale": "The median is the middle value when data is arranged in order.",
+"marks": 2
+},
+{
+"id": "q11",
+"type": "multipleChoice",
+"question": "A company analyses production quantities and notices that the value 500 units appears more frequently than any other value. Which measure of average is represented?",
+"options": [
+"Mode",
+"Mean",
+"Median",
+"Variance"
+],
+"answer": "Mode",
+"rationale": "The mode is the value that occurs most frequently in a dataset.",
+"marks": 2
+},
+{
+"id": "q12",
+"type": "multipleChoice",
+"question": "Two factories have identical mean output levels, but one factory has a much higher standard deviation. What does this indicate?",
+"options": [
+"Output is more consistent in the second factory",
+"Output varies more widely in the first factory",
+"Both factories have identical production patterns",
+"The first factory has a higher mean"
+],
+"answer": "Output varies more widely in the first factory",
+"rationale": "Standard deviation measures how widely data values spread around the mean.",
+"marks": 2
+},
+{
+"id": "q13",
+"type": "multipleChoice",
+"question": "A manager wants to compare variability between two datasets with very different means. Which measure is most appropriate?",
+"options": [
+"Coefficient of variation",
+"Median",
+"Mode",
+"Arithmetic mean"
+],
+"answer": "Coefficient of variation",
+"rationale": "The coefficient of variation standardises variability relative to the mean.",
+"marks": 2
+},
+{
+"id": "q14",
+"type": "multipleChoice",
+"question": "A decision maker estimates that a project has a 0.6 probability of generating a profit of 2000 and a 0.4 probability of generating a loss of 500. Which technique would evaluate the average expected outcome?",
+"options": [
+"Expected value analysis",
+"Regression analysis",
+"Break even analysis",
+"Standard deviation analysis"
+],
+"answer": "Expected value analysis",
+"rationale": "Expected value calculates the weighted average outcome based on probabilities.",
+"marks": 2
+},
+{
+"id": "q15",
+"type": "multipleChoice",
+"question": "A manager selects the option with the highest expected value when evaluating several investment alternatives. What assumption is being made?",
+"options": [
+"The decision will be repeated many times",
+"The outcome is guaranteed",
+"Risk is completely eliminated",
+"Probabilities are irrelevant"
+],
+"answer": "The decision will be repeated many times",
+"rationale": "Expected value represents the long run average outcome if decisions are repeated many times.",
+"marks": 2
+},
+{
+"id": "q16",
+"type": "multipleChoice",
+"question": "A firm bases its investment decision solely on expected value without considering the variability of possible outcomes. What limitation of expected value is illustrated?",
+"options": [
+"It ignores risk",
+"It eliminates probabilities",
+"It overestimates returns",
+"It removes uncertainty"
+],
+"answer": "It ignores risk",
+"rationale": "Expected value focuses on average outcomes and ignores variability or risk.",
+"marks": 2
+},
+{
+"id": "q17",
+"type": "multipleChoice",
+"question": "A data distribution is perfectly symmetrical and forms a bell shaped curve. Which type of distribution does this represent?",
+"options": [
+"Normal distribution",
+"Uniform distribution",
+"Skewed distribution",
+"Discrete distribution"
+],
+"answer": "Normal distribution",
+"rationale": "A normal distribution is symmetrical and forms a bell shaped curve.",
+"marks": 2
+},
+{
+"id": "q18",
+"type": "multipleChoice",
+"question": "In a normal distribution, what is the relationship between the mean, median and mode?",
+"options": [
+"They are all equal",
+"The median is highest",
+"The mode is lowest",
+"The mean is always largest"
+],
+"answer": "They are all equal",
+"rationale": "In a normal distribution the mean, median and mode coincide at the centre.",
+"marks": 2
+},
+{
+"id": "q19",
+"type": "multipleChoice",
+"question": "A dataset follows a normal distribution with mean 50. What proportion of observations are expected to lie below the mean?",
+"options": [
+"50 percent",
+"25 percent",
+"75 percent",
+"10 percent"
+],
+"answer": "50 percent",
+"rationale": "In a symmetrical normal distribution half of the values lie below the mean.",
+"marks": 2
+},
+{
+"id": "q20",
+"type": "multipleChoice",
+"question": "A manager converts a data value into a Z score when analysing a normal distribution. What is the purpose of this transformation?",
+"options": [
+"To convert values to a standard normal distribution",
+"To remove variability from the data",
+"To eliminate probability calculations",
+"To estimate the mean value"
+],
+"answer": "To convert values to a standard normal distribution",
+"rationale": "The Z score converts values into the standard normal distribution with mean 0 and standard deviation 1.",
+"marks": 2
+},
+{
+"id": "q21",
+"type": "multipleChoice",
+"question": "A technology firm implements Hadoop and Spark to process extremely large datasets. What organisational requirement is primarily being addressed?",
+"options": [
+"The need for tools and infrastructure to process big data",
+"The need to reduce transaction costs",
+"The need to eliminate human data",
+"The need to avoid statistical analysis"
+],
+"answer": "The need for tools and infrastructure to process big data",
+"rationale": "Big data requires specialised tools and infrastructure for processing and analysis.",
+"marks": 2
+},
+{
+"id": "q22",
+"type": "multiSelect",
+"question": "Which of the following are characteristics of big data?",
+"options": [
+"Volume",
+"Velocity",
+"Variety",
+"Liquidity"
+],
+"answer": ["Volume","Velocity","Variety"],
+"rationale": "Big data characteristics include volume, velocity, variety, veracity and value.",
+"marks": 3
+},
+{
+"id": "q23",
+"type": "multiSelect",
+"question": "Which of the following are benefits of using big data in organisations?",
+"options": [
+"Improved decision making",
+"Enhanced customer experience",
+"Operational efficiency",
+"Elimination of all uncertainty"
+],
+"answer": ["Improved decision making","Enhanced customer experience","Operational efficiency"],
+"rationale": "Big data provides insights that improve decisions, customer experience and efficiency.",
+"marks": 3
+},
+{
+"id": "q24",
+"type": "multiSelect",
+"question": "Which of the following are limitations of expected value analysis?",
+"options": [
+"Assumes probabilities are accurate",
+"Ignores risk and variability",
+"Only represents a long term average",
+"Guarantees the most profitable outcome"
+],
+"answer": ["Assumes probabilities are accurate","Ignores risk and variability","Only represents a long term average"],
+"rationale": "Expected value depends on probabilities, represents long term averages and ignores risk.",
+"marks": 3
+},
+{
+"id": "q25",
+"type": "fillInBlank",
+"question": "The statistical measure that represents the most frequently occurring value in a dataset is called the ________.",
+"answer": "mode",
+"rationale": "The mode represents the value that occurs most frequently.",
+"marks": 2
+},
+{
+"id": "q26",
+"type": "fillInBlank",
+"question": "The ________ measures the average spread of data values around the mean.",
+"answer": "standard deviation",
+"rationale": "Standard deviation measures how far values deviate from the mean.",
+"marks": 2
+},
+{
+"id": "q27",
+"type": "fillInBlank",
+"question": "A symmetrical bell shaped probability distribution is known as the ________ distribution.",
+"answer": "normal",
+"rationale": "The normal distribution is characterised by a symmetrical bell shaped curve.",
+"marks": 2
+},
+{
+"id": "q28",
+"type": "dropdown",
+"question": "The [dropdown_1] of a dataset is calculated by dividing the total of all values by the number of observations, while the [dropdown_2] identifies the most frequently occurring value.",
+"dropdownBlanks": [
+{
+"id": "dropdown_1",
+"options": ["mean","mode","variance","median"],
+"correctAnswer": "mean"
+},
+{
+"id": "dropdown_2",
+"options": ["median","variance","mode","range"],
+"correctAnswer": "mode"
+}
+],
+"rationale": "Mean is the arithmetic average while mode is the most frequent value.",
+"marks": 3
+},
+{
+"id": "q29",
+"type": "dropdown",
+"question": "The [dropdown_1] measures the spread of data around the mean, while the [dropdown_2] is its squared value.",
+"dropdownBlanks": [
+{
+"id": "dropdown_1",
+"options": ["standard deviation","median","mode","expected value"],
+"correctAnswer": "standard deviation"
+},
+{
+"id": "dropdown_2",
+"options": ["variance","mean","range","frequency"],
+"correctAnswer": "variance"
+}
+],
+"rationale": "Variance is the square of the standard deviation.",
+"marks": 3
+},
+{
+"id": "q30",
+"type": "dropdown",
+"question": "In a normal distribution the [dropdown_1], [dropdown_2] and mode occur at the centre of the distribution.",
+"dropdownBlanks": [
+{
+"id": "dropdown_1",
+"options": ["mean","variance","range","frequency"],
+"correctAnswer": "mean"
+},
+{
+"id": "dropdown_2",
+"options": ["median","variance","range","standard deviation"],
+"correctAnswer": "median"
+}
+],
+"rationale": "In a normal distribution the mean, median and mode coincide.",
+"marks": 3
+},
+{
+"id": "q31",
+"type": "matching",
+"question": "Match each big data characteristic with its meaning.",
+"matchPairs": [
+{"id":"pair1","left":"Volume","right":"Amount of data generated"},
+{"id":"pair2","left":"Velocity","right":"Speed at which data is generated"},
+{"id":"pair3","left":"Veracity","right":"Accuracy and reliability of data"}
+],
+"marks": 4
+},
+{
+"id": "q32",
+"type": "matching",
+"question": "Match each statistical measure with its description.",
+"matchPairs": [
+{"id":"pair1","left":"Mean","right":"Arithmetic average of values"},
+{"id":"pair2","left":"Median","right":"Middle value in an ordered dataset"},
+{"id":"pair3","left":"Mode","right":"Most frequently occurring value"}
+],
+"marks": 4
+},
+{
+"id": "q33",
+"type": "matching",
+"question": "Match each concept with its meaning.",
+"matchPairs": [
+{"id":"pair1","left":"Standard deviation","right":"Average spread of values around the mean"},
+{"id":"pair2","left":"Variance","right":"Square of standard deviation"},
+{"id":"pair3","left":"Coefficient of variation","right":"Standard deviation divided by the mean"}
+],
+"marks": 4
+},
+{
+"id": "q34",
+"type": "matching",
+"question": "Match each application with the industry example.",
+"matchPairs": [
+{"id":"pair1","left":"Predicting equipment failure","right":"Manufacturing"},
+{"id":"pair2","left":"Personalised product recommendations","right":"Retail"},
+{"id":"pair3","left":"Fraud detection","right":"Finance"}
+],
+"marks": 4
+},
+{
+"id": "q35",
+"type": "matching",
+"question": "Match each concept with its description.",
+"matchPairs": [
+{"id":"pair1","left":"Expected value","right":"Weighted average outcome based on probabilities"},
+{"id":"pair2","left":"Normal distribution","right":"Symmetrical bell shaped probability distribution"},
+{"id":"pair3","left":"Z score","right":"Standardised value used with normal distribution"}
+],
+"marks": 4
+}
+]
+}

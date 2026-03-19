@@ -1,0 +1,485 @@
+{
+"id": "business-organizations",
+"title": "Lesson 1 – Business Organizations",
+"description": "Understanding the purpose, characteristics, types, and structures of business organizations.",
+"subject": "Business and Technology",
+"gradientColors": ["#3b82f6", "#5d32a8", "#1d4ed8", "#5d32a8"],
+"timeOptions": [10,20,30],
+"totalMarks": 65,
+"weight": 0,
+"category": "lesson",
+"questions": [
+{
+"id": "q1",
+"type": "multipleChoice",
+"question": "A group of engineers establish a firm to design renewable energy equipment. Each engineer focuses on a specific technical area such as software, mechanical systems, or quality control. Which organizational characteristic is most clearly demonstrated?",
+"options": [
+"Specialization of tasks within the organization",
+"Absence of formal procedures in organizations",
+"Organizations operate without clear boundaries",
+"All employees perform identical functions"
+],
+"answer": "Specialization of tasks within the organization",
+"rationale": "Organizations often divide work so individuals specialize in specific activities to improve efficiency.",
+"marks": 2
+},
+{
+"id": "q2",
+"type": "multipleChoice",
+"question": "Which of the following best describes an organization?",
+"options": [
+"A group of individuals working independently without coordination",
+"A social arrangement pursuing collective goals and controlling its activities",
+"A temporary gathering of individuals with no defined objectives",
+"A group of individuals sharing personal interests"
+],
+"answer": "A social arrangement pursuing collective goals and controlling its activities",
+"rationale": "An organization is a social arrangement pursuing collective goals with a defined structure and control systems.",
+"marks": 2
+},
+{
+"id": "q3",
+"type": "multipleChoice",
+"question": "A manufacturing company purchases raw materials, converts them into finished products, and sells them to retailers. This process demonstrates which key organizational concept?",
+"options": [
+"Inputs transformed into outputs",
+"Profit maximization through pricing",
+"Government regulation of markets",
+"Employee performance measurement"
+],
+"answer": "Inputs transformed into outputs",
+"rationale": "Organizations obtain inputs such as materials and transform them into outputs for customers.",
+"marks": 2
+},
+{
+"id": "q4",
+"type": "multipleChoice",
+"question": "Which reason best explains why organizations allow individuals to specialize in particular tasks?",
+"options": [
+"To reduce organizational goals",
+"To increase individual skill and efficiency",
+"To remove coordination within teams",
+"To eliminate the need for communication"
+],
+"answer": "To increase individual skill and efficiency",
+"rationale": "Specialization allows employees to develop expertise and improve productivity.",
+"marks": 2
+},
+{
+"id": "q5",
+"type": "multipleChoice",
+"question": "A charity hospital operates primarily to provide healthcare services to disadvantaged communities rather than to earn profits. Which type of organization is this?",
+"options": [
+"For-profit organization",
+"Government department",
+"Not-for-profit organization",
+"Commercial enterprise"
+],
+"answer": "Not-for-profit organization",
+"rationale": "Not-for-profit organizations aim to satisfy social or community needs rather than maximize profits.",
+"marks": 2
+},
+{
+"id": "q6",
+"type": "multipleChoice",
+"question": "A small grocery shop is owned and operated by a single individual who is personally responsible for all business debts. Which form of business organization is this?",
+"options": [
+"Limited liability company",
+"Sole trader",
+"Public corporation",
+"Cooperative"
+],
+"answer": "Sole trader",
+"rationale": "A sole trader business is owned and run by one person with unlimited liability.",
+"marks": 2
+},
+{
+"id": "q7",
+"type": "multipleChoice",
+"question": "Two architects establish a firm together and share responsibility for managing the business and its financial obligations. Which type of organization is most likely formed?",
+"options": [
+"Partnership",
+"Limited company",
+"Government agency",
+"Cooperative"
+],
+"answer": "Partnership",
+"rationale": "A partnership is owned and run by two or more individuals who share responsibility.",
+"marks": 2
+},
+{
+"id": "q8",
+"type": "multipleChoice",
+"question": "Which feature distinguishes a limited liability company from a sole trader business?",
+"options": [
+"The business is owned by exactly two people",
+"The organization has a separate legal identity from its owners",
+"The business cannot generate profits",
+"The company cannot borrow funds"
+],
+"answer": "The organization has a separate legal identity from its owners",
+"rationale": "Limited liability companies have separate legal personality and limit owners' liability.",
+"marks": 2
+},
+{
+"id": "q9",
+"type": "multipleChoice",
+"question": "Which organizational objective is most typical for commercial organizations?",
+"options": [
+"Providing public services regardless of cost",
+"Maximizing wealth for owners",
+"Delivering government policy",
+"Providing free community services"
+],
+"answer": "Maximizing wealth for owners",
+"rationale": "Commercial organizations usually aim to maximize shareholder wealth.",
+"marks": 2
+},
+{
+"id": "q10",
+"type": "multipleChoice",
+"question": "Which sector is typically responsible for providing public transport, national defense, and policing services?",
+"options": [
+"Private sector",
+"Public sector",
+"Charitable sector",
+"Cooperative sector"
+],
+"answer": "Public sector",
+"rationale": "Public sector organizations provide essential services funded and controlled by government.",
+"marks": 2
+},
+{
+"id": "q11",
+"type": "multipleChoice",
+"question": "A multinational corporation operates factories across several countries and employs thousands of workers. Which organizational difference does this example primarily illustrate?",
+"options": [
+"Difference in organizational size",
+"Difference in organizational objectives",
+"Difference in legal ownership",
+"Difference in government regulation"
+],
+"answer": "Difference in organizational size",
+"rationale": "Organizations can vary from small businesses to large multinational corporations.",
+"marks": 2
+},
+{
+"id": "q12",
+"type": "multipleChoice",
+"question": "An organization introduces detailed policies, reporting procedures, and performance monitoring systems. Which organizational characteristic does this demonstrate?",
+"options": [
+"Formal control systems within the organization",
+"Absence of performance standards",
+"Elimination of organizational goals",
+"Informal coordination between workers"
+],
+"answer": "Formal control systems within the organization",
+"rationale": "Organizations use formal procedures and systems to control performance.",
+"marks": 2
+},
+{
+"id": "q13",
+"type": "multipleChoice",
+"question": "Why do individuals form organizations rather than working entirely alone?",
+"options": [
+"To reduce efficiency in completing tasks",
+"To share skills, resources, and knowledge",
+"To avoid establishing objectives",
+"To eliminate specialization"
+],
+"answer": "To share skills, resources, and knowledge",
+"rationale": "Organizations enable individuals to combine knowledge, skills, and resources.",
+"marks": 2
+},
+{
+"id": "q14",
+"type": "multipleChoice",
+"question": "Which factor represents one way organizations differ from one another?",
+"options": [
+"Color of office buildings",
+"Sources of funding",
+"Employee clothing preferences",
+"Office furniture design"
+],
+"answer": "Sources of funding",
+"rationale": "Organizations may differ in funding sources such as bank loans, shares, or government funding.",
+"marks": 2
+},
+{
+"id": "q15",
+"type": "multipleChoice",
+"question": "Which example best represents a private sector organization?",
+"options": [
+"A government tax department",
+"A public police service",
+"A privately owned manufacturing firm",
+"A national defense ministry"
+],
+"answer": "A privately owned manufacturing firm",
+"rationale": "Private sector organizations are run by individuals or private groups for business purposes.",
+"marks": 2
+},
+{
+"id": "q16",
+"type": "multipleChoice",
+"question": "Which statement best explains the concept of synergy within organizations?",
+"options": [
+"Organizations restrict cooperation among employees",
+"Combined effort produces greater results than individual effort",
+"Organizations operate without defined goals",
+"Employees avoid sharing knowledge"
+],
+"answer": "Combined effort produces greater results than individual effort",
+"rationale": "Pooling resources and cooperation can achieve outcomes greater than individual efforts.",
+"marks": 2
+},
+{
+"id": "q17",
+"type": "multipleChoice",
+"question": "Which organization is most likely to promote social or environmental change without aiming to generate profits?",
+"options": [
+"Non governmental organization",
+"Commercial partnership",
+"Public limited company",
+"Sole trader business"
+],
+"answer": "Non governmental organization",
+"rationale": "NGOs focus on social or environmental objectives rather than profit.",
+"marks": 2
+},
+{
+"id": "q18",
+"type": "multipleChoice",
+"question": "Members of a farming cooperative vote on major decisions and share ownership of the organization. Which principle is demonstrated?",
+"options": [
+"Centralized government ownership",
+"Democratic member control",
+"Unlimited shareholder control",
+"Private government regulation"
+],
+"answer": "Democratic member control",
+"rationale": "Cooperatives are owned and democratically controlled by their members.",
+"marks": 2
+},
+{
+"id": "q19",
+"type": "multipleChoice",
+"question": "Which feature is commonly associated with partnerships?",
+"options": [
+"Ownership by a single individual",
+"Unlimited liability for partners in many cases",
+"Government ownership",
+"Separate legal personality for owners"
+],
+"answer": "Unlimited liability for partners in many cases",
+"rationale": "Traditional partnerships often involve unlimited liability for partners.",
+"marks": 2
+},
+{
+"id": "q20",
+"type": "multipleChoice",
+"question": "Which objective is most likely pursued by not-for-profit organizations?",
+"options": [
+"Maximizing shareholder dividends",
+"Meeting social or community needs",
+"Expanding global market share",
+"Increasing executive bonuses"
+],
+"answer": "Meeting social or community needs",
+"rationale": "Not-for-profit organizations focus on providing services rather than profit.",
+"marks": 2
+},
+{
+"id": "q21",
+"type": "multipleChoice",
+"question": "Which organizational feature ensures the organization is separated from its external environment?",
+"options": [
+"A defined boundary around the organization",
+"Informal management practices",
+"Absence of performance monitoring",
+"Unlimited stakeholder influence"
+],
+"answer": "A defined boundary around the organization",
+"rationale": "Organizations maintain boundaries separating them from their environment.",
+"marks": 2
+},
+{
+"id": "q22",
+"type": "dropdown",
+"question": "Organizations obtain [dropdown_1] such as materials and convert them into [dropdown_2] for customers.",
+"dropdownBlanks": [
+{
+"id": "dropdown_1",
+"options": ["inputs","profits","services","employees"],
+"correctAnswer": "inputs"
+},
+{
+"id": "dropdown_2",
+"options": ["outputs","objectives","assets","liabilities"],
+"correctAnswer": "outputs"
+}
+],
+"rationale": "Organizations transform inputs into outputs as part of production or service delivery.",
+"marks": 3
+},
+{
+"id": "q23",
+"type": "dropdown",
+"question": "A business owned and managed by one individual is called a [dropdown_1], while a business owned by two or more individuals is typically a [dropdown_2].",
+"dropdownBlanks": [
+{
+"id": "dropdown_1",
+"options": ["sole trader","cooperative","corporation","public enterprise"],
+"correctAnswer": "sole trader"
+},
+{
+"id": "dropdown_2",
+"options": ["partnership","government agency","charity","cooperative"],
+"correctAnswer": "partnership"
+}
+],
+"rationale": "Sole traders are owned by one person, while partnerships involve two or more owners.",
+"marks": 3
+},
+{
+"id": "q24",
+"type": "dropdown",
+"question": "Organizations may pursue [dropdown_1] objectives when they seek profit, while [dropdown_2] organizations focus primarily on community or social goals.",
+"dropdownBlanks": [
+{
+"id": "dropdown_1",
+"options": ["commercial","government","cooperative","charitable"],
+"correctAnswer": "commercial"
+},
+{
+"id": "dropdown_2",
+"options": ["not for profit","multinational","private sector","public limited"],
+"correctAnswer": "not for profit"
+}
+],
+"rationale": "Commercial organizations aim for profit while not-for-profit organizations pursue social objectives.",
+"marks": 3
+},
+{
+"id": "q25",
+"type": "fillInBlank",
+"question": "A business structure where the owner and the business are legally the same entity is known as a ______ trader.",
+"answer": "sole",
+"rationale": "A sole trader business is owned and operated by one individual.",
+"marks": 2
+},
+{
+"id": "q26",
+"type": "fillInBlank",
+"question": "Organizations convert inputs such as materials into ______ that customers can purchase.",
+"answer": "outputs",
+"rationale": "Organizations transform inputs into outputs as part of operations.",
+"marks": 2
+},
+{
+"id": "q27",
+"type": "fillInBlank",
+"question": "A business structure where owners' liability is restricted to the amount invested is known as ______ liability.",
+"answer": "limited",
+"rationale": "Limited liability protects owners from being personally responsible beyond their investment.",
+"marks": 2
+},
+{
+"id": "q28",
+"type": "multiSelect",
+"question": "Which of the following are common characteristics of organizations?",
+"options": [
+"Pursuit of goals and objectives",
+"Use of formal systems and procedures",
+"Specialization of tasks",
+"Absence of performance measurement"
+],
+"answer": ["Pursuit of goals and objectives","Use of formal systems and procedures","Specialization of tasks"],
+"rationale": "Organizations pursue goals, specialize tasks, and use formal procedures to control activities.",
+"marks": 3
+},
+{
+"id": "q29",
+"type": "multiSelect",
+"question": "Which of the following are examples of commercial business organizations?",
+"options": [
+"Sole traders",
+"Partnerships",
+"Limited liability companies",
+"Charitable foundations"
+],
+"answer": ["Sole traders","Partnerships","Limited liability companies"],
+"rationale": "These are typical forms of commercial profit-seeking organizations.",
+"marks": 3
+},
+{
+"id": "q30",
+"type": "multiSelect",
+"question": "Which of the following may explain why organizations are formed?",
+"options": [
+"Sharing skills and knowledge",
+"Pooling resources",
+"Encouraging specialization",
+"Eliminating collective goals"
+],
+"answer": ["Sharing skills and knowledge","Pooling resources","Encouraging specialization"],
+"rationale": "Organizations allow individuals to share resources, specialize, and work toward common goals.",
+"marks": 3
+},
+{
+"id": "q31",
+"type": "matching",
+"question": "Match each organization type with its description.",
+"matchPairs": [
+{"id":"pair1","left":"Sole trader","right":"Owned and run by one individual"},
+{"id":"pair2","left":"Partnership","right":"Owned and run by two or more people"},
+{"id":"pair3","left":"Limited liability company","right":"Separate legal personality from owners"}
+],
+"marks": 4
+},
+{
+"id": "q32",
+"type": "matching",
+"question": "Match each sector with its description.",
+"matchPairs": [
+{"id":"pair1","left":"Private sector","right":"Run by private individuals or groups"},
+{"id":"pair2","left":"Public sector","right":"Controlled by government"},
+{"id":"pair3","left":"Not for profit sector","right":"Focused on social objectives rather than profit"}
+],
+"marks": 4
+},
+{
+"id": "q33",
+"type": "matching",
+"question": "Match the organizational concept with its meaning.",
+"matchPairs": [
+{"id":"pair1","left":"Specialization","right":"Individuals focus on a limited activity"},
+{"id":"pair2","left":"Synergy","right":"Combined effort produces greater results"},
+{"id":"pair3","left":"Pooling resources","right":"Combining time or money to achieve objectives"}
+],
+"marks": 4
+},
+{
+"id": "q34",
+"type": "matching",
+"question": "Match each organization example with its category.",
+"matchPairs": [
+{"id":"pair1","left":"Police service","right":"Public sector organization"},
+{"id":"pair2","left":"Charity hospital","right":"Not for profit organization"},
+{"id":"pair3","left":"Manufacturing company","right":"Private sector organization"}
+],
+"marks": 4
+},
+{
+"id": "q35",
+"type": "matching",
+"question": "Match each organizational difference with its example.",
+"matchPairs": [
+{"id":"pair1","left":"Ownership","right":"Private sector vs public sector"},
+{"id":"pair2","left":"Objectives","right":"Profit vs non profit orientation"},
+{"id":"pair3","left":"Legal form","right":"Limited company vs partnership"}
+],
+"marks": 4
+}
+]
+}
