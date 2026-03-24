@@ -1,0 +1,485 @@
+{
+"id": "quiz-political-legal-factors",
+"title": "Lesson – Political and Legal Factors",
+"description": "Assessment of political systems, legal authority, employment protection, data protection, health and safety, consumer rights and simple contracts.",
+"subject": "Business and Technology",
+"gradientColors": ["#3b82f6", "#5d32a8", "#1d4ed8", "#5d32a8"],
+"timeOptions": [10,20,30],
+"totalMarks": 65,
+"weight": 0,
+"category": "lesson",
+"questions": [
+{
+"id":"q1",
+"type":"multipleChoice",
+"question":"A multinational company is planning to export goods and must comply with regulations issued by the World Trade Organisation. Which level of political influence does this represent?",
+"options":[
+"Regional government authority",
+"Supranational authority",
+"Local municipal authority",
+"Internal corporate governance"
+],
+"answer":"Supranational authority",
+"rationale":"Rules issued by international institutions such as the WTO represent supranational legal authority affecting organisations across multiple countries.",
+"marks":2
+},
+{
+"id":"q2",
+"type":"multipleChoice",
+"question":"A national government introduces stricter environmental standards that increase compliance costs for manufacturing companies. How is the government influencing organisations in this situation?",
+"options":[
+"Through corporate governance policies",
+"Through internal management control",
+"Through government policy affecting industry behaviour",
+"Through voluntary industry agreements"
+],
+"answer":"Through government policy affecting industry behaviour",
+"rationale":"Government policy can influence business activities by setting priorities such as environmental protection which organisations must respond to.",
+"marks":2
+},
+{
+"id":"q3",
+"type":"multipleChoice",
+"question":"A city council requires all restaurants to obtain a hygiene certificate before operating. Which source of legal authority is responsible for this requirement?",
+"options":[
+"Regional or local government authority",
+"International legal authority",
+"Corporate internal policy",
+"Shareholder governance rules"
+],
+"answer":"Regional or local government authority",
+"rationale":"Local councils may introduce bye laws and regulations affecting businesses operating within their jurisdiction.",
+"marks":2
+},
+{
+"id":"q4",
+"type":"multipleChoice",
+"question":"A company dismisses an employee without providing the contractual notice period stated in the employment contract. Which legal issue could arise?",
+"options":[
+"Wrongful dismissal",
+"Constructive dismissal",
+"Fair dismissal",
+"Lawful redundancy"
+],
+"answer":"Wrongful dismissal",
+"rationale":"Wrongful dismissal occurs when the employer breaches contractual terms such as failing to provide the required notice period.",
+"marks":2
+},
+{
+"id":"q5",
+"type":"multipleChoice",
+"question":"An employee resigns after the employer reduces their salary without agreement and fails to address workplace bullying. Which type of termination is most likely to be claimed?",
+"options":[
+"Constructive dismissal",
+"Voluntary retirement",
+"Fair redundancy",
+"Lawful dismissal"
+],
+"answer":"Constructive dismissal",
+"rationale":"Constructive dismissal occurs when employees resign because the employer has breached the employment contract or created unacceptable working conditions.",
+"marks":2
+},
+{
+"id":"q6",
+"type":"multipleChoice",
+"question":"A manager dismisses an employee because the organisation no longer requires the role due to automation. Which reason for dismissal does this represent?",
+"options":[
+"Misconduct",
+"Capability failure",
+"Redundancy",
+"Discrimination"
+],
+"answer":"Redundancy",
+"rationale":"Redundancy occurs when a role is no longer required because the organisation needs fewer employees.",
+"marks":2
+},
+{
+"id":"q7",
+"type":"multipleChoice",
+"question":"An organisation collects customer information but uses it only for the purpose originally communicated to customers. Which data protection principle is being followed?",
+"options":[
+"Accuracy principle",
+"Purpose limitation principle",
+"Data retention principle",
+"Security principle"
+],
+"answer":"Purpose limitation principle",
+"rationale":"Data protection requires that personal data is used only for specified and explicit purposes.",
+"marks":2
+},
+{
+"id":"q8",
+"type":"multipleChoice",
+"question":"A company installs strong passwords and encryption to prevent unauthorised access to customer records. Which objective of data protection is primarily being addressed?",
+"options":[
+"Data minimisation",
+"Data security",
+"Data portability",
+"Data transparency"
+],
+"answer":"Data security",
+"rationale":"Encryption and password controls are measures designed to ensure that personal data is protected from unauthorised access.",
+"marks":2
+},
+{
+"id":"q9",
+"type":"multipleChoice",
+"question":"An employee requests a copy of all personal information held about them by their employer. Which right is the employee exercising?",
+"options":[
+"Right to object",
+"Right to access personal data",
+"Right to portability",
+"Right to restrict processing"
+],
+"answer":"Right to access personal data",
+"rationale":"Data protection regulations grant individuals the right to access the personal data held about them.",
+"marks":2
+},
+{
+"id":"q10",
+"type":"multipleChoice",
+"question":"A company installs CCTV cameras and access control systems in its data centre to prevent theft of equipment. Which risk is primarily being addressed?",
+"options":[
+"Operational error",
+"Human interference risk",
+"Environmental damage",
+"Software malfunction"
+],
+"answer":"Human interference risk",
+"rationale":"CCTV and access control are designed to reduce risks caused by unauthorised human access such as theft or vandalism.",
+"marks":2
+},
+{
+"id":"q11",
+"type":"multipleChoice",
+"question":"A firm stores backup copies of its critical data at a separate location outside the main office. What risk management strategy is this addressing?",
+"options":[
+"Protection from total data loss due to disasters",
+"Reducing employee turnover",
+"Improving marketing strategy",
+"Enhancing financial reporting accuracy"
+],
+"answer":"Protection from total data loss due to disasters",
+"rationale":"Off site backups ensure that data remains available even if the main system is destroyed by fire or other disasters.",
+"marks":2
+},
+{
+"id":"q12",
+"type":"multipleChoice",
+"question":"An organisation regularly inspects machinery and trains employees on correct operating procedures. Which legal responsibility is being fulfilled?",
+"options":[
+"Consumer protection duty",
+"Health and safety responsibility",
+"Corporate governance obligation",
+"Financial reporting compliance"
+],
+"answer":"Health and safety responsibility",
+"rationale":"Employers must ensure that equipment is safe and that employees are trained to use it properly.",
+"marks":2
+},
+{
+"id":"q13",
+"type":"multipleChoice",
+"question":"An employee notices exposed wiring in the workplace and immediately informs management. Which responsibility is the employee fulfilling?",
+"options":[
+"Ensuring product quality",
+"Meeting financial targets",
+"Taking reasonable care for workplace safety",
+"Implementing marketing strategies"
+],
+"answer":"Taking reasonable care for workplace safety",
+"rationale":"Employees must take reasonable care for their own safety and report hazards to the employer.",
+"marks":2
+},
+{
+"id":"q14",
+"type":"multipleChoice",
+"question":"A business sells a product that does not match the description provided in its advertisement. Which legal principle is most likely being breached?",
+"options":[
+"Consumer protection relating to product description",
+"Corporate governance reporting rules",
+"Employment protection legislation",
+"Environmental regulation"
+],
+"answer":"Consumer protection relating to product description",
+"rationale":"Consumer protection laws require that goods correspond with the description provided at the time of sale.",
+"marks":2
+},
+{
+"id":"q15",
+"type":"multipleChoice",
+"question":"A consulting firm completes a project for a client but fails to demonstrate reasonable professional care in delivering the service. Which consumer protection principle may be violated?",
+"options":[
+"Services must be carried out with reasonable skill and care",
+"Goods must match advertising images",
+"Products must include warranties",
+"Services must always be free of charge"
+],
+"answer":"Services must be carried out with reasonable skill and care",
+"rationale":"Consumer law requires services to be delivered with reasonable skill and care.",
+"marks":2
+},
+{
+"id":"q16",
+"type":"multipleChoice",
+"question":"Two parties agree verbally on the sale of equipment without signing a written contract. Under contract law, which statement is correct?",
+"options":[
+"The agreement is invalid because it is not written",
+"The agreement may still be legally binding",
+"The agreement is valid only if witnessed",
+"The agreement becomes valid only after payment"
+],
+"answer":"The agreement may still be legally binding",
+"rationale":"A simple contract can be legally enforceable even if it is not written.",
+"marks":2
+},
+{
+"id":"q17",
+"type":"multipleChoice",
+"question":"A contract between two businesses requires one party to deliver goods while the other pays for them. Which contract element does this exchange represent?",
+"options":[
+"Consideration",
+"Capacity",
+"Legality",
+"Authority"
+],
+"answer":"Consideration",
+"rationale":"Consideration refers to the value exchanged between parties in a contract.",
+"marks":2
+},
+{
+"id":"q18",
+"type":"multipleChoice",
+"question":"Two friends casually agree to go shopping together the next day but later change their plans. Why is this unlikely to be considered a legally binding contract?",
+"options":[
+"There is no intention to create legal relations",
+"The agreement lacked financial value",
+"The agreement lacked written evidence",
+"The agreement involved more than two people"
+],
+"answer":"There is no intention to create legal relations",
+"rationale":"Social agreements typically lack the intention to create legal relations required for enforceable contracts.",
+"marks":2
+},
+{
+"id":"q19",
+"type":"multipleChoice",
+"question":"A contract is signed with a person who is legally incapable of entering contracts due to age restrictions. Which requirement of a valid contract is missing?",
+"options":[
+"Agreement",
+"Consideration",
+"Capacity",
+"Performance"
+],
+"answer":"Capacity",
+"rationale":"For a contract to be valid, each party must have the legal capacity to enter into the agreement.",
+"marks":2
+},
+{
+"id":"q20",
+"type":"multipleChoice",
+"question":"A business fails to comply with new legislation regulating workplace safety and receives a government penalty. Which consequence of legislation is demonstrated?",
+"options":[
+"Operational efficiency improvement",
+"Mandatory compliance enforced through penalties",
+"Voluntary policy adoption",
+"Internal organisational restructuring"
+],
+"answer":"Mandatory compliance enforced through penalties",
+"rationale":"Failure to comply with legislation may lead to penalties, fines or legal prosecution.",
+"marks":2
+},
+{
+"id":"q21",
+"type":"multipleChoice",
+"question":"A company encrypts sensitive client data before transmitting it online to prevent unauthorised reading of the information. Which threat is this control addressing?",
+"options":[
+"Industrial espionage and data theft",
+"Workplace injury risks",
+"Financial reporting errors",
+"Product quality failures"
+],
+"answer":"Industrial espionage and data theft",
+"rationale":"Encryption helps prevent confidential data from being intercepted or stolen during transmission.",
+"marks":2
+},
+{
+"id":"q22",
+"type":"dropdown",
+"question":"A multinational corporation must follow rules issued by the [dropdown_1], while also complying with regulations issued by the [dropdown_2] where it operates.",
+"dropdownBlanks":[
+{
+"id":"dropdown_1",
+"options":["local council","international organisation","trade union","internal audit department"],
+"correctAnswer":"international organisation"
+},
+{
+"id":"dropdown_2",
+"options":["national government","shareholder committee","marketing department","supplier network"],
+"correctAnswer":"national government"
+}
+],
+"rationale":"Organisations may need to comply with supranational rules as well as national legislation.",
+"marks":3
+},
+{
+"id":"q23",
+"type":"dropdown",
+"question":"In contract formation, one party makes an [dropdown_1] and the other party provides [dropdown_2] to create a binding agreement.",
+"dropdownBlanks":[
+{
+"id":"dropdown_1",
+"options":["offer","guarantee","policy","disclosure"],
+"correctAnswer":"offer"
+},
+{
+"id":"dropdown_2",
+"options":["acceptance","insurance","arbitration","compliance"],
+"correctAnswer":"acceptance"
+}
+],
+"rationale":"Agreement in contract law occurs when an offer is made and accepted.",
+"marks":3
+},
+{
+"id":"q24",
+"type":"dropdown",
+"question":"Health and safety laws place responsibility on both the [dropdown_1] to provide a safe environment and the [dropdown_2] to follow safety procedures.",
+"dropdownBlanks":[
+{
+"id":"dropdown_1",
+"options":["employer","customer","supplier","auditor"],
+"correctAnswer":"employer"
+},
+{
+"id":"dropdown_2",
+"options":["employee","shareholder","regulator","investor"],
+"correctAnswer":"employee"
+}
+],
+"rationale":"Both employers and employees share responsibilities for maintaining workplace health and safety.",
+"marks":3
+},
+{
+"id":"q25",
+"type":"fillInBlank",
+"question":"A legally enforceable agreement between two or more parties is known as a ______ contract.",
+"answer":"simple",
+"rationale":"A simple contract refers to a legally binding agreement that does not require a specific form.",
+"marks":2
+},
+{
+"id":"q26",
+"type":"fillInBlank",
+"question":"When an employer breaches contractual terms during dismissal, it may lead to ______ dismissal.",
+"answer":"wrongful",
+"rationale":"Wrongful dismissal occurs when an employer breaks the terms of the employment contract.",
+"marks":2
+},
+{
+"id":"q27",
+"type":"fillInBlank",
+"question":"The exchange of value between two parties in a contract is known as ______.",
+"answer":"consideration",
+"rationale":"Consideration is the value each party provides to the other within a contract.",
+"marks":2
+},
+{
+"id":"q28",
+"type":"multiSelect",
+"question":"Which of the following are common areas covered by legislation affecting most organisations?",
+"options":[
+"Employee protection",
+"Data protection",
+"Health and safety",
+"Brand marketing strategy"
+],
+"answer":["Employee protection","Data protection","Health and safety"],
+"rationale":"Legislation commonly covers employment protection, data protection and workplace safety.",
+"marks":3
+},
+{
+"id":"q29",
+"type":"multiSelect",
+"question":"Which of the following are examples of physical threats to information systems?",
+"options":[
+"Fire damage",
+"Flooding",
+"Power failures",
+"Accounting errors"
+],
+"answer":["Fire damage","Flooding","Power failures"],
+"rationale":"Environmental events such as fire or flooding can physically damage information systems.",
+"marks":3
+},
+{
+"id":"q30",
+"type":"multiSelect",
+"question":"Which rights may individuals have regarding their personal data?",
+"options":[
+"Access personal data",
+"Request correction of inaccurate data",
+"Request deletion of personal data",
+"Demand company profits"
+],
+"answer":["Access personal data","Request correction of inaccurate data","Request deletion of personal data"],
+"rationale":"Data protection laws grant rights such as access, correction and deletion of personal data.",
+"marks":3
+},
+{
+"id":"q31",
+"type":"matching",
+"question":"Match the dismissal type with its description.",
+"matchPairs":[
+{"id":"pair1","left":"Constructive dismissal","right":"Employee resigns due to employer breach of contract"},
+{"id":"pair2","left":"Unfair dismissal","right":"Employer cannot justify termination with valid reason"},
+{"id":"pair3","left":"Wrongful dismissal","right":"Employer breaks contractual terms when dismissing employee"}
+],
+"marks":4
+},
+{
+"id":"q32",
+"type":"matching",
+"question":"Match each level of legal authority with an example.",
+"matchPairs":[
+{"id":"pair1","left":"Supranational authority","right":"United Nations regulations"},
+{"id":"pair2","left":"National authority","right":"Acts passed by parliament"},
+{"id":"pair3","left":"Regional authority","right":"Local council bye laws"}
+],
+"marks":4
+},
+{
+"id":"q33",
+"type":"matching",
+"question":"Match the workplace responsibility with the correct party.",
+"matchPairs":[
+{"id":"pair1","left":"Provide safe equipment","right":"Employer"},
+{"id":"pair2","left":"Report hazards","right":"Employee"},
+{"id":"pair3","left":"Provide safety training","right":"Employer"}
+],
+"marks":4
+},
+{
+"id":"q34",
+"type":"matching",
+"question":"Match the data protection principle with its meaning.",
+"matchPairs":[
+{"id":"pair1","left":"Accuracy","right":"Information must be kept correct and updated"},
+{"id":"pair2","left":"Purpose limitation","right":"Data must be used only for specified purposes"},
+{"id":"pair3","left":"Security","right":"Data must be protected from unauthorised access"}
+],
+"marks":4
+},
+{
+"id":"q35",
+"type":"matching",
+"question":"Match the consumer protection principle with the correct example.",
+"matchPairs":[
+{"id":"pair1","left":"Goods must match description","right":"Product delivered exactly as advertised"},
+{"id":"pair2","left":"Reasonable skill and care","right":"Professional service delivered competently"},
+{"id":"pair3","left":"Reasonable time for service","right":"Service completed within an acceptable timeframe"}
+],
+"marks":4
+}
+]
+}
